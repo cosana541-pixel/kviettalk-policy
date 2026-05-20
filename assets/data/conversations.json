@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "c001",
+    "category": "greeting",
+    "titleKo": "처음 만났을 때",
+    "titleVi": "Khi gặp lần đầu",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "안녕하세요.",
+        "vi": "Xin chào.",
+        "koRoman": "",
+        "viPronunciationHint": "씬 짜오"
+      },
+      {
+        "speaker": "B",
+        "ko": "안녕하세요. 만나서 반갑습니다.",
+        "vi": "Xin chào. Rất vui được gặp bạn.",
+        "koRoman": "",
+        "viPronunciationHint": "씬 짜오. 젓 부이 드억 갑 반"
+      }
+    ]
+  },
+  {
+    "id": "c002",
+    "category": "greeting",
+    "titleKo": "안부 묻기",
+    "titleVi": "Hỏi thăm",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "잘 지내요?",
+        "vi": "Bạn khỏe không?",
+        "koRoman": "",
+        "viPronunciationHint": "반 쾌 콩"
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 잘 지내요.",
+        "vi": "Vâng, tôi khỏe.",
+        "koRoman": "",
+        "viPronunciationHint": "벙, 또이 쾌"
+      }
+    ]
+  },
+  {
+    "id": "c003",
+    "category": "restaurant",
+    "titleKo": "식당에서 주문하기",
+    "titleVi": "Gọi món ở nhà hàng",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "메뉴판 주세요.",
+        "vi": "Cho tôi xin thực đơn.",
+        "koRoman": "",
+        "viPronunciationHint": "쪼 또이 씬 특 던"
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 여기 있습니다.",
+        "vi": "Vâng, đây ạ.",
+        "koRoman": "",
+        "viPronunciationHint": "벙, 더이 아"
+      },
+      {
+        "speaker": "A",
+        "ko": "이걸로 주세요.",
+        "vi": "Cho tôi món này.",
+        "koRoman": "",
+        "viPronunciationHint": "쪼 또이 몬 나이"
+      }
+    ]
+  },
+  {
+    "id": "c004",
+    "category": "restaurant",
+    "titleKo": "계산하기",
+    "titleVi": "Thanh toán",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "계산해 주세요.",
+        "vi": "Tính tiền giúp tôi.",
+        "koRoman": "",
+        "viPronunciationHint": "띤 띠엔 줍 또이"
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 잠시만 기다려 주세요.",
+        "vi": "Vâng, vui lòng chờ một chút.",
+        "koRoman": "",
+        "viPronunciationHint": "벙, 부이 롱 쩌 못 쭛"
+      }
+    ]
+  },
+  {
+    "id": "c005",
+    "category": "shopping",
+    "titleKo": "가격 묻기",
+    "titleVi": "Hỏi giá",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "이거 얼마예요?",
+        "vi": "Cái này bao nhiêu tiền?",
+        "koRoman": "",
+        "viPronunciationHint": "까이 나이 바오 니에우 띠엔"
+      },
+      {
+        "speaker": "B",
+        "ko": "십만 동입니다.",
+        "vi": "Một trăm nghìn đồng.",
+        "koRoman": "",
+        "viPronunciationHint": "못 짬 응인 동"
+      }
+    ]
+  },
+  {
+    "id": "c006",
+    "category": "shopping",
+    "titleKo": "깎아 달라고 말하기",
+    "titleVi": "Xin giảm giá",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "조금 깎아 주세요.",
+        "vi": "Giảm giá một chút được không?",
+        "koRoman": "",
+        "viPronunciationHint": "잠 자 못 쭛 드억 콩"
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 조금 깎아 드릴게요.",
+        "vi": "Vâng, tôi giảm một chút.",
+        "koRoman": "",
+        "viPronunciationHint": "벙, 또이 잠 못 쭛"
+      }
+    ]
+  },
+  {
+    "id": "c007",
+    "category": "hospital",
+    "titleKo": "아픈 곳 말하기",
+    "titleVi": "Nói chỗ bị đau",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "어디가 아프세요?",
+        "vi": "Bạn đau ở đâu?",
+        "koRoman": "",
+        "viPronunciationHint": "반 다우 어 더우"
+      },
+      {
+        "speaker": "B",
+        "ko": "머리가 아파요.",
+        "vi": "Tôi đau đầu.",
+        "koRoman": "",
+        "viPronunciationHint": "또이 다우 더우"
+      }
+    ]
+  },
+  {
+    "id": "c008",
+    "category": "hospital",
+    "titleKo": "약국에서 약 사기",
+    "titleVi": "Mua thuốc ở nhà thuốc",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "감기약이 필요해요.",
+        "vi": "Tôi cần thuốc cảm.",
+        "koRoman": "",
+        "viPronunciationHint": "또이 껀 투옥 깜"
+      },
+      {
+        "speaker": "B",
+        "ko": "이 약을 드세요.",
+        "vi": "Bạn uống thuốc này nhé.",
+        "koRoman": "",
+        "viPronunciationHint": "반 우옹 투옥 나이 녜"
+      }
+    ]
+  },
+  {
+    "id": "c009",
+    "category": "transport",
+    "titleKo": "택시 타기",
+    "titleVi": "Đi taxi",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "공항까지 가 주세요.",
+        "vi": "Làm ơn đưa tôi đến sân bay.",
+        "koRoman": "",
+        "viPronunciationHint": "람 언 드어 또이 덴 선 바이"
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 알겠습니다.",
+        "vi": "Vâng, tôi hiểu rồi.",
+        "koRoman": "",
+        "viPronunciationHint": "벙, 또이 히에우 조이"
+      }
+    ]
+  },
+  {
+    "id": "c010",
+    "category": "transport",
+    "titleKo": "길 묻기",
+    "titleVi": "Hỏi đường",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "버스 정류장이 어디예요?",
+        "vi": "Trạm xe buýt ở đâu?",
+        "koRoman": "",
+        "viPronunciationHint": "짬 쎄 부잇 어 더우"
+      },
+      {
+        "speaker": "B",
+        "ko": "저쪽에 있어요.",
+        "vi": "Ở phía kia.",
+        "koRoman": "",
+        "viPronunciationHint": "어 피아 끼아"
+      }
+    ]
+  },
+  {
+    "id": "c011",
+    "category": "restaurant",
+    "titleKo": "자리 묻기",
+    "titleVi": "Hỏi bàn trống",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "두 명 자리 있나요?",
+        "vi": "Có bàn cho hai người không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 이쪽으로 오세요.",
+        "vi": "Vâng, mời đi lối này.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c012",
+    "category": "restaurant",
+    "titleKo": "덜 맵게 요청하기",
+    "titleVi": "Yêu cầu ít cay",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "덜 맵게 해 주세요.",
+        "vi": "Vui lòng làm ít cay hơn.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 알겠습니다.",
+        "vi": "Vâng, tôi hiểu rồi.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c013",
+    "category": "shopping",
+    "titleKo": "사이즈 묻기",
+    "titleVi": "Hỏi kích cỡ",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "더 큰 사이즈가 있나요?",
+        "vi": "Có cỡ lớn hơn không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 잠시만요.",
+        "vi": "Vâng, chờ một chút ạ.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c014",
+    "category": "shopping",
+    "titleKo": "카드 결제",
+    "titleVi": "Thanh toán bằng thẻ",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "카드로 결제할 수 있나요?",
+        "vi": "Tôi có thể thanh toán bằng thẻ không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 가능합니다.",
+        "vi": "Vâng, được ạ.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c015",
+    "category": "hospital",
+    "titleKo": "진료 접수",
+    "titleVi": "Đăng ký khám bệnh",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "진료를 받고 싶어요.",
+        "vi": "Tôi muốn khám bệnh.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "신분증을 보여 주세요.",
+        "vi": "Vui lòng cho xem giấy tờ tùy thân.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c016",
+    "category": "hospital",
+    "titleKo": "약 복용 묻기",
+    "titleVi": "Hỏi cách uống thuốc",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "이 약은 어떻게 먹나요?",
+        "vi": "Thuốc này uống như thế nào?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "하루에 두 번 드세요.",
+        "vi": "Uống hai lần một ngày.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c017",
+    "category": "transport",
+    "titleKo": "버스 시간 묻기",
+    "titleVi": "Hỏi giờ xe buýt",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "버스는 언제 오나요?",
+        "vi": "Khi nào xe buýt đến?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "십 분 후에 와요.",
+        "vi": "Mười phút nữa xe đến.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c018",
+    "category": "transport",
+    "titleKo": "목적지 말하기",
+    "titleVi": "Nói điểm đến",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "이 주소로 가 주세요.",
+        "vi": "Làm ơn đưa tôi đến địa chỉ này.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 출발하겠습니다.",
+        "vi": "Vâng, tôi sẽ đi ngay.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c019",
+    "category": "work",
+    "titleKo": "회의 시작",
+    "titleVi": "Bắt đầu cuộc họp",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "회의를 시작하겠습니다.",
+        "vi": "Chúng ta bắt đầu cuộc họp nhé.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 준비됐습니다.",
+        "vi": "Vâng, tôi đã sẵn sàng.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c020",
+    "category": "work",
+    "titleKo": "이메일 확인",
+    "titleVi": "Kiểm tra email",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "이메일을 확인해 주세요.",
+        "vi": "Vui lòng kiểm tra email.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 바로 확인하겠습니다.",
+        "vi": "Vâng, tôi sẽ kiểm tra ngay.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c021",
+    "category": "school",
+    "titleKo": "수업 시간 묻기",
+    "titleVi": "Hỏi giờ học",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "수업은 몇 시에 시작해요?",
+        "vi": "Lớp học bắt đầu lúc mấy giờ?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "아홉 시에 시작해요.",
+        "vi": "Bắt đầu lúc chín giờ.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c022",
+    "category": "school",
+    "titleKo": "질문하기",
+    "titleVi": "Đặt câu hỏi",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "질문이 있어요.",
+        "vi": "Tôi có câu hỏi.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 물어보세요.",
+        "vi": "Vâng, bạn hỏi đi.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c023",
+    "category": "emergency",
+    "titleKo": "경찰 부르기",
+    "titleVi": "Gọi cảnh sát",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "경찰을 불러 주세요.",
+        "vi": "Vui lòng gọi cảnh sát.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 지금 부를게요.",
+        "vi": "Vâng, tôi sẽ gọi ngay.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c024",
+    "category": "emergency",
+    "titleKo": "가방 분실",
+    "titleVi": "Mất túi",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "가방을 잃어버렸어요.",
+        "vi": "Tôi bị mất túi.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "마지막으로 어디에 있었나요?",
+        "vi": "Lần cuối bạn ở đâu?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c025",
+    "category": "greeting",
+    "titleKo": "자기소개",
+    "titleVi": "Tự giới thiệu",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "저는 민수입니다.",
+        "vi": "Tôi là Minsu.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "저는 란입니다.",
+        "vi": "Tôi là Lan.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c026",
+    "category": "daily",
+    "titleKo": "약속 잡기",
+    "titleVi": "Hẹn gặp",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "내일 시간이 있어요?",
+        "vi": "Ngày mai bạn có thời gian không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 오후에 괜찮아요.",
+        "vi": "Vâng, buổi chiều được.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c027",
+    "category": "daily",
+    "titleKo": "전화번호 교환",
+    "titleVi": "Trao đổi số điện thoại",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "전화번호를 알려 주세요.",
+        "vi": "Vui lòng cho tôi số điện thoại.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 여기 있습니다.",
+        "vi": "Vâng, đây ạ.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c028",
+    "category": "travel",
+    "titleKo": "호텔 예약 확인",
+    "titleVi": "Xác nhận đặt phòng",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "예약을 확인하고 싶어요.",
+        "vi": "Tôi muốn xác nhận đặt phòng.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "성함이 어떻게 되세요?",
+        "vi": "Tên của bạn là gì ạ?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c029",
+    "category": "travel",
+    "titleKo": "사진 부탁하기",
+    "titleVi": "Nhờ chụp ảnh",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "사진 좀 찍어 주세요.",
+        "vi": "Vui lòng chụp ảnh giúp tôi.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 좋아요.",
+        "vi": "Vâng, được thôi.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c030",
+    "category": "food",
+    "titleKo": "음료 주문",
+    "titleVi": "Gọi đồ uống",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "아이스 커피 한 잔 주세요.",
+        "vi": "Cho tôi một ly cà phê đá.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 잠시만요.",
+        "vi": "Vâng, chờ một chút ạ.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "id": "c031",
+    "category": "food",
+    "titleKo": "카페 주문",
+    "titleVi": "Gọi món ở quán cà phê",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "아이스 커피 한 잔 주세요.",
+        "vi": "Cho tôi một ly cà phê đá.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 설탕 넣어 드릴까요?",
+        "vi": "Vâng, bạn có muốn thêm đường không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "조금만 넣어 주세요.",
+        "vi": "Vui lòng cho ít thôi.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c032",
+    "category": "transport",
+    "titleKo": "택시 목적지",
+    "titleVi": "Nói điểm đến taxi",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "이 주소로 가 주세요.",
+        "vi": "Vui lòng đưa tôi đến địa chỉ này.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 알겠습니다.",
+        "vi": "Vâng, tôi hiểu rồi.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "천천히 운전해 주세요.",
+        "vi": "Vui lòng lái xe chậm thôi.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c033",
+    "category": "transport",
+    "titleKo": "버스 타기",
+    "titleVi": "Đi xe buýt",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "이 버스가 시내로 가나요?",
+        "vi": "Xe buýt này có đi vào trung tâm không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 갑니다.",
+        "vi": "Vâng, có đi.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "다음 정류장에서 내려 주세요.",
+        "vi": "Vui lòng cho tôi xuống ở trạm tiếp theo.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c034",
+    "category": "shopping",
+    "titleKo": "편의점에서",
+    "titleVi": "Ở cửa hàng tiện lợi",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "물 한 병 주세요.",
+        "vi": "Cho tôi một chai nước.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "봉투 필요하세요?",
+        "vi": "Bạn có cần túi không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "네, 하나 주세요.",
+        "vi": "Vâng, cho tôi một cái.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c035",
+    "category": "travel",
+    "titleKo": "호텔 체크인",
+    "titleVi": "Nhận phòng khách sạn",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "체크인하고 싶어요.",
+        "vi": "Tôi muốn nhận phòng.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "예약자 이름이 뭐예요?",
+        "vi": "Tên đặt phòng là gì ạ?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "민수입니다.",
+        "vi": "Là Minsu.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c036",
+    "category": "hospital",
+    "titleKo": "병원 접수",
+    "titleVi": "Đăng ký bệnh viện",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "진료를 받고 싶어요.",
+        "vi": "Tôi muốn khám bệnh.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "어디가 아프세요?",
+        "vi": "Bạn đau ở đâu?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "머리가 아파요.",
+        "vi": "Tôi đau đầu.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c037",
+    "category": "greeting",
+    "titleKo": "친구 소개",
+    "titleVi": "Giới thiệu bạn",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "이쪽은 제 친구 린입니다.",
+        "vi": "Đây là bạn tôi, Linh.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "안녕하세요, 만나서 반갑습니다.",
+        "vi": "Xin chào, rất vui được gặp bạn.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "저도 반갑습니다.",
+        "vi": "Tôi cũng rất vui.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c038",
+    "category": "greeting",
+    "titleKo": "자기소개 연습",
+    "titleVi": "Luyện tự giới thiệu",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "이름이 뭐예요?",
+        "vi": "Bạn tên là gì?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "제 이름은 민수입니다.",
+        "vi": "Tên tôi là Minsu.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "어느 나라 사람이에요?",
+        "vi": "Bạn là người nước nào?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "저는 베트남 사람입니다.",
+        "vi": "Tôi là người Việt Nam.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c039",
+    "category": "daily",
+    "titleKo": "날씨 이야기",
+    "titleVi": "Nói chuyện thời tiết",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "오늘 날씨가 어때요?",
+        "vi": "Thời tiết hôm nay thế nào?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "조금 더워요.",
+        "vi": "Trời hơi nóng.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "비가 올까요?",
+        "vi": "Trời có mưa không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "아마 안 올 거예요.",
+        "vi": "Có lẽ không mưa đâu.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c040",
+    "category": "daily",
+    "titleKo": "시간 묻기",
+    "titleVi": "Hỏi giờ",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "지금 몇 시예요?",
+        "vi": "Bây giờ là mấy giờ?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "세 시예요.",
+        "vi": "Ba giờ.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "감사합니다.",
+        "vi": "Cảm ơn.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c041",
+    "category": "shopping",
+    "titleKo": "가격 흥정",
+    "titleVi": "Trả giá",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "이거 얼마예요?",
+        "vi": "Cái này bao nhiêu tiền?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "십만 동이에요.",
+        "vi": "Một trăm nghìn đồng.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "조금만 깎아 주세요.",
+        "vi": "Giảm một chút được không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "구만 동은 어때요?",
+        "vi": "Chín mươi nghìn đồng được không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c042",
+    "category": "daily",
+    "titleKo": "전화하기",
+    "titleVi": "Gọi điện thoại",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "여보세요?",
+        "vi": "A lô?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "지금 통화할 수 있어요?",
+        "vi": "Bây giờ bạn có thể nói chuyện điện thoại không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "네, 괜찮아요.",
+        "vi": "Vâng, được ạ.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c043",
+    "category": "work",
+    "titleKo": "회사 인사",
+    "titleVi": "Chào hỏi ở công ty",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "좋은 아침입니다.",
+        "vi": "Chào buổi sáng.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "좋은 아침입니다. 오늘 회의가 있나요?",
+        "vi": "Chào buổi sáng. Hôm nay có họp không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "네, 열 시에 시작합니다.",
+        "vi": "Có, bắt đầu lúc mười giờ.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c044",
+    "category": "school",
+    "titleKo": "학교 질문",
+    "titleVi": "Hỏi ở trường",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "이 단어는 무슨 뜻이에요?",
+        "vi": "Từ này có nghĩa là gì?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "선생님께 물어보세요.",
+        "vi": "Hãy hỏi giáo viên.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "네, 감사합니다.",
+        "vi": "Vâng, cảm ơn.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c045",
+    "category": "food",
+    "titleKo": "식당 예약",
+    "titleVi": "Đặt bàn nhà hàng",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "오늘 저녁에 자리 있나요?",
+        "vi": "Tối nay có bàn trống không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "몇 명이세요?",
+        "vi": "Mấy người ạ?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "두 명입니다.",
+        "vi": "Hai người.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c046",
+    "category": "travel",
+    "titleKo": "짐 맡기기",
+    "titleVi": "Gửi hành lý",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "짐을 맡길 수 있나요?",
+        "vi": "Tôi có thể gửi hành lý không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 가능합니다.",
+        "vi": "Vâng, được ạ.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "감사합니다. 나중에 찾으러 올게요.",
+        "vi": "Cảm ơn. Lát nữa tôi sẽ quay lại lấy.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c047",
+    "category": "transport",
+    "titleKo": "지하철역 묻기",
+    "titleVi": "Hỏi ga tàu điện ngầm",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "가까운 지하철역이 어디예요?",
+        "vi": "Ga tàu điện ngầm gần nhất ở đâu?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "저쪽으로 쭉 가세요.",
+        "vi": "Bạn đi thẳng về phía kia.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "걸어서 얼마나 걸려요?",
+        "vi": "Đi bộ mất bao lâu?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "약 오 분 걸려요.",
+        "vi": "Khoảng năm phút.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c048",
+    "category": "emergency",
+    "titleKo": "여권 분실",
+    "titleVi": "Mất hộ chiếu",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "여권을 잃어버렸어요.",
+        "vi": "Tôi bị mất hộ chiếu.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "언제 잃어버렸어요?",
+        "vi": "Bạn mất khi nào?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "오늘 아침에요.",
+        "vi": "Sáng nay.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c049",
+    "category": "hospital",
+    "titleKo": "약 먹는 법",
+    "titleVi": "Cách uống thuốc",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "이 약은 언제 먹어요?",
+        "vi": "Thuốc này uống khi nào?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "식후에 드세요.",
+        "vi": "Hãy uống sau bữa ăn.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "하루에 몇 번 먹나요?",
+        "vi": "Uống mấy lần một ngày?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "하루 세 번입니다.",
+        "vi": "Ba lần một ngày.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c050",
+    "category": "work",
+    "titleKo": "파일 다시 보내기",
+    "titleVi": "Gửi lại file",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "파일을 다시 보내 주세요.",
+        "vi": "Vui lòng gửi lại file.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 바로 보내겠습니다.",
+        "vi": "Vâng, tôi sẽ gửi ngay.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "감사합니다. 확인해 볼게요.",
+        "vi": "Cảm ơn. Tôi sẽ kiểm tra.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c051",
+    "category": "school",
+    "titleKo": "숙제 확인",
+    "titleVi": "Kiểm tra bài tập",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "오늘 숙제가 있나요?",
+        "vi": "Hôm nay có bài tập về nhà không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 문장 다섯 개를 쓰세요.",
+        "vi": "Có, hãy viết năm câu.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "언제까지 내야 해요?",
+        "vi": "Hạn nộp là khi nào?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "내일까지 내세요.",
+        "vi": "Hãy nộp trước ngày mai.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c052",
+    "category": "shopping",
+    "titleKo": "색깔 묻기",
+    "titleVi": "Hỏi màu sắc",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "이 옷 검은색이 있나요?",
+        "vi": "Áo này có màu đen không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 있습니다.",
+        "vi": "Vâng, có.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "입어 봐도 되나요?",
+        "vi": "Tôi có thể mặc thử không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c053",
+    "category": "daily",
+    "titleKo": "와이파이 묻기",
+    "titleVi": "Hỏi Wi-Fi",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "와이파이 비밀번호가 뭐예요?",
+        "vi": "Mật khẩu Wi-Fi là gì?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "여기에 적혀 있어요.",
+        "vi": "Mật khẩu được ghi ở đây.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "감사합니다.",
+        "vi": "Cảm ơn.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c054",
+    "category": "travel",
+    "titleKo": "공항버스",
+    "titleVi": "Xe buýt sân bay",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "공항 버스는 어디서 타요?",
+        "vi": "Tôi đón xe buýt sân bay ở đâu?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "호텔 앞에서 타시면 됩니다.",
+        "vi": "Bạn có thể đón xe trước khách sạn.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "몇 시에 와요?",
+        "vi": "Mấy giờ xe đến?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "삼십 분마다 와요.",
+        "vi": "Xe đến mỗi ba mươi phút.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c055",
+    "category": "emergency",
+    "titleKo": "사고 신고",
+    "titleVi": "Báo tai nạn",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "사고가 났어요.",
+        "vi": "Có tai nạn xảy ra.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "다친 사람이 있나요?",
+        "vi": "Có người bị thương không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "네, 구급차를 불러 주세요.",
+        "vi": "Có, vui lòng gọi xe cứu thương.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c056",
+    "category": "food",
+    "titleKo": "알레르기 말하기",
+    "titleVi": "Nói dị ứng",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "알레르기가 있어요.",
+        "vi": "Tôi bị dị ứng.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "어떤 알레르기예요?",
+        "vi": "Bạn dị ứng gì?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "해산물 알레르기예요.",
+        "vi": "Tôi dị ứng hải sản.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c057",
+    "category": "work",
+    "titleKo": "회의실 찾기",
+    "titleVi": "Tìm phòng họp",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "회의실은 어디예요?",
+        "vi": "Phòng họp ở đâu?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "2층에 있습니다.",
+        "vi": "Ở tầng hai.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "회의는 몇 시에 시작해요?",
+        "vi": "Cuộc họp bắt đầu lúc mấy giờ?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "열 시에 시작해요.",
+        "vi": "Bắt đầu lúc mười giờ.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c058",
+    "category": "school",
+    "titleKo": "발음 연습",
+    "titleVi": "Luyện phát âm",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "발음을 다시 들려 주세요.",
+        "vi": "Vui lòng cho tôi nghe lại cách phát âm.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 천천히 읽을게요.",
+        "vi": "Vâng, tôi sẽ đọc chậm.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "감사합니다. 따라 해 볼게요.",
+        "vi": "Cảm ơn. Tôi sẽ thử đọc theo.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c059",
+    "category": "daily",
+    "titleKo": "약속 시간",
+    "titleVi": "Giờ hẹn",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "내일 시간이 있어요?",
+        "vi": "Ngày mai bạn có thời gian không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "오후에는 괜찮아요.",
+        "vi": "Buổi chiều thì được.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "그럼 세 시에 만나요.",
+        "vi": "Vậy gặp lúc ba giờ nhé.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "id": "c060",
+    "category": "hospital",
+    "titleKo": "약국 찾기",
+    "titleVi": "Tìm nhà thuốc",
+    "lines": [
+      {
+        "speaker": "A",
+        "ko": "근처 약국이 어디예요?",
+        "vi": "Nhà thuốc gần đây ở đâu?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "저 길 끝에 있어요.",
+        "vi": "Ở cuối con đường kia.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "A",
+        "ko": "걸어서 갈 수 있나요?",
+        "vi": "Có thể đi bộ không?",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 가까워요.",
+        "vi": "Có, gần lắm.",
+        "koRoman": "",
+        "viPronunciationHint": ""
+      }
+    ],
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  }
+]

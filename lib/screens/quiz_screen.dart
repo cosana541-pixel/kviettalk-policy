@@ -1,0 +1,171 @@
+import 'dart:math';
+
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+import '../data/app_state.dart';
+import '../models/word.dart';
+import '../utils/learning_direction.dart';
+
+class QuizScreen extends StatefulWidget {
+  const QuizScreen({super.key, required this.direction});
+
+  final LearningDirection direction;
+
+  @override
+  State<QuizScreen> createState() => _QuizScreenState();
+}
+
+class _QuizScreenState extends State<QuizScreen> {
+  final Random _random = Random();
+
+  Word? _question;
+  List<Word> _options = <Word>[];
+  Word? _selectedAnswer;
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+
+    if (_question == null) {
+      _makeQuestion();
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final words = context.watch<AppState>().words;
+
+    if (words.length < 3) {
+      return const _EmptyState(
+        icon: Icons.quiz_outlined,
+        message: 'Không đủ từ để tạo câu đố.',
+      );
+    }
+
+    final question = _question;
+    if (question == null) {
+      return const Center(child: CircularProgressIndicator());
+    }
+
+    final isAnswered = _selectedAnswer != null;
+
+    return ListView(
+      padding: const EdgeInsets.fromLTRB(16, 12, 16, 24),
+      children: [
+        Card(
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text('Câu hỏi', style: Theme.of(context).textTheme.labelLarge),
+                const SizedBox(height: 12),
+                Text(
+                  '"${question.vietnamese}" có nghĩa là gì trong tiếng Hàn?',
+                  style: Theme.of(
+                    context,
+                  ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
+                ),
+              ],
+            ),
+          ),
+        ),
+        const SizedBox(height: 16),
+        ..._options.map((option) {
+          final isSelected = _selectedAnswer?.id == option.id;
+          final isCorrect = question.id == option.id;
+
+          Color? tileColor;
+          if (isAnswered && isCorrect) {
+            tileColor = Colors.green.shade100;
+          } else if (isAnswered && isSelected && !isCorrect) {
+            tileColor = Colors.red.shade100;
+          }
+
+          return Card(
+            margin: const EdgeInsets.only(bottom: 8),
+            color: tileColor,
+            child: ListTile(
+              contentPadding: const EdgeInsets.symmetric(
+                horizontal: 16,
+                vertical: 8,
+              ),
+              title: Text(
+                option.korean,
+                style: const TextStyle(fontWeight: FontWeight.w600),
+              ),
+              trailing: isAnswered && isCorrect
+                  ? const Icon(Icons.check, color: Colors.green)
+                  : null,
+              onTap: isAnswered
+                  ? null
+                  : () {
+                      setState(() => _selectedAnswer = option);
+                    },
+            ),
+          );
+        }),
+        const SizedBox(height: 16),
+        if (isAnswered)
+          Text(
+            _selectedAnswer?.id == question.id
+                ? 'Chính xác!'
+                : 'Tiếc quá. Hãy thử lại.',
+            textAlign: TextAlign.center,
+            style: Theme.of(context).textTheme.titleMedium,
+          ),
+        const SizedBox(height: 12),
+        FilledButton.icon(
+          style: FilledButton.styleFrom(minimumSize: const Size.fromHeight(50)),
+          icon: const Icon(Icons.refresh),
+          label: const Text('Câu tiếp theo'),
+          onPressed: _makeQuestion,
+        ),
+      ],
+    );
+  }
+
+  void _makeQuestion() {
+    final words = context.read<AppState>().words;
+    if (words.length < 3) {
+      return;
+    }
+
+    final question = words[_random.nextInt(words.length)];
+    final wrongOptions = words.where((word) => word.id != question.id).toList()
+      ..shuffle(_random);
+
+    final options = <Word>[question, ...wrongOptions.take(2)]..shuffle(_random);
+
+    setState(() {
+      _question = question;
+      _options = options;
+      _selectedAnswer = null;
+    });
+  }
+}
+
+class _EmptyState extends StatelessWidget {
+  const _EmptyState({required this.icon, required this.message});
+
+  final IconData icon;
+  final String message;
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(24),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(icon, size: 40, color: Theme.of(context).colorScheme.outline),
+            const SizedBox(height: 12),
+            Text(message, textAlign: TextAlign.center),
+          ],
+        ),
+      ),
+    );
+  }
+}

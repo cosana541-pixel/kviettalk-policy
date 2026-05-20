@@ -1,0 +1,3607 @@
+[
+  {
+    "_todo": "TODO: 베트남어 표현과 한글 발음 표기는 원어민 검수 필요",
+    "korean": "안녕하세요",
+    "vietnamese": "Xin chào",
+    "koreanPronunciation": "안녕하세요",
+    "vietnamesePronunciation": "씬 짜오",
+    "category": "인사"
+  },
+  {
+    "korean": "감사합니다",
+    "vietnamese": "Cảm ơn",
+    "koreanPronunciation": "감사합니다",
+    "vietnamesePronunciation": "깜 언",
+    "category": "인사"
+  },
+  {
+    "korean": "미안합니다",
+    "vietnamese": "Xin lỗi",
+    "koreanPronunciation": "미안합니다",
+    "vietnamesePronunciation": "씬 로이",
+    "category": "인사"
+  },
+  {
+    "korean": "안녕히 가세요",
+    "vietnamese": "Tạm biệt",
+    "koreanPronunciation": "안녕히 가세요",
+    "vietnamesePronunciation": "땀 비엣",
+    "category": "인사"
+  },
+  {
+    "korean": "네",
+    "vietnamese": "Vâng",
+    "koreanPronunciation": "네",
+    "vietnamesePronunciation": "벙",
+    "category": "일상"
+  },
+  {
+    "korean": "아니요",
+    "vietnamese": "Không",
+    "koreanPronunciation": "아니요",
+    "vietnamesePronunciation": "콩",
+    "category": "일상"
+  },
+  {
+    "korean": "물",
+    "vietnamese": "Nước",
+    "koreanPronunciation": "물",
+    "vietnamesePronunciation": "느억",
+    "category": "음식"
+  },
+  {
+    "korean": "밥",
+    "vietnamese": "Cơm",
+    "koreanPronunciation": "밥",
+    "vietnamesePronunciation": "껌",
+    "category": "음식"
+  },
+  {
+    "korean": "커피",
+    "vietnamese": "Cà phê",
+    "koreanPronunciation": "커피",
+    "vietnamesePronunciation": "까 페",
+    "category": "음식"
+  },
+  {
+    "korean": "쌀국수",
+    "vietnamese": "Phở",
+    "koreanPronunciation": "쌀국수",
+    "vietnamesePronunciation": "퍼",
+    "category": "음식"
+  },
+  {
+    "korean": "맛있어요",
+    "vietnamese": "Ngon",
+    "koreanPronunciation": "마시써요",
+    "vietnamesePronunciation": "응온",
+    "category": "음식"
+  },
+  {
+    "korean": "계산서 주세요",
+    "vietnamese": "Cho tôi xin hóa đơn",
+    "koreanPronunciation": "계산서 주세요",
+    "vietnamesePronunciation": "쪼 또이 씬 화 던",
+    "category": "음식"
+  },
+  {
+    "korean": "화장실",
+    "vietnamese": "Nhà vệ sinh",
+    "koreanPronunciation": "화장실",
+    "vietnamesePronunciation": "냐 베 씬",
+    "category": "여행"
+  },
+  {
+    "korean": "공항",
+    "vietnamese": "Sân bay",
+    "koreanPronunciation": "공항",
+    "vietnamesePronunciation": "선 바이",
+    "category": "여행"
+  },
+  {
+    "korean": "호텔",
+    "vietnamese": "Khách sạn",
+    "koreanPronunciation": "호텔",
+    "vietnamesePronunciation": "캇 산",
+    "category": "여행"
+  },
+  {
+    "korean": "택시",
+    "vietnamese": "Taxi",
+    "koreanPronunciation": "택시",
+    "vietnamesePronunciation": "딱시",
+    "category": "여행"
+  },
+  {
+    "korean": "어디예요?",
+    "vietnamese": "Ở đâu?",
+    "koreanPronunciation": "어디예요",
+    "vietnamesePronunciation": "어 더우",
+    "category": "여행"
+  },
+  {
+    "korean": "도와주세요",
+    "vietnamese": "Giúp tôi với",
+    "koreanPronunciation": "도와주세요",
+    "vietnamesePronunciation": "줍 또이 버이",
+    "category": "여행"
+  },
+  {
+    "korean": "얼마예요?",
+    "vietnamese": "Bao nhiêu tiền?",
+    "koreanPronunciation": "얼마예요",
+    "vietnamesePronunciation": "바오 니에우 띠엔",
+    "category": "쇼핑"
+  },
+  {
+    "korean": "비싸요",
+    "vietnamese": "Đắt quá",
+    "koreanPronunciation": "비싸요",
+    "vietnamesePronunciation": "닷 꽈",
+    "category": "쇼핑"
+  },
+  {
+    "korean": "싸게 해 주세요",
+    "vietnamese": "Giảm giá cho tôi",
+    "koreanPronunciation": "싸게 해 주세요",
+    "vietnamesePronunciation": "잠 자 쪼 또이",
+    "category": "쇼핑"
+  },
+  {
+    "korean": "이거 주세요",
+    "vietnamese": "Cho tôi cái này",
+    "koreanPronunciation": "이거 주세요",
+    "vietnamesePronunciation": "쪼 또이 까이 나이",
+    "category": "쇼핑"
+  },
+  {
+    "korean": "좋아요",
+    "vietnamese": "Tốt",
+    "koreanPronunciation": "조아요",
+    "vietnamesePronunciation": "똣",
+    "category": "감정"
+  },
+  {
+    "korean": "싫어요",
+    "vietnamese": "Không thích",
+    "koreanPronunciation": "시러요",
+    "vietnamesePronunciation": "콩 틱",
+    "category": "감정"
+  },
+  {
+    "korean": "기뻐요",
+    "vietnamese": "Vui",
+    "koreanPronunciation": "기뻐요",
+    "vietnamesePronunciation": "부이",
+    "category": "감정"
+  },
+  {
+    "korean": "슬퍼요",
+    "vietnamese": "Buồn",
+    "koreanPronunciation": "슬퍼요",
+    "vietnamesePronunciation": "부온",
+    "category": "감정"
+  },
+  {
+    "korean": "괜찮아요",
+    "vietnamese": "Không sao",
+    "koreanPronunciation": "괜차나요",
+    "vietnamesePronunciation": "콩 사오",
+    "category": "감정"
+  },
+  {
+    "korean": "오늘",
+    "vietnamese": "Hôm nay",
+    "koreanPronunciation": "오늘",
+    "vietnamesePronunciation": "홈 나이",
+    "category": "일상"
+  },
+  {
+    "korean": "내일",
+    "vietnamese": "Ngày mai",
+    "koreanPronunciation": "내일",
+    "vietnamesePronunciation": "응아이 마이",
+    "category": "일상"
+  },
+  {
+    "korean": "친구",
+    "vietnamese": "Bạn",
+    "koreanPronunciation": "친구",
+    "vietnamesePronunciation": "반",
+    "category": "일상"
+  },
+  {
+    "korean": "가족",
+    "vietnamese": "Gia đình",
+    "koreanPronunciation": "가족",
+    "vietnamesePronunciation": "자 딘",
+    "category": "일상"
+  },
+  {
+    "korean": "공부",
+    "vietnamese": "Học",
+    "koreanPronunciation": "공부",
+    "vietnamesePronunciation": "혹",
+    "category": "일상"
+  },
+  {
+    "korean": "사랑해요",
+    "vietnamese": "Tôi yêu bạn",
+    "koreanPronunciation": "사랑해요",
+    "vietnamesePronunciation": "또이 이에우 반",
+    "category": "감정"
+  },
+  {
+    "korean": "천천히 말해 주세요",
+    "vietnamese": "Nói chậm thôi",
+    "koreanPronunciation": "천천히 말해 주세요",
+    "vietnamesePronunciation": "노이 쩜 토이",
+    "category": "일상"
+  },
+  {
+    "korean": "잘 지냈어요?",
+    "vietnamese": "Bạn khỏe không?",
+    "koreanPronunciation": "잘 지냈어요",
+    "vietnamesePronunciation": "반 쾌 콩",
+    "category": "인사",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "오랜만이에요",
+    "vietnamese": "Lâu rồi không gặp",
+    "koreanPronunciation": "오랜만이에요",
+    "vietnamesePronunciation": "러우 조이 콩 갑",
+    "category": "인사",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "좋은 아침이에요",
+    "vietnamese": "Chào buổi sáng",
+    "koreanPronunciation": "좋은 아침이에요",
+    "vietnamesePronunciation": "짜오 부오이 상",
+    "category": "인사",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "좋은 저녁이에요",
+    "vietnamese": "Chào buổi tối",
+    "koreanPronunciation": "좋은 저녁이에요",
+    "vietnamesePronunciation": "짜오 부오이 또이",
+    "category": "인사",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "나중에 봐요",
+    "vietnamese": "Hẹn gặp lại",
+    "koreanPronunciation": "나중에 봐요",
+    "vietnamesePronunciation": "헨 갑 라이",
+    "category": "인사",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "또 만나요",
+    "vietnamese": "Gặp lại nhé",
+    "koreanPronunciation": "또 만나요",
+    "vietnamesePronunciation": "갑 라이 녜",
+    "category": "인사",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "실례합니다",
+    "vietnamese": "Xin phép",
+    "koreanPronunciation": "실례합니다",
+    "vietnamesePronunciation": "씬 펩",
+    "category": "인사",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "괜찮습니다",
+    "vietnamese": "Không sao",
+    "koreanPronunciation": "괜찮습니다",
+    "vietnamesePronunciation": "콩 사오",
+    "category": "인사",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "환영합니다",
+    "vietnamese": "Chào mừng",
+    "koreanPronunciation": "환영합니다",
+    "vietnamesePronunciation": "짜오 믕",
+    "category": "인사",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "축하합니다",
+    "vietnamese": "Chúc mừng",
+    "koreanPronunciation": "축하합니다",
+    "vietnamesePronunciation": "쭉 믕",
+    "category": "인사",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "지금",
+    "vietnamese": "Bây giờ",
+    "koreanPronunciation": "지금",
+    "vietnamesePronunciation": "버이 져",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "어제",
+    "vietnamese": "Hôm qua",
+    "koreanPronunciation": "어제",
+    "vietnamesePronunciation": "홈 꽈",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "모레",
+    "vietnamese": "Ngày kia",
+    "koreanPronunciation": "모레",
+    "vietnamesePronunciation": "응아이 끼아",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "아침",
+    "vietnamese": "Buổi sáng",
+    "koreanPronunciation": "아침",
+    "vietnamesePronunciation": "부오이 상",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "점심",
+    "vietnamese": "Buổi trưa",
+    "koreanPronunciation": "점심",
+    "vietnamesePronunciation": "부오이 쯔어",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "저녁",
+    "vietnamese": "Buổi tối",
+    "koreanPronunciation": "저녁",
+    "vietnamesePronunciation": "부오이 또이",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "밤",
+    "vietnamese": "Đêm",
+    "koreanPronunciation": "밤",
+    "vietnamesePronunciation": "뎀",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "시간",
+    "vietnamese": "Thời gian",
+    "koreanPronunciation": "시간",
+    "vietnamesePronunciation": "터이 잔",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "날짜",
+    "vietnamese": "Ngày tháng",
+    "koreanPronunciation": "날짜",
+    "vietnamesePronunciation": "응아이 탕",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "이름",
+    "vietnamese": "Tên",
+    "koreanPronunciation": "이름",
+    "vietnamesePronunciation": "뗀",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "전화번호",
+    "vietnamese": "Số điện thoại",
+    "koreanPronunciation": "전화번호",
+    "vietnamesePronunciation": "소 디엔 토아이",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "집",
+    "vietnamese": "Nhà",
+    "koreanPronunciation": "집",
+    "vietnamesePronunciation": "냐",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "회사",
+    "vietnamese": "Công ty",
+    "koreanPronunciation": "회사",
+    "vietnamesePronunciation": "꽁 띠",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "학교",
+    "vietnamese": "Trường học",
+    "koreanPronunciation": "학교",
+    "vietnamesePronunciation": "쯔엉 혹",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "길",
+    "vietnamese": "Đường",
+    "koreanPronunciation": "길",
+    "vietnamesePronunciation": "드엉",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "날씨",
+    "vietnamese": "Thời tiết",
+    "koreanPronunciation": "날씨",
+    "vietnamesePronunciation": "터이 띠엣",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "비",
+    "vietnamese": "Mưa",
+    "koreanPronunciation": "비",
+    "vietnamesePronunciation": "므어",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "더워요",
+    "vietnamese": "Trời nóng",
+    "koreanPronunciation": "더워요",
+    "vietnamesePronunciation": "쩌이 농",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "추워요",
+    "vietnamese": "Trời lạnh",
+    "koreanPronunciation": "추워요",
+    "vietnamesePronunciation": "쩌이 라잉",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "피곤해요",
+    "vietnamese": "Mệt",
+    "koreanPronunciation": "피곤해요",
+    "vietnamesePronunciation": "멧",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "바빠요",
+    "vietnamese": "Bận",
+    "koreanPronunciation": "바빠요",
+    "vietnamesePronunciation": "번",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "쉬어요",
+    "vietnamese": "Nghỉ ngơi",
+    "koreanPronunciation": "쉬어요",
+    "vietnamesePronunciation": "응이 응어이",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "기다려요",
+    "vietnamese": "Chờ",
+    "koreanPronunciation": "기다려요",
+    "vietnamesePronunciation": "쩌",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "몰라요",
+    "vietnamese": "Không biết",
+    "koreanPronunciation": "몰라요",
+    "vietnamesePronunciation": "콩 비엣",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "알아요",
+    "vietnamese": "Biết",
+    "koreanPronunciation": "알아요",
+    "vietnamesePronunciation": "비엣",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "부탁합니다",
+    "vietnamese": "Làm ơn",
+    "koreanPronunciation": "부탁합니다",
+    "vietnamesePronunciation": "람 언",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "문제없어요",
+    "vietnamese": "Không vấn đề gì",
+    "koreanPronunciation": "문제없어요",
+    "vietnamesePronunciation": "콩 번 데 지",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "좋아합니다",
+    "vietnamese": "Thích",
+    "koreanPronunciation": "좋아합니다",
+    "vietnamesePronunciation": "틱",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "필요해요",
+    "vietnamese": "Cần",
+    "koreanPronunciation": "필요해요",
+    "vietnamesePronunciation": "껀",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "끝났어요",
+    "vietnamese": "Xong rồi",
+    "koreanPronunciation": "끝났어요",
+    "vietnamesePronunciation": "쏭 조이",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "음식",
+    "vietnamese": "Đồ ăn",
+    "koreanPronunciation": "음식",
+    "vietnamesePronunciation": "도 안",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "고기",
+    "vietnamese": "Thịt",
+    "koreanPronunciation": "고기",
+    "vietnamesePronunciation": "팃",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "생선",
+    "vietnamese": "Cá",
+    "koreanPronunciation": "생선",
+    "vietnamesePronunciation": "까",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "닭고기",
+    "vietnamese": "Thịt gà",
+    "koreanPronunciation": "닭고기",
+    "vietnamesePronunciation": "팃 가",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "돼지고기",
+    "vietnamese": "Thịt heo",
+    "koreanPronunciation": "돼지고기",
+    "vietnamesePronunciation": "팃 헤오",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "채소",
+    "vietnamese": "Rau",
+    "koreanPronunciation": "채소",
+    "vietnamesePronunciation": "라우",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "과일",
+    "vietnamese": "Trái cây",
+    "koreanPronunciation": "과일",
+    "vietnamesePronunciation": "짜이 꺼이",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "빵",
+    "vietnamese": "Bánh mì",
+    "koreanPronunciation": "빵",
+    "vietnamesePronunciation": "바인 미",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "우유",
+    "vietnamese": "Sữa",
+    "koreanPronunciation": "우유",
+    "vietnamesePronunciation": "쓰어",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "차",
+    "vietnamese": "Trà",
+    "koreanPronunciation": "차",
+    "vietnamesePronunciation": "짜",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "맥주",
+    "vietnamese": "Bia",
+    "koreanPronunciation": "맥주",
+    "vietnamesePronunciation": "비아",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "주스",
+    "vietnamese": "Nước ép",
+    "koreanPronunciation": "주스",
+    "vietnamesePronunciation": "느억 엡",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "얼음",
+    "vietnamese": "Đá",
+    "koreanPronunciation": "얼음",
+    "vietnamesePronunciation": "다",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "매워요",
+    "vietnamese": "Cay",
+    "koreanPronunciation": "매워요",
+    "vietnamesePronunciation": "까이",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "달아요",
+    "vietnamese": "Ngọt",
+    "koreanPronunciation": "달아요",
+    "vietnamesePronunciation": "응옷",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "짜요",
+    "vietnamese": "Mặn",
+    "koreanPronunciation": "짜요",
+    "vietnamesePronunciation": "만",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "뜨거워요",
+    "vietnamese": "Nóng",
+    "koreanPronunciation": "뜨거워요",
+    "vietnamesePronunciation": "농",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "차가워요",
+    "vietnamese": "Lạnh",
+    "koreanPronunciation": "차가워요",
+    "vietnamesePronunciation": "라잉",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "포장해 주세요",
+    "vietnamese": "Gói mang về giúp tôi",
+    "koreanPronunciation": "포장해 주세요",
+    "vietnamesePronunciation": "고이 망 베 줍 또이",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "추천해 주세요",
+    "vietnamese": "Gợi ý giúp tôi",
+    "koreanPronunciation": "추천해 주세요",
+    "vietnamesePronunciation": "거이 이 줍 또이",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "여권",
+    "vietnamese": "Hộ chiếu",
+    "koreanPronunciation": "여권",
+    "vietnamesePronunciation": "호 찌에우",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "비자",
+    "vietnamese": "Thị thực",
+    "koreanPronunciation": "비자",
+    "vietnamesePronunciation": "티 특",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "짐",
+    "vietnamese": "Hành lý",
+    "koreanPronunciation": "짐",
+    "vietnamesePronunciation": "하잉 리",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "표",
+    "vietnamese": "Vé",
+    "koreanPronunciation": "표",
+    "vietnamesePronunciation": "베",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "기차",
+    "vietnamese": "Tàu hỏa",
+    "koreanPronunciation": "기차",
+    "vietnamesePronunciation": "따우 화",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "버스",
+    "vietnamese": "Xe buýt",
+    "koreanPronunciation": "버스",
+    "vietnamesePronunciation": "쎄 부잇",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "지하철",
+    "vietnamese": "Tàu điện ngầm",
+    "koreanPronunciation": "지하철",
+    "vietnamesePronunciation": "따우 디엔 응엄",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "지도",
+    "vietnamese": "Bản đồ",
+    "koreanPronunciation": "지도",
+    "vietnamesePronunciation": "반 도",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "관광지",
+    "vietnamese": "Điểm du lịch",
+    "koreanPronunciation": "관광지",
+    "vietnamesePronunciation": "디엠 주 릭",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "해변",
+    "vietnamese": "Bãi biển",
+    "koreanPronunciation": "해변",
+    "vietnamesePronunciation": "바이 비엔",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "시장",
+    "vietnamese": "Chợ",
+    "koreanPronunciation": "시장",
+    "vietnamesePronunciation": "쩌",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "티켓",
+    "vietnamese": "Vé",
+    "koreanPronunciation": "티켓",
+    "vietnamesePronunciation": "베",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "예약",
+    "vietnamese": "Đặt chỗ",
+    "koreanPronunciation": "예약",
+    "vietnamesePronunciation": "닷 쪼",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "체크인",
+    "vietnamese": "Nhận phòng",
+    "koreanPronunciation": "체크인",
+    "vietnamesePronunciation": "년 퐁",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "체크아웃",
+    "vietnamese": "Trả phòng",
+    "koreanPronunciation": "체크아웃",
+    "vietnamesePronunciation": "짜 퐁",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "입구",
+    "vietnamese": "Lối vào",
+    "koreanPronunciation": "입구",
+    "vietnamesePronunciation": "로이 바오",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "출구",
+    "vietnamese": "Lối ra",
+    "koreanPronunciation": "출구",
+    "vietnamesePronunciation": "로이 자",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "왼쪽",
+    "vietnamese": "Bên trái",
+    "koreanPronunciation": "왼쪽",
+    "vietnamesePronunciation": "벤 짜이",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "오른쪽",
+    "vietnamese": "Bên phải",
+    "koreanPronunciation": "오른쪽",
+    "vietnamesePronunciation": "벤 파이",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "직진",
+    "vietnamese": "Đi thẳng",
+    "koreanPronunciation": "직진",
+    "vietnamesePronunciation": "디 탕",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "가게",
+    "vietnamese": "Cửa hàng",
+    "koreanPronunciation": "가게",
+    "vietnamesePronunciation": "끄어 항",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "옷",
+    "vietnamese": "Quần áo",
+    "koreanPronunciation": "옷",
+    "vietnamesePronunciation": "꿘 아오",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "신발",
+    "vietnamese": "Giày",
+    "koreanPronunciation": "신발",
+    "vietnamesePronunciation": "자이",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "가방",
+    "vietnamese": "Túi xách",
+    "koreanPronunciation": "가방",
+    "vietnamesePronunciation": "뚜이 삭",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "색깔",
+    "vietnamese": "Màu sắc",
+    "koreanPronunciation": "색깔",
+    "vietnamesePronunciation": "마우 삭",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "크기",
+    "vietnamese": "Kích cỡ",
+    "koreanPronunciation": "크기",
+    "vietnamesePronunciation": "낀 꺼",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "작은 것",
+    "vietnamese": "Cái nhỏ",
+    "koreanPronunciation": "작은 것",
+    "vietnamesePronunciation": "까이 뇨",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "큰 것",
+    "vietnamese": "Cái lớn",
+    "koreanPronunciation": "큰 것",
+    "vietnamesePronunciation": "까이 런",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "현금",
+    "vietnamese": "Tiền mặt",
+    "koreanPronunciation": "현금",
+    "vietnamesePronunciation": "띠엔 맛",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "카드",
+    "vietnamese": "Thẻ",
+    "koreanPronunciation": "카드",
+    "vietnamesePronunciation": "테",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "영수증",
+    "vietnamese": "Biên lai",
+    "koreanPronunciation": "영수증",
+    "vietnamesePronunciation": "비엔 라이",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "할인",
+    "vietnamese": "Giảm giá",
+    "koreanPronunciation": "할인",
+    "vietnamesePronunciation": "잠 자",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "교환",
+    "vietnamese": "Đổi hàng",
+    "koreanPronunciation": "교환",
+    "vietnamesePronunciation": "도이 항",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "환불",
+    "vietnamese": "Hoàn tiền",
+    "koreanPronunciation": "환불",
+    "vietnamesePronunciation": "호안 띠엔",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "입어 봐도 돼요?",
+    "vietnamese": "Tôi có thể mặc thử không?",
+    "koreanPronunciation": "입어 봐도 돼요",
+    "vietnamesePronunciation": "또이 꼬 테 막 트 콩",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "행복해요",
+    "vietnamese": "Hạnh phúc",
+    "koreanPronunciation": "행복해요",
+    "vietnamesePronunciation": "하잉 푹",
+    "category": "감정",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "화나요",
+    "vietnamese": "Tức giận",
+    "koreanPronunciation": "화나요",
+    "vietnamesePronunciation": "뜩 전",
+    "category": "감정",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "걱정돼요",
+    "vietnamese": "Lo lắng",
+    "koreanPronunciation": "걱정돼요",
+    "vietnamesePronunciation": "로 랑",
+    "category": "감정",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "무서워요",
+    "vietnamese": "Sợ",
+    "koreanPronunciation": "무서워요",
+    "vietnamesePronunciation": "서",
+    "category": "감정",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "놀랐어요",
+    "vietnamese": "Ngạc nhiên",
+    "koreanPronunciation": "놀랐어요",
+    "vietnamesePronunciation": "응악 니엔",
+    "category": "감정",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "재미있어요",
+    "vietnamese": "Thú vị",
+    "koreanPronunciation": "재미있어요",
+    "vietnamesePronunciation": "투 비",
+    "category": "감정",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "지루해요",
+    "vietnamese": "Chán",
+    "koreanPronunciation": "지루해요",
+    "vietnamesePronunciation": "짠",
+    "category": "감정",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "편해요",
+    "vietnamese": "Thoải mái",
+    "koreanPronunciation": "편해요",
+    "vietnamesePronunciation": "토아이 마이",
+    "category": "감정",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "불편해요",
+    "vietnamese": "Không thoải mái",
+    "koreanPronunciation": "불편해요",
+    "vietnamesePronunciation": "콩 토아이 마이",
+    "category": "감정",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "그리워요",
+    "vietnamese": "Nhớ",
+    "koreanPronunciation": "그리워요",
+    "vietnamesePronunciation": "녀",
+    "category": "감정",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "병원",
+    "vietnamese": "Bệnh viện",
+    "koreanPronunciation": "병원",
+    "vietnamesePronunciation": "베잉 비엔",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "약국",
+    "vietnamese": "Nhà thuốc",
+    "koreanPronunciation": "약국",
+    "vietnamesePronunciation": "냐 투옥",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "의사",
+    "vietnamese": "Bác sĩ",
+    "koreanPronunciation": "의사",
+    "vietnamesePronunciation": "박 씨",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "약",
+    "vietnamese": "Thuốc",
+    "koreanPronunciation": "약",
+    "vietnamesePronunciation": "투옥",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "열",
+    "vietnamese": "Sốt",
+    "koreanPronunciation": "열",
+    "vietnamesePronunciation": "솟",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "기침",
+    "vietnamese": "Ho",
+    "koreanPronunciation": "기침",
+    "vietnamesePronunciation": "호",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "감기",
+    "vietnamese": "Cảm lạnh",
+    "koreanPronunciation": "감기",
+    "vietnamesePronunciation": "깜 라잉",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "배가 아파요",
+    "vietnamese": "Đau bụng",
+    "koreanPronunciation": "배가 아파요",
+    "vietnamesePronunciation": "다우 붕",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "머리가 아파요",
+    "vietnamese": "Đau đầu",
+    "koreanPronunciation": "머리가 아파요",
+    "vietnamesePronunciation": "다우 더우",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "알레르기",
+    "vietnamese": "Dị ứng",
+    "koreanPronunciation": "알레르기",
+    "vietnamesePronunciation": "지 응",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "버스 정류장",
+    "vietnamese": "Trạm xe buýt",
+    "koreanPronunciation": "버스 정류장",
+    "vietnamesePronunciation": "짬 쎄 부잇",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "기차역",
+    "vietnamese": "Ga tàu",
+    "koreanPronunciation": "기차역",
+    "vietnamesePronunciation": "가 따우",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "택시 승강장",
+    "vietnamese": "Điểm đón taxi",
+    "koreanPronunciation": "택시 승강장",
+    "vietnamesePronunciation": "디엠 돈 딱시",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "운전기사",
+    "vietnamese": "Tài xế",
+    "koreanPronunciation": "운전기사",
+    "vietnamesePronunciation": "따이 쎄",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "요금",
+    "vietnamese": "Giá cước",
+    "koreanPronunciation": "요금",
+    "vietnamesePronunciation": "자 끄억",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "교통카드",
+    "vietnamese": "Thẻ giao thông",
+    "koreanPronunciation": "교통카드",
+    "vietnamesePronunciation": "테 자오 통",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "막혀요",
+    "vietnamese": "Kẹt xe",
+    "koreanPronunciation": "막혀요",
+    "vietnamesePronunciation": "껫 쎄",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "내려 주세요",
+    "vietnamese": "Cho tôi xuống",
+    "koreanPronunciation": "내려 주세요",
+    "vietnamesePronunciation": "쪼 또이 쑤옹",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "세워 주세요",
+    "vietnamese": "Dừng lại giúp tôi",
+    "koreanPronunciation": "세워 주세요",
+    "vietnamesePronunciation": "증 라이 줍 또이",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "가까워요",
+    "vietnamese": "Gần",
+    "koreanPronunciation": "가까워요",
+    "vietnamesePronunciation": "건",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "회의",
+    "vietnamese": "Cuộc họp",
+    "koreanPronunciation": "회의",
+    "vietnamesePronunciation": "꾸옥 홉",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "이메일",
+    "vietnamese": "Email",
+    "koreanPronunciation": "이메일",
+    "vietnamesePronunciation": "이메일",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "서류",
+    "vietnamese": "Tài liệu",
+    "koreanPronunciation": "서류",
+    "vietnamesePronunciation": "따이 리에우",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "일정",
+    "vietnamese": "Lịch trình",
+    "koreanPronunciation": "일정",
+    "vietnamesePronunciation": "릭 찐",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "동료",
+    "vietnamese": "Đồng nghiệp",
+    "koreanPronunciation": "동료",
+    "vietnamesePronunciation": "동 응이엡",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "사장님",
+    "vietnamese": "Giám đốc",
+    "koreanPronunciation": "사장님",
+    "vietnamesePronunciation": "잠 독",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "고객",
+    "vietnamese": "Khách hàng",
+    "koreanPronunciation": "고객",
+    "vietnamesePronunciation": "캇 항",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "출근",
+    "vietnamese": "Đi làm",
+    "koreanPronunciation": "출근",
+    "vietnamesePronunciation": "디 람",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "퇴근",
+    "vietnamese": "Tan làm",
+    "koreanPronunciation": "퇴근",
+    "vietnamesePronunciation": "딴 람",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "휴가",
+    "vietnamese": "Nghỉ phép",
+    "koreanPronunciation": "휴가",
+    "vietnamesePronunciation": "응이 펩",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "학생",
+    "vietnamese": "Học sinh",
+    "koreanPronunciation": "학생",
+    "vietnamesePronunciation": "혹 씬",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "선생님",
+    "vietnamese": "Giáo viên",
+    "koreanPronunciation": "선생님",
+    "vietnamesePronunciation": "자오 비엔",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "수업",
+    "vietnamese": "Lớp học",
+    "koreanPronunciation": "수업",
+    "vietnamesePronunciation": "럽 혹",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "숙제",
+    "vietnamese": "Bài tập về nhà",
+    "koreanPronunciation": "숙제",
+    "vietnamesePronunciation": "바이 떱 베 냐",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "시험",
+    "vietnamese": "Kỳ thi",
+    "koreanPronunciation": "시험",
+    "vietnamesePronunciation": "끼 티",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "책",
+    "vietnamese": "Sách",
+    "koreanPronunciation": "책",
+    "vietnamesePronunciation": "삭",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "공책",
+    "vietnamese": "Vở",
+    "koreanPronunciation": "공책",
+    "vietnamesePronunciation": "버",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "질문",
+    "vietnamese": "Câu hỏi",
+    "koreanPronunciation": "질문",
+    "vietnamesePronunciation": "꺼우 호이",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "대답",
+    "vietnamese": "Câu trả lời",
+    "koreanPronunciation": "대답",
+    "vietnamesePronunciation": "꺼우 짜 러이",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "연습",
+    "vietnamese": "Luyện tập",
+    "koreanPronunciation": "연습",
+    "vietnamesePronunciation": "루옌 떱",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "위험해요",
+    "vietnamese": "Nguy hiểm",
+    "koreanPronunciation": "위험해요",
+    "vietnamesePronunciation": "응위 히엠",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "경찰",
+    "vietnamese": "Cảnh sát",
+    "koreanPronunciation": "경찰",
+    "vietnamesePronunciation": "까잉 삿",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "불이야",
+    "vietnamese": "Cháy rồi",
+    "koreanPronunciation": "불이야",
+    "vietnamesePronunciation": "짜이 조이",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "구급차",
+    "vietnamese": "Xe cứu thương",
+    "koreanPronunciation": "구급차",
+    "vietnamesePronunciation": "쎄 끄우 트엉",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "도둑이야",
+    "vietnamese": "Có trộm",
+    "koreanPronunciation": "도둑이야",
+    "vietnamesePronunciation": "꼬 쫌",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "긴급 연락처",
+    "vietnamese": "Số liên lạc khẩn cấp",
+    "koreanPronunciation": "긴급 연락처",
+    "vietnamesePronunciation": "소 리엔 락 컨 껍",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "원어민 최종 검수 권장"
+  },
+  {
+    "korean": "잘 지냈어요",
+    "vietnamese": "Tôi vẫn khỏe",
+    "koreanPronunciation": "잘 지냈어요",
+    "vietnamesePronunciation": "",
+    "category": "인사",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "처음 뵙겠습니다",
+    "vietnamese": "Rất hân hạnh được gặp",
+    "koreanPronunciation": "처음 뵙겠습니다",
+    "vietnamesePronunciation": "",
+    "category": "인사",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "제 이름은 ...입니다",
+    "vietnamese": "Tên tôi là ...",
+    "koreanPronunciation": "제 이름은 ...입니다",
+    "vietnamesePronunciation": "",
+    "category": "인사",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "성",
+    "vietnamese": "Họ",
+    "koreanPronunciation": "성",
+    "vietnamesePronunciation": "",
+    "category": "인사",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "먼저 갈게요",
+    "vietnamese": "Tôi đi trước nhé",
+    "koreanPronunciation": "먼저 갈게요",
+    "vietnamesePronunciation": "",
+    "category": "인사",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "좋은 하루 보내세요",
+    "vietnamese": "Chúc một ngày tốt lành",
+    "koreanPronunciation": "좋은 하루 보내세요",
+    "vietnamesePronunciation": "",
+    "category": "인사",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "안부",
+    "vietnamese": "Lời hỏi thăm",
+    "koreanPronunciation": "안부",
+    "vietnamesePronunciation": "",
+    "category": "인사",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "나중에",
+    "vietnamese": "Lát nữa",
+    "koreanPronunciation": "나중에",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "방",
+    "vietnamese": "Phòng",
+    "koreanPronunciation": "방",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "문",
+    "vietnamese": "Cửa",
+    "koreanPronunciation": "문",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "창문",
+    "vietnamese": "Cửa sổ",
+    "koreanPronunciation": "창문",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "열쇠",
+    "vietnamese": "Chìa khóa",
+    "koreanPronunciation": "열쇠",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "휴대폰",
+    "vietnamese": "Điện thoại di động",
+    "koreanPronunciation": "휴대폰",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "충전기",
+    "vietnamese": "Sạc điện thoại",
+    "koreanPronunciation": "충전기",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "배터리",
+    "vietnamese": "Pin",
+    "koreanPronunciation": "배터리",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "인터넷",
+    "vietnamese": "Internet",
+    "koreanPronunciation": "인터넷",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "와이파이",
+    "vietnamese": "Wi-Fi",
+    "koreanPronunciation": "와이파이",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "비밀번호",
+    "vietnamese": "Mật khẩu",
+    "koreanPronunciation": "비밀번호",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "사진",
+    "vietnamese": "Ảnh",
+    "koreanPronunciation": "사진",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "메시지",
+    "vietnamese": "Tin nhắn",
+    "koreanPronunciation": "메시지",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "약속",
+    "vietnamese": "Cuộc hẹn",
+    "koreanPronunciation": "약속",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "눈",
+    "vietnamese": "Tuyết",
+    "koreanPronunciation": "눈",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "아침 식사",
+    "vietnamese": "Bữa sáng",
+    "koreanPronunciation": "아침 식사",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "점심 식사",
+    "vietnamese": "Bữa trưa",
+    "koreanPronunciation": "점심 식사",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "저녁 식사",
+    "vietnamese": "Bữa tối",
+    "koreanPronunciation": "저녁 식사",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "간식",
+    "vietnamese": "Đồ ăn nhẹ",
+    "koreanPronunciation": "간식",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "계란",
+    "vietnamese": "Trứng",
+    "koreanPronunciation": "계란",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "소고기",
+    "vietnamese": "Thịt bò",
+    "koreanPronunciation": "소고기",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "사과",
+    "vietnamese": "Táo",
+    "koreanPronunciation": "사과",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "바나나",
+    "vietnamese": "Chuối",
+    "koreanPronunciation": "바나나",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "소금",
+    "vietnamese": "Muối",
+    "koreanPronunciation": "소금",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "따뜻한 물",
+    "vietnamese": "Nước ấm",
+    "koreanPronunciation": "따뜻한 물",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "차가운 물",
+    "vietnamese": "Nước lạnh",
+    "koreanPronunciation": "차가운 물",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "숟가락",
+    "vietnamese": "Muỗng",
+    "koreanPronunciation": "숟가락",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "젓가락",
+    "vietnamese": "Đũa",
+    "koreanPronunciation": "젓가락",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "포크",
+    "vietnamese": "Nĩa",
+    "koreanPronunciation": "포크",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "접시",
+    "vietnamese": "Đĩa",
+    "koreanPronunciation": "접시",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "그릇",
+    "vietnamese": "Bát",
+    "koreanPronunciation": "그릇",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "포장",
+    "vietnamese": "Mang về",
+    "koreanPronunciation": "포장",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "배고파요",
+    "vietnamese": "Đói",
+    "koreanPronunciation": "배고파요",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "마트",
+    "vietnamese": "Siêu thị",
+    "koreanPronunciation": "마트",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "편의점",
+    "vietnamese": "Cửa hàng tiện lợi",
+    "koreanPronunciation": "편의점",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "가격",
+    "vietnamese": "Giá",
+    "koreanPronunciation": "가격",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "세일",
+    "vietnamese": "Khuyến mãi",
+    "koreanPronunciation": "세일",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "싸요",
+    "vietnamese": "Rẻ",
+    "koreanPronunciation": "싸요",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "검은색",
+    "vietnamese": "Màu đen",
+    "koreanPronunciation": "검은색",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "흰색",
+    "vietnamese": "Màu trắng",
+    "koreanPronunciation": "흰색",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "빨간색",
+    "vietnamese": "Màu đỏ",
+    "koreanPronunciation": "빨간색",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "파란색",
+    "vietnamese": "Màu xanh dương",
+    "koreanPronunciation": "파란색",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "봉투",
+    "vietnamese": "Túi",
+    "koreanPronunciation": "봉투",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "여행",
+    "vietnamese": "Du lịch",
+    "koreanPronunciation": "여행",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "주소",
+    "vietnamese": "Địa chỉ",
+    "koreanPronunciation": "주소",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "엘리베이터",
+    "vietnamese": "Thang máy",
+    "koreanPronunciation": "엘리베이터",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "계단",
+    "vietnamese": "Cầu thang",
+    "koreanPronunciation": "계단",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "방 번호",
+    "vietnamese": "Số phòng",
+    "koreanPronunciation": "방 번호",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "열쇠 카드",
+    "vietnamese": "Thẻ khóa",
+    "koreanPronunciation": "열쇠 카드",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "수건",
+    "vietnamese": "Khăn tắm",
+    "koreanPronunciation": "수건",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "샴푸",
+    "vietnamese": "Dầu gội",
+    "koreanPronunciation": "샴푸",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "기념품",
+    "vietnamese": "Quà lưu niệm",
+    "koreanPronunciation": "기념품",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "사진기",
+    "vietnamese": "Máy ảnh",
+    "koreanPronunciation": "사진기",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "지하철역",
+    "vietnamese": "Ga tàu điện ngầm",
+    "koreanPronunciation": "지하철역",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "왕복",
+    "vietnamese": "Khứ hồi",
+    "koreanPronunciation": "왕복",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "편도",
+    "vietnamese": "Một chiều",
+    "koreanPronunciation": "편도",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "노선",
+    "vietnamese": "Tuyến đường",
+    "koreanPronunciation": "노선",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "정류장",
+    "vietnamese": "Trạm dừng",
+    "koreanPronunciation": "정류장",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "목적지",
+    "vietnamese": "Điểm đến",
+    "koreanPronunciation": "목적지",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "출발",
+    "vietnamese": "Khởi hành",
+    "koreanPronunciation": "출발",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "도착",
+    "vietnamese": "Đến nơi",
+    "koreanPronunciation": "도착",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "늦어요",
+    "vietnamese": "Muộn",
+    "koreanPronunciation": "늦어요",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "빠르게",
+    "vietnamese": "Nhanh",
+    "koreanPronunciation": "빠르게",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "천천히",
+    "vietnamese": "Chậm",
+    "koreanPronunciation": "천천히",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "사고",
+    "vietnamese": "Tai nạn",
+    "koreanPronunciation": "사고",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "불",
+    "vietnamese": "Lửa",
+    "koreanPronunciation": "불",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "연기",
+    "vietnamese": "Khói",
+    "koreanPronunciation": "연기",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "출혈",
+    "vietnamese": "Chảy máu",
+    "koreanPronunciation": "출혈",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "실종",
+    "vietnamese": "Mất tích",
+    "koreanPronunciation": "실종",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "신고",
+    "vietnamese": "Báo cáo",
+    "koreanPronunciation": "신고",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "119",
+    "vietnamese": "Một một chín",
+    "koreanPronunciation": "119",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "경찰서",
+    "vietnamese": "Đồn cảnh sát",
+    "koreanPronunciation": "경찰서",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "대사관",
+    "vietnamese": "Đại sứ quán",
+    "koreanPronunciation": "대사관",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "여권 분실",
+    "vietnamese": "Mất hộ chiếu",
+    "koreanPronunciation": "여권 분실",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "위치",
+    "vietnamese": "Vị trí",
+    "koreanPronunciation": "위치",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "간호사",
+    "vietnamese": "Y tá",
+    "koreanPronunciation": "간호사",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "접수",
+    "vietnamese": "Đăng ký",
+    "koreanPronunciation": "접수",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "진료",
+    "vietnamese": "Khám bệnh",
+    "koreanPronunciation": "진료",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "보험",
+    "vietnamese": "Bảo hiểm",
+    "koreanPronunciation": "보험",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "증상",
+    "vietnamese": "Triệu chứng",
+    "koreanPronunciation": "증상",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "목 아픔",
+    "vietnamese": "Đau họng",
+    "koreanPronunciation": "목 아픔",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "치통",
+    "vietnamese": "Đau răng",
+    "koreanPronunciation": "치통",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "처방전",
+    "vietnamese": "Đơn thuốc",
+    "koreanPronunciation": "처방전",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "하루 세 번",
+    "vietnamese": "Ba lần một ngày",
+    "koreanPronunciation": "하루 세 번",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "식후",
+    "vietnamese": "Sau bữa ăn",
+    "koreanPronunciation": "식후",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "사무실",
+    "vietnamese": "Văn phòng",
+    "koreanPronunciation": "사무실",
+    "vietnamesePronunciation": "",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "전화",
+    "vietnamese": "Cuộc gọi",
+    "koreanPronunciation": "전화",
+    "vietnamesePronunciation": "",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "마감",
+    "vietnamese": "Hạn chót",
+    "koreanPronunciation": "마감",
+    "vietnamesePronunciation": "",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "상사",
+    "vietnamese": "Cấp trên",
+    "koreanPronunciation": "상사",
+    "vietnamesePronunciation": "",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "연필",
+    "vietnamese": "Bút chì",
+    "koreanPronunciation": "연필",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "펜",
+    "vietnamese": "Bút",
+    "koreanPronunciation": "펜",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "칠판",
+    "vietnamese": "Bảng",
+    "koreanPronunciation": "칠판",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "발음",
+    "vietnamese": "Phát âm",
+    "koreanPronunciation": "발음",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "단어",
+    "vietnamese": "Từ vựng",
+    "koreanPronunciation": "단어",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "문장",
+    "vietnamese": "Câu",
+    "koreanPronunciation": "문장",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "오후",
+    "vietnamese": "Buổi chiều",
+    "koreanPronunciation": "오후",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "새벽",
+    "vietnamese": "Rạng sáng",
+    "koreanPronunciation": "새벽",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "주말",
+    "vietnamese": "Cuối tuần",
+    "koreanPronunciation": "주말",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "평일",
+    "vietnamese": "Ngày thường",
+    "koreanPronunciation": "평일",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "이번 주",
+    "vietnamese": "Tuần này",
+    "koreanPronunciation": "이번 주",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "다음 주",
+    "vietnamese": "Tuần sau",
+    "koreanPronunciation": "다음 주",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "지난주",
+    "vietnamese": "Tuần trước",
+    "koreanPronunciation": "지난주",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "달력",
+    "vietnamese": "Lịch",
+    "koreanPronunciation": "달력",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "메모",
+    "vietnamese": "Ghi chú",
+    "koreanPronunciation": "메모",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "알람",
+    "vietnamese": "Báo thức",
+    "koreanPronunciation": "알람",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "우산",
+    "vietnamese": "Ô",
+    "koreanPronunciation": "우산",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "비옷",
+    "vietnamese": "Áo mưa",
+    "koreanPronunciation": "비옷",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "선풍기",
+    "vietnamese": "Quạt",
+    "koreanPronunciation": "선풍기",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "에어컨",
+    "vietnamese": "Máy lạnh",
+    "koreanPronunciation": "에어컨",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "세탁",
+    "vietnamese": "Giặt đồ",
+    "koreanPronunciation": "세탁",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "청소",
+    "vietnamese": "Dọn dẹp",
+    "koreanPronunciation": "청소",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "쓰레기",
+    "vietnamese": "Rác",
+    "koreanPronunciation": "쓰레기",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "분리수거",
+    "vietnamese": "Phân loại rác",
+    "koreanPronunciation": "분리수거",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "조용해요",
+    "vietnamese": "Yên tĩnh",
+    "koreanPronunciation": "조용해요",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "시끄러워요",
+    "vietnamese": "Ồn",
+    "koreanPronunciation": "시끄러워요",
+    "vietnamesePronunciation": "",
+    "category": "일상",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "쌀",
+    "vietnamese": "Gạo",
+    "koreanPronunciation": "쌀",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "국",
+    "vietnamese": "Canh",
+    "koreanPronunciation": "국",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "반찬",
+    "vietnamese": "Món ăn kèm",
+    "koreanPronunciation": "반찬",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "김치",
+    "vietnamese": "Kim chi",
+    "koreanPronunciation": "김치",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "라면",
+    "vietnamese": "Mì gói",
+    "koreanPronunciation": "라면",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "만두",
+    "vietnamese": "Bánh bao Hàn Quốc",
+    "koreanPronunciation": "만두",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "튀김",
+    "vietnamese": "Đồ chiên",
+    "koreanPronunciation": "튀김",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "해산물",
+    "vietnamese": "Hải sản",
+    "koreanPronunciation": "해산물",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "새우",
+    "vietnamese": "Tôm",
+    "koreanPronunciation": "새우",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "오징어",
+    "vietnamese": "Mực",
+    "koreanPronunciation": "오징어",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "두부",
+    "vietnamese": "Đậu phụ",
+    "koreanPronunciation": "두부",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "버섯",
+    "vietnamese": "Nấm",
+    "koreanPronunciation": "버섯",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "양파",
+    "vietnamese": "Hành tây",
+    "koreanPronunciation": "양파",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "마늘",
+    "vietnamese": "Tỏi",
+    "koreanPronunciation": "마늘",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "고추",
+    "vietnamese": "Ớt",
+    "koreanPronunciation": "고추",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "소스",
+    "vietnamese": "Nước sốt",
+    "koreanPronunciation": "소스",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "메뉴판",
+    "vietnamese": "Thực đơn",
+    "koreanPronunciation": "메뉴판",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "주문",
+    "vietnamese": "Gọi món",
+    "koreanPronunciation": "주문",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "계산대",
+    "vietnamese": "Quầy thanh toán",
+    "koreanPronunciation": "계산대",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "맛없어요",
+    "vietnamese": "Không ngon",
+    "koreanPronunciation": "맛없어요",
+    "vietnamesePronunciation": "",
+    "category": "음식",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "모자",
+    "vietnamese": "Mũ",
+    "koreanPronunciation": "모자",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "가방끈",
+    "vietnamese": "Dây túi",
+    "koreanPronunciation": "가방끈",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "화장품",
+    "vietnamese": "Mỹ phẩm",
+    "koreanPronunciation": "화장품",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "샴푸 세트",
+    "vietnamese": "Bộ dầu gội",
+    "koreanPronunciation": "샴푸 세트",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "선물",
+    "vietnamese": "Quà tặng",
+    "koreanPronunciation": "선물",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "장바구니",
+    "vietnamese": "Giỏ hàng",
+    "koreanPronunciation": "장바구니",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "계산원",
+    "vietnamese": "Thu ngân",
+    "koreanPronunciation": "계산원",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "바코드",
+    "vietnamese": "Mã vạch",
+    "koreanPronunciation": "바코드",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "포인트",
+    "vietnamese": "Điểm tích lũy",
+    "koreanPronunciation": "포인트",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "쿠폰",
+    "vietnamese": "Phiếu giảm giá",
+    "koreanPronunciation": "쿠폰",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "새 제품",
+    "vietnamese": "Hàng mới",
+    "koreanPronunciation": "새 제품",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "중고",
+    "vietnamese": "Đồ cũ",
+    "koreanPronunciation": "중고",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "품절",
+    "vietnamese": "Hết hàng",
+    "koreanPronunciation": "품절",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "재고",
+    "vietnamese": "Hàng tồn",
+    "koreanPronunciation": "재고",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "리셉션",
+    "vietnamese": "Lễ tân",
+    "koreanPronunciation": "리셉션",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "로비",
+    "vietnamese": "Sảnh",
+    "koreanPronunciation": "로비",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "조식",
+    "vietnamese": "Bữa sáng khách sạn",
+    "koreanPronunciation": "조식",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "전망",
+    "vietnamese": "Tầm nhìn",
+    "koreanPronunciation": "전망",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "금고",
+    "vietnamese": "Két sắt",
+    "koreanPronunciation": "금고",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "세탁 서비스",
+    "vietnamese": "Dịch vụ giặt ủi",
+    "koreanPronunciation": "세탁 서비스",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "택배",
+    "vietnamese": "Bưu kiện",
+    "koreanPronunciation": "택배",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "우체국",
+    "vietnamese": "Bưu điện",
+    "koreanPronunciation": "우체국",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "환전",
+    "vietnamese": "Đổi tiền",
+    "koreanPronunciation": "환전",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "환율",
+    "vietnamese": "Tỷ giá",
+    "koreanPronunciation": "환율",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "현지인",
+    "vietnamese": "Người địa phương",
+    "koreanPronunciation": "현지인",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "가이드",
+    "vietnamese": "Hướng dẫn viên",
+    "koreanPronunciation": "가이드",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "투어",
+    "vietnamese": "Chuyến tham quan",
+    "koreanPronunciation": "투어",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "입장권",
+    "vietnamese": "Vé vào cửa",
+    "koreanPronunciation": "입장권",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "줄",
+    "vietnamese": "Hàng đợi",
+    "koreanPronunciation": "줄",
+    "vietnamesePronunciation": "",
+    "category": "여행",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "승객",
+    "vietnamese": "Hành khách",
+    "koreanPronunciation": "승객",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "잔액",
+    "vietnamese": "Số dư",
+    "koreanPronunciation": "잔액",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "환승",
+    "vietnamese": "Chuyển tuyến",
+    "koreanPronunciation": "환승",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "교차로",
+    "vietnamese": "Ngã tư",
+    "koreanPronunciation": "교차로",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "신호등",
+    "vietnamese": "Đèn giao thông",
+    "koreanPronunciation": "신호등",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "횡단보도",
+    "vietnamese": "Vạch sang đường",
+    "koreanPronunciation": "횡단보도",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "고속버스",
+    "vietnamese": "Xe khách",
+    "koreanPronunciation": "고속버스",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "국내선",
+    "vietnamese": "Chuyến bay nội địa",
+    "koreanPronunciation": "국내선",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "국제선",
+    "vietnamese": "Chuyến bay quốc tế",
+    "koreanPronunciation": "국제선",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "탑승구",
+    "vietnamese": "Cổng lên máy bay",
+    "koreanPronunciation": "탑승구",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "출국장",
+    "vietnamese": "Khu xuất cảnh",
+    "koreanPronunciation": "출국장",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "입국장",
+    "vietnamese": "Khu nhập cảnh",
+    "koreanPronunciation": "입국장",
+    "vietnamesePronunciation": "",
+    "category": "교통",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "콧물",
+    "vietnamese": "Sổ mũi",
+    "koreanPronunciation": "콧물",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "어지러움",
+    "vietnamese": "Chóng mặt",
+    "koreanPronunciation": "어지러움",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "메스꺼움",
+    "vietnamese": "Buồn nôn",
+    "koreanPronunciation": "메스꺼움",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "상처",
+    "vietnamese": "Vết thương",
+    "koreanPronunciation": "상처",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "소독약",
+    "vietnamese": "Thuốc sát trùng",
+    "koreanPronunciation": "소독약",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "밴드",
+    "vietnamese": "Băng cá nhân",
+    "koreanPronunciation": "밴드",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "체온계",
+    "vietnamese": "Nhiệt kế",
+    "koreanPronunciation": "체온계",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "주사",
+    "vietnamese": "Tiêm",
+    "koreanPronunciation": "주사",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "검사",
+    "vietnamese": "Xét nghiệm",
+    "koreanPronunciation": "검사",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "진단서",
+    "vietnamese": "Giấy chẩn đoán",
+    "koreanPronunciation": "진단서",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "예약 접수",
+    "vietnamese": "Đăng ký lịch hẹn",
+    "koreanPronunciation": "예약 접수",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "구조",
+    "vietnamese": "Cứu hộ",
+    "koreanPronunciation": "구조",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "응급실",
+    "vietnamese": "Phòng cấp cứu",
+    "koreanPronunciation": "응급실",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "비상구",
+    "vietnamese": "Lối thoát hiểm",
+    "koreanPronunciation": "비상구",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "안전",
+    "vietnamese": "An toàn",
+    "koreanPronunciation": "안전",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "위험 지역",
+    "vietnamese": "Khu vực nguy hiểm",
+    "koreanPronunciation": "위험 지역",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "분실물 센터",
+    "vietnamese": "Trung tâm đồ thất lạc",
+    "koreanPronunciation": "분실물 센터",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "신분증",
+    "vietnamese": "Giấy tờ tùy thân",
+    "koreanPronunciation": "신분증",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "연락처 카드",
+    "vietnamese": "Thẻ liên lạc",
+    "koreanPronunciation": "연락처 카드",
+    "vietnamesePronunciation": "",
+    "category": "긴급",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "프린터",
+    "vietnamese": "Máy in",
+    "koreanPronunciation": "프린터",
+    "vietnamesePronunciation": "",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "복사기",
+    "vietnamese": "Máy photocopy",
+    "koreanPronunciation": "복사기",
+    "vietnamesePronunciation": "",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "계약서",
+    "vietnamese": "Hợp đồng",
+    "koreanPronunciation": "계약서",
+    "vietnamesePronunciation": "",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "영수증 처리",
+    "vietnamese": "Xử lý biên lai",
+    "koreanPronunciation": "영수증 처리",
+    "vietnamesePronunciation": "",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "출장",
+    "vietnamese": "Đi công tác",
+    "koreanPronunciation": "출장",
+    "vietnamesePronunciation": "",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "급여",
+    "vietnamese": "Lương",
+    "koreanPronunciation": "급여",
+    "vietnamesePronunciation": "",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "면접",
+    "vietnamese": "Phỏng vấn",
+    "koreanPronunciation": "면접",
+    "vietnamesePronunciation": "",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "교육",
+    "vietnamese": "Đào tạo",
+    "koreanPronunciation": "교육",
+    "vietnamesePronunciation": "",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "업무",
+    "vietnamese": "Công việc",
+    "koreanPronunciation": "업무",
+    "vietnamesePronunciation": "",
+    "category": "일",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "학원",
+    "vietnamese": "Trung tâm học thêm",
+    "koreanPronunciation": "학원",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "도서관",
+    "vietnamese": "Thư viện",
+    "koreanPronunciation": "도서관",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "강의실",
+    "vietnamese": "Phòng học",
+    "koreanPronunciation": "강의실",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "출석",
+    "vietnamese": "Điểm danh",
+    "koreanPronunciation": "출석",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "결석",
+    "vietnamese": "Vắng mặt",
+    "koreanPronunciation": "결석",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "학기",
+    "vietnamese": "Học kỳ",
+    "koreanPronunciation": "학기",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "졸업",
+    "vietnamese": "Tốt nghiệp",
+    "koreanPronunciation": "졸업",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "입학",
+    "vietnamese": "Nhập học",
+    "koreanPronunciation": "입학",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "복습",
+    "vietnamese": "Ôn tập",
+    "koreanPronunciation": "복습",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "예습",
+    "vietnamese": "Chuẩn bị bài",
+    "koreanPronunciation": "예습",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "사전",
+    "vietnamese": "Từ điển",
+    "koreanPronunciation": "사전",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  },
+  {
+    "korean": "번역",
+    "vietnamese": "Dịch",
+    "koreanPronunciation": "번역",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+  }
+]
