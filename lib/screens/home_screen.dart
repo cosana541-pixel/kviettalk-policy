@@ -35,22 +35,23 @@ class _HomeScreenState extends State<HomeScreen> {
     ];
 
     return Scaffold(
-      appBar: AppBar(title: const Text('K-Viet Talk')),
-      body: Column(
-        children: [
-          _HomeHeader(
-            isLoading: isLoading,
-            selectedIndex: _selectedIndex,
-            onMenuTap: (index) {
-              setState(() => _selectedIndex = index);
-            },
-          ),
-          Expanded(
-            child: isLoading
-                ? const _LoadingLessonState()
-                : screens[_selectedIndex],
-          ),
-        ],
+      body: SafeArea(
+        child: Column(
+          children: [
+            _HomeHeader(
+              isLoading: isLoading,
+              selectedIndex: _selectedIndex,
+              onMenuTap: (index) {
+                setState(() => _selectedIndex = index);
+              },
+            ),
+            Expanded(
+              child: isLoading
+                  ? const _LoadingLessonState()
+                  : screens[_selectedIndex],
+            ),
+          ],
+        ),
       ),
       bottomNavigationBar: NavigationBar(
         selectedIndex: _selectedIndex,
