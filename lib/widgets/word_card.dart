@@ -25,41 +25,66 @@ class WordCard extends StatelessWidget {
     final isFavorite = appState.isFavorite(word);
 
     return Card(
-      margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
-      child: ListTile(
-        contentPadding: const EdgeInsets.fromLTRB(16, 10, 8, 10),
+      margin: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
+      child: InkWell(
+        borderRadius: BorderRadius.circular(8),
         onTap: onTap,
-        title: Text(
-          word.korean,
-          style: Theme.of(
-            context,
-          ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
-          maxLines: 2,
-          overflow: TextOverflow.ellipsis,
-        ),
-        subtitle: Padding(
-          padding: const EdgeInsets.only(top: 6),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(14, 12, 8, 12),
+          child: Row(
             children: [
-              Text(
-                word.vietnamese,
-                maxLines: 2,
-                overflow: TextOverflow.ellipsis,
+              if (word.image != null) ...[
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(8),
+                  child: Image.asset(
+                    word.image!,
+                    width: 76,
+                    height: 76,
+                    fit: BoxFit.cover,
+                    errorBuilder: (_, _, _) => const SizedBox.shrink(),
+                  ),
+                ),
+                const SizedBox(width: 12),
+              ],
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      word.korean,
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.bold,
+                      ),
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                    const SizedBox(height: 6),
+                    Text(
+                      word.vietnamese,
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                      style: Theme.of(context).textTheme.bodyMedium,
+                    ),
+                    const SizedBox(height: 8),
+                    Text(
+                      categoryLabelVi(word.category),
+                      style: Theme.of(context).textTheme.labelSmall?.copyWith(
+                        color: Theme.of(context).colorScheme.primary,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ],
+                ),
               ),
-              const SizedBox(height: 4),
-              Text(
-                categoryLabelVi(word.category),
-                style: Theme.of(context).textTheme.labelSmall,
+              const SizedBox(width: 4),
+              IconButton(
+                tooltip: isFavorite ? 'Bỏ yêu thích' : 'Thêm yêu thích',
+                icon: Icon(isFavorite ? Icons.star : Icons.star_border),
+                color: isFavorite ? Colors.amber.shade700 : null,
+                onPressed: () => appState.toggleFavorite(word),
               ),
             ],
           ),
-        ),
-        trailing: IconButton(
-          tooltip: isFavorite ? 'Bỏ yêu thích' : 'Thêm yêu thích',
-          icon: Icon(isFavorite ? Icons.star : Icons.star_border),
-          color: isFavorite ? Colors.amber.shade700 : null,
-          onPressed: () => appState.toggleFavorite(word),
         ),
       ),
     );

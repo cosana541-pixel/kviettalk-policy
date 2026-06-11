@@ -8,6 +8,7 @@ class Word {
     required this.koreanPronunciation,
     required this.vietnamesePronunciation,
     required this.category,
+    this.image,
   });
 
   final String korean;
@@ -15,6 +16,7 @@ class Word {
   final String koreanPronunciation;
   final String vietnamesePronunciation;
   final String category;
+  final String? image;
 
   // 즐겨찾기 저장용 고유 값입니다. 서버가 없으므로 두 언어 값을 조합합니다.
   String get id => '$korean|$vietnamese';
@@ -26,6 +28,7 @@ class Word {
       koreanPronunciation: json['koreanPronunciation'] as String,
       vietnamesePronunciation: json['vietnamesePronunciation'] as String,
       category: json['category'] as String,
+      image: json['image'] as String?,
     );
   }
 

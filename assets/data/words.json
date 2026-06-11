@@ -47,35 +47,40 @@
     "vietnamese": "Nước",
     "koreanPronunciation": "물",
     "vietnamesePronunciation": "느억",
-    "category": "음식"
+    "category": "음식",
+    "image": "assets/images/words/water.png"
   },
   {
     "korean": "밥",
     "vietnamese": "Cơm",
     "koreanPronunciation": "밥",
     "vietnamesePronunciation": "껌",
-    "category": "음식"
+    "category": "음식",
+    "image": "assets/images/words/rice.png"
   },
   {
     "korean": "커피",
     "vietnamese": "Cà phê",
     "koreanPronunciation": "커피",
     "vietnamesePronunciation": "까 페",
-    "category": "음식"
+    "category": "음식",
+    "image": "assets/images/words/coffee.png"
   },
   {
     "korean": "쌀국수",
     "vietnamese": "Phở",
     "koreanPronunciation": "쌀국수",
     "vietnamesePronunciation": "퍼",
-    "category": "음식"
+    "category": "음식",
+    "image": "assets/images/words/pho.png"
   },
   {
     "korean": "맛있어요",
     "vietnamese": "Ngon",
     "koreanPronunciation": "마시써요",
     "vietnamesePronunciation": "응온",
-    "category": "음식"
+    "category": "음식",
+    "image": "assets/images/words/delicious.png"
   },
   {
     "korean": "계산서 주세요",
