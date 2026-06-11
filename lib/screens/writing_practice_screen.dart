@@ -216,7 +216,7 @@ class _WritingPracticeScreenState extends State<WritingPracticeScreen> {
     });
 
     if (countedNewQuestion) {
-      await _increaseTodayLearningCount();
+      await _recordTodayLearningActivity();
     }
     await _savePracticeResult();
     widget.onPracticeResultChanged?.call();
@@ -284,7 +284,7 @@ class _WritingPracticeScreenState extends State<WritingPracticeScreen> {
     );
   }
 
-  Future<void> _increaseTodayLearningCount() async {
+  Future<void> _recordTodayLearningActivity() async {
     final preferences = await SharedPreferences.getInstance();
     final today = _todayKey();
     final savedDate = preferences.getString(LearningStatsKeys.todayDate);
@@ -294,6 +294,20 @@ class _WritingPracticeScreenState extends State<WritingPracticeScreen> {
 
     await preferences.setString(LearningStatsKeys.todayDate, today);
     await preferences.setInt(LearningStatsKeys.todayCount, currentCount + 1);
+
+    if (savedDate != today) {
+      final streakLastDate = preferences.getString(
+        LearningStatsKeys.streakLastDate,
+      );
+      final currentStreak =
+          preferences.getInt(LearningStatsKeys.streakCount) ?? 0;
+      final nextStreak = streakLastDate == _yesterdayKey()
+          ? currentStreak + 1
+          : 1;
+
+      await preferences.setInt(LearningStatsKeys.streakCount, nextStreak);
+      await preferences.setString(LearningStatsKeys.streakLastDate, today);
+    }
   }
 
   Future<void> _resetPracticeResult() async {
@@ -316,6 +330,16 @@ class _WritingPracticeScreenState extends State<WritingPracticeScreen> {
 
   String _todayKey() {
     final now = DateTime.now();
+    return _dateKey(now);
+  }
+
+  String _yesterdayKey() {
+    final yesterday = DateTime.now().subtract(const Duration(days: 1));
+    return _dateKey(yesterday);
+  }
+
+  String _dateKey(DateTime date) {
+    final now = date;
     final month = now.month.toString().padLeft(2, '0');
     final day = now.day.toString().padLeft(2, '0');
     return '${now.year}-$month-$day';

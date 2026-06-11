@@ -26,6 +26,8 @@ class _HomeScreenState extends State<HomeScreen> {
   int _writingCorrectCount = 0;
   int _writingWrongCount = 0;
   int _todayLearningCount = 0;
+  int _streakCount = 0;
+  int _dailyGoal = 10;
 
   int get _writingAccuracy => _writingTotalCount == 0
       ? 0
@@ -65,6 +67,8 @@ class _HomeScreenState extends State<HomeScreen> {
               writingAccuracy: _writingAccuracy,
               writingWrongCount: _writingWrongCount,
               todayLearningCount: _todayLearningCount,
+              streakCount: _streakCount,
+              dailyGoal: _dailyGoal,
               words: words,
               favoriteCount: favoriteCount,
               onMenuTap: (index) {
@@ -120,11 +124,39 @@ class _HomeScreenState extends State<HomeScreen> {
       _todayLearningCount = savedDate == today
           ? preferences.getInt(LearningStatsKeys.todayCount) ?? 0
           : 0;
+      _streakCount = _activeStreakCount(
+        preferences.getInt(LearningStatsKeys.streakCount) ?? 0,
+        preferences.getString(LearningStatsKeys.streakLastDate),
+        today,
+      );
+      _dailyGoal = preferences.getInt(LearningStatsKeys.dailyGoal) ?? 10;
     });
+  }
+
+  int _activeStreakCount(int savedCount, String? lastDate, String today) {
+    if (savedCount <= 0 || lastDate == null) {
+      return 0;
+    }
+
+    if (lastDate == today || lastDate == _yesterdayKey()) {
+      return savedCount;
+    }
+
+    return 0;
   }
 
   String _todayKey() {
     final now = DateTime.now();
+    return _dateKey(now);
+  }
+
+  String _yesterdayKey() {
+    final yesterday = DateTime.now().subtract(const Duration(days: 1));
+    return _dateKey(yesterday);
+  }
+
+  String _dateKey(DateTime date) {
+    final now = date;
     final month = now.month.toString().padLeft(2, '0');
     final day = now.day.toString().padLeft(2, '0');
     return '${now.year}-$month-$day';
@@ -159,6 +191,8 @@ class _HomeHeader extends StatelessWidget {
     required this.writingAccuracy,
     required this.writingWrongCount,
     required this.todayLearningCount,
+    required this.streakCount,
+    required this.dailyGoal,
     required this.words,
     required this.favoriteCount,
     required this.onMenuTap,
@@ -169,6 +203,8 @@ class _HomeHeader extends StatelessWidget {
   final int writingAccuracy;
   final int writingWrongCount;
   final int todayLearningCount;
+  final int streakCount;
+  final int dailyGoal;
   final List<Word> words;
   final int favoriteCount;
   final ValueChanged<int> onMenuTap;
@@ -178,14 +214,14 @@ class _HomeHeader extends StatelessWidget {
     return Material(
       color: Theme.of(context).colorScheme.surface,
       child: Padding(
-        padding: const EdgeInsets.fromLTRB(16, 10, 16, 10),
+        padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             _WelcomePanel(isLoading: isLoading),
-            const SizedBox(height: 12),
+            const SizedBox(height: 8),
             SizedBox(
-              height: 136,
+              height: 110,
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: [
@@ -215,13 +251,17 @@ class _HomeHeader extends StatelessWidget {
                 ],
               ),
             ),
-            const SizedBox(height: 10),
+            const SizedBox(height: 8),
             SizedBox(
-              height: 124,
+              height: 118,
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: [
-                  _TodayLearningCard(count: todayLearningCount),
+                  _TodayLearningCard(
+                    count: todayLearningCount,
+                    streakCount: streakCount,
+                    dailyGoal: dailyGoal,
+                  ),
                   _ProgressOverviewCard(
                     totalWordCount: words.length,
                     imageWordCount: words
@@ -252,7 +292,7 @@ class _WelcomePanel extends StatelessWidget {
 
     return Container(
       width: double.infinity,
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
         color: colorScheme.primaryContainer,
         borderRadius: BorderRadius.circular(8),
@@ -260,8 +300,8 @@ class _WelcomePanel extends StatelessWidget {
       child: Row(
         children: [
           Container(
-            width: 44,
-            height: 44,
+            width: 38,
+            height: 38,
             decoration: BoxDecoration(
               color: colorScheme.surface,
               borderRadius: BorderRadius.circular(8),
@@ -338,7 +378,7 @@ class _PrimaryShortcutCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(8),
           onTap: onTap,
           child: Padding(
-            padding: const EdgeInsets.all(14),
+            padding: const EdgeInsets.all(12),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -366,7 +406,7 @@ class _PrimaryShortcutCard extends StatelessWidget {
                     color: foregroundColor,
                   ),
                 ),
-                const SizedBox(height: 4),
+                const SizedBox(height: 3),
                 Text(
                   description,
                   maxLines: 2,
@@ -385,41 +425,83 @@ class _PrimaryShortcutCard extends StatelessWidget {
 }
 
 class _TodayLearningCard extends StatelessWidget {
-  const _TodayLearningCard({required this.count});
+  const _TodayLearningCard({
+    required this.count,
+    required this.streakCount,
+    required this.dailyGoal,
+  });
 
   final int count;
+  final int streakCount;
+  final int dailyGoal;
 
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
+    final effectiveGoal = dailyGoal <= 0 ? 10 : dailyGoal;
+    final progress = (count / effectiveGoal).clamp(0.0, 1.0);
+    final isGoalDone = count >= effectiveGoal;
 
     return SizedBox(
-      width: 178,
+      width: 252,
       child: Card(
         margin: const EdgeInsets.only(right: 10),
         child: Padding(
-          padding: const EdgeInsets.all(12),
+          padding: const EdgeInsets.all(10),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Icon(Icons.today, color: colorScheme.primary),
-              const Spacer(),
-              Text(
-                'Học hôm nay',
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-                style: Theme.of(
-                  context,
-                ).textTheme.titleSmall?.copyWith(fontWeight: FontWeight.bold),
+              Row(
+                children: [
+                  Icon(Icons.today, color: colorScheme.primary),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      'Học hôm nay',
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ],
               ),
               const SizedBox(height: 4),
               Text(
                 count == 0
                     ? 'Hãy bắt đầu học hôm nay'
                     : '$count hoạt động đã học',
-                maxLines: 2,
+                maxLines: 1,
                 overflow: TextOverflow.ellipsis,
                 style: Theme.of(context).textTheme.bodySmall,
+              ),
+              const SizedBox(height: 5),
+              Text(
+                'Mục tiêu hôm nay $count/$effectiveGoal',
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: Theme.of(
+                  context,
+                ).textTheme.labelMedium?.copyWith(fontWeight: FontWeight.bold),
+              ),
+              const SizedBox(height: 4),
+              LinearProgressIndicator(value: progress),
+              const SizedBox(height: 5),
+              Text(
+                isGoalDone
+                    ? 'Hoàn thành mục tiêu hôm nay!'
+                    : streakCount == 0
+                    ? 'Chuỗi học tập: bắt đầu hôm nay'
+                    : 'Chuỗi học tập: $streakCount ngày liên tiếp',
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: Theme.of(context).textTheme.labelSmall?.copyWith(
+                  color: isGoalDone
+                      ? colorScheme.primary
+                      : colorScheme.onSurfaceVariant,
+                  fontWeight: FontWeight.w600,
+                ),
               ),
             ],
           ),
@@ -453,7 +535,7 @@ class _ProgressOverviewCard extends StatelessWidget {
       child: Card(
         color: colorScheme.surfaceContainerHighest,
         child: Padding(
-          padding: const EdgeInsets.all(12),
+          padding: const EdgeInsets.all(10),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -465,10 +547,10 @@ class _ProgressOverviewCard extends StatelessWidget {
                   context,
                 ).textTheme.titleSmall?.copyWith(fontWeight: FontWeight.bold),
               ),
-              const SizedBox(height: 7),
+              const SizedBox(height: 5),
               Wrap(
                 spacing: 6,
-                runSpacing: 5,
+                runSpacing: 4,
                 children: [
                   _ProgressChip(label: 'Từ', value: totalWordCount.toString()),
                   _ProgressChip(label: 'Ảnh', value: imageWordCount.toString()),
