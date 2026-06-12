@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../data/app_state.dart';
 import '../models/word.dart';
 import '../utils/learning_direction.dart';
+import '../utils/review_repository.dart';
 import '../widgets/category_filter.dart';
 import '../widgets/word_card.dart';
 import 'word_detail_screen.dart';
@@ -92,7 +94,14 @@ class _WordListScreenState extends State<WordListScreen> {
     }).toList();
   }
 
-  void _openDetail(BuildContext context, Word word) {
+  Future<void> _openDetail(BuildContext context, Word word) async {
+    final preferences = await SharedPreferences.getInstance();
+    await ReviewRepository(preferences).addRecentWord(word);
+
+    if (!context.mounted) {
+      return;
+    }
+
     Navigator.of(context).push(
       MaterialPageRoute(
         builder: (_) =>

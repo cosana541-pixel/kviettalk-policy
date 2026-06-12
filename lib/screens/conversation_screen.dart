@@ -6,6 +6,7 @@ import '../services/conversation_service.dart';
 import '../services/favorite_service.dart';
 import '../services/tts_service.dart';
 import '../utils/category_labels.dart';
+import '../widgets/illustration_placeholder.dart';
 
 class ConversationScreen extends StatefulWidget {
   const ConversationScreen({super.key});
@@ -224,6 +225,12 @@ class _ConversationCard extends StatelessWidget {
             Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                IllustrationPlaceholder(
+                  icon: _conversationIcon(conversation.category),
+                  assetPath: _conversationAsset(conversation.category),
+                  size: 38,
+                ),
+                const SizedBox(width: 10),
                 Expanded(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -254,6 +261,53 @@ class _ConversationCard extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  IconData _conversationIcon(String category) {
+    switch (category) {
+      case 'restaurant':
+      case 'food':
+      case '음식':
+        return Icons.restaurant_outlined;
+      case 'shopping':
+      case '쇼핑':
+        return Icons.shopping_bag_outlined;
+      case 'travel':
+      case '여행':
+        return Icons.luggage_outlined;
+      case 'transport':
+      case '교통':
+        return Icons.directions_bus_outlined;
+      case 'hospital':
+      case '병원':
+        return Icons.local_hospital_outlined;
+      case 'emergency':
+      case '긴급':
+        return Icons.emergency_outlined;
+      default:
+        return Icons.forum_outlined;
+    }
+  }
+
+  String? _conversationAsset(String category) {
+    switch (category) {
+      case 'restaurant':
+      case 'food':
+      case '음식':
+        return 'assets/images/conversation/restaurant.png';
+      case 'cafe':
+      case '카페':
+        return 'assets/images/conversation/cafe.png';
+      case 'hospital':
+      case '병원':
+        return 'assets/images/conversation/hospital_conversation.png';
+      case 'transport':
+      case 'subway':
+      case '교통':
+        return 'assets/images/conversation/subway.png';
+      default:
+        return null;
+    }
   }
 }
 

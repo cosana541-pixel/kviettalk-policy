@@ -7,11 +7,13 @@ class LearningProgressSnapshot {
     required this.todayCount,
     required this.streakCount,
     required this.dailyGoal,
+    required this.totalActivityCount,
   });
 
   final int todayCount;
   final int streakCount;
   final int dailyGoal;
+  final int totalActivityCount;
 }
 
 class LearningProgressTracker {
@@ -40,6 +42,8 @@ class LearningProgressTracker {
       ),
       dailyGoal:
           preferences.getInt(LearningStatsKeys.dailyGoal) ?? defaultDailyGoal,
+      totalActivityCount:
+          preferences.getInt(LearningStatsKeys.totalActivityCount) ?? 0,
     );
   }
 
@@ -54,6 +58,10 @@ class LearningProgressTracker {
 
     await preferences.setString(LearningStatsKeys.todayDate, today);
     await preferences.setInt(LearningStatsKeys.todayCount, currentCount + 1);
+    await preferences.setInt(
+      LearningStatsKeys.totalActivityCount,
+      (preferences.getInt(LearningStatsKeys.totalActivityCount) ?? 0) + 1,
+    );
 
     if (savedDate == today) {
       return;

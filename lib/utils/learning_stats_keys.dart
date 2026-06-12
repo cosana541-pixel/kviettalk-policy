@@ -9,4 +9,8 @@ class LearningStatsKeys {
   static const String streakCount = 'learning_streak_count';
   static const String streakLastDate = 'learning_streak_last_date';
   static const String dailyGoal = 'learning_daily_goal';
+  static const String totalActivityCount = 'learning_total_activity_count';
+  static const String quizWrongIds = 'quiz_wrong_word_ids';
+  static const String recentWordIds = 'recent_word_ids';
+  static const String firstRunGuideSeen = 'first_run_guide_seen';
 }

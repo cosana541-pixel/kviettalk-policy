@@ -8,6 +8,7 @@ import '../data/app_state.dart';
 import '../models/word.dart';
 import '../utils/learning_direction.dart';
 import '../utils/learning_progress_tracker.dart';
+import '../utils/review_repository.dart';
 
 class QuizScreen extends StatefulWidget {
   const QuizScreen({super.key, required this.direction, this.onQuizAnswered});
@@ -153,6 +154,12 @@ class _QuizScreenState extends State<QuizScreen> {
 
     final preferences = await SharedPreferences.getInstance();
     await LearningProgressTracker(preferences).recordActivity();
+    final reviewRepository = ReviewRepository(preferences);
+    if (option.id == _question?.id) {
+      await reviewRepository.removeWrongQuizWord(option);
+    } else {
+      await reviewRepository.addWrongQuizWord(_question!);
+    }
     widget.onQuizAnswered?.call();
   }
 }

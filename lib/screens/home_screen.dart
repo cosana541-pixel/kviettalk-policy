@@ -7,9 +7,11 @@ import '../models/word.dart';
 import '../utils/learning_progress_tracker.dart';
 import '../utils/learning_stats_keys.dart';
 import '../utils/learning_direction.dart';
+import '../widgets/illustration_placeholder.dart';
 import 'conversation_screen.dart';
 import 'favorites_screen.dart';
 import 'quiz_screen.dart';
+import 'review_screen.dart';
 import 'sentence_list_screen.dart';
 import 'word_list_screen.dart';
 import 'writing_practice_screen.dart';
@@ -29,6 +31,9 @@ class _HomeScreenState extends State<HomeScreen> {
   int _todayLearningCount = 0;
   int _streakCount = 0;
   int _dailyGoal = 10;
+  int _totalLearningCount = 0;
+  int _wrongQuizCount = 0;
+  int _recentWordCount = 0;
 
   int get _writingAccuracy => _writingTotalCount == 0
       ? 0
@@ -38,6 +43,9 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     super.initState();
     _loadLearningStats();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _showFirstRunGuideIfNeeded();
+    });
   }
 
   @override
@@ -58,6 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
         onQuizAnswered: _loadLearningStats,
       ),
       WritingPracticeScreen(onPracticeResultChanged: _loadLearningStats),
+      ReviewScreen(direction: activeDirection),
       FavoritesScreen(direction: activeDirection),
     ];
 
@@ -73,6 +82,9 @@ class _HomeScreenState extends State<HomeScreen> {
               todayLearningCount: _todayLearningCount,
               streakCount: _streakCount,
               dailyGoal: _dailyGoal,
+              totalLearningCount: _totalLearningCount,
+              wrongQuizCount: _wrongQuizCount,
+              recentWordCount: _recentWordCount,
               words: words,
               favoriteCount: favoriteCount,
               onMenuTap: (index) {
@@ -101,6 +113,7 @@ class _HomeScreenState extends State<HomeScreen> {
           NavigationDestination(icon: Icon(Icons.forum), label: 'Hội thoại'),
           NavigationDestination(icon: Icon(Icons.quiz), label: 'Câu đố'),
           NavigationDestination(icon: Icon(Icons.edit_note), label: 'Viết'),
+          NavigationDestination(icon: Icon(Icons.replay), label: 'Ôn tập'),
           NavigationDestination(icon: Icon(Icons.star), label: 'Yêu thích'),
         ],
       ),
@@ -127,7 +140,48 @@ class _HomeScreenState extends State<HomeScreen> {
       _todayLearningCount = progress.todayCount;
       _streakCount = progress.streakCount;
       _dailyGoal = progress.dailyGoal;
+      _totalLearningCount = progress.totalActivityCount;
+      _wrongQuizCount =
+          preferences.getStringList(LearningStatsKeys.quizWrongIds)?.length ??
+          0;
+      _recentWordCount =
+          preferences.getStringList(LearningStatsKeys.recentWordIds)?.length ??
+          0;
     });
+  }
+
+  Future<void> _showFirstRunGuideIfNeeded() async {
+    final preferences = await SharedPreferences.getInstance();
+    final hasSeenGuide =
+        preferences.getBool(LearningStatsKeys.firstRunGuideSeen) ?? false;
+
+    if (!mounted || hasSeenGuide) {
+      return;
+    }
+
+    await preferences.setBool(LearningStatsKeys.firstRunGuideSeen, true);
+
+    if (!mounted) {
+      return;
+    }
+
+    showDialog<void>(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: const Text('Chào mừng đến K-Viet Talk'),
+          content: const Text(
+            'Học từ vựng, luyện viết và làm quiz mỗi ngày để giữ chuỗi học tập.',
+          ),
+          actions: [
+            FilledButton(
+              onPressed: () => Navigator.of(context).pop(),
+              child: const Text('Bắt đầu học'),
+            ),
+          ],
+        );
+      },
+    );
   }
 }
 
@@ -161,6 +215,9 @@ class _HomeHeader extends StatelessWidget {
     required this.todayLearningCount,
     required this.streakCount,
     required this.dailyGoal,
+    required this.totalLearningCount,
+    required this.wrongQuizCount,
+    required this.recentWordCount,
     required this.words,
     required this.favoriteCount,
     required this.onMenuTap,
@@ -173,6 +230,9 @@ class _HomeHeader extends StatelessWidget {
   final int todayLearningCount;
   final int streakCount;
   final int dailyGoal;
+  final int totalLearningCount;
+  final int wrongQuizCount;
+  final int recentWordCount;
   final List<Word> words;
   final int favoriteCount;
   final ValueChanged<int> onMenuTap;
@@ -216,12 +276,19 @@ class _HomeHeader extends StatelessWidget {
                     isSelected: selectedIndex == 3,
                     onTap: () => onMenuTap(3),
                   ),
+                  _PrimaryShortcutCard(
+                    icon: Icons.replay,
+                    title: 'Ôn tập',
+                    description: 'Quiz sai · từ yêu thích',
+                    isSelected: selectedIndex == 5,
+                    onTap: () => onMenuTap(5),
+                  ),
                 ],
               ),
             ),
             const SizedBox(height: 8),
             SizedBox(
-              height: 118,
+              height: 128,
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: [
@@ -238,6 +305,15 @@ class _HomeHeader extends StatelessWidget {
                     favoriteCount: favoriteCount,
                     writingAccuracy: writingAccuracy,
                     wrongWordCount: writingWrongCount,
+                    totalLearningCount: totalLearningCount,
+                  ),
+                  _RecommendedLearningCard(
+                    wrongQuizCount: wrongQuizCount,
+                    recentWordCount: recentWordCount,
+                    favoriteCount: favoriteCount,
+                    onReviewTap: () => onMenuTap(5),
+                    onFavoritesTap: () => onMenuTap(6),
+                    onWritingTap: () => onMenuTap(4),
                   ),
                 ],
               ),
@@ -267,14 +343,12 @@ class _WelcomePanel extends StatelessWidget {
       ),
       child: Row(
         children: [
-          Container(
-            width: 38,
-            height: 38,
-            decoration: BoxDecoration(
-              color: colorScheme.surface,
-              borderRadius: BorderRadius.circular(8),
-            ),
-            child: Icon(Icons.school, color: colorScheme.primary),
+          IllustrationPlaceholder(
+            icon: Icons.school,
+            assetPath: 'assets/images/home/learning_hero.png',
+            size: 52,
+            backgroundColor: colorScheme.surface,
+            foregroundColor: colorScheme.primary,
           ),
           const SizedBox(width: 12),
           Expanded(
@@ -486,6 +560,7 @@ class _ProgressOverviewCard extends StatelessWidget {
     required this.favoriteCount,
     required this.writingAccuracy,
     required this.wrongWordCount,
+    required this.totalLearningCount,
   });
 
   final int totalWordCount;
@@ -493,6 +568,7 @@ class _ProgressOverviewCard extends StatelessWidget {
   final int favoriteCount;
   final int writingAccuracy;
   final int wrongWordCount;
+  final int totalLearningCount;
 
   @override
   Widget build(BuildContext context) {
@@ -521,6 +597,10 @@ class _ProgressOverviewCard extends StatelessWidget {
                 runSpacing: 4,
                 children: [
                   _ProgressChip(label: 'Từ', value: totalWordCount.toString()),
+                  _ProgressChip(
+                    label: 'Đã học',
+                    value: totalLearningCount.toString(),
+                  ),
                   _ProgressChip(label: 'Ảnh', value: imageWordCount.toString()),
                   _ProgressChip(
                     label: 'Yêu thích',
@@ -529,6 +609,141 @@ class _ProgressOverviewCard extends StatelessWidget {
                   _ProgressChip(label: 'Đúng', value: '$writingAccuracy%'),
                   _ProgressChip(label: 'Sai', value: wrongWordCount.toString()),
                 ],
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _RecommendedLearningCard extends StatelessWidget {
+  const _RecommendedLearningCard({
+    required this.wrongQuizCount,
+    required this.recentWordCount,
+    required this.favoriteCount,
+    required this.onReviewTap,
+    required this.onFavoritesTap,
+    required this.onWritingTap,
+  });
+
+  final int wrongQuizCount;
+  final int recentWordCount;
+  final int favoriteCount;
+  final VoidCallback onReviewTap;
+  final VoidCallback onFavoritesTap;
+  final VoidCallback onWritingTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+    return SizedBox(
+      width: 330,
+      child: Card(
+        margin: const EdgeInsets.only(left: 10),
+        child: Padding(
+          padding: const EdgeInsets.all(10),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  Icon(Icons.auto_awesome, color: colorScheme.primary),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      'Gợi ý học tiếp',
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 6),
+              Text(
+                'Chọn một cách ôn nhanh để giữ nhịp học.',
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: Theme.of(context).textTheme.bodySmall,
+              ),
+              const Spacer(),
+              Row(
+                children: [
+                  _ReviewMiniAction(
+                    icon: Icons.quiz_outlined,
+                    label: 'Quiz',
+                    value: wrongQuizCount.toString(),
+                    onTap: onReviewTap,
+                  ),
+                  const SizedBox(width: 6),
+                  _ReviewMiniAction(
+                    icon: Icons.star_border,
+                    label: 'Lưu',
+                    value: favoriteCount.toString(),
+                    onTap: onFavoritesTap,
+                  ),
+                  const SizedBox(width: 6),
+                  _ReviewMiniAction(
+                    icon: Icons.edit_note,
+                    label: 'Viết',
+                    value: recentWordCount.toString(),
+                    onTap: onWritingTap,
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _ReviewMiniAction extends StatelessWidget {
+  const _ReviewMiniAction({
+    required this.icon,
+    required this.label,
+    required this.value,
+    required this.onTap,
+  });
+
+  final IconData icon;
+  final String label;
+  final String value;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+
+    return Expanded(
+      child: InkWell(
+        borderRadius: BorderRadius.circular(8),
+        onTap: onTap,
+        child: Container(
+          height: 38,
+          padding: const EdgeInsets.symmetric(horizontal: 7),
+          decoration: BoxDecoration(
+            color: colorScheme.surfaceContainerHighest,
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: Row(
+            children: [
+              Icon(icon, size: 17, color: colorScheme.primary),
+              const SizedBox(width: 4),
+              Expanded(
+                child: Text(
+                  '$label $value',
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: Theme.of(
+                    context,
+                  ).textTheme.labelSmall?.copyWith(fontWeight: FontWeight.bold),
+                ),
               ),
             ],
           ),
