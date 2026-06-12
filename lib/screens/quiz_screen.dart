@@ -2,15 +2,18 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../data/app_state.dart';
 import '../models/word.dart';
 import '../utils/learning_direction.dart';
+import '../utils/learning_progress_tracker.dart';
 
 class QuizScreen extends StatefulWidget {
-  const QuizScreen({super.key, required this.direction});
+  const QuizScreen({super.key, required this.direction, this.onQuizAnswered});
 
   final LearningDirection direction;
+  final VoidCallback? onQuizAnswered;
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();
@@ -98,11 +101,7 @@ class _QuizScreenState extends State<QuizScreen> {
               trailing: isAnswered && isCorrect
                   ? const Icon(Icons.check, color: Colors.green)
                   : null,
-              onTap: isAnswered
-                  ? null
-                  : () {
-                      setState(() => _selectedAnswer = option);
-                    },
+              onTap: isAnswered ? null : () => _selectAnswer(option),
             ),
           );
         }),
@@ -143,6 +142,18 @@ class _QuizScreenState extends State<QuizScreen> {
       _options = options;
       _selectedAnswer = null;
     });
+  }
+
+  Future<void> _selectAnswer(Word option) async {
+    if (_selectedAnswer != null) {
+      return;
+    }
+
+    setState(() => _selectedAnswer = option);
+
+    final preferences = await SharedPreferences.getInstance();
+    await LearningProgressTracker(preferences).recordActivity();
+    widget.onQuizAnswered?.call();
   }
 }
 

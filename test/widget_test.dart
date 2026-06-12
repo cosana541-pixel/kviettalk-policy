@@ -6,9 +6,13 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:korean_vietnamese_app/data/app_state.dart';
 import 'package:korean_vietnamese_app/main.dart';
 import 'package:korean_vietnamese_app/models/word.dart';
+import 'package:korean_vietnamese_app/screens/quiz_screen.dart';
 import 'package:korean_vietnamese_app/screens/writing_practice_screen.dart';
 import 'package:korean_vietnamese_app/services/favorite_service.dart';
 import 'package:korean_vietnamese_app/services/word_repository.dart';
+import 'package:korean_vietnamese_app/utils/learning_direction.dart';
+import 'package:korean_vietnamese_app/utils/learning_progress_tracker.dart';
+import 'package:korean_vietnamese_app/utils/learning_stats_keys.dart';
 
 void main() {
   testWidgets('K-Viet Talk first screen smoke test', (tester) async {
@@ -61,20 +65,93 @@ void main() {
     );
     expect(find.text('Không có danh sách từ sai'), findsOneWidget);
   });
+
+  test('Learning progress tracker counts streak once per day', () async {
+    SharedPreferences.setMockInitialValues({});
+    final preferences = await SharedPreferences.getInstance();
+    final tracker = LearningProgressTracker(preferences);
+    final today = DateTime(2026, 6, 12);
+
+    await tracker.recordActivity(now: today);
+    await tracker.recordActivity(now: today);
+
+    expect(preferences.getInt(LearningStatsKeys.todayCount), 2);
+    expect(preferences.getInt(LearningStatsKeys.streakCount), 1);
+  });
+
+  testWidgets('Quiz answer records learning activity', (tester) async {
+    SharedPreferences.setMockInitialValues({});
+    final appState = AppState(
+      wordRepository: _FakeWordRepository(
+        words: const [
+          Word(
+            korean: '물',
+            vietnamese: 'Nước',
+            koreanPronunciation: '물',
+            vietnamesePronunciation: '느억',
+            category: '음식',
+          ),
+          Word(
+            korean: '밥',
+            vietnamese: 'Cơm',
+            koreanPronunciation: '밥',
+            vietnamesePronunciation: '껌',
+            category: '음식',
+          ),
+          Word(
+            korean: '커피',
+            vietnamese: 'Cà phê',
+            koreanPronunciation: '커피',
+            vietnamesePronunciation: '까 페',
+            category: '음식',
+          ),
+        ],
+      ),
+      favoriteService: _FakeFavoriteService(),
+    );
+
+    await tester.runAsync(() async {
+      await appState.initialize();
+    });
+    await tester.pumpWidget(
+      ChangeNotifierProvider<AppState>.value(
+        value: appState,
+        child: const MaterialApp(
+          home: Scaffold(
+            body: QuizScreen(direction: LearningDirection.vietnameseToKorean),
+          ),
+        ),
+      ),
+    );
+    await tester.pump(const Duration(milliseconds: 300));
+
+    await tester.tap(find.byType(ListTile).first);
+    await tester.pump(const Duration(milliseconds: 300));
+
+    final preferences = await SharedPreferences.getInstance();
+    expect(preferences.getInt(LearningStatsKeys.todayCount), 1);
+    expect(preferences.getInt(LearningStatsKeys.streakCount), 1);
+  });
 }
 
 class _FakeWordRepository extends WordRepository {
+  _FakeWordRepository({this.words = _defaultWords});
+
+  final List<Word> words;
+
+  static const List<Word> _defaultWords = [
+    Word(
+      korean: '안녕하세요',
+      vietnamese: 'Xin chào',
+      koreanPronunciation: '안녕하세요',
+      vietnamesePronunciation: '씬 짜오',
+      category: '인사',
+    ),
+  ];
+
   @override
   Future<List<Word>> loadWords() async {
-    return const [
-      Word(
-        korean: '안녕하세요',
-        vietnamese: 'Xin chào',
-        koreanPronunciation: '안녕하세요',
-        vietnamesePronunciation: '씬 짜오',
-        category: '인사',
-      ),
-    ];
+    return words;
   }
 }
 

@@ -4,6 +4,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../data/app_state.dart';
 import '../models/word.dart';
+import '../utils/learning_progress_tracker.dart';
 import '../utils/learning_stats_keys.dart';
 import '../utils/learning_direction.dart';
 import 'conversation_screen.dart';
@@ -52,7 +53,10 @@ class _HomeScreenState extends State<HomeScreen> {
       WordListScreen(direction: activeDirection),
       SentenceListScreen(direction: activeDirection),
       const ConversationScreen(),
-      QuizScreen(direction: activeDirection),
+      QuizScreen(
+        direction: activeDirection,
+        onQuizAnswered: _loadLearningStats,
+      ),
       WritingPracticeScreen(onPracticeResultChanged: _loadLearningStats),
       FavoritesScreen(direction: activeDirection),
     ];
@@ -105,8 +109,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<void> _loadLearningStats() async {
     final preferences = await SharedPreferences.getInstance();
-    final today = _todayKey();
-    final savedDate = preferences.getString(LearningStatsKeys.todayDate);
+    final progress = LearningProgressTracker(preferences).load();
     if (!mounted) {
       return;
     }
@@ -121,45 +124,10 @@ class _HomeScreenState extends State<HomeScreen> {
               .getStringList(LearningStatsKeys.writingWrongIds)
               ?.length ??
           0;
-      _todayLearningCount = savedDate == today
-          ? preferences.getInt(LearningStatsKeys.todayCount) ?? 0
-          : 0;
-      _streakCount = _activeStreakCount(
-        preferences.getInt(LearningStatsKeys.streakCount) ?? 0,
-        preferences.getString(LearningStatsKeys.streakLastDate),
-        today,
-      );
-      _dailyGoal = preferences.getInt(LearningStatsKeys.dailyGoal) ?? 10;
+      _todayLearningCount = progress.todayCount;
+      _streakCount = progress.streakCount;
+      _dailyGoal = progress.dailyGoal;
     });
-  }
-
-  int _activeStreakCount(int savedCount, String? lastDate, String today) {
-    if (savedCount <= 0 || lastDate == null) {
-      return 0;
-    }
-
-    if (lastDate == today || lastDate == _yesterdayKey()) {
-      return savedCount;
-    }
-
-    return 0;
-  }
-
-  String _todayKey() {
-    final now = DateTime.now();
-    return _dateKey(now);
-  }
-
-  String _yesterdayKey() {
-    final yesterday = DateTime.now().subtract(const Duration(days: 1));
-    return _dateKey(yesterday);
-  }
-
-  String _dateKey(DateTime date) {
-    final now = date;
-    final month = now.month.toString().padLeft(2, '0');
-    final day = now.day.toString().padLeft(2, '0');
-    return '${now.year}-$month-$day';
   }
 }
 
