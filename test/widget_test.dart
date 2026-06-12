@@ -28,10 +28,10 @@ void main() {
     expect(find.text('Ứng dụng học tiếng Hàn cho người Việt'), findsOneWidget);
     expect(find.text('Học hôm nay'), findsOneWidget);
     expect(find.text('Mục tiêu hôm nay 0/10'), findsOneWidget);
-    expect(find.text('Chuỗi học tập: bắt đầu hôm nay'), findsOneWidget);
-    expect(find.text('Tiến độ học tập'), findsOneWidget);
+    expect(find.text('Bắt đầu chuỗi học tập hôm nay'), findsOneWidget);
+    expect(find.text('Bắt đầu nhanh'), findsOneWidget);
     expect(find.text('Từ vựng'), findsWidgets);
-    expect(find.text('Câu đố'), findsWidgets);
+    expect(find.text('Quiz'), findsWidgets);
   });
 
   testWidgets('Writing practice screen smoke test', (tester) async {
