@@ -63,6 +63,7 @@ flutter:
     - assets/data/sentences.json
     - assets/data/conversations.json
     - assets/images/words/
+    - assets/images/animal/
     - assets/images/home/
     - assets/images/categories/
     - assets/images/conversation/

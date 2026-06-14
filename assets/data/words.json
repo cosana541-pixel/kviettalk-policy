@@ -2793,7 +2793,7 @@
     "category": "음식",
     "needsReview": true,
     "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/food/food_081.png"
+    "imagePath": "assets/images/animal/animal_145.png"
   },
   {
     "korean": "오징어",
@@ -2803,7 +2803,7 @@
     "category": "음식",
     "needsReview": true,
     "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/food/food_083.png"
+    "imagePath": "assets/images/animal/animal_142.png"
   },
   {
     "korean": "두부",
@@ -13557,7 +13557,7 @@
     "category": "??",
     "needsReview": true,
     "reviewNote": "food_list.txt ?? ?? ??",
-    "imagePath": "assets/images/food/food_082.png"
+    "imagePath": "assets/images/animal/animal_146.png"
   },
   {
     "korean": "문어",
@@ -13567,7 +13567,7 @@
     "category": "??",
     "needsReview": true,
     "reviewNote": "food_list.txt ?? ?? ??",
-    "imagePath": "assets/images/food/food_084.png"
+    "imagePath": "assets/images/animal/animal_141.png"
   },
   {
     "korean": "조개",
@@ -13607,7 +13607,7 @@
     "category": "??",
     "needsReview": true,
     "reviewNote": "food_list.txt ?? ?? ??",
-    "imagePath": "assets/images/food/food_088.png"
+    "imagePath": "assets/images/animal/animal_137.png"
   },
   {
     "korean": "참치",
@@ -13617,7 +13617,7 @@
     "category": "??",
     "needsReview": true,
     "reviewNote": "food_list.txt ?? ?? ??",
-    "imagePath": "assets/images/food/food_089.png"
+    "imagePath": "assets/images/animal/animal_136.png"
   },
   {
     "korean": "멸치",
@@ -13627,7 +13627,7 @@
     "category": "??",
     "needsReview": true,
     "reviewNote": "food_list.txt ?? ?? ??",
-    "imagePath": "assets/images/food/food_090.png"
+    "imagePath": "assets/images/animal/animal_139.png"
   },
   {
     "korean": "계란말이",
@@ -15418,5 +15418,1435 @@
     "needsReview": true,
     "reviewNote": "drink_list.txt ?? ?? ??",
     "imagePath": "assets/images/drink/drink_080.png"
+  },
+  {
+    "korean": "강아지",
+    "vietnamese": "",
+    "koreanPronunciation": "강아지",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_001.png"
+  },
+  {
+    "korean": "고양이",
+    "vietnamese": "",
+    "koreanPronunciation": "고양이",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_002.png"
+  },
+  {
+    "korean": "토끼",
+    "vietnamese": "",
+    "koreanPronunciation": "토끼",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_003.png"
+  },
+  {
+    "korean": "햄스터",
+    "vietnamese": "",
+    "koreanPronunciation": "햄스터",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_004.png"
+  },
+  {
+    "korean": "기니피그",
+    "vietnamese": "",
+    "koreanPronunciation": "기니피그",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_005.png"
+  },
+  {
+    "korean": "앵무새",
+    "vietnamese": "",
+    "koreanPronunciation": "앵무새",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_006.png"
+  },
+  {
+    "korean": "카나리아",
+    "vietnamese": "",
+    "koreanPronunciation": "카나리아",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_007.png"
+  },
+  {
+    "korean": "금붕어",
+    "vietnamese": "",
+    "koreanPronunciation": "금붕어",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_008.png"
+  },
+  {
+    "korean": "거북이",
+    "vietnamese": "",
+    "koreanPronunciation": "거북이",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_009.png"
+  },
+  {
+    "korean": "고슴도치",
+    "vietnamese": "",
+    "koreanPronunciation": "고슴도치",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_010.png"
+  },
+  {
+    "korean": "친칠라",
+    "vietnamese": "",
+    "koreanPronunciation": "친칠라",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_011.png"
+  },
+  {
+    "korean": "페럿",
+    "vietnamese": "",
+    "koreanPronunciation": "페럿",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_012.png"
+  },
+  {
+    "korean": "다람쥐",
+    "vietnamese": "",
+    "koreanPronunciation": "다람쥐",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_013.png"
+  },
+  {
+    "korean": "오리",
+    "vietnamese": "",
+    "koreanPronunciation": "오리",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_014.png"
+  },
+  {
+    "korean": "닭",
+    "vietnamese": "",
+    "koreanPronunciation": "닭",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_015.png"
+  },
+  {
+    "korean": "병아리",
+    "vietnamese": "",
+    "koreanPronunciation": "병아리",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_016.png"
+  },
+  {
+    "korean": "염소",
+    "vietnamese": "",
+    "koreanPronunciation": "염소",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_017.png"
+  },
+  {
+    "korean": "양",
+    "vietnamese": "",
+    "koreanPronunciation": "양",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_018.png"
+  },
+  {
+    "korean": "소",
+    "vietnamese": "",
+    "koreanPronunciation": "소",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_019.png"
+  },
+  {
+    "korean": "말",
+    "vietnamese": "",
+    "koreanPronunciation": "말",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_020.png"
+  },
+  {
+    "korean": "돼지",
+    "vietnamese": "",
+    "koreanPronunciation": "돼지",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_021.png"
+  },
+  {
+    "korean": "당나귀",
+    "vietnamese": "",
+    "koreanPronunciation": "당나귀",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_022.png"
+  },
+  {
+    "korean": "낙타",
+    "vietnamese": "",
+    "koreanPronunciation": "낙타",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_023.png"
+  },
+  {
+    "korean": "사슴",
+    "vietnamese": "",
+    "koreanPronunciation": "사슴",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_024.png"
+  },
+  {
+    "korean": "순록",
+    "vietnamese": "",
+    "koreanPronunciation": "순록",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_025.png"
+  },
+  {
+    "korean": "무스",
+    "vietnamese": "",
+    "koreanPronunciation": "무스",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_026.png"
+  },
+  {
+    "korean": "버팔로",
+    "vietnamese": "",
+    "koreanPronunciation": "버팔로",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_027.png"
+  },
+  {
+    "korean": "들소",
+    "vietnamese": "",
+    "koreanPronunciation": "들소",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_028.png"
+  },
+  {
+    "korean": "야크",
+    "vietnamese": "",
+    "koreanPronunciation": "야크",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_029.png"
+  },
+  {
+    "korean": "라마",
+    "vietnamese": "",
+    "koreanPronunciation": "라마",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_030.png"
+  },
+  {
+    "korean": "알파카",
+    "vietnamese": "",
+    "koreanPronunciation": "알파카",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_031.png"
+  },
+  {
+    "korean": "캥거루",
+    "vietnamese": "",
+    "koreanPronunciation": "캥거루",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_032.png"
+  },
+  {
+    "korean": "코알라",
+    "vietnamese": "",
+    "koreanPronunciation": "코알라",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_033.png"
+  },
+  {
+    "korean": "웜뱃",
+    "vietnamese": "",
+    "koreanPronunciation": "웜뱃",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_034.png"
+  },
+  {
+    "korean": "오리너구리",
+    "vietnamese": "",
+    "koreanPronunciation": "오리너구리",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_035.png"
+  },
+  {
+    "korean": "쿼카",
+    "vietnamese": "",
+    "koreanPronunciation": "쿼카",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_036.png"
+  },
+  {
+    "korean": "에뮤",
+    "vietnamese": "",
+    "koreanPronunciation": "에뮤",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_037.png"
+  },
+  {
+    "korean": "타조",
+    "vietnamese": "",
+    "koreanPronunciation": "타조",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_038.png"
+  },
+  {
+    "korean": "공작",
+    "vietnamese": "",
+    "koreanPronunciation": "공작",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_039.png"
+  },
+  {
+    "korean": "백조",
+    "vietnamese": "",
+    "koreanPronunciation": "백조",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_040.png"
+  },
+  {
+    "korean": "독수리",
+    "vietnamese": "",
+    "koreanPronunciation": "독수리",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_041.png"
+  },
+  {
+    "korean": "매",
+    "vietnamese": "",
+    "koreanPronunciation": "매",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_042.png"
+  },
+  {
+    "korean": "부엉이",
+    "vietnamese": "",
+    "koreanPronunciation": "부엉이",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_043.png"
+  },
+  {
+    "korean": "올빼미",
+    "vietnamese": "",
+    "koreanPronunciation": "올빼미",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_044.png"
+  },
+  {
+    "korean": "참새",
+    "vietnamese": "",
+    "koreanPronunciation": "참새",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_045.png"
+  },
+  {
+    "korean": "비둘기",
+    "vietnamese": "",
+    "koreanPronunciation": "비둘기",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_046.png"
+  },
+  {
+    "korean": "까마귀",
+    "vietnamese": "",
+    "koreanPronunciation": "까마귀",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_047.png"
+  },
+  {
+    "korean": "갈매기",
+    "vietnamese": "",
+    "koreanPronunciation": "갈매기",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_048.png"
+  },
+  {
+    "korean": "펭귄",
+    "vietnamese": "",
+    "koreanPronunciation": "펭귄",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_049.png"
+  },
+  {
+    "korean": "홍학",
+    "vietnamese": "",
+    "koreanPronunciation": "홍학",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_050.png"
+  },
+  {
+    "korean": "두루미",
+    "vietnamese": "",
+    "koreanPronunciation": "두루미",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_051.png"
+  },
+  {
+    "korean": "황새",
+    "vietnamese": "",
+    "koreanPronunciation": "황새",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_052.png"
+  },
+  {
+    "korean": "딱따구리",
+    "vietnamese": "",
+    "koreanPronunciation": "딱따구리",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_053.png"
+  },
+  {
+    "korean": "벌새",
+    "vietnamese": "",
+    "koreanPronunciation": "벌새",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_054.png"
+  },
+  {
+    "korean": "큰부리새",
+    "vietnamese": "",
+    "koreanPronunciation": "큰부리새",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_055.png"
+  },
+  {
+    "korean": "앵무",
+    "vietnamese": "",
+    "koreanPronunciation": "앵무",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_056.png"
+  },
+  {
+    "korean": "물총새",
+    "vietnamese": "",
+    "koreanPronunciation": "물총새",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_057.png"
+  },
+  {
+    "korean": "제비",
+    "vietnamese": "",
+    "koreanPronunciation": "제비",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_058.png"
+  },
+  {
+    "korean": "꿩",
+    "vietnamese": "",
+    "koreanPronunciation": "꿩",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_059.png"
+  },
+  {
+    "korean": "메추리",
+    "vietnamese": "",
+    "koreanPronunciation": "메추리",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_060.png"
+  },
+  {
+    "korean": "사자",
+    "vietnamese": "",
+    "koreanPronunciation": "사자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_061.png"
+  },
+  {
+    "korean": "호랑이",
+    "vietnamese": "",
+    "koreanPronunciation": "호랑이",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_062.png"
+  },
+  {
+    "korean": "표범",
+    "vietnamese": "",
+    "koreanPronunciation": "표범",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_063.png"
+  },
+  {
+    "korean": "재규어",
+    "vietnamese": "",
+    "koreanPronunciation": "재규어",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_064.png"
+  },
+  {
+    "korean": "치타",
+    "vietnamese": "",
+    "koreanPronunciation": "치타",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_065.png"
+  },
+  {
+    "korean": "퓨마",
+    "vietnamese": "",
+    "koreanPronunciation": "퓨마",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_066.png"
+  },
+  {
+    "korean": "스라소니",
+    "vietnamese": "",
+    "koreanPronunciation": "스라소니",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_067.png"
+  },
+  {
+    "korean": "늑대",
+    "vietnamese": "",
+    "koreanPronunciation": "늑대",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_068.png"
+  },
+  {
+    "korean": "여우",
+    "vietnamese": "",
+    "koreanPronunciation": "여우",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_069.png"
+  },
+  {
+    "korean": "코요테",
+    "vietnamese": "",
+    "koreanPronunciation": "코요테",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_070.png"
+  },
+  {
+    "korean": "하이에나",
+    "vietnamese": "",
+    "koreanPronunciation": "하이에나",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_071.png"
+  },
+  {
+    "korean": "곰",
+    "vietnamese": "",
+    "koreanPronunciation": "곰",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_072.png"
+  },
+  {
+    "korean": "북극곰",
+    "vietnamese": "",
+    "koreanPronunciation": "북극곰",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_073.png"
+  },
+  {
+    "korean": "판다",
+    "vietnamese": "",
+    "koreanPronunciation": "판다",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_074.png"
+  },
+  {
+    "korean": "레서판다",
+    "vietnamese": "",
+    "koreanPronunciation": "레서판다",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_075.png"
+  },
+  {
+    "korean": "너구리",
+    "vietnamese": "",
+    "koreanPronunciation": "너구리",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_076.png"
+  },
+  {
+    "korean": "오소리",
+    "vietnamese": "",
+    "koreanPronunciation": "오소리",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_077.png"
+  },
+  {
+    "korean": "족제비",
+    "vietnamese": "",
+    "koreanPronunciation": "족제비",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_078.png"
+  },
+  {
+    "korean": "수달",
+    "vietnamese": "",
+    "koreanPronunciation": "수달",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_079.png"
+  },
+  {
+    "korean": "미어캣",
+    "vietnamese": "",
+    "koreanPronunciation": "미어캣",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_080.png"
+  },
+  {
+    "korean": "원숭이",
+    "vietnamese": "",
+    "koreanPronunciation": "원숭이",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_081.png"
+  },
+  {
+    "korean": "침팬지",
+    "vietnamese": "",
+    "koreanPronunciation": "침팬지",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_082.png"
+  },
+  {
+    "korean": "고릴라",
+    "vietnamese": "",
+    "koreanPronunciation": "고릴라",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_083.png"
+  },
+  {
+    "korean": "오랑우탄",
+    "vietnamese": "",
+    "koreanPronunciation": "오랑우탄",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_084.png"
+  },
+  {
+    "korean": "개코원숭이",
+    "vietnamese": "",
+    "koreanPronunciation": "개코원숭이",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_085.png"
+  },
+  {
+    "korean": "긴팔원숭이",
+    "vietnamese": "",
+    "koreanPronunciation": "긴팔원숭이",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_086.png"
+  },
+  {
+    "korean": "여우원숭이",
+    "vietnamese": "",
+    "koreanPronunciation": "여우원숭이",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_087.png"
+  },
+  {
+    "korean": "코끼리",
+    "vietnamese": "",
+    "koreanPronunciation": "코끼리",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_088.png"
+  },
+  {
+    "korean": "코뿔소",
+    "vietnamese": "",
+    "koreanPronunciation": "코뿔소",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_089.png"
+  },
+  {
+    "korean": "하마",
+    "vietnamese": "",
+    "koreanPronunciation": "하마",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_090.png"
+  },
+  {
+    "korean": "기린",
+    "vietnamese": "",
+    "koreanPronunciation": "기린",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_091.png"
+  },
+  {
+    "korean": "얼룩말",
+    "vietnamese": "",
+    "koreanPronunciation": "얼룩말",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_092.png"
+  },
+  {
+    "korean": "멧돼지",
+    "vietnamese": "",
+    "koreanPronunciation": "멧돼지",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_093.png"
+  },
+  {
+    "korean": "워트호그",
+    "vietnamese": "",
+    "koreanPronunciation": "워트호그",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_094.png"
+  },
+  {
+    "korean": "영양",
+    "vietnamese": "",
+    "koreanPronunciation": "영양",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_095.png"
+  },
+  {
+    "korean": "맥",
+    "vietnamese": "",
+    "koreanPronunciation": "맥",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_096.png"
+  },
+  {
+    "korean": "천산갑",
+    "vietnamese": "",
+    "koreanPronunciation": "천산갑",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_097.png"
+  },
+  {
+    "korean": "나무늘보",
+    "vietnamese": "",
+    "koreanPronunciation": "나무늘보",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_098.png"
+  },
+  {
+    "korean": "개미핥기",
+    "vietnamese": "",
+    "koreanPronunciation": "개미핥기",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_099.png"
+  },
+  {
+    "korean": "아르마딜로",
+    "vietnamese": "",
+    "koreanPronunciation": "아르마딜로",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_100.png"
+  },
+  {
+    "korean": "악어",
+    "vietnamese": "",
+    "koreanPronunciation": "악어",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_101.png"
+  },
+  {
+    "korean": "앨리게이터",
+    "vietnamese": "",
+    "koreanPronunciation": "앨리게이터",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_102.png"
+  },
+  {
+    "korean": "이구아나",
+    "vietnamese": "",
+    "koreanPronunciation": "이구아나",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_103.png"
+  },
+  {
+    "korean": "카멜레온",
+    "vietnamese": "",
+    "koreanPronunciation": "카멜레온",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_104.png"
+  },
+  {
+    "korean": "도마뱀",
+    "vietnamese": "",
+    "koreanPronunciation": "도마뱀",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_105.png"
+  },
+  {
+    "korean": "도마뱀붙이",
+    "vietnamese": "",
+    "koreanPronunciation": "도마뱀붙이",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_106.png"
+  },
+  {
+    "korean": "코브라",
+    "vietnamese": "",
+    "koreanPronunciation": "코브라",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_107.png"
+  },
+  {
+    "korean": "비단뱀",
+    "vietnamese": "",
+    "koreanPronunciation": "비단뱀",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_108.png"
+  },
+  {
+    "korean": "방울뱀",
+    "vietnamese": "",
+    "koreanPronunciation": "방울뱀",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_109.png"
+  },
+  {
+    "korean": "아나콘다",
+    "vietnamese": "",
+    "koreanPronunciation": "아나콘다",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_110.png"
+  },
+  {
+    "korean": "바다거북",
+    "vietnamese": "",
+    "koreanPronunciation": "바다거북",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_111.png"
+  },
+  {
+    "korean": "육지거북",
+    "vietnamese": "",
+    "koreanPronunciation": "육지거북",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_112.png"
+  },
+  {
+    "korean": "개구리",
+    "vietnamese": "",
+    "koreanPronunciation": "개구리",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_113.png"
+  },
+  {
+    "korean": "청개구리",
+    "vietnamese": "",
+    "koreanPronunciation": "청개구리",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_114.png"
+  },
+  {
+    "korean": "두꺼비",
+    "vietnamese": "",
+    "koreanPronunciation": "두꺼비",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_115.png"
+  },
+  {
+    "korean": "도롱뇽",
+    "vietnamese": "",
+    "koreanPronunciation": "도롱뇽",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_116.png"
+  },
+  {
+    "korean": "뉴트",
+    "vietnamese": "",
+    "koreanPronunciation": "뉴트",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_117.png"
+  },
+  {
+    "korean": "영원",
+    "vietnamese": "",
+    "koreanPronunciation": "영원",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_118.png"
+  },
+  {
+    "korean": "장지뱀",
+    "vietnamese": "",
+    "koreanPronunciation": "장지뱀",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_119.png"
+  },
+  {
+    "korean": "카이만",
+    "vietnamese": "",
+    "koreanPronunciation": "카이만",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_120.png"
+  },
+  {
+    "korean": "돌고래",
+    "vietnamese": "",
+    "koreanPronunciation": "돌고래",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_121.png"
+  },
+  {
+    "korean": "고래",
+    "vietnamese": "",
+    "koreanPronunciation": "고래",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_122.png"
+  },
+  {
+    "korean": "범고래",
+    "vietnamese": "",
+    "koreanPronunciation": "범고래",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_123.png"
+  },
+  {
+    "korean": "향유고래",
+    "vietnamese": "",
+    "koreanPronunciation": "향유고래",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_124.png"
+  },
+  {
+    "korean": "벨루가",
+    "vietnamese": "",
+    "koreanPronunciation": "벨루가",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_125.png"
+  },
+  {
+    "korean": "바다사자",
+    "vietnamese": "",
+    "koreanPronunciation": "바다사자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_126.png"
+  },
+  {
+    "korean": "물개",
+    "vietnamese": "",
+    "koreanPronunciation": "물개",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_127.png"
+  },
+  {
+    "korean": "해마",
+    "vietnamese": "",
+    "koreanPronunciation": "해마",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_128.png"
+  },
+  {
+    "korean": "매너티",
+    "vietnamese": "",
+    "koreanPronunciation": "매너티",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_129.png"
+  },
+  {
+    "korean": "듀공",
+    "vietnamese": "",
+    "koreanPronunciation": "듀공",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_130.png"
+  },
+  {
+    "korean": "상어",
+    "vietnamese": "",
+    "koreanPronunciation": "상어",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_131.png"
+  },
+  {
+    "korean": "고래상어",
+    "vietnamese": "",
+    "koreanPronunciation": "고래상어",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_132.png"
+  },
+  {
+    "korean": "귀상어",
+    "vietnamese": "",
+    "koreanPronunciation": "귀상어",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_133.png"
+  },
+  {
+    "korean": "가오리",
+    "vietnamese": "",
+    "koreanPronunciation": "가오리",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_134.png"
+  },
+  {
+    "korean": "전기가오리",
+    "vietnamese": "",
+    "koreanPronunciation": "전기가오리",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_135.png"
+  },
+  {
+    "korean": "정어리",
+    "vietnamese": "",
+    "koreanPronunciation": "정어리",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_138.png"
+  },
+  {
+    "korean": "복어",
+    "vietnamese": "",
+    "koreanPronunciation": "복어",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_140.png"
+  },
+  {
+    "korean": "갑오징어",
+    "vietnamese": "",
+    "koreanPronunciation": "갑오징어",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_143.png"
+  },
+  {
+    "korean": "낙지",
+    "vietnamese": "",
+    "koreanPronunciation": "낙지",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_144.png"
+  },
+  {
+    "korean": "바닷가재",
+    "vietnamese": "",
+    "koreanPronunciation": "바닷가재",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_147.png"
+  },
+  {
+    "korean": "소라게",
+    "vietnamese": "",
+    "koreanPronunciation": "소라게",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_148.png"
+  },
+  {
+    "korean": "해파리",
+    "vietnamese": "",
+    "koreanPronunciation": "해파리",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_149.png"
+  },
+  {
+    "korean": "불가사리",
+    "vietnamese": "",
+    "koreanPronunciation": "불가사리",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "animal_list.txt ?? ?? ??",
+    "imagePath": "assets/images/animal/animal_150.png"
   }
 ]
