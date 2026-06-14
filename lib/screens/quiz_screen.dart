@@ -40,7 +40,7 @@ class _QuizScreenState extends State<QuizScreen> {
   Widget build(BuildContext context) {
     final words = context.watch<AppState>().words;
 
-    if (words.length < 3) {
+    if (words.length < 4) {
       return const _EmptyState(
         icon: Icons.quiz_outlined,
         message: 'Không đủ từ để tạo câu đố.',
@@ -64,12 +64,24 @@ class _QuizScreenState extends State<QuizScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text('Câu hỏi', style: Theme.of(context).textTheme.labelLarge),
+                const SizedBox(height: 8),
+                Text(
+                  'Chọn đáp án đúng',
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
                 const SizedBox(height: 12),
                 Text(
-                  '"${question.vietnamese}" có nghĩa là gì trong tiếng Hàn?',
+                  question.vietnamese,
                   style: Theme.of(
                     context,
                   ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
+                ),
+                const SizedBox(height: 8),
+                Text(
+                  'Từ này trong tiếng Hàn là gì?',
+                  style: Theme.of(context).textTheme.bodyMedium,
                 ),
               ],
             ),
@@ -128,21 +140,57 @@ class _QuizScreenState extends State<QuizScreen> {
 
   void _makeQuestion() {
     final words = context.read<AppState>().words;
-    if (words.length < 3) {
+    if (words.length < 4) {
       return;
     }
 
     final question = words[_random.nextInt(words.length)];
-    final wrongOptions = words.where((word) => word.id != question.id).toList()
-      ..shuffle(_random);
+    final wrongOptions = _wrongOptionsFor(question, words);
 
-    final options = <Word>[question, ...wrongOptions.take(2)]..shuffle(_random);
+    final options = <Word>[question, ...wrongOptions.take(3)]..shuffle(_random);
 
     setState(() {
       _question = question;
       _options = options;
       _selectedAnswer = null;
     });
+  }
+
+  List<Word> _wrongOptionsFor(Word question, List<Word> words) {
+    final selectedIds = <String>{question.id};
+    final categoryOptions =
+        words
+            .where(
+              (word) =>
+                  word.id != question.id && word.category == question.category,
+            )
+            .toList()
+          ..shuffle(_random);
+    final allOptions = words.where((word) => word.id != question.id).toList()
+      ..shuffle(_random);
+    final wrongOptions = <Word>[];
+
+    void addOption(Word word) {
+      if (selectedIds.add(word.id)) {
+        wrongOptions.add(word);
+      }
+    }
+
+    for (final word in categoryOptions) {
+      if (wrongOptions.length == 3) {
+        return wrongOptions;
+      }
+      addOption(word);
+    }
+
+    for (final word in allOptions) {
+      if (wrongOptions.length == 3) {
+        return wrongOptions;
+      }
+      addOption(word);
+    }
+
+    return wrongOptions;
   }
 
   Future<void> _selectAnswer(Word option) async {

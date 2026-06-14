@@ -5,7 +5,7 @@ import '../data/app_state.dart';
 import '../models/word.dart';
 import '../utils/category_labels.dart';
 import '../utils/learning_direction.dart';
-import 'illustration_placeholder.dart';
+import 'word_image_widget.dart';
 
 // 단어 목록과 즐겨찾기 목록에서 함께 쓰는 카드입니다.
 class WordCard extends StatelessWidget {
@@ -34,21 +34,12 @@ class WordCard extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(14, 12, 8, 12),
           child: Row(
             children: [
-              if (word.image != null) ...[
-                IllustrationPlaceholder(
-                  icon: _categoryIcon(word.category),
-                  assetPath: word.image,
-                  size: 76,
-                ),
-                const SizedBox(width: 12),
-              ] else ...[
-                IllustrationPlaceholder(
-                  icon: _categoryIcon(word.category),
-                  assetPath: _categoryAsset(word.category),
-                  size: 52,
-                ),
-                const SizedBox(width: 12),
-              ],
+              WordImageWidget(
+                word: word,
+                size: word.resolvedImagePath == null ? 52 : 76,
+                icon: _categoryIcon(word.category),
+              ),
+              const SizedBox(width: 12),
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -117,6 +108,12 @@ class WordCard extends StatelessWidget {
       case 'food':
       case 'restaurant':
         return Icons.restaurant_outlined;
+      case '집':
+        return Icons.home_outlined;
+      case '공항':
+        return Icons.flight_takeoff_outlined;
+      case '호텔':
+        return Icons.hotel_outlined;
       case '여행':
       case 'travel':
         return Icons.luggage_outlined;
@@ -133,6 +130,7 @@ class WordCard extends StatelessWidget {
       case 'emergency':
         return Icons.emergency_outlined;
       case '일':
+      case '회사':
       case 'work':
         return Icons.work_outline;
       case '학교':
@@ -140,36 +138,6 @@ class WordCard extends StatelessWidget {
         return Icons.school_outlined;
       default:
         return Icons.style_outlined;
-    }
-  }
-
-  String? _categoryAsset(String category) {
-    switch (category) {
-      case '음식':
-      case 'food':
-      case 'restaurant':
-        return 'assets/images/categories/food.png';
-      case '여행':
-      case 'travel':
-      case '교통':
-      case 'transport':
-        return 'assets/images/categories/transport.png';
-      case '학교':
-      case 'school':
-        return 'assets/images/categories/school.png';
-      case '일':
-      case 'work':
-        return 'assets/images/categories/work.png';
-      case '병원':
-      case 'hospital':
-      case '긴급':
-      case 'emergency':
-        return 'assets/images/categories/hospital.png';
-      case '쇼핑':
-      case 'shopping':
-        return 'assets/images/categories/shopping.png';
-      default:
-        return null;
     }
   }
 }

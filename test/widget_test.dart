@@ -105,6 +105,13 @@ void main() {
             vietnamesePronunciation: '까 페',
             category: '음식',
           ),
+          Word(
+            korean: '차',
+            vietnamese: 'Trà',
+            koreanPronunciation: '차',
+            vietnamesePronunciation: '짜',
+            category: '음식',
+          ),
         ],
       ),
       favoriteService: _FakeFavoriteService(),
@@ -124,6 +131,9 @@ void main() {
       ),
     );
     await tester.pump(const Duration(milliseconds: 300));
+
+    expect(find.text('Chọn đáp án đúng'), findsOneWidget);
+    expect(find.byType(ListTile), findsNWidgets(4));
 
     await tester.tap(find.byType(ListTile).first);
     await tester.pump(const Duration(milliseconds: 300));

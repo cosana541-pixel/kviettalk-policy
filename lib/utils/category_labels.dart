@@ -18,6 +18,8 @@ String categoryLabelVi(String category) {
       return 'Ăn uống';
     case '과일':
       return 'Trái cây';
+    case '음료':
+      return 'Đồ uống';
     case '채소':
       return 'Rau củ';
     case 'shopping':
@@ -45,6 +47,10 @@ String categoryLabelVi(String category) {
       return 'Sân bay';
     case '호텔':
       return 'Khách sạn';
+    case '집':
+      return 'Nhà ở';
+    case '회사':
+      return 'Công ty';
     case '한국생활':
       return 'Cuộc sống ở Hàn Quốc';
     case '직업':

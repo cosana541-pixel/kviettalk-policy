@@ -6,6 +6,8 @@ import '../data/app_state.dart';
 import '../models/word.dart';
 import '../utils/learning_direction.dart';
 import '../utils/review_repository.dart';
+import '../utils/word_search.dart';
+import '../utils/word_sort.dart';
 import '../widgets/category_filter.dart';
 import '../widgets/word_card.dart';
 import 'word_detail_screen.dart';
@@ -77,21 +79,17 @@ class _WordListScreenState extends State<WordListScreen> {
   }
 
   List<Word> _filterWords(List<Word> words) {
-    final query = _searchText.trim().toLowerCase();
+    final query = _searchText.trim();
 
-    return words.where((word) {
+    final filteredWords = words.where((word) {
       final matchesCategory =
           _selectedCategory == CategoryFilter.allCategoryLabel ||
           word.category == _selectedCategory;
-      final matchesSearch =
-          query.isEmpty ||
-          word.korean.toLowerCase().contains(query) ||
-          word.vietnamese.toLowerCase().contains(query) ||
-          word.koreanPronunciation.toLowerCase().contains(query) ||
-          word.vietnamesePronunciation.toLowerCase().contains(query);
 
-      return matchesCategory && matchesSearch;
+      return matchesCategory && wordMatchesSearch(word, query);
     }).toList();
+
+    return sortWordsByKorean(filteredWords);
   }
 
   Future<void> _openDetail(BuildContext context, Word word) async {
