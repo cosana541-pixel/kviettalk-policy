@@ -118,7 +118,8 @@
     "vietnamese": "Taxi",
     "koreanPronunciation": "택시",
     "vietnamesePronunciation": "딱시",
-    "category": "여행"
+    "category": "여행",
+    "imagePath": "assets/images/traffic/traffic_006.png"
   },
   {
     "korean": "어디예요?",
@@ -832,7 +833,8 @@
     "vietnamesePronunciation": "따우 화",
     "category": "여행",
     "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장"
+    "reviewNote": "원어민 최종 검수 권장",
+    "imagePath": "assets/images/traffic/traffic_027.png"
   },
   {
     "korean": "버스",
@@ -841,7 +843,8 @@
     "vietnamesePronunciation": "쎄 부잇",
     "category": "여행",
     "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장"
+    "reviewNote": "원어민 최종 검수 권장",
+    "imagePath": "assets/images/traffic/traffic_007.png"
   },
   {
     "korean": "지하철",
@@ -850,7 +853,8 @@
     "vietnamesePronunciation": "따우 디엔 응엄",
     "category": "여행",
     "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장"
+    "reviewNote": "원어민 최종 검수 권장",
+    "imagePath": "assets/images/traffic/traffic_025.png"
   },
   {
     "korean": "지도",
@@ -2087,7 +2091,8 @@
     "vietnamesePronunciation": "",
     "category": "여행",
     "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/traffic/traffic_038.png"
   },
   {
     "korean": "계단",
@@ -2195,7 +2200,8 @@
     "vietnamesePronunciation": "",
     "category": "교통",
     "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/traffic/traffic_078.png"
   },
   {
     "korean": "목적지",
@@ -3222,7 +3228,8 @@
     "vietnamesePronunciation": "",
     "category": "교통",
     "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/traffic/traffic_009.png"
   },
   {
     "korean": "국내선",
@@ -3988,7 +3995,7 @@
     "category": "과일",
     "needsReview": true,
     "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/food/food_022.png"
+    "imagePath": "assets/images/traffic/traffic_061.png"
   },
   {
     "korean": "딸기",
@@ -4594,15 +4601,6 @@
     "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
   },
   {
-    "korean": "정류장",
-    "vietnamese": "Bến dừng",
-    "koreanPronunciation": "정류장",
-    "vietnamesePronunciation": "",
-    "category": "교통",
-    "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
-  },
-  {
     "korean": "출구",
     "vietnamese": "Cửa ra",
     "koreanPronunciation": "출구",
@@ -4627,7 +4625,8 @@
     "vietnamesePronunciation": "",
     "category": "교통",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/traffic/traffic_037.png"
   },
   {
     "korean": "길이 막혀요",
@@ -6850,7 +6849,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/traffic/traffic_076.png"
   },
   {
     "korean": "산",
@@ -6895,7 +6895,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/traffic/traffic_079.png"
   },
   {
     "korean": "운동장",
@@ -11347,7 +11348,8 @@
     "vietnamesePronunciation": "",
     "category": "여행",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/traffic/traffic_063.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -11357,7 +11359,8 @@
     "vietnamesePronunciation": "",
     "category": "여행",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/traffic/traffic_032.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -11394,16 +11397,6 @@
     "korean": "렌터카",
     "vietnamese": "Xe thuê",
     "koreanPronunciation": "렌터카",
-    "vietnamesePronunciation": "",
-    "category": "여행",
-    "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
-  },
-  {
-    "_todo": "TODO: 이미지 asset 추가 필요",
-    "korean": "고속버스",
-    "vietnamese": "Xe buýt liên tỉnh",
-    "koreanPronunciation": "고속버스",
     "vietnamesePronunciation": "",
     "category": "여행",
     "needsReview": true,
@@ -11837,7 +11830,8 @@
     "vietnamesePronunciation": "",
     "category": "공항",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/traffic/traffic_057.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -11847,7 +11841,8 @@
     "vietnamesePronunciation": "",
     "category": "공항",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/traffic/traffic_056.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -16848,5 +16843,655 @@
     "needsReview": true,
     "reviewNote": "animal_list.txt ?? ?? ??",
     "imagePath": "assets/images/animal/animal_150.png"
+  },
+  {
+    "korean": "자동차",
+    "vietnamese": "",
+    "koreanPronunciation": "자동차",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_001.png"
+  },
+  {
+    "korean": "승용차",
+    "vietnamese": "",
+    "koreanPronunciation": "승용차",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_002.png"
+  },
+  {
+    "korean": "스포츠카",
+    "vietnamese": "",
+    "koreanPronunciation": "스포츠카",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_003.png"
+  },
+  {
+    "korean": "전기차",
+    "vietnamese": "",
+    "koreanPronunciation": "전기차",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_004.png"
+  },
+  {
+    "korean": "하이브리드차",
+    "vietnamese": "",
+    "koreanPronunciation": "하이브리드차",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_005.png"
+  },
+  {
+    "korean": "시내버스",
+    "vietnamese": "",
+    "koreanPronunciation": "시내버스",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_008.png"
+  },
+  {
+    "korean": "관광버스",
+    "vietnamese": "",
+    "koreanPronunciation": "관광버스",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_010.png"
+  },
+  {
+    "korean": "미니버스",
+    "vietnamese": "",
+    "koreanPronunciation": "미니버스",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_011.png"
+  },
+  {
+    "korean": "밴",
+    "vietnamese": "",
+    "koreanPronunciation": "밴",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_012.png"
+  },
+  {
+    "korean": "트럭",
+    "vietnamese": "",
+    "koreanPronunciation": "트럭",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_013.png"
+  },
+  {
+    "korean": "화물트럭",
+    "vietnamese": "",
+    "koreanPronunciation": "화물트럭",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_014.png"
+  },
+  {
+    "korean": "덤프트럭",
+    "vietnamese": "",
+    "koreanPronunciation": "덤프트럭",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_015.png"
+  },
+  {
+    "korean": "견인트럭",
+    "vietnamese": "",
+    "koreanPronunciation": "견인트럭",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_016.png"
+  },
+  {
+    "korean": "픽업트럭",
+    "vietnamese": "",
+    "koreanPronunciation": "픽업트럭",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_017.png"
+  },
+  {
+    "korean": "오토바이",
+    "vietnamese": "",
+    "koreanPronunciation": "오토바이",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_018.png"
+  },
+  {
+    "korean": "스쿠터",
+    "vietnamese": "",
+    "koreanPronunciation": "스쿠터",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_019.png"
+  },
+  {
+    "korean": "자전거",
+    "vietnamese": "",
+    "koreanPronunciation": "자전거",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_020.png"
+  },
+  {
+    "korean": "전기자전거",
+    "vietnamese": "",
+    "koreanPronunciation": "전기자전거",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_021.png"
+  },
+  {
+    "korean": "세발자전거",
+    "vietnamese": "",
+    "koreanPronunciation": "세발자전거",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_022.png"
+  },
+  {
+    "korean": "킥보드",
+    "vietnamese": "",
+    "koreanPronunciation": "킥보드",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_023.png"
+  },
+  {
+    "korean": "전동킥보드",
+    "vietnamese": "",
+    "koreanPronunciation": "전동킥보드",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_024.png"
+  },
+  {
+    "korean": "전철",
+    "vietnamese": "",
+    "koreanPronunciation": "전철",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_026.png"
+  },
+  {
+    "korean": "고속열차",
+    "vietnamese": "",
+    "koreanPronunciation": "고속열차",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_028.png"
+  },
+  {
+    "korean": "KTX",
+    "vietnamese": "",
+    "koreanPronunciation": "KTX",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_029.png"
+  },
+  {
+    "korean": "화물열차",
+    "vietnamese": "",
+    "koreanPronunciation": "화물열차",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_030.png"
+  },
+  {
+    "korean": "증기기관차",
+    "vietnamese": "",
+    "koreanPronunciation": "증기기관차",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_031.png"
+  },
+  {
+    "korean": "모노레일",
+    "vietnamese": "",
+    "koreanPronunciation": "모노레일",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_033.png"
+  },
+  {
+    "korean": "트램",
+    "vietnamese": "",
+    "koreanPronunciation": "트램",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_034.png"
+  },
+  {
+    "korean": "노면전차",
+    "vietnamese": "",
+    "koreanPronunciation": "노면전차",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_035.png"
+  },
+  {
+    "korean": "리프트",
+    "vietnamese": "",
+    "koreanPronunciation": "리프트",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_036.png"
+  },
+  {
+    "korean": "이동보도",
+    "vietnamese": "",
+    "koreanPronunciation": "이동보도",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_039.png"
+  },
+  {
+    "korean": "열차역",
+    "vietnamese": "",
+    "koreanPronunciation": "열차역",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_040.png"
+  },
+  {
+    "korean": "비행기",
+    "vietnamese": "",
+    "koreanPronunciation": "비행기",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_041.png"
+  },
+  {
+    "korean": "여객기",
+    "vietnamese": "",
+    "koreanPronunciation": "여객기",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_042.png"
+  },
+  {
+    "korean": "전용기",
+    "vietnamese": "",
+    "koreanPronunciation": "전용기",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_043.png"
+  },
+  {
+    "korean": "경비행기",
+    "vietnamese": "",
+    "koreanPronunciation": "경비행기",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_044.png"
+  },
+  {
+    "korean": "수상비행기",
+    "vietnamese": "",
+    "koreanPronunciation": "수상비행기",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_045.png"
+  },
+  {
+    "korean": "헬리콥터",
+    "vietnamese": "",
+    "koreanPronunciation": "헬리콥터",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_046.png"
+  },
+  {
+    "korean": "드론",
+    "vietnamese": "",
+    "koreanPronunciation": "드론",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_047.png"
+  },
+  {
+    "korean": "열기구",
+    "vietnamese": "",
+    "koreanPronunciation": "열기구",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_048.png"
+  },
+  {
+    "korean": "비행선",
+    "vietnamese": "",
+    "koreanPronunciation": "비행선",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_049.png"
+  },
+  {
+    "korean": "글라이더",
+    "vietnamese": "",
+    "koreanPronunciation": "글라이더",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_050.png"
+  },
+  {
+    "korean": "낙하산",
+    "vietnamese": "",
+    "koreanPronunciation": "낙하산",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_051.png"
+  },
+  {
+    "korean": "로켓",
+    "vietnamese": "",
+    "koreanPronunciation": "로켓",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_052.png"
+  },
+  {
+    "korean": "우주왕복선",
+    "vietnamese": "",
+    "koreanPronunciation": "우주왕복선",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_053.png"
+  },
+  {
+    "korean": "우주선",
+    "vietnamese": "",
+    "koreanPronunciation": "우주선",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_054.png"
+  },
+  {
+    "korean": "인공위성",
+    "vietnamese": "",
+    "koreanPronunciation": "인공위성",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_055.png"
+  },
+  {
+    "korean": "활주로",
+    "vietnamese": "",
+    "koreanPronunciation": "활주로",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_058.png"
+  },
+  {
+    "korean": "관제탑",
+    "vietnamese": "",
+    "koreanPronunciation": "관제탑",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_059.png"
+  },
+  {
+    "korean": "공항셔틀",
+    "vietnamese": "",
+    "koreanPronunciation": "공항셔틀",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_060.png"
+  },
+  {
+    "korean": "여객선",
+    "vietnamese": "",
+    "koreanPronunciation": "여객선",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_062.png"
+  },
+  {
+    "korean": "크루즈선",
+    "vietnamese": "",
+    "koreanPronunciation": "크루즈선",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_064.png"
+  },
+  {
+    "korean": "화물선",
+    "vietnamese": "",
+    "koreanPronunciation": "화물선",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_065.png"
+  },
+  {
+    "korean": "컨테이너선",
+    "vietnamese": "",
+    "koreanPronunciation": "컨테이너선",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_066.png"
+  },
+  {
+    "korean": "어선",
+    "vietnamese": "",
+    "koreanPronunciation": "어선",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_067.png"
+  },
+  {
+    "korean": "고속정",
+    "vietnamese": "",
+    "koreanPronunciation": "고속정",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_068.png"
+  },
+  {
+    "korean": "요트",
+    "vietnamese": "",
+    "koreanPronunciation": "요트",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_069.png"
+  },
+  {
+    "korean": "카약",
+    "vietnamese": "",
+    "koreanPronunciation": "카약",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_070.png"
+  },
+  {
+    "korean": "카누",
+    "vietnamese": "",
+    "koreanPronunciation": "카누",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_071.png"
+  },
+  {
+    "korean": "고무보트",
+    "vietnamese": "",
+    "koreanPronunciation": "고무보트",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_072.png"
+  },
+  {
+    "korean": "제트스키",
+    "vietnamese": "",
+    "koreanPronunciation": "제트스키",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_073.png"
+  },
+  {
+    "korean": "잠수함",
+    "vietnamese": "",
+    "koreanPronunciation": "잠수함",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_074.png"
+  },
+  {
+    "korean": "페리",
+    "vietnamese": "",
+    "koreanPronunciation": "페리",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_075.png"
+  },
+  {
+    "korean": "선착장",
+    "vietnamese": "",
+    "koreanPronunciation": "선착장",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_077.png"
+  },
+  {
+    "korean": "주유소",
+    "vietnamese": "",
+    "koreanPronunciation": "주유소",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "traffic_list.txt ?? ?? ??",
+    "imagePath": "assets/images/traffic/traffic_080.png"
   }
 ]
