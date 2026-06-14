@@ -69,6 +69,7 @@ flutter:
     - assets/images/conversation/
     - assets/images/drink/
     - assets/images/food/
+    - assets/images/job/
     - assets/images/review/
     - assets/images/traffic/
 

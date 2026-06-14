@@ -1223,7 +1223,8 @@
     "vietnamesePronunciation": "박 씨",
     "category": "병원",
     "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장"
+    "reviewNote": "원어민 최종 검수 권장",
+    "imagePath": "assets/images/job/job_001.png"
   },
   {
     "korean": "약",
@@ -2363,7 +2364,8 @@
     "vietnamesePronunciation": "",
     "category": "병원",
     "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/job/job_002.png"
   },
   {
     "korean": "접수",
@@ -4977,7 +4979,8 @@
     "vietnamesePronunciation": "",
     "category": "약국",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/job/job_003.png"
   },
   {
     "korean": "감기약",
@@ -6552,7 +6555,8 @@
     "vietnamesePronunciation": "",
     "category": "직업",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/job/job_041.png"
   },
   {
     "korean": "학생",
@@ -6579,7 +6583,8 @@
     "vietnamesePronunciation": "",
     "category": "직업",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/job/job_060.png"
   },
   {
     "korean": "번역가",
@@ -6588,7 +6593,8 @@
     "vietnamesePronunciation": "",
     "category": "직업",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/job/job_079.png"
   },
   {
     "korean": "기술자",
@@ -6633,7 +6639,8 @@
     "vietnamesePronunciation": "",
     "category": "직업",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/job/job_012.png"
   },
   {
     "korean": "소방관",
@@ -6642,7 +6649,8 @@
     "vietnamesePronunciation": "",
     "category": "직업",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/job/job_011.png"
   },
   {
     "korean": "공무원",
@@ -6651,7 +6659,8 @@
     "vietnamesePronunciation": "",
     "category": "직업",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/job/job_050.png"
   },
   {
     "korean": "판매원",
@@ -6696,7 +6705,8 @@
     "vietnamesePronunciation": "",
     "category": "직업",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/job/job_061.png"
   },
   {
     "korean": "디자이너",
@@ -6705,7 +6715,8 @@
     "vietnamesePronunciation": "",
     "category": "직업",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/job/job_069.png"
   },
   {
     "korean": "가수",
@@ -6732,7 +6743,8 @@
     "vietnamesePronunciation": "",
     "category": "직업",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/job/job_077.png"
   },
   {
     "korean": "변호사",
@@ -6741,7 +6753,8 @@
     "vietnamesePronunciation": "",
     "category": "직업",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/job/job_046.png"
   },
   {
     "korean": "회계사",
@@ -6750,7 +6763,8 @@
     "vietnamesePronunciation": "",
     "category": "직업",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/job/job_044.png"
   },
   {
     "korean": "사장",
@@ -17493,5 +17507,665 @@
     "needsReview": true,
     "reviewNote": "traffic_list.txt ?? ?? ??",
     "imagePath": "assets/images/traffic/traffic_080.png"
+  },
+  {
+    "korean": "치과의사",
+    "vietnamese": "",
+    "koreanPronunciation": "치과의사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_004.png"
+  },
+  {
+    "korean": "한의사",
+    "vietnamese": "",
+    "koreanPronunciation": "한의사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_005.png"
+  },
+  {
+    "korean": "수의사",
+    "vietnamese": "",
+    "koreanPronunciation": "수의사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_006.png"
+  },
+  {
+    "korean": "응급구조사",
+    "vietnamese": "",
+    "koreanPronunciation": "응급구조사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_007.png"
+  },
+  {
+    "korean": "물리치료사",
+    "vietnamese": "",
+    "koreanPronunciation": "물리치료사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_008.png"
+  },
+  {
+    "korean": "방사선사",
+    "vietnamese": "",
+    "koreanPronunciation": "방사선사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_009.png"
+  },
+  {
+    "korean": "임상병리사",
+    "vietnamese": "",
+    "koreanPronunciation": "임상병리사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_010.png"
+  },
+  {
+    "korean": "군인",
+    "vietnamese": "",
+    "koreanPronunciation": "군인",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_013.png"
+  },
+  {
+    "korean": "경호원",
+    "vietnamese": "",
+    "koreanPronunciation": "경호원",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_014.png"
+  },
+  {
+    "korean": "교도관",
+    "vietnamese": "",
+    "koreanPronunciation": "교도관",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_015.png"
+  },
+  {
+    "korean": "검찰수사관",
+    "vietnamese": "",
+    "koreanPronunciation": "검찰수사관",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_016.png"
+  },
+  {
+    "korean": "법의학자",
+    "vietnamese": "",
+    "koreanPronunciation": "법의학자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_017.png"
+  },
+  {
+    "korean": "해양경찰",
+    "vietnamese": "",
+    "koreanPronunciation": "해양경찰",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_018.png"
+  },
+  {
+    "korean": "구조대원",
+    "vietnamese": "",
+    "koreanPronunciation": "구조대원",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_019.png"
+  },
+  {
+    "korean": "산림관리원",
+    "vietnamese": "",
+    "koreanPronunciation": "산림관리원",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_020.png"
+  },
+  {
+    "korean": "교사",
+    "vietnamese": "",
+    "koreanPronunciation": "교사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_021.png"
+  },
+  {
+    "korean": "교수",
+    "vietnamese": "",
+    "koreanPronunciation": "교수",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_022.png"
+  },
+  {
+    "korean": "유치원교사",
+    "vietnamese": "",
+    "koreanPronunciation": "유치원교사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_023.png"
+  },
+  {
+    "korean": "어린이집교사",
+    "vietnamese": "",
+    "koreanPronunciation": "어린이집교사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_024.png"
+  },
+  {
+    "korean": "학원강사",
+    "vietnamese": "",
+    "koreanPronunciation": "학원강사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_025.png"
+  },
+  {
+    "korean": "특수교사",
+    "vietnamese": "",
+    "koreanPronunciation": "특수교사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_026.png"
+  },
+  {
+    "korean": "음악교사",
+    "vietnamese": "",
+    "koreanPronunciation": "음악교사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_027.png"
+  },
+  {
+    "korean": "미술교사",
+    "vietnamese": "",
+    "koreanPronunciation": "미술교사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_028.png"
+  },
+  {
+    "korean": "체육교사",
+    "vietnamese": "",
+    "koreanPronunciation": "체육교사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_029.png"
+  },
+  {
+    "korean": "과학자",
+    "vietnamese": "",
+    "koreanPronunciation": "과학자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_030.png"
+  },
+  {
+    "korean": "연구원",
+    "vietnamese": "",
+    "koreanPronunciation": "연구원",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_031.png"
+  },
+  {
+    "korean": "천문학자",
+    "vietnamese": "",
+    "koreanPronunciation": "천문학자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_032.png"
+  },
+  {
+    "korean": "생물학자",
+    "vietnamese": "",
+    "koreanPronunciation": "생물학자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_033.png"
+  },
+  {
+    "korean": "물리학자",
+    "vietnamese": "",
+    "koreanPronunciation": "물리학자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_034.png"
+  },
+  {
+    "korean": "화학자",
+    "vietnamese": "",
+    "koreanPronunciation": "화학자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_035.png"
+  },
+  {
+    "korean": "수학자",
+    "vietnamese": "",
+    "koreanPronunciation": "수학자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_036.png"
+  },
+  {
+    "korean": "역사학자",
+    "vietnamese": "",
+    "koreanPronunciation": "역사학자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_037.png"
+  },
+  {
+    "korean": "언어학자",
+    "vietnamese": "",
+    "koreanPronunciation": "언어학자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_038.png"
+  },
+  {
+    "korean": "심리학자",
+    "vietnamese": "",
+    "koreanPronunciation": "심리학자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_039.png"
+  },
+  {
+    "korean": "고고학자",
+    "vietnamese": "",
+    "koreanPronunciation": "고고학자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_040.png"
+  },
+  {
+    "korean": "사무직원",
+    "vietnamese": "",
+    "koreanPronunciation": "사무직원",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_042.png"
+  },
+  {
+    "korean": "비서",
+    "vietnamese": "",
+    "koreanPronunciation": "비서",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_043.png"
+  },
+  {
+    "korean": "세무사",
+    "vietnamese": "",
+    "koreanPronunciation": "세무사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_045.png"
+  },
+  {
+    "korean": "판사",
+    "vietnamese": "",
+    "koreanPronunciation": "판사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_047.png"
+  },
+  {
+    "korean": "노무사",
+    "vietnamese": "",
+    "koreanPronunciation": "노무사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_048.png"
+  },
+  {
+    "korean": "행정사",
+    "vietnamese": "",
+    "koreanPronunciation": "행정사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_049.png"
+  },
+  {
+    "korean": "은행원",
+    "vietnamese": "",
+    "koreanPronunciation": "은행원",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_051.png"
+  },
+  {
+    "korean": "보험설계사",
+    "vietnamese": "",
+    "koreanPronunciation": "보험설계사",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_052.png"
+  },
+  {
+    "korean": "투자분석가",
+    "vietnamese": "",
+    "koreanPronunciation": "투자분석가",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_053.png"
+  },
+  {
+    "korean": "경제연구원",
+    "vietnamese": "",
+    "koreanPronunciation": "경제연구원",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_054.png"
+  },
+  {
+    "korean": "경영컨설턴트",
+    "vietnamese": "",
+    "koreanPronunciation": "경영컨설턴트",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_055.png"
+  },
+  {
+    "korean": "인사담당자",
+    "vietnamese": "",
+    "koreanPronunciation": "인사담당자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_056.png"
+  },
+  {
+    "korean": "마케팅전문가",
+    "vietnamese": "",
+    "koreanPronunciation": "마케팅전문가",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_057.png"
+  },
+  {
+    "korean": "영업사원",
+    "vietnamese": "",
+    "koreanPronunciation": "영업사원",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_058.png"
+  },
+  {
+    "korean": "고객상담원",
+    "vietnamese": "",
+    "koreanPronunciation": "고객상담원",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_059.png"
+  },
+  {
+    "korean": "앱개발자",
+    "vietnamese": "",
+    "koreanPronunciation": "앱개발자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_062.png"
+  },
+  {
+    "korean": "게임개발자",
+    "vietnamese": "",
+    "koreanPronunciation": "게임개발자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_063.png"
+  },
+  {
+    "korean": "웹개발자",
+    "vietnamese": "",
+    "koreanPronunciation": "웹개발자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_064.png"
+  },
+  {
+    "korean": "인공지능개발자",
+    "vietnamese": "",
+    "koreanPronunciation": "인공지능개발자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_065.png"
+  },
+  {
+    "korean": "데이터분석가",
+    "vietnamese": "",
+    "koreanPronunciation": "데이터분석가",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_066.png"
+  },
+  {
+    "korean": "시스템엔지니어",
+    "vietnamese": "",
+    "koreanPronunciation": "시스템엔지니어",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_067.png"
+  },
+  {
+    "korean": "보안전문가",
+    "vietnamese": "",
+    "koreanPronunciation": "보안전문가",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_068.png"
+  },
+  {
+    "korean": "그래픽디자이너",
+    "vietnamese": "",
+    "koreanPronunciation": "그래픽디자이너",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_070.png"
+  },
+  {
+    "korean": "UX디자이너",
+    "vietnamese": "",
+    "koreanPronunciation": "UX디자이너",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_071.png"
+  },
+  {
+    "korean": "건축가",
+    "vietnamese": "",
+    "koreanPronunciation": "건축가",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_072.png"
+  },
+  {
+    "korean": "인테리어디자이너",
+    "vietnamese": "",
+    "koreanPronunciation": "인테리어디자이너",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_073.png"
+  },
+  {
+    "korean": "사진작가",
+    "vietnamese": "",
+    "koreanPronunciation": "사진작가",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_074.png"
+  },
+  {
+    "korean": "영상편집자",
+    "vietnamese": "",
+    "koreanPronunciation": "영상편집자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_075.png"
+  },
+  {
+    "korean": "유튜버",
+    "vietnamese": "",
+    "koreanPronunciation": "유튜버",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_076.png"
+  },
+  {
+    "korean": "작가",
+    "vietnamese": "",
+    "koreanPronunciation": "작가",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_078.png"
+  },
+  {
+    "korean": "출판편집자",
+    "vietnamese": "",
+    "koreanPronunciation": "출판편집자",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "job_list.txt ?? ?? ??",
+    "imagePath": "assets/images/job/job_080.png"
   }
 ]
