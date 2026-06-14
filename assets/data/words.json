@@ -97,21 +97,24 @@
     "vietnamese": "Nhà vệ sinh",
     "koreanPronunciation": "화장실",
     "vietnamesePronunciation": "냐 베 씬",
-    "category": "여행"
+    "category": "여행",
+    "imagePath": "assets/images/place/place_011.png"
   },
   {
     "korean": "공항",
     "vietnamese": "Sân bay",
     "koreanPronunciation": "공항",
     "vietnamesePronunciation": "선 바이",
-    "category": "여행"
+    "category": "여행",
+    "imagePath": "assets/images/place/place_081.png"
   },
   {
     "korean": "호텔",
     "vietnamese": "Khách sạn",
     "koreanPronunciation": "호텔",
     "vietnamesePronunciation": "캇 산",
-    "category": "여행"
+    "category": "여행",
+    "imagePath": "assets/images/place/place_088.png"
   },
   {
     "korean": "택시",
@@ -443,7 +446,8 @@
     "vietnamesePronunciation": "냐",
     "category": "일상",
     "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장"
+    "reviewNote": "원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_001.png"
   },
   {
     "korean": "회사",
@@ -452,7 +456,8 @@
     "vietnamesePronunciation": "꽁 띠",
     "category": "일상",
     "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장"
+    "reviewNote": "원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_061.png"
   },
   {
     "korean": "학교",
@@ -461,7 +466,8 @@
     "vietnamesePronunciation": "쯔엉 혹",
     "category": "일상",
     "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장"
+    "reviewNote": "원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_021.png"
   },
   {
     "korean": "길",
@@ -881,7 +887,8 @@
     "vietnamesePronunciation": "바이 비엔",
     "category": "여행",
     "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장"
+    "reviewNote": "원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_092.png"
   },
   {
     "korean": "시장",
@@ -890,7 +897,8 @@
     "vietnamesePronunciation": "쩌",
     "category": "여행",
     "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장"
+    "reviewNote": "원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_073.png"
   },
   {
     "korean": "티켓",
@@ -1205,7 +1213,8 @@
     "vietnamesePronunciation": "베잉 비엔",
     "category": "병원",
     "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장"
+    "reviewNote": "원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_041.png"
   },
   {
     "korean": "약국",
@@ -1214,7 +1223,8 @@
     "vietnamesePronunciation": "냐 투옥",
     "category": "병원",
     "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장"
+    "reviewNote": "원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_045.png"
   },
   {
     "korean": "의사",
@@ -1305,7 +1315,8 @@
     "vietnamesePronunciation": "가 따우",
     "category": "교통",
     "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장"
+    "reviewNote": "원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_082.png"
   },
   {
     "korean": "택시 승강장",
@@ -1984,7 +1995,8 @@
     "vietnamesePronunciation": "",
     "category": "쇼핑",
     "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_070.png"
   },
   {
     "korean": "편의점",
@@ -1993,7 +2005,8 @@
     "vietnamesePronunciation": "",
     "category": "쇼핑",
     "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_072.png"
   },
   {
     "korean": "가격",
@@ -2093,7 +2106,7 @@
     "category": "여행",
     "needsReview": true,
     "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/traffic/traffic_038.png"
+    "imagePath": "assets/images/place/place_016.png"
   },
   {
     "korean": "계단",
@@ -2102,7 +2115,8 @@
     "vietnamesePronunciation": "",
     "category": "여행",
     "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_017.png"
   },
   {
     "korean": "방 번호",
@@ -2165,7 +2179,8 @@
     "vietnamesePronunciation": "",
     "category": "교통",
     "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_084.png"
   },
   {
     "korean": "왕복",
@@ -2328,7 +2343,8 @@
     "vietnamesePronunciation": "",
     "category": "긴급",
     "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_054.png"
   },
   {
     "korean": "대사관",
@@ -2455,7 +2471,8 @@
     "vietnamesePronunciation": "",
     "category": "일",
     "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_062.png"
   },
   {
     "korean": "전화",
@@ -3104,7 +3121,8 @@
     "vietnamesePronunciation": "",
     "category": "여행",
     "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_052.png"
   },
   {
     "korean": "환전",
@@ -3393,7 +3411,8 @@
     "vietnamesePronunciation": "",
     "category": "긴급",
     "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_042.png"
   },
   {
     "korean": "비상구",
@@ -3537,7 +3556,8 @@
     "vietnamesePronunciation": "",
     "category": "학교",
     "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_035.png"
   },
   {
     "korean": "도서관",
@@ -3546,7 +3566,8 @@
     "vietnamesePronunciation": "",
     "category": "학교",
     "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_023.png"
   },
   {
     "korean": "강의실",
@@ -4522,15 +4543,6 @@
     "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
   },
   {
-    "korean": "기차역",
-    "vietnamese": "Ga tàu hỏa",
-    "koreanPronunciation": "기차역",
-    "vietnamesePronunciation": "",
-    "category": "교통",
-    "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
-  },
-  {
     "korean": "버스 카드",
     "vietnamese": "Thẻ xe buýt",
     "koreanPronunciation": "버스 카드",
@@ -4916,7 +4928,8 @@
     "vietnamesePronunciation": "",
     "category": "병원",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_047.png"
   },
   {
     "korean": "안과",
@@ -4925,7 +4938,8 @@
     "vietnamesePronunciation": "",
     "category": "병원",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_048.png"
   },
   {
     "korean": "피부과",
@@ -5151,7 +5165,8 @@
     "vietnamesePronunciation": "",
     "category": "쇼핑",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_071.png"
   },
   {
     "korean": "영수증",
@@ -5322,7 +5337,8 @@
     "vietnamesePronunciation": "",
     "category": "은행",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_051.png"
   },
   {
     "korean": "통장",
@@ -6060,7 +6076,8 @@
     "vietnamesePronunciation": "",
     "category": "식당",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_079.png"
   },
   {
     "korean": "메뉴",
@@ -6384,7 +6401,8 @@
     "vietnamesePronunciation": "",
     "category": "한국생활",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_053.png"
   },
   {
     "korean": "출입국사무소",
@@ -6791,7 +6809,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_078.png"
   },
   {
     "korean": "공원",
@@ -6800,7 +6819,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_040.png"
   },
   {
     "korean": "박물관",
@@ -6809,7 +6829,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_100.png"
   },
   {
     "korean": "영화관",
@@ -6827,7 +6848,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_080.png"
   },
   {
     "korean": "세탁소",
@@ -6845,7 +6867,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_055.png"
   },
   {
     "korean": "버스 터미널",
@@ -6864,7 +6887,7 @@
     "category": "장소",
     "needsReview": true,
     "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/traffic/traffic_076.png"
+    "imagePath": "assets/images/place/place_085.png"
   },
   {
     "korean": "산",
@@ -6873,7 +6896,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_093.png"
   },
   {
     "korean": "강",
@@ -6882,7 +6906,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_095.png"
   },
   {
     "korean": "슈퍼마켓",
@@ -6910,7 +6935,7 @@
     "category": "장소",
     "needsReview": true,
     "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/traffic/traffic_079.png"
+    "imagePath": "assets/images/place/place_086.png"
   },
   {
     "korean": "운동장",
@@ -6919,7 +6944,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_025.png"
   },
   {
     "korean": "놀이터",
@@ -6928,7 +6954,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_039.png"
   },
   {
     "korean": "부모님",
@@ -9092,7 +9119,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_046.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -9102,7 +9130,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_050.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -9112,7 +9141,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_049.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -9272,7 +9302,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_064.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -9332,7 +9363,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_003.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -9412,7 +9444,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_019.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -9432,7 +9465,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_037.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -9452,7 +9486,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_038.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -9492,7 +9527,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_032.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -9502,7 +9538,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_031.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -9522,7 +9559,8 @@
     "vietnamesePronunciation": "",
     "category": "장소",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_075.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -9992,7 +10030,8 @@
     "vietnamesePronunciation": "",
     "category": "학교",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_030.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -10022,7 +10061,8 @@
     "vietnamesePronunciation": "",
     "category": "학교",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_029.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -10032,7 +10072,8 @@
     "vietnamesePronunciation": "",
     "category": "학교",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_026.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -10042,7 +10083,8 @@
     "vietnamesePronunciation": "",
     "category": "학교",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_028.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -10052,27 +10094,8 @@
     "vietnamesePronunciation": "",
     "category": "학교",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
-  },
-  {
-    "_todo": "TODO: 이미지 asset 추가 필요",
-    "korean": "체육관",
-    "vietnamese": "Nhà thể chất",
-    "koreanPronunciation": "체육관",
-    "vietnamesePronunciation": "",
-    "category": "학교",
-    "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
-  },
-  {
-    "_todo": "TODO: 이미지 asset 추가 필요",
-    "korean": "운동장",
-    "vietnamese": "Sân trường",
-    "koreanPronunciation": "운동장",
-    "vietnamesePronunciation": "",
-    "category": "학교",
-    "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_027.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -10632,7 +10655,8 @@
     "vietnamesePronunciation": "",
     "category": "병원",
     "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/place/place_043.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -17506,7 +17530,7 @@
     "category": "??",
     "needsReview": true,
     "reviewNote": "traffic_list.txt ?? ?? ??",
-    "imagePath": "assets/images/traffic/traffic_080.png"
+    "imagePath": "assets/images/place/place_087.png"
   },
   {
     "korean": "치과의사",
@@ -18167,5 +18191,435 @@
     "needsReview": true,
     "reviewNote": "job_list.txt ?? ?? ??",
     "imagePath": "assets/images/job/job_080.png"
+  },
+  {
+    "korean": "아파트",
+    "vietnamese": "",
+    "koreanPronunciation": "아파트",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_002.png"
+  },
+  {
+    "korean": "단독주택",
+    "vietnamese": "",
+    "koreanPronunciation": "단독주택",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_004.png"
+  },
+  {
+    "korean": "마당",
+    "vietnamese": "",
+    "koreanPronunciation": "마당",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_005.png"
+  },
+  {
+    "korean": "정원",
+    "vietnamese": "",
+    "koreanPronunciation": "정원",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_006.png"
+  },
+  {
+    "korean": "거실",
+    "vietnamese": "",
+    "koreanPronunciation": "거실",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_007.png"
+  },
+  {
+    "korean": "침실",
+    "vietnamese": "",
+    "koreanPronunciation": "침실",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_008.png"
+  },
+  {
+    "korean": "주방",
+    "vietnamese": "",
+    "koreanPronunciation": "주방",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_009.png"
+  },
+  {
+    "korean": "욕실",
+    "vietnamese": "",
+    "koreanPronunciation": "욕실",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_010.png"
+  },
+  {
+    "korean": "베란다",
+    "vietnamese": "",
+    "koreanPronunciation": "베란다",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_012.png"
+  },
+  {
+    "korean": "차고",
+    "vietnamese": "",
+    "koreanPronunciation": "차고",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_013.png"
+  },
+  {
+    "korean": "창고",
+    "vietnamese": "",
+    "koreanPronunciation": "창고",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_014.png"
+  },
+  {
+    "korean": "현관",
+    "vietnamese": "",
+    "koreanPronunciation": "현관",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_015.png"
+  },
+  {
+    "korean": "복도",
+    "vietnamese": "",
+    "koreanPronunciation": "복도",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_018.png"
+  },
+  {
+    "korean": "지하실",
+    "vietnamese": "",
+    "koreanPronunciation": "지하실",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_020.png"
+  },
+  {
+    "korean": "교실",
+    "vietnamese": "",
+    "koreanPronunciation": "교실",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_022.png"
+  },
+  {
+    "korean": "강당",
+    "vietnamese": "",
+    "koreanPronunciation": "강당",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_024.png"
+  },
+  {
+    "korean": "대학교",
+    "vietnamese": "",
+    "koreanPronunciation": "대학교",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_033.png"
+  },
+  {
+    "korean": "연구실",
+    "vietnamese": "",
+    "koreanPronunciation": "연구실",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_034.png"
+  },
+  {
+    "korean": "독서실",
+    "vietnamese": "",
+    "koreanPronunciation": "독서실",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_036.png"
+  },
+  {
+    "korean": "입원실",
+    "vietnamese": "",
+    "koreanPronunciation": "입원실",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_044.png"
+  },
+  {
+    "korean": "법원",
+    "vietnamese": "",
+    "koreanPronunciation": "법원",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_056.png"
+  },
+  {
+    "korean": "시청",
+    "vietnamese": "",
+    "koreanPronunciation": "시청",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_057.png"
+  },
+  {
+    "korean": "구청",
+    "vietnamese": "",
+    "koreanPronunciation": "구청",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_058.png"
+  },
+  {
+    "korean": "동사무소",
+    "vietnamese": "",
+    "koreanPronunciation": "동사무소",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_059.png"
+  },
+  {
+    "korean": "세무서",
+    "vietnamese": "",
+    "koreanPronunciation": "세무서",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_060.png"
+  },
+  {
+    "korean": "회의실",
+    "vietnamese": "",
+    "koreanPronunciation": "회의실",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_063.png"
+  },
+  {
+    "korean": "공장",
+    "vietnamese": "",
+    "koreanPronunciation": "공장",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_065.png"
+  },
+  {
+    "korean": "물류센터",
+    "vietnamese": "",
+    "koreanPronunciation": "물류센터",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_066.png"
+  },
+  {
+    "korean": "물류창고",
+    "vietnamese": "",
+    "koreanPronunciation": "물류창고",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_067.png"
+  },
+  {
+    "korean": "건설현장",
+    "vietnamese": "",
+    "koreanPronunciation": "건설현장",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_068.png"
+  },
+  {
+    "korean": "매장",
+    "vietnamese": "",
+    "koreanPronunciation": "매장",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_069.png"
+  },
+  {
+    "korean": "쇼핑몰",
+    "vietnamese": "",
+    "koreanPronunciation": "쇼핑몰",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_074.png"
+  },
+  {
+    "korean": "꽃집",
+    "vietnamese": "",
+    "koreanPronunciation": "꽃집",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_076.png"
+  },
+  {
+    "korean": "빵집",
+    "vietnamese": "",
+    "koreanPronunciation": "빵집",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_077.png"
+  },
+  {
+    "korean": "버스터미널",
+    "vietnamese": "",
+    "koreanPronunciation": "버스터미널",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_083.png"
+  },
+  {
+    "korean": "리조트",
+    "vietnamese": "",
+    "koreanPronunciation": "리조트",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_089.png"
+  },
+  {
+    "korean": "펜션",
+    "vietnamese": "",
+    "koreanPronunciation": "펜션",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_090.png"
+  },
+  {
+    "korean": "캠핑장",
+    "vietnamese": "",
+    "koreanPronunciation": "캠핑장",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_091.png"
+  },
+  {
+    "korean": "계곡",
+    "vietnamese": "",
+    "koreanPronunciation": "계곡",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_094.png"
+  },
+  {
+    "korean": "호수",
+    "vietnamese": "",
+    "koreanPronunciation": "호수",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_096.png"
+  },
+  {
+    "korean": "섬",
+    "vietnamese": "",
+    "koreanPronunciation": "섬",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_097.png"
+  },
+  {
+    "korean": "동물원",
+    "vietnamese": "",
+    "koreanPronunciation": "동물원",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_098.png"
+  },
+  {
+    "korean": "수족관",
+    "vietnamese": "",
+    "koreanPronunciation": "수족관",
+    "vietnamesePronunciation": "",
+    "category": "장소",
+    "needsReview": true,
+    "reviewNote": "place_list.txt 기반 자동 추가",
+    "imagePath": "assets/images/place/place_099.png"
   }
 ]

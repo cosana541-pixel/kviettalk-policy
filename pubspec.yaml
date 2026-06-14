@@ -70,6 +70,7 @@ flutter:
     - assets/images/drink/
     - assets/images/food/
     - assets/images/job/
+    - assets/images/place/
     - assets/images/review/
     - assets/images/traffic/
 
