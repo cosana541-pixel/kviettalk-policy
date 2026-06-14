@@ -48,7 +48,8 @@
     "koreanPronunciation": "물",
     "vietnamesePronunciation": "느억",
     "category": "음식",
-    "image": "assets/images/words/water.png"
+    "image": "assets/images/words/water.png",
+    "imagePath": "assets/images/drink/drink_001.png"
   },
   {
     "korean": "밥",
@@ -65,7 +66,8 @@
     "koreanPronunciation": "커피",
     "vietnamesePronunciation": "까 페",
     "category": "음식",
-    "image": "assets/images/words/coffee.png"
+    "image": "assets/images/words/coffee.png",
+    "imagePath": "assets/images/drink/drink_004.png"
   },
   {
     "korean": "쌀국수",
@@ -686,7 +688,7 @@
     "category": "음식",
     "needsReview": true,
     "reviewNote": "원어민 최종 검수 권장",
-    "imagePath": "assets/images/food/food_061.png"
+    "imagePath": "assets/images/drink/drink_029.png"
   },
   {
     "korean": "차",
@@ -3823,7 +3825,7 @@
     "category": "음식",
     "needsReview": true,
     "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/food/food_064.png"
+    "imagePath": "assets/images/drink/drink_037.png"
   },
   {
     "korean": "설탕",
@@ -14656,5 +14658,765 @@
     "needsReview": true,
     "reviewNote": "food_list.txt ?? ?? ??",
     "imagePath": "assets/images/food/food_200.png"
+  },
+  {
+    "korean": "생수",
+    "vietnamese": "",
+    "koreanPronunciation": "생수",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_002.png"
+  },
+  {
+    "korean": "탄산수",
+    "vietnamese": "",
+    "koreanPronunciation": "탄산수",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_003.png"
+  },
+  {
+    "korean": "아메리카노",
+    "vietnamese": "",
+    "koreanPronunciation": "아메리카노",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_005.png"
+  },
+  {
+    "korean": "에스프레소",
+    "vietnamese": "",
+    "koreanPronunciation": "에스프레소",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_006.png"
+  },
+  {
+    "korean": "카페라테",
+    "vietnamese": "",
+    "koreanPronunciation": "카페라테",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_007.png"
+  },
+  {
+    "korean": "카푸치노",
+    "vietnamese": "",
+    "koreanPronunciation": "카푸치노",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_008.png"
+  },
+  {
+    "korean": "바닐라라테",
+    "vietnamese": "",
+    "koreanPronunciation": "바닐라라테",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_009.png"
+  },
+  {
+    "korean": "카라멜마키아토",
+    "vietnamese": "",
+    "koreanPronunciation": "카라멜마키아토",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_010.png"
+  },
+  {
+    "korean": "모카",
+    "vietnamese": "",
+    "koreanPronunciation": "모카",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_011.png"
+  },
+  {
+    "korean": "콜드브루",
+    "vietnamese": "",
+    "koreanPronunciation": "콜드브루",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_012.png"
+  },
+  {
+    "korean": "아이스커피",
+    "vietnamese": "",
+    "koreanPronunciation": "아이스커피",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_013.png"
+  },
+  {
+    "korean": "디카페인커피",
+    "vietnamese": "",
+    "koreanPronunciation": "디카페인커피",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_014.png"
+  },
+  {
+    "korean": "녹차",
+    "vietnamese": "",
+    "koreanPronunciation": "녹차",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_015.png"
+  },
+  {
+    "korean": "홍차",
+    "vietnamese": "",
+    "koreanPronunciation": "홍차",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_016.png"
+  },
+  {
+    "korean": "우롱차",
+    "vietnamese": "",
+    "koreanPronunciation": "우롱차",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_017.png"
+  },
+  {
+    "korean": "보리차",
+    "vietnamese": "",
+    "koreanPronunciation": "보리차",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_018.png"
+  },
+  {
+    "korean": "허브차",
+    "vietnamese": "",
+    "koreanPronunciation": "허브차",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_019.png"
+  },
+  {
+    "korean": "유자차",
+    "vietnamese": "",
+    "koreanPronunciation": "유자차",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_020.png"
+  },
+  {
+    "korean": "레몬차",
+    "vietnamese": "",
+    "koreanPronunciation": "레몬차",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_021.png"
+  },
+  {
+    "korean": "생강차",
+    "vietnamese": "",
+    "koreanPronunciation": "생강차",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_022.png"
+  },
+  {
+    "korean": "대추차",
+    "vietnamese": "",
+    "koreanPronunciation": "대추차",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_023.png"
+  },
+  {
+    "korean": "쌍화차",
+    "vietnamese": "",
+    "koreanPronunciation": "쌍화차",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_024.png"
+  },
+  {
+    "korean": "밀크티",
+    "vietnamese": "",
+    "koreanPronunciation": "밀크티",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_025.png"
+  },
+  {
+    "korean": "버블티",
+    "vietnamese": "",
+    "koreanPronunciation": "버블티",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_026.png"
+  },
+  {
+    "korean": "코코아",
+    "vietnamese": "",
+    "koreanPronunciation": "코코아",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_027.png"
+  },
+  {
+    "korean": "핫초코",
+    "vietnamese": "",
+    "koreanPronunciation": "핫초코",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_028.png"
+  },
+  {
+    "korean": "초코우유",
+    "vietnamese": "",
+    "koreanPronunciation": "초코우유",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_030.png"
+  },
+  {
+    "korean": "딸기우유",
+    "vietnamese": "",
+    "koreanPronunciation": "딸기우유",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_031.png"
+  },
+  {
+    "korean": "바나나우유",
+    "vietnamese": "",
+    "koreanPronunciation": "바나나우유",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_032.png"
+  },
+  {
+    "korean": "두유",
+    "vietnamese": "",
+    "koreanPronunciation": "두유",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_033.png"
+  },
+  {
+    "korean": "아몬드밀크",
+    "vietnamese": "",
+    "koreanPronunciation": "아몬드밀크",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_034.png"
+  },
+  {
+    "korean": "오트밀크",
+    "vietnamese": "",
+    "koreanPronunciation": "오트밀크",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_035.png"
+  },
+  {
+    "korean": "코코넛밀크",
+    "vietnamese": "",
+    "koreanPronunciation": "코코넛밀크",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_036.png"
+  },
+  {
+    "korean": "마시는요구르트",
+    "vietnamese": "",
+    "koreanPronunciation": "마시는요구르트",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_038.png"
+  },
+  {
+    "korean": "케피어",
+    "vietnamese": "",
+    "koreanPronunciation": "케피어",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_039.png"
+  },
+  {
+    "korean": "프로틴쉐이크",
+    "vietnamese": "",
+    "koreanPronunciation": "프로틴쉐이크",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_040.png"
+  },
+  {
+    "korean": "오렌지주스",
+    "vietnamese": "",
+    "koreanPronunciation": "오렌지주스",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_041.png"
+  },
+  {
+    "korean": "사과주스",
+    "vietnamese": "",
+    "koreanPronunciation": "사과주스",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_042.png"
+  },
+  {
+    "korean": "포도주스",
+    "vietnamese": "",
+    "koreanPronunciation": "포도주스",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_043.png"
+  },
+  {
+    "korean": "토마토주스",
+    "vietnamese": "",
+    "koreanPronunciation": "토마토주스",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_044.png"
+  },
+  {
+    "korean": "망고주스",
+    "vietnamese": "",
+    "koreanPronunciation": "망고주스",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_045.png"
+  },
+  {
+    "korean": "파인애플주스",
+    "vietnamese": "",
+    "koreanPronunciation": "파인애플주스",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_046.png"
+  },
+  {
+    "korean": "수박주스",
+    "vietnamese": "",
+    "koreanPronunciation": "수박주스",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_047.png"
+  },
+  {
+    "korean": "레몬에이드",
+    "vietnamese": "",
+    "koreanPronunciation": "레몬에이드",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_048.png"
+  },
+  {
+    "korean": "라임에이드",
+    "vietnamese": "",
+    "koreanPronunciation": "라임에이드",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_049.png"
+  },
+  {
+    "korean": "체리에이드",
+    "vietnamese": "",
+    "koreanPronunciation": "체리에이드",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_050.png"
+  },
+  {
+    "korean": "딸기에이드",
+    "vietnamese": "",
+    "koreanPronunciation": "딸기에이드",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_051.png"
+  },
+  {
+    "korean": "블루베리에이드",
+    "vietnamese": "",
+    "koreanPronunciation": "블루베리에이드",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_052.png"
+  },
+  {
+    "korean": "복숭아아이스티",
+    "vietnamese": "",
+    "koreanPronunciation": "복숭아아이스티",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_053.png"
+  },
+  {
+    "korean": "레몬아이스티",
+    "vietnamese": "",
+    "koreanPronunciation": "레몬아이스티",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_054.png"
+  },
+  {
+    "korean": "자몽주스",
+    "vietnamese": "",
+    "koreanPronunciation": "자몽주스",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_055.png"
+  },
+  {
+    "korean": "키위주스",
+    "vietnamese": "",
+    "koreanPronunciation": "키위주스",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_056.png"
+  },
+  {
+    "korean": "코코넛주스",
+    "vietnamese": "",
+    "koreanPronunciation": "코코넛주스",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_057.png"
+  },
+  {
+    "korean": "알로에주스",
+    "vietnamese": "",
+    "koreanPronunciation": "알로에주스",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_058.png"
+  },
+  {
+    "korean": "석류주스",
+    "vietnamese": "",
+    "koreanPronunciation": "석류주스",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_059.png"
+  },
+  {
+    "korean": "매실주스",
+    "vietnamese": "",
+    "koreanPronunciation": "매실주스",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_060.png"
+  },
+  {
+    "korean": "콜라",
+    "vietnamese": "",
+    "koreanPronunciation": "콜라",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_061.png"
+  },
+  {
+    "korean": "사이다",
+    "vietnamese": "",
+    "koreanPronunciation": "사이다",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_062.png"
+  },
+  {
+    "korean": "환타",
+    "vietnamese": "",
+    "koreanPronunciation": "환타",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_063.png"
+  },
+  {
+    "korean": "진저에일",
+    "vietnamese": "",
+    "koreanPronunciation": "진저에일",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_064.png"
+  },
+  {
+    "korean": "토닉워터",
+    "vietnamese": "",
+    "koreanPronunciation": "토닉워터",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_065.png"
+  },
+  {
+    "korean": "에너지드링크",
+    "vietnamese": "",
+    "koreanPronunciation": "에너지드링크",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_066.png"
+  },
+  {
+    "korean": "스포츠음료",
+    "vietnamese": "",
+    "koreanPronunciation": "스포츠음료",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_067.png"
+  },
+  {
+    "korean": "이온음료",
+    "vietnamese": "",
+    "koreanPronunciation": "이온음료",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_068.png"
+  },
+  {
+    "korean": "비타민음료",
+    "vietnamese": "",
+    "koreanPronunciation": "비타민음료",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_069.png"
+  },
+  {
+    "korean": "식혜",
+    "vietnamese": "",
+    "koreanPronunciation": "식혜",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_070.png"
+  },
+  {
+    "korean": "수정과",
+    "vietnamese": "",
+    "koreanPronunciation": "수정과",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_071.png"
+  },
+  {
+    "korean": "미숫가루",
+    "vietnamese": "",
+    "koreanPronunciation": "미숫가루",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_072.png"
+  },
+  {
+    "korean": "곡물라테",
+    "vietnamese": "",
+    "koreanPronunciation": "곡물라테",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_073.png"
+  },
+  {
+    "korean": "쉐이크",
+    "vietnamese": "",
+    "koreanPronunciation": "쉐이크",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_074.png"
+  },
+  {
+    "korean": "바나나쉐이크",
+    "vietnamese": "",
+    "koreanPronunciation": "바나나쉐이크",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_075.png"
+  },
+  {
+    "korean": "딸기쉐이크",
+    "vietnamese": "",
+    "koreanPronunciation": "딸기쉐이크",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_076.png"
+  },
+  {
+    "korean": "초코쉐이크",
+    "vietnamese": "",
+    "koreanPronunciation": "초코쉐이크",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_077.png"
+  },
+  {
+    "korean": "스무디",
+    "vietnamese": "",
+    "koreanPronunciation": "스무디",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_078.png"
+  },
+  {
+    "korean": "딸기스무디",
+    "vietnamese": "",
+    "koreanPronunciation": "딸기스무디",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_079.png"
+  },
+  {
+    "korean": "망고스무디",
+    "vietnamese": "",
+    "koreanPronunciation": "망고스무디",
+    "vietnamesePronunciation": "",
+    "category": "??",
+    "needsReview": true,
+    "reviewNote": "drink_list.txt ?? ?? ??",
+    "imagePath": "assets/images/drink/drink_080.png"
   }
 ]

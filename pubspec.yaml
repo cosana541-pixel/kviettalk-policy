@@ -66,6 +66,7 @@ flutter:
     - assets/images/home/
     - assets/images/categories/
     - assets/images/conversation/
+    - assets/images/drink/
     - assets/images/food/
     - assets/images/review/
 
