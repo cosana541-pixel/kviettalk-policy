@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -15,6 +16,99 @@ import 'package:korean_vietnamese_app/utils/learning_progress_tracker.dart';
 import 'package:korean_vietnamese_app/utils/learning_stats_keys.dart';
 
 void main() {
+  test('Word availability supports current and legacy image fields', () {
+    const currentImageWord = Word(
+      korean: '물',
+      vietnamese: 'Nước',
+      koreanPronunciation: '물',
+      vietnamesePronunciation: '느억',
+      category: '음료',
+      imagePath: 'assets/images/drink/drink_001.png',
+    );
+    const legacyImageWord = Word(
+      korean: '쌀국수',
+      vietnamese: 'Phở',
+      koreanPronunciation: '쌀국수',
+      vietnamesePronunciation: '퍼',
+      category: '음식',
+      image: 'assets/images/words/pho.png',
+    );
+    const unavailableWord = Word(
+      korean: '숨김',
+      vietnamese: 'Ẩn',
+      koreanPronunciation: '숨김',
+      vietnamesePronunciation: '언',
+      category: '기타',
+    );
+
+    expect(currentImageWord.isAvailableForLearning, isTrue);
+    expect(legacyImageWord.isAvailableForLearning, isTrue);
+    expect(unavailableWord.isAvailableForLearning, isFalse);
+  });
+
+  test('word data exposes exactly the image-backed learning set', () async {
+    final words = await WordRepository().loadWords();
+    final availableWords = words
+        .where((word) => word.isAvailableForLearning)
+        .toList();
+    final assetManifest = await AssetManifest.loadFromAssetBundle(rootBundle);
+    final assetPaths = assetManifest.listAssets().toSet();
+
+    expect(words, hasLength(2083));
+    expect(availableWords, hasLength(1223));
+    expect(words.length - availableWords.length, 860);
+    expect(
+      availableWords.where(
+        (word) => !assetPaths.contains(word.resolvedImagePath),
+      ),
+      isEmpty,
+    );
+    expect(
+      availableWords.any(
+        (word) => word.category == '음식' && word.korean == '쌀국수',
+      ),
+      isTrue,
+    );
+    expect(
+      availableWords.any(
+        (word) => word.category == '음식' && word.korean == '맛있어요',
+      ),
+      isTrue,
+    );
+  });
+
+  test('AppState exposes only words available for learning', () async {
+    const visibleWord = Word(
+      korean: '쌀국수',
+      vietnamese: 'Phở',
+      koreanPronunciation: '쌀국수',
+      vietnamesePronunciation: '퍼',
+      category: '음식',
+      image: 'assets/images/words/pho.png',
+    );
+    const hiddenWord = Word(
+      korean: '숨김',
+      vietnamese: 'Ẩn',
+      koreanPronunciation: '숨김',
+      vietnamesePronunciation: '언',
+      category: '빈 카테고리',
+    );
+    final appState = AppState(
+      wordRepository: _FakeWordRepository(
+        words: const [visibleWord, hiddenWord],
+      ),
+      favoriteService: _FakeFavoriteService(
+        favoriteIds: {visibleWord.id, hiddenWord.id},
+      ),
+    );
+
+    await appState.initialize();
+
+    expect(appState.words, const [visibleWord]);
+    expect(appState.categories, const ['음식']);
+    expect(appState.favoriteWords, const [visibleWord]);
+  });
+
   testWidgets('K-Viet Talk first screen smoke test', (tester) async {
     SharedPreferences.setMockInitialValues({});
 
@@ -90,6 +184,7 @@ void main() {
             koreanPronunciation: '물',
             vietnamesePronunciation: '느억',
             category: '음식',
+            imagePath: 'assets/images/words/water.png',
           ),
           Word(
             korean: '밥',
@@ -97,6 +192,7 @@ void main() {
             koreanPronunciation: '밥',
             vietnamesePronunciation: '껌',
             category: '음식',
+            imagePath: 'assets/images/words/rice.png',
           ),
           Word(
             korean: '커피',
@@ -104,6 +200,7 @@ void main() {
             koreanPronunciation: '커피',
             vietnamesePronunciation: '까 페',
             category: '음식',
+            imagePath: 'assets/images/words/coffee.png',
           ),
           Word(
             korean: '차',
@@ -111,6 +208,7 @@ void main() {
             koreanPronunciation: '차',
             vietnamesePronunciation: '짜',
             category: '음식',
+            imagePath: 'assets/images/words/delicious.png',
           ),
         ],
       ),
@@ -156,6 +254,7 @@ class _FakeWordRepository extends WordRepository {
       koreanPronunciation: '안녕하세요',
       vietnamesePronunciation: '씬 짜오',
       category: '인사',
+      imagePath: 'assets/images/words/water.png',
     ),
   ];
 
@@ -166,9 +265,13 @@ class _FakeWordRepository extends WordRepository {
 }
 
 class _FakeFavoriteService extends FavoriteService {
+  _FakeFavoriteService({this.favoriteIds = const <String>{}});
+
+  final Set<String> favoriteIds;
+
   @override
   Future<Set<String>> loadFavoriteIds() async {
-    return <String>{};
+    return Set<String>.of(favoriteIds);
   }
 
   @override

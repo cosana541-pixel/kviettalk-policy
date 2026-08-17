@@ -17,6 +17,7 @@ class AppState extends ChangeNotifier {
   final WordRepository _wordRepository;
   final FavoriteService _favoriteService;
 
+  List<Word> _allWords = <Word>[];
   List<Word> _words = <Word>[];
   Set<String> _favoriteIds = <String>{};
   LearningDirection? _direction = LearningDirection.vietnameseToKorean;
@@ -40,7 +41,8 @@ class AppState extends ChangeNotifier {
     _isLoading = true;
     notifyListeners();
 
-    _words = await _wordRepository.loadWords();
+    _allWords = await _wordRepository.loadWords();
+    _words = _allWords.where((word) => word.isAvailableForLearning).toList();
     _favoriteIds = await _favoriteService.loadFavoriteIds();
     _direction ??= LearningDirection.vietnameseToKorean;
 

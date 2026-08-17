@@ -22,6 +22,12 @@ class Word {
 
   String? get resolvedImagePath => imagePath ?? image;
 
+  // 현재 데이터에서 실제 이미지가 연결된 단어만 학습 화면에 노출합니다.
+  // 구형 데이터의 image 필드도 resolvedImagePath를 통해 함께 지원합니다.
+  bool get isAvailableForLearning {
+    return resolvedImagePath?.trim().isNotEmpty ?? false;
+  }
+
   // 즐겨찾기 저장용 고유 값입니다. 서버가 없으므로 두 언어 값을 조합합니다.
   String get id => '$korean|$vietnamese';
 
