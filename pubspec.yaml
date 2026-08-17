@@ -69,9 +69,12 @@ flutter:
     - assets/images/conversation/
     - assets/images/drink/
     - assets/images/food/
+    - assets/images/hospital/
     - assets/images/job/
     - assets/images/place/
     - assets/images/review/
+    - assets/images/school/
+    - assets/images/shopping/
     - assets/images/traffic/
 
   # To add assets to your application, add an assets section, like this:

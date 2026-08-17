@@ -1931,7 +1931,8 @@
     "vietnamesePronunciation": "잠 자",
     "category": "쇼핑",
     "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장"
+    "reviewNote": "원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_018.png"
   },
   {
     "korean": "교환",
@@ -4119,6 +4120,7 @@
     "koreanPronunciation": "프린터",
     "vietnamesePronunciation": "",
     "category": "일",
+    "imagePath": "assets/images/school/school_037.png",
     "needsReview": true,
     "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
   },
@@ -4128,6 +4130,7 @@
     "koreanPronunciation": "복사기",
     "vietnamesePronunciation": "",
     "category": "일",
+    "imagePath": "assets/images/school/school_038.png",
     "needsReview": true,
     "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
   },
@@ -5540,7 +5543,8 @@
     "vietnamesePronunciation": "",
     "category": "병원",
     "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
+    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_058.png"
   },
   {
     "korean": "혈압",
@@ -11228,6 +11232,7 @@
     "koreanPronunciation": "대기실",
     "vietnamesePronunciation": "",
     "category": "장소",
+    "imagePath": "assets/images/hospital/hospital_009.png",
     "needsReview": true,
     "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
   },
@@ -19703,5 +19708,1035 @@
     "needsReview": true,
     "reviewNote": "home.txt ?? ?? ??",
     "imagePath": "assets/images/home/home_080.png"
+  },
+  {
+    "korean": "진료실",
+    "vietnamese": "Phòng khám bệnh",
+    "koreanPronunciation": "진료실",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_003.png"
+  },
+  {
+    "korean": "중환자실",
+    "vietnamese": "Phòng chăm sóc đặc biệt",
+    "koreanPronunciation": "중환자실",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_006.png"
+  },
+  {
+    "korean": "회복실",
+    "vietnamese": "Phòng hồi sức",
+    "koreanPronunciation": "회복실",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_007.png"
+  },
+  {
+    "korean": "MRI실",
+    "vietnamese": "Phòng chụp MRI",
+    "koreanPronunciation": "MRI실",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_013.png"
+  },
+  {
+    "korean": "CT실",
+    "vietnamese": "Phòng chụp CT",
+    "koreanPronunciation": "CT실",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_014.png"
+  },
+  {
+    "korean": "재활치료실",
+    "vietnamese": "Phòng phục hồi chức năng",
+    "koreanPronunciation": "재활치료실",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_015.png"
+  },
+  {
+    "korean": "물리치료실",
+    "vietnamese": "Phòng vật lý trị liệu",
+    "koreanPronunciation": "물리치료실",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_016.png"
+  },
+  {
+    "korean": "의무기록",
+    "vietnamese": "Hồ sơ bệnh án",
+    "koreanPronunciation": "의무기록",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_034.png"
+  },
+  {
+    "korean": "휠체어",
+    "vietnamese": "Xe lăn",
+    "koreanPronunciation": "휠체어",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_040.png"
+  },
+  {
+    "korean": "청진기",
+    "vietnamese": "Ống nghe",
+    "koreanPronunciation": "청진기",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_041.png"
+  },
+  {
+    "korean": "링거",
+    "vietnamese": "Dịch truyền",
+    "koreanPronunciation": "링거",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_046.png"
+  },
+  {
+    "korean": "산소마스크",
+    "vietnamese": "Mặt nạ oxy",
+    "koreanPronunciation": "산소마스크",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_047.png"
+  },
+  {
+    "korean": "구급상자",
+    "vietnamese": "Hộp sơ cứu",
+    "koreanPronunciation": "구급상자",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_049.png"
+  },
+  {
+    "korean": "붕대",
+    "vietnamese": "Băng cuộn",
+    "koreanPronunciation": "붕대",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_050.png"
+  },
+  {
+    "korean": "거즈",
+    "vietnamese": "Gạc y tế",
+    "koreanPronunciation": "거즈",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_051.png"
+  },
+  {
+    "korean": "반창고",
+    "vietnamese": "Băng cá nhân",
+    "koreanPronunciation": "반창고",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_052.png"
+  },
+  {
+    "korean": "목발",
+    "vietnamese": "Nạng",
+    "koreanPronunciation": "목발",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_053.png"
+  },
+  {
+    "korean": "보행기",
+    "vietnamese": "Khung tập đi",
+    "koreanPronunciation": "보행기",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_054.png"
+  },
+  {
+    "korean": "들것",
+    "vietnamese": "Cáng cứu thương",
+    "koreanPronunciation": "들것",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_055.png"
+  },
+  {
+    "korean": "재채기",
+    "vietnamese": "Hắt hơi",
+    "koreanPronunciation": "재채기",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_069.png"
+  },
+  {
+    "korean": "어지럼증",
+    "vietnamese": "Chóng mặt",
+    "koreanPronunciation": "어지럼증",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_070.png"
+  },
+  {
+    "korean": "접수처",
+    "vietnamese": "Quầy tiếp nhận",
+    "koreanPronunciation": "접수처",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_008.png"
+  },
+  {
+    "korean": "접수직원",
+    "vietnamese": "Nhân viên tiếp nhận",
+    "koreanPronunciation": "접수직원",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_030.png"
+  },
+  {
+    "korean": "진료카드",
+    "vietnamese": "Thẻ khám bệnh",
+    "koreanPronunciation": "진료카드",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_031.png"
+  },
+  {
+    "korean": "검사결과지",
+    "vietnamese": "Phiếu kết quả xét nghiệm",
+    "koreanPronunciation": "검사결과지",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_038.png"
+  },
+  {
+    "korean": "혈압계",
+    "vietnamese": "Máy đo huyết áp",
+    "koreanPronunciation": "혈압계",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_043.png"
+  },
+  {
+    "korean": "주사기",
+    "vietnamese": "Ống tiêm",
+    "koreanPronunciation": "주사기",
+    "vietnamesePronunciation": "",
+    "category": "병원",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/hospital/hospital_044.png"
+  },
+  {
+    "korean": "분필",
+    "vietnamese": "Phấn",
+    "koreanPronunciation": "분필",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_004.png"
+  },
+  {
+    "korean": "교탁",
+    "vietnamese": "Bục giảng",
+    "koreanPronunciation": "교탁",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_008.png"
+  },
+  {
+    "korean": "게시판",
+    "vietnamese": "Bảng thông báo",
+    "koreanPronunciation": "게시판",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_010.png"
+  },
+  {
+    "korean": "각도기",
+    "vietnamese": "Thước đo góc",
+    "koreanPronunciation": "각도기",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_022.png"
+  },
+  {
+    "korean": "컴퍼스",
+    "vietnamese": "Compa",
+    "koreanPronunciation": "컴퍼스",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_023.png"
+  },
+  {
+    "korean": "크레파스",
+    "vietnamese": "Bút sáp màu",
+    "koreanPronunciation": "크레파스",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_027.png"
+  },
+  {
+    "korean": "스케치북",
+    "vietnamese": "Sổ vẽ",
+    "koreanPronunciation": "스케치북",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_028.png"
+  },
+  {
+    "korean": "현미경",
+    "vietnamese": "Kính hiển vi",
+    "koreanPronunciation": "현미경",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_047.png"
+  },
+  {
+    "korean": "시험관",
+    "vietnamese": "Ống nghiệm",
+    "koreanPronunciation": "시험관",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_048.png"
+  },
+  {
+    "korean": "비커",
+    "vietnamese": "Cốc thí nghiệm",
+    "koreanPronunciation": "비커",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_049.png"
+  },
+  {
+    "korean": "피아노",
+    "vietnamese": "Đàn piano",
+    "koreanPronunciation": "피아노",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_051.png"
+  },
+  {
+    "korean": "바이올린",
+    "vietnamese": "Đàn violin",
+    "koreanPronunciation": "바이올린",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_052.png"
+  },
+  {
+    "korean": "드럼",
+    "vietnamese": "Trống",
+    "koreanPronunciation": "드럼",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_053.png"
+  },
+  {
+    "korean": "이젤",
+    "vietnamese": "Giá vẽ",
+    "koreanPronunciation": "이젤",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_055.png"
+  },
+  {
+    "korean": "물감",
+    "vietnamese": "Màu vẽ",
+    "koreanPronunciation": "물감",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_056.png"
+  },
+  {
+    "korean": "축구공",
+    "vietnamese": "Quả bóng đá",
+    "koreanPronunciation": "축구공",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_059.png"
+  },
+  {
+    "korean": "배구공",
+    "vietnamese": "Quả bóng chuyền",
+    "koreanPronunciation": "배구공",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_060.png"
+  },
+  {
+    "korean": "식판",
+    "vietnamese": "Khay đựng thức ăn",
+    "koreanPronunciation": "식판",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_064.png"
+  },
+  {
+    "korean": "무대",
+    "vietnamese": "Sân khấu",
+    "koreanPronunciation": "무대",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_067.png"
+  },
+  {
+    "korean": "교장실",
+    "vietnamese": "Phòng hiệu trưởng",
+    "koreanPronunciation": "교장실",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_069.png"
+  },
+  {
+    "korean": "방송실",
+    "vietnamese": "Phòng phát thanh",
+    "koreanPronunciation": "방송실",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_072.png"
+  },
+  {
+    "korean": "상장",
+    "vietnamese": "Giấy khen",
+    "koreanPronunciation": "상장",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_077.png"
+  },
+  {
+    "korean": "등교",
+    "vietnamese": "Đi học",
+    "koreanPronunciation": "등교",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_079.png"
+  },
+  {
+    "korean": "샤프펜슬",
+    "vietnamese": "Bút chì kim",
+    "koreanPronunciation": "샤프펜슬",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_017.png"
+  },
+  {
+    "korean": "볼펜",
+    "vietnamese": "Bút bi",
+    "koreanPronunciation": "볼펜",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_018.png"
+  },
+  {
+    "korean": "책가방",
+    "vietnamese": "Cặp sách",
+    "koreanPronunciation": "책가방",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_030.png"
+  },
+  {
+    "korean": "전자칠판",
+    "vietnamese": "Bảng điện tử",
+    "koreanPronunciation": "전자칠판",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_034.png"
+  },
+  {
+    "korean": "열람실",
+    "vietnamese": "Phòng đọc",
+    "koreanPronunciation": "열람실",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_043.png"
+  },
+  {
+    "korean": "농구대",
+    "vietnamese": "Trụ bóng rổ",
+    "koreanPronunciation": "농구대",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_058.png"
+  },
+  {
+    "korean": "시험지",
+    "vietnamese": "Đề thi",
+    "koreanPronunciation": "시험지",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_074.png"
+  },
+  {
+    "korean": "졸업장",
+    "vietnamese": "Bằng tốt nghiệp",
+    "koreanPronunciation": "졸업장",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_076.png"
+  },
+  {
+    "korean": "학교버스",
+    "vietnamese": "Xe buýt trường học",
+    "koreanPronunciation": "학교버스",
+    "vietnamesePronunciation": "",
+    "category": "학교",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/school/school_078.png"
+  },
+  {
+    "korean": "쇼핑카트",
+    "vietnamese": "Xe đẩy mua hàng",
+    "koreanPronunciation": "쇼핑카트",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_011.png"
+  },
+  {
+    "korean": "쇼핑바구니",
+    "vietnamese": "Giỏ mua hàng",
+    "koreanPronunciation": "쇼핑바구니",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_012.png"
+  },
+  {
+    "korean": "진열대",
+    "vietnamese": "Kệ trưng bày",
+    "koreanPronunciation": "진열대",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_013.png"
+  },
+  {
+    "korean": "포장지",
+    "vietnamese": "Giấy gói",
+    "koreanPronunciation": "포장지",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_019.png"
+  },
+  {
+    "korean": "쇼핑백",
+    "vietnamese": "Túi mua sắm",
+    "koreanPronunciation": "쇼핑백",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_020.png"
+  },
+  {
+    "korean": "티셔츠",
+    "vietnamese": "Áo thun",
+    "koreanPronunciation": "티셔츠",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_021.png"
+  },
+  {
+    "korean": "셔츠",
+    "vietnamese": "Áo sơ mi",
+    "koreanPronunciation": "셔츠",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_022.png"
+  },
+  {
+    "korean": "후드티",
+    "vietnamese": "Áo hoodie",
+    "koreanPronunciation": "후드티",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_023.png"
+  },
+  {
+    "korean": "재킷",
+    "vietnamese": "Áo khoác",
+    "koreanPronunciation": "재킷",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_025.png"
+  },
+  {
+    "korean": "코트",
+    "vietnamese": "Áo măng tô",
+    "koreanPronunciation": "코트",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_026.png"
+  },
+  {
+    "korean": "패딩",
+    "vietnamese": "Áo phao",
+    "koreanPronunciation": "패딩",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_027.png"
+  },
+  {
+    "korean": "청바지",
+    "vietnamese": "Quần jean",
+    "koreanPronunciation": "청바지",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_028.png"
+  },
+  {
+    "korean": "반바지",
+    "vietnamese": "Quần short",
+    "koreanPronunciation": "반바지",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_029.png"
+  },
+  {
+    "korean": "치마",
+    "vietnamese": "Váy",
+    "koreanPronunciation": "치마",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_030.png"
+  },
+  {
+    "korean": "원피스",
+    "vietnamese": "Váy liền",
+    "koreanPronunciation": "원피스",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_031.png"
+  },
+  {
+    "korean": "정장",
+    "vietnamese": "Bộ vest",
+    "koreanPronunciation": "정장",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_032.png"
+  },
+  {
+    "korean": "운동복",
+    "vietnamese": "Đồ thể thao",
+    "koreanPronunciation": "운동복",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_033.png"
+  },
+  {
+    "korean": "잠옷",
+    "vietnamese": "Đồ ngủ",
+    "koreanPronunciation": "잠옷",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_034.png"
+  },
+  {
+    "korean": "양말",
+    "vietnamese": "Tất",
+    "koreanPronunciation": "양말",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_035.png"
+  },
+  {
+    "korean": "구두",
+    "vietnamese": "Giày da",
+    "koreanPronunciation": "구두",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_037.png"
+  },
+  {
+    "korean": "운동화",
+    "vietnamese": "Giày thể thao",
+    "koreanPronunciation": "운동화",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_038.png"
+  },
+  {
+    "korean": "목걸이",
+    "vietnamese": "Dây chuyền",
+    "koreanPronunciation": "목걸이",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_045.png"
+  },
+  {
+    "korean": "반지",
+    "vietnamese": "Nhẫn",
+    "koreanPronunciation": "반지",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_046.png"
+  },
+  {
+    "korean": "귀걸이",
+    "vietnamese": "Hoa tai",
+    "koreanPronunciation": "귀걸이",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_047.png"
+  },
+  {
+    "korean": "팔찌",
+    "vietnamese": "Vòng tay",
+    "koreanPronunciation": "팔찌",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_048.png"
+  },
+  {
+    "korean": "선글라스",
+    "vietnamese": "Kính râm",
+    "koreanPronunciation": "선글라스",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_050.png"
+  },
+  {
+    "korean": "립스틱",
+    "vietnamese": "Son môi",
+    "koreanPronunciation": "립스틱",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_054.png"
+  },
+  {
+    "korean": "향수",
+    "vietnamese": "Nước hoa",
+    "koreanPronunciation": "향수",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_055.png"
+  },
+  {
+    "korean": "지폐",
+    "vietnamese": "Tiền giấy",
+    "koreanPronunciation": "지폐",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_062.png"
+  },
+  {
+    "korean": "동전",
+    "vietnamese": "Tiền xu",
+    "koreanPronunciation": "동전",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_063.png"
+  },
+  {
+    "korean": "모바일결제",
+    "vietnamese": "Thanh toán di động",
+    "koreanPronunciation": "모바일결제",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_067.png"
+  },
+  {
+    "korean": "QR코드",
+    "vietnamese": "Mã QR",
+    "koreanPronunciation": "QR코드",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_070.png"
+  },
+  {
+    "korean": "쇼핑목록",
+    "vietnamese": "Danh sách mua sắm",
+    "koreanPronunciation": "쇼핑목록",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_078.png"
+  },
+  {
+    "korean": "시장",
+    "vietnamese": "Chợ",
+    "koreanPronunciation": "시장",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_006.png"
+  },
+  {
+    "korean": "할인쿠폰",
+    "vietnamese": "Phiếu giảm giá",
+    "koreanPronunciation": "할인쿠폰",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_015.png"
+  },
+  {
+    "korean": "백팩",
+    "vietnamese": "Ba lô",
+    "koreanPronunciation": "백팩",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_042.png"
+  },
+  {
+    "korean": "지갑",
+    "vietnamese": "Ví",
+    "koreanPronunciation": "지갑",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_043.png"
+  },
+  {
+    "korean": "벨트",
+    "vietnamese": "Thắt lưng",
+    "koreanPronunciation": "벨트",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_044.png"
+  },
+  {
+    "korean": "시계",
+    "vietnamese": "Đồng hồ",
+    "koreanPronunciation": "시계",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_049.png"
+  },
+  {
+    "korean": "손수건",
+    "vietnamese": "Khăn tay",
+    "koreanPronunciation": "손수건",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_052.png"
+  },
+  {
+    "korean": "포인트카드",
+    "vietnamese": "Thẻ tích điểm",
+    "koreanPronunciation": "포인트카드",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_071.png"
+  },
+  {
+    "korean": "배송상자",
+    "vietnamese": "Thùng giao hàng",
+    "koreanPronunciation": "배송상자",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_075.png"
+  },
+  {
+    "korean": "선물상자",
+    "vietnamese": "Hộp quà",
+    "koreanPronunciation": "선물상자",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_079.png"
+  },
+  {
+    "korean": "선물봉투",
+    "vietnamese": "Túi quà",
+    "koreanPronunciation": "선물봉투",
+    "vietnamesePronunciation": "",
+    "category": "쇼핑",
+    "needsReview": true,
+    "reviewNote": "UNKNOWN 이미지 후속 정리: 원어민 최종 검수 권장",
+    "imagePath": "assets/images/shopping/shopping_080.png"
   }
 ]

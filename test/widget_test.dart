@@ -54,9 +54,9 @@ void main() {
     final assetManifest = await AssetManifest.loadFromAssetBundle(rootBundle);
     final assetPaths = assetManifest.listAssets().toSet();
 
-    expect(words, hasLength(2083));
-    expect(availableWords, hasLength(1223));
-    expect(words.length - availableWords.length, 860);
+    expect(words, hasLength(2186));
+    expect(availableWords, hasLength(1331));
+    expect(words.length - availableWords.length, 855);
     expect(
       availableWords.where(
         (word) => !assetPaths.contains(word.resolvedImagePath),
