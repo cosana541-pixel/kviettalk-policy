@@ -84,7 +84,7 @@ class _WordListScreenState extends State<WordListScreen> {
     final filteredWords = words.where((word) {
       final matchesCategory =
           _selectedCategory == CategoryFilter.allCategoryLabel ||
-          word.category == _selectedCategory;
+          word.belongsToCategory(_selectedCategory);
 
       return matchesCategory && wordMatchesSearch(word, query);
     }).toList();

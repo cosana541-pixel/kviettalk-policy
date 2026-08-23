@@ -162,7 +162,8 @@ class _QuizScreenState extends State<QuizScreen> {
         words
             .where(
               (word) =>
-                  word.id != question.id && word.category == question.category,
+                  word.id != question.id &&
+                  word.categories.any(question.belongsToCategory),
             )
             .toList()
           ..shuffle(_random);

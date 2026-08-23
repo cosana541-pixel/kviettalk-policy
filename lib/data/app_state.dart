@@ -28,7 +28,7 @@ class AppState extends ChangeNotifier {
   bool get isLoading => _isLoading;
 
   List<String> get categories {
-    final values = _words.map((word) => word.category).toSet().toList();
+    final values = _words.expand((word) => word.categories).toSet().toList();
     values.sort();
     return values;
   }

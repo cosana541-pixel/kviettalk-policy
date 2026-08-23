@@ -14,6 +14,7 @@ import 'package:korean_vietnamese_app/services/word_repository.dart';
 import 'package:korean_vietnamese_app/utils/learning_direction.dart';
 import 'package:korean_vietnamese_app/utils/learning_progress_tracker.dart';
 import 'package:korean_vietnamese_app/utils/learning_stats_keys.dart';
+import 'package:korean_vietnamese_app/utils/word_search.dart';
 
 void main() {
   test('Word availability supports current and legacy image fields', () {
@@ -46,6 +47,76 @@ void main() {
     expect(unavailableWord.isAvailableForLearning, isFalse);
   });
 
+  test('Word supports legacy, two-category, and three-category data', () {
+    final legacyWord = Word.fromJson(const <String, dynamic>{
+      'korean': '물',
+      'vietnamese': 'Nước',
+      'koreanPronunciation': '물',
+      'vietnamesePronunciation': '느억',
+      'category': '음료',
+    });
+    final twoCategoryWord = Word.fromJson(const <String, dynamic>{
+      'korean': '김치',
+      'vietnamese': 'Kim chi',
+      'koreanPronunciation': '김치',
+      'vietnamesePronunciation': '',
+      'category': '한국생활',
+      'categories': <String>['음식', '한국생활'],
+    });
+    const threeCategoryWord = Word(
+      korean: '엘리베이터',
+      vietnamese: 'Thang máy',
+      koreanPronunciation: '엘리베이터',
+      vietnamesePronunciation: '',
+      category: '호텔',
+      categories: <String>['호텔', '한국생활', '회사'],
+    );
+
+    final emptyCategoriesWord = Word.fromJson(const <String, dynamic>{
+      'korean': '물',
+      'vietnamese': 'Nước',
+      'koreanPronunciation': '물',
+      'vietnamesePronunciation': '느억',
+      'category': '음료',
+      'categories': <String>[],
+    });
+    final duplicateCategoriesWord = Word.fromJson(const <String, dynamic>{
+      'korean': '김치',
+      'vietnamese': 'Kim chi',
+      'koreanPronunciation': '김치',
+      'vietnamesePronunciation': '',
+      'category': '한국생활',
+      'categories': <String>['음식', '한국생활', '음식'],
+    });
+    final missingLegacyCategoryWord = Word.fromJson(const <String, dynamic>{
+      'korean': '김치',
+      'vietnamese': 'Kim chi',
+      'koreanPronunciation': '김치',
+      'vietnamesePronunciation': '',
+      'category': '한국생활',
+      'categories': <String>['음식', '여행'],
+    });
+
+    expect(legacyWord.categories, const <String>['음료']);
+    expect(emptyCategoriesWord.categories, const <String>['음료']);
+    expect(twoCategoryWord.categories, const <String>['음식', '한국생활']);
+    expect(duplicateCategoriesWord.categories, const <String>['음식', '한국생활']);
+    expect(missingLegacyCategoryWord.categories, const <String>[
+      '한국생활',
+      '음식',
+      '여행',
+    ]);
+    expect(twoCategoryWord.belongsToCategory('음식'), isTrue);
+    expect(twoCategoryWord.belongsToCategory('한국생활'), isTrue);
+    expect(threeCategoryWord.categories, const <String>['호텔', '한국생활', '회사']);
+    expect(threeCategoryWord.belongsToCategory('회사'), isTrue);
+    expect(wordMatchesSearch(twoCategoryWord, '김치'), isTrue);
+    expect(
+      <Word>[twoCategoryWord].where((word) => wordMatchesSearch(word, '김치')),
+      hasLength(1),
+    );
+  });
+
   test('word data exposes exactly the image-backed learning set', () async {
     final words = await WordRepository().loadWords();
     final availableWords = words
@@ -54,9 +125,66 @@ void main() {
     final assetManifest = await AssetManifest.loadFromAssetBundle(rootBundle);
     final assetPaths = assetManifest.listAssets().toSet();
 
-    expect(words, hasLength(2186));
-    expect(availableWords, hasLength(1331));
+    expect(words, hasLength(2117));
+    expect(availableWords, hasLength(1262));
     expect(words.length - availableWords.length, 855);
+    final multiCategoryWords = words
+        .where((word) => word.categories.length > 1)
+        .toList();
+    expect(multiCategoryWords, hasLength(67));
+    expect(
+      multiCategoryWords.where((word) => word.categories.length == 2),
+      hasLength(65),
+    );
+    expect(
+      multiCategoryWords.where((word) => word.categories.length >= 3),
+      hasLength(2),
+    );
+
+    final imageBackedLearningKeys = availableWords
+        .map(
+          (word) => <Object?>[
+            word.korean,
+            word.vietnamese,
+            word.koreanPronunciation,
+            word.vietnamesePronunciation,
+            word.resolvedImagePath,
+          ].join('\u001f'),
+        )
+        .toList();
+    expect(
+      imageBackedLearningKeys.toSet(),
+      hasLength(imageBackedLearningKeys.length),
+    );
+
+    final kimchiWords = words.where((word) => word.korean == '김치').toList();
+    expect(kimchiWords, hasLength(1));
+    expect(kimchiWords.single.belongsToCategory('음식'), isTrue);
+    expect(kimchiWords.single.belongsToCategory('한국생활'), isTrue);
+    expect(
+      words.where(
+        (word) => word.belongsToCategory('음식') && word.korean == '김치',
+      ),
+      hasLength(1),
+    );
+    expect(
+      words.where(
+        (word) => word.belongsToCategory('한국생활') && word.korean == '김치',
+      ),
+      hasLength(1),
+    );
+    expect(
+      words.where(
+        (word) => word.korean == '김치' && wordMatchesSearch(word, '김치'),
+      ),
+      hasLength(1),
+    );
+
+    final elevatorWords = words
+        .where((word) => word.korean == '엘리베이터')
+        .toList();
+    expect(elevatorWords, hasLength(1));
+    expect(elevatorWords.single.categories, const <String>['호텔', '한국생활', '회사']);
     expect(
       availableWords.where(
         (word) => !assetPaths.contains(word.resolvedImagePath),
@@ -75,6 +203,27 @@ void main() {
       ),
       isTrue,
     );
+  });
+
+  test('AppState exposes every category of a multi-category word', () async {
+    const multiCategoryWord = Word(
+      korean: '김치',
+      vietnamese: 'Kim chi',
+      koreanPronunciation: '김치',
+      vietnamesePronunciation: '',
+      category: '한국생활',
+      categories: <String>['음식', '한국생활'],
+      imagePath: 'assets/images/food/food_002.png',
+    );
+    final appState = AppState(
+      wordRepository: _FakeWordRepository(words: const [multiCategoryWord]),
+      favoriteService: _FakeFavoriteService(),
+    );
+
+    await appState.initialize();
+
+    expect(appState.words, const <Word>[multiCategoryWord]);
+    expect(appState.categories, const <String>['음식', '한국생활']);
   });
 
   test('AppState exposes only words available for learning', () async {

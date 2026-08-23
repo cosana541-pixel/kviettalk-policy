@@ -8,17 +8,39 @@ class Word {
     required this.koreanPronunciation,
     required this.vietnamesePronunciation,
     required this.category,
+    List<String>? categories,
     this.image,
     this.imagePath,
-  });
+  }) : _categories = categories;
 
   final String korean;
   final String vietnamese;
   final String koreanPronunciation;
   final String vietnamesePronunciation;
   final String category;
+  final List<String>? _categories;
   final String? image;
   final String? imagePath;
+
+  List<String> get categories {
+    final configuredCategories = _categories;
+    if (configuredCategories == null || configuredCategories.isEmpty) {
+      return List<String>.unmodifiable(<String>[category]);
+    }
+
+    final values = <String>[];
+    for (final value in configuredCategories) {
+      if (!values.contains(value)) {
+        values.add(value);
+      }
+    }
+    if (!values.contains(category)) {
+      values.insert(0, category);
+    }
+    return List<String>.unmodifiable(values);
+  }
+
+  bool belongsToCategory(String value) => categories.contains(value);
 
   String? get resolvedImagePath => imagePath ?? image;
 
@@ -32,12 +54,17 @@ class Word {
   String get id => '$korean|$vietnamese';
 
   factory Word.fromJson(Map<String, dynamic> json) {
+    final categoriesJson = json['categories'] as List<dynamic>?;
+
     return Word(
       korean: json['korean'] as String,
       vietnamese: json['vietnamese'] as String,
       koreanPronunciation: json['koreanPronunciation'] as String,
       vietnamesePronunciation: json['vietnamesePronunciation'] as String,
       category: json['category'] as String,
+      categories: categoriesJson == null
+          ? null
+          : List<String>.unmodifiable(categoriesJson.cast<String>()),
       image: json['image'] as String?,
       imagePath: json['imagePath'] as String?,
     );

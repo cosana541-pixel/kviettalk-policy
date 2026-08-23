@@ -110,6 +110,7 @@
     "koreanPronunciation": "캐리어",
     "vietnamesePronunciation": "",
     "category": "여행",
+    "categories": ["여행","공항"],
     "needsReview": true,
     "reviewNote": "travel.txt 기반 자동 추가",
     "imagePath": "assets/images/travel/travel_002.webp"
@@ -121,6 +122,7 @@
     "koreanPronunciation": "배낭",
     "vietnamesePronunciation": "",
     "category": "여행",
+    "categories": ["여행","공항"],
     "needsReview": true,
     "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
     "imagePath": "assets/images/travel/travel_003.webp"
@@ -131,6 +133,7 @@
     "koreanPronunciation": "여권",
     "vietnamesePronunciation": "호 찌에우",
     "category": "여행",
+    "categories": ["여행","공항"],
     "needsReview": true,
     "reviewNote": "원어민 최종 검수 권장",
     "imagePath": "assets/images/travel/travel_004.webp"
@@ -141,6 +144,7 @@
     "koreanPronunciation": "비자",
     "vietnamesePronunciation": "티 특",
     "category": "여행",
+    "categories": ["여행","공항"],
     "needsReview": true,
     "reviewNote": "원어민 최종 검수 권장",
     "imagePath": "assets/images/travel/travel_005.webp"
@@ -780,29 +784,10 @@
     "koreanPronunciation": "안내데스크",
     "vietnamesePronunciation": "",
     "category": "여행",
+    "categories": ["여행","공항"],
     "needsReview": true,
     "reviewNote": "travel.txt 기반 자동 추가",
     "imagePath": "assets/images/travel/travel_065.webp"
-  },
-  {
-    "korean": "체크인",
-    "vietnamese": "Nhận phòng",
-    "koreanPronunciation": "체크인",
-    "vietnamesePronunciation": "년 퐁",
-    "category": "여행",
-    "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장",
-    "imagePath": "assets/images/travel/travel_066.webp"
-  },
-  {
-    "korean": "체크아웃",
-    "vietnamese": "Trả phòng",
-    "koreanPronunciation": "체크아웃",
-    "vietnamesePronunciation": "짜 퐁",
-    "category": "여행",
-    "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장",
-    "imagePath": "assets/images/travel/travel_067.webp"
   },
   {
     "_todo": "TODO: 베트남어 표현과 한글 발음 표기는 원어민 검수 필요",
@@ -831,6 +816,7 @@
     "koreanPronunciation": "탑승권",
     "vietnamesePronunciation": "",
     "category": "여행",
+    "categories": ["여행","공항"],
     "needsReview": true,
     "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
     "imagePath": "assets/images/travel/travel_070.webp"
@@ -841,6 +827,7 @@
     "koreanPronunciation": "수하물",
     "vietnamesePronunciation": "",
     "category": "여행",
+    "categories": ["여행","공항"],
     "needsReview": true,
     "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
     "imagePath": "assets/images/travel/travel_071.webp"
@@ -863,6 +850,7 @@
     "koreanPronunciation": "환전소",
     "vietnamesePronunciation": "",
     "category": "여행",
+    "categories": ["여행","공항"],
     "needsReview": true,
     "reviewNote": "travel.txt 기반 자동 추가",
     "imagePath": "assets/images/travel/travel_073.webp"
@@ -1018,28 +1006,6 @@
     "needsReview": true,
     "reviewNote": "travel.txt 기반 자동 추가",
     "imagePath": "assets/images/travel/travel_087.webp"
-  },
-  {
-    "_todo": "TODO: 베트남어 표현과 한글 발음 표기는 원어민 검수 필요",
-    "korean": "전통시장",
-    "vietnamese": "Chợ truyền thống",
-    "koreanPronunciation": "전통시장",
-    "vietnamesePronunciation": "",
-    "category": "여행",
-    "needsReview": true,
-    "reviewNote": "travel.txt 기반 자동 추가",
-    "imagePath": "assets/images/travel/travel_088.webp"
-  },
-  {
-    "_todo": "TODO: 베트남어 표현과 한글 발음 표기는 원어민 검수 필요",
-    "korean": "야시장",
-    "vietnamese": "Chợ đêm",
-    "koreanPronunciation": "야시장",
-    "vietnamesePronunciation": "",
-    "category": "여행",
-    "needsReview": true,
-    "reviewNote": "travel.txt 기반 자동 추가",
-    "imagePath": "assets/images/travel/travel_089.webp"
   },
   {
     "_todo": "TODO: 베트남어 표현과 한글 발음 표기는 원어민 검수 필요",
@@ -1474,16 +1440,6 @@
     "imagePath": "assets/images/place/place_001.png"
   },
   {
-    "korean": "회사",
-    "vietnamese": "Công ty",
-    "koreanPronunciation": "회사",
-    "vietnamesePronunciation": "꽁 띠",
-    "category": "일상",
-    "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_061.webp"
-  },
-  {
     "korean": "학교",
     "vietnamese": "Trường học",
     "koreanPronunciation": "학교",
@@ -1915,16 +1871,6 @@
     "reviewNote": "원어민 최종 검수 권장"
   },
   {
-    "korean": "영수증",
-    "vietnamese": "Biên lai",
-    "koreanPronunciation": "영수증",
-    "vietnamesePronunciation": "비엔 라이",
-    "category": "쇼핑",
-    "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장",
-    "imagePath": "assets/images/shopping/shopping_016.png"
-  },
-  {
     "korean": "할인",
     "vietnamese": "Giảm giá",
     "koreanPronunciation": "할인",
@@ -2054,26 +2000,6 @@
     "reviewNote": "원어민 최종 검수 권장"
   },
   {
-    "korean": "병원",
-    "vietnamese": "Bệnh viện",
-    "koreanPronunciation": "병원",
-    "vietnamesePronunciation": "베잉 비엔",
-    "category": "병원",
-    "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_041.webp"
-  },
-  {
-    "korean": "약국",
-    "vietnamese": "Nhà thuốc",
-    "koreanPronunciation": "약국",
-    "vietnamesePronunciation": "냐 투옥",
-    "category": "병원",
-    "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_045.png"
-  },
-  {
     "korean": "의사",
     "vietnamese": "Bác sĩ",
     "koreanPronunciation": "의사",
@@ -2161,16 +2087,6 @@
     "reviewNote": "원어민 최종 검수 권장"
   },
   {
-    "korean": "기차역",
-    "vietnamese": "Ga tàu",
-    "koreanPronunciation": "기차역",
-    "vietnamesePronunciation": "가 따우",
-    "category": "교통",
-    "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_082.png"
-  },
-  {
     "korean": "택시 승강장",
     "vietnamese": "Điểm đón taxi",
     "koreanPronunciation": "택시 승강장",
@@ -2196,16 +2112,6 @@
     "category": "교통",
     "needsReview": true,
     "reviewNote": "원어민 최종 검수 권장"
-  },
-  {
-    "korean": "교통카드",
-    "vietnamese": "Thẻ giao thông",
-    "koreanPronunciation": "교통카드",
-    "vietnamesePronunciation": "테 자오 통",
-    "category": "교통",
-    "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장",
-    "imagePath": "assets/images/shopping/shopping_066.png"
   },
   {
     "korean": "막혀요",
@@ -2848,26 +2754,6 @@
     "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
   },
   {
-    "korean": "마트",
-    "vietnamese": "Siêu thị",
-    "koreanPronunciation": "마트",
-    "vietnamesePronunciation": "",
-    "category": "쇼핑",
-    "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_070.webp"
-  },
-  {
-    "korean": "편의점",
-    "vietnamese": "Cửa hàng tiện lợi",
-    "koreanPronunciation": "편의점",
-    "vietnamesePronunciation": "",
-    "category": "쇼핑",
-    "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_072.webp"
-  },
-  {
     "korean": "가격",
     "vietnamese": "Giá",
     "koreanPronunciation": "가격",
@@ -2938,16 +2824,6 @@
     "category": "쇼핑",
     "needsReview": true,
     "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
-  },
-  {
-    "korean": "지하철역",
-    "vietnamese": "Ga tàu điện ngầm",
-    "koreanPronunciation": "지하철역",
-    "vietnamesePronunciation": "",
-    "category": "교통",
-    "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_084.png"
   },
   {
     "korean": "왕복",
@@ -3104,16 +2980,6 @@
     "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
   },
   {
-    "korean": "경찰서",
-    "vietnamese": "Đồn cảnh sát",
-    "koreanPronunciation": "경찰서",
-    "vietnamesePronunciation": "",
-    "category": "긴급",
-    "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_054.webp"
-  },
-  {
     "korean": "대사관",
     "vietnamese": "Đại sứ quán",
     "koreanPronunciation": "대사관",
@@ -3232,16 +3098,6 @@
     "category": "병원",
     "needsReview": true,
     "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
-  },
-  {
-    "korean": "사무실",
-    "vietnamese": "Văn phòng",
-    "koreanPronunciation": "사무실",
-    "vietnamesePronunciation": "",
-    "category": "일",
-    "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_062.png"
   },
   {
     "korean": "전화",
@@ -3417,16 +3273,6 @@
     "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
   },
   {
-    "korean": "우산",
-    "vietnamese": "Ô",
-    "koreanPronunciation": "우산",
-    "vietnamesePronunciation": "",
-    "category": "일상",
-    "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/shopping/shopping_051.webp"
-  },
-  {
     "korean": "비옷",
     "vietnamese": "Áo mưa",
     "koreanPronunciation": "비옷",
@@ -3444,16 +3290,6 @@
     "needsReview": true,
     "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
     "imagePath": "assets/images/home/home_065.png"
-  },
-  {
-    "korean": "에어컨",
-    "vietnamese": "Máy lạnh",
-    "koreanPronunciation": "에어컨",
-    "vietnamesePronunciation": "",
-    "category": "일상",
-    "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/home/home_066.png"
   },
   {
     "korean": "세탁",
@@ -3535,16 +3371,6 @@
     "category": "음식",
     "needsReview": true,
     "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장"
-  },
-  {
-    "korean": "김치",
-    "vietnamese": "Kim chi",
-    "koreanPronunciation": "김치",
-    "vietnamesePronunciation": "",
-    "category": "음식",
-    "needsReview": true,
-    "reviewNote": "2차 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/food/food_002.png"
   },
   {
     "korean": "라면",
@@ -4317,26 +4143,6 @@
     "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
   },
   {
-    "korean": "불고기",
-    "vietnamese": "Thịt bò Bulgogi",
-    "koreanPronunciation": "불고기",
-    "vietnamesePronunciation": "",
-    "category": "음식",
-    "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/food/food_005.png"
-  },
-  {
-    "korean": "비빔밥",
-    "vietnamese": "Cơm trộn",
-    "koreanPronunciation": "비빔밥",
-    "vietnamesePronunciation": "",
-    "category": "음식",
-    "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/food/food_004.png"
-  },
-  {
     "korean": "김밥",
     "vietnamese": "Cơm cuộn rong biển",
     "koreanPronunciation": "김밥",
@@ -4366,16 +4172,6 @@
     "imagePath": "assets/images/food/food_153.png",
     "needsReview": true,
     "reviewNote": "food_list.txt 기반 라볶이 이미지 연결: 원어민 최종 검수 권장"
-  },
-  {
-    "korean": "삼겹살",
-    "vietnamese": "Thịt ba chỉ nướng",
-    "koreanPronunciation": "삼겹살",
-    "vietnamesePronunciation": "",
-    "category": "음식",
-    "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/food/food_006.png"
   },
   {
     "korean": "갈비",
@@ -5813,16 +5609,6 @@
     "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
   },
   {
-    "korean": "백화점",
-    "vietnamese": "Trung tâm thương mại",
-    "koreanPronunciation": "백화점",
-    "vietnamesePronunciation": "",
-    "category": "쇼핑",
-    "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_071.webp"
-  },
-  {
     "korean": "영수증",
     "vietnamese": "Hóa đơn",
     "koreanPronunciation": "영수증",
@@ -5986,16 +5772,6 @@
     "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
   },
   {
-    "korean": "은행",
-    "vietnamese": "Ngân hàng",
-    "koreanPronunciation": "은행",
-    "vietnamesePronunciation": "",
-    "category": "은행",
-    "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_051.webp"
-  },
-  {
     "korean": "통장",
     "vietnamese": "Sổ ngân hàng",
     "koreanPronunciation": "통장",
@@ -6040,16 +5816,6 @@
     "needsReview": true,
     "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
     "imagePath": "assets/images/shopping/shopping_064.png"
-  },
-  {
-    "korean": "체크카드",
-    "vietnamese": "Thẻ ghi nợ",
-    "koreanPronunciation": "체크카드",
-    "vietnamesePronunciation": "",
-    "category": "은행",
-    "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/shopping/shopping_065.png"
   },
   {
     "korean": "입금",
@@ -6508,6 +6274,7 @@
     "koreanPronunciation": "활주로",
     "vietnamesePronunciation": "",
     "category": "공항",
+    "categories": ["공항","교통"],
     "needsReview": true,
     "reviewNote": "traffic_list.txt ?? ?? ??",
     "imagePath": "assets/images/traffic/traffic_058.png"
@@ -6518,6 +6285,7 @@
     "koreanPronunciation": "관제탑",
     "vietnamesePronunciation": "",
     "category": "공항",
+    "categories": ["공항","교통"],
     "needsReview": true,
     "reviewNote": "traffic_list.txt ?? ?? ??",
     "imagePath": "assets/images/traffic/traffic_059.webp"
@@ -6556,28 +6324,6 @@
     "imagePath": "assets/images/airport/airport_017.webp"
   },
   {
-    "_todo": "TODO: 베트남어 표현과 한글 발음 표기는 원어민 검수 필요",
-    "korean": "안내데스크",
-    "vietnamese": "Quầy thông tin",
-    "koreanPronunciation": "안내데스크",
-    "vietnamesePronunciation": "",
-    "category": "공항",
-    "needsReview": true,
-    "reviewNote": "travel.txt 기반 자동 추가",
-    "imagePath": "assets/images/travel/travel_065.webp"
-  },
-  {
-    "_todo": "TODO: 베트남어 표현과 한글 발음 표기는 원어민 검수 필요",
-    "korean": "환전소",
-    "vietnamese": "",
-    "koreanPronunciation": "환전소",
-    "vietnamesePronunciation": "",
-    "category": "공항",
-    "needsReview": true,
-    "reviewNote": "travel.txt 기반 자동 추가",
-    "imagePath": "assets/images/travel/travel_073.webp"
-  },
-  {
     "korean": "면세점",
     "vietnamese": "Cửa hàng miễn thuế",
     "koreanPronunciation": "면세점",
@@ -6586,36 +6332,6 @@
     "needsReview": true,
     "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
     "imagePath": "assets/images/airport/airport_020.png"
-  },
-  {
-    "korean": "여권",
-    "vietnamese": "Hộ chiếu",
-    "koreanPronunciation": "여권",
-    "vietnamesePronunciation": "호 찌에우",
-    "category": "공항",
-    "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장",
-    "imagePath": "assets/images/travel/travel_004.webp"
-  },
-  {
-    "korean": "비자",
-    "vietnamese": "Thị thực",
-    "koreanPronunciation": "비자",
-    "vietnamesePronunciation": "티 특",
-    "category": "공항",
-    "needsReview": true,
-    "reviewNote": "원어민 최종 검수 권장",
-    "imagePath": "assets/images/travel/travel_005.webp"
-  },
-  {
-    "korean": "탑승권",
-    "vietnamese": "Thẻ lên máy bay",
-    "koreanPronunciation": "탑승권",
-    "vietnamesePronunciation": "",
-    "category": "공항",
-    "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/travel/travel_070.webp"
   },
   {
     "_todo": "TODO: 베트남어 표현과 한글 발음 표기는 원어민 검수 필요",
@@ -6650,16 +6366,6 @@
     "imagePath": "assets/images/airport/airport_026.png"
   },
   {
-    "korean": "수하물",
-    "vietnamese": "Hành lý",
-    "koreanPronunciation": "수하물",
-    "vietnamesePronunciation": "",
-    "category": "공항",
-    "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/travel/travel_071.webp"
-  },
-  {
     "_todo": "TODO: 베트남어 표현과 한글 발음 표기는 원어민 검수 필요",
     "korean": "위탁수하물",
     "vietnamese": "",
@@ -6680,28 +6386,6 @@
     "reviewNote": "airplane.txt 기반 자동 추가",
     "category": "공항",
     "imagePath": "assets/images/airport/airport_029.png"
-  },
-  {
-    "_todo": "TODO: 베트남어 표현과 한글 발음 표기는 원어민 검수 필요",
-    "korean": "캐리어",
-    "vietnamese": "",
-    "koreanPronunciation": "캐리어",
-    "vietnamesePronunciation": "",
-    "category": "공항",
-    "needsReview": true,
-    "reviewNote": "travel.txt 기반 자동 추가",
-    "imagePath": "assets/images/travel/travel_002.webp"
-  },
-  {
-    "_todo": "TODO: 이미지 asset 추가 필요",
-    "korean": "배낭",
-    "vietnamese": "Ba lô",
-    "koreanPronunciation": "배낭",
-    "vietnamesePronunciation": "",
-    "category": "공항",
-    "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/travel/travel_003.webp"
   },
   {
     "_todo": "TODO: 베트남어 표현과 한글 발음 표기는 원어민 검수 필요",
@@ -7000,17 +6684,6 @@
     "imagePath": "assets/images/airport/airport_058.png"
   },
   {
-    "_todo": "TODO: 이미지 asset 추가 필요",
-    "korean": "공항버스",
-    "vietnamese": "Xe buýt sân bay",
-    "koreanPronunciation": "공항버스",
-    "vietnamesePronunciation": "",
-    "category": "공항",
-    "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/airport/airport_059.png"
-  },
-  {
     "_todo": "TODO: 베트남어 표현과 한글 발음 표기는 원어민 검수 필요",
     "korean": "셔틀버스",
     "vietnamese": "",
@@ -7059,6 +6732,7 @@
     "koreanPronunciation": "체크인",
     "vietnamesePronunciation": "년 퐁",
     "category": "호텔",
+    "categories": ["여행","호텔"],
     "imagePath": "assets/images/travel/travel_066.webp"
   },
   {
@@ -7067,6 +6741,7 @@
     "koreanPronunciation": "체크아웃",
     "vietnamesePronunciation": "짜 퐁",
     "category": "호텔",
+    "categories": ["여행","호텔"],
     "imagePath": "assets/images/travel/travel_067.webp"
   },
   {
@@ -7155,6 +6830,7 @@
     "koreanPronunciation": "복도",
     "vietnamesePronunciation": "",
     "category": "호텔",
+    "categories": ["호텔","회사","장소"],
     "imagePath": "assets/images/place/place_018.png"
   },
   {
@@ -7163,6 +6839,7 @@
     "koreanPronunciation": "엘리베이터",
     "vietnamesePronunciation": "",
     "category": "호텔",
+    "categories": ["호텔","한국생활","회사"],
     "imagePath": "assets/images/hotel/hotel_018.png"
   },
   {
@@ -7219,6 +6896,7 @@
     "koreanPronunciation": "이불",
     "vietnamesePronunciation": "",
     "category": "호텔",
+    "categories": ["호텔","집"],
     "imagePath": "assets/images/home/home_007.png"
   },
   {
@@ -7227,6 +6905,7 @@
     "koreanPronunciation": "소파",
     "vietnamesePronunciation": "",
     "category": "호텔",
+    "categories": ["호텔","집"],
     "imagePath": "assets/images/home/home_001.png"
   },
   {
@@ -7235,6 +6914,7 @@
     "koreanPronunciation": "책상",
     "vietnamesePronunciation": "",
     "category": "호텔",
+    "categories": ["호텔","집"],
     "imagePath": "assets/images/home/home_003.png"
   },
   {
@@ -7243,6 +6923,7 @@
     "koreanPronunciation": "의자",
     "vietnamesePronunciation": "",
     "category": "호텔",
+    "categories": ["호텔","집"],
     "imagePath": "assets/images/home/home_002.png"
   },
   {
@@ -7251,6 +6932,7 @@
     "koreanPronunciation": "옷장",
     "vietnamesePronunciation": "",
     "category": "호텔",
+    "categories": ["호텔","집"],
     "imagePath": "assets/images/home/home_009.png"
   },
   {
@@ -7267,6 +6949,7 @@
     "koreanPronunciation": "냉장고",
     "vietnamesePronunciation": "",
     "category": "호텔",
+    "categories": ["호텔","집"],
     "imagePath": "assets/images/home/home_021.png"
   },
   {
@@ -7315,6 +6998,7 @@
     "koreanPronunciation": "에어컨",
     "vietnamesePronunciation": "",
     "category": "호텔",
+    "categories": ["일상","호텔"],
     "imagePath": "assets/images/home/home_066.png"
   },
   {
@@ -7331,6 +7015,7 @@
     "koreanPronunciation": "거울",
     "vietnamesePronunciation": "",
     "category": "호텔",
+    "categories": ["호텔","집"],
     "imagePath": "assets/images/home/home_020.png"
   },
   {
@@ -7347,6 +7032,7 @@
     "koreanPronunciation": "욕실",
     "vietnamesePronunciation": "",
     "category": "호텔",
+    "categories": ["호텔","장소"],
     "imagePath": "assets/images/place/place_010.png"
   },
   {
@@ -7475,6 +7161,7 @@
     "koreanPronunciation": "수영장",
     "vietnamesePronunciation": "",
     "category": "호텔",
+    "categories": ["호텔","장소"],
     "imagePath": "assets/images/place/place_038.webp"
   },
   {
@@ -7715,6 +7402,7 @@
     "koreanPronunciation": "아파트",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","장소"],
     "imagePath": "assets/images/place/place_002.png"
   },
   {
@@ -7731,6 +7419,7 @@
     "koreanPronunciation": "빌라",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","장소"],
     "imagePath": "assets/images/place/place_003.webp"
   },
   {
@@ -7790,19 +7479,12 @@
     "imagePath": "assets/images/korean_life/korean_life_010.webp"
   },
   {
-    "korean": "엘리베이터",
-    "vietnamese": "Thang máy",
-    "koreanPronunciation": "엘리베이터",
-    "vietnamesePronunciation": "",
-    "category": "한국생활",
-    "imagePath": "assets/images/hotel/hotel_018.png"
-  },
-  {
     "korean": "주차장",
     "vietnamese": "Bãi đỗ xe",
     "koreanPronunciation": "주차장",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","장소"],
     "imagePath": "assets/images/place/place_086.png"
   },
   {
@@ -7819,6 +7501,7 @@
     "koreanPronunciation": "놀이터",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","장소"],
     "imagePath": "assets/images/place/place_039.png"
   },
   {
@@ -7883,6 +7566,7 @@
     "koreanPronunciation": "구청",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","장소"],
     "imagePath": "assets/images/place/place_058.webp"
   },
   {
@@ -7891,6 +7575,7 @@
     "koreanPronunciation": "시청",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","장소"],
     "imagePath": "assets/images/place/place_057.webp"
   },
   {
@@ -7899,6 +7584,7 @@
     "koreanPronunciation": "동사무소",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","장소"],
     "imagePath": "assets/images/place/place_059.png"
   },
   {
@@ -7931,6 +7617,7 @@
     "koreanPronunciation": "세무서",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","장소"],
     "imagePath": "assets/images/place/place_060.webp"
   },
   {
@@ -7963,6 +7650,7 @@
     "koreanPronunciation": "경찰서",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["긴급","한국생활"],
     "imagePath": "assets/images/place/place_054.webp"
   },
   {
@@ -7971,6 +7659,7 @@
     "koreanPronunciation": "소방서",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","장소"],
     "imagePath": "assets/images/place/place_055.webp"
   },
   {
@@ -7987,6 +7676,7 @@
     "koreanPronunciation": "법원",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","장소"],
     "imagePath": "assets/images/place/place_056.png"
   },
   {
@@ -7995,6 +7685,7 @@
     "koreanPronunciation": "은행",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["은행","한국생활"],
     "imagePath": "assets/images/place/place_051.webp"
   },
   {
@@ -8019,6 +7710,7 @@
     "koreanPronunciation": "체크카드",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["은행","한국생활"],
     "imagePath": "assets/images/shopping/shopping_065.png"
   },
   {
@@ -8035,6 +7727,7 @@
     "koreanPronunciation": "편의점",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["쇼핑","한국생활"],
     "imagePath": "assets/images/place/place_072.webp"
   },
   {
@@ -8043,6 +7736,7 @@
     "koreanPronunciation": "마트",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["쇼핑","한국생활"],
     "imagePath": "assets/images/place/place_070.webp"
   },
   {
@@ -8051,6 +7745,7 @@
     "koreanPronunciation": "전통시장",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["여행","한국생활"],
     "imagePath": "assets/images/travel/travel_088.webp"
   },
   {
@@ -8059,6 +7754,7 @@
     "koreanPronunciation": "백화점",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["쇼핑","한국생활"],
     "imagePath": "assets/images/place/place_071.webp"
   },
   {
@@ -8067,6 +7763,7 @@
     "koreanPronunciation": "쇼핑몰",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","장소"],
     "imagePath": "assets/images/place/place_074.webp"
   },
   {
@@ -8083,6 +7780,7 @@
     "koreanPronunciation": "약국",
     "vietnamesePronunciation": "냐 투옥",
     "category": "한국생활",
+    "categories": ["병원","한국생활"],
     "imagePath": "assets/images/place/place_045.png"
   },
   {
@@ -8091,6 +7789,7 @@
     "koreanPronunciation": "병원",
     "vietnamesePronunciation": "베잉 비엔",
     "category": "한국생활",
+    "categories": ["병원","한국생활"],
     "imagePath": "assets/images/place/place_041.webp"
   },
   {
@@ -8099,6 +7798,7 @@
     "koreanPronunciation": "카페",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","장소"],
     "imagePath": "assets/images/place/place_078.webp"
   },
   {
@@ -8131,6 +7831,7 @@
     "koreanPronunciation": "빵집",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","장소"],
     "imagePath": "assets/images/place/place_077.png"
   },
   {
@@ -8147,6 +7848,7 @@
     "koreanPronunciation": "미용실",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","장소"],
     "imagePath": "assets/images/place/place_080.webp"
   },
   {
@@ -8171,6 +7873,7 @@
     "koreanPronunciation": "독서실",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","장소"],
     "imagePath": "assets/images/place/place_036.png"
   },
   {
@@ -8203,6 +7906,7 @@
     "koreanPronunciation": "지하철역",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["교통","한국생활"],
     "imagePath": "assets/images/place/place_084.png"
   },
   {
@@ -8235,6 +7939,7 @@
     "koreanPronunciation": "KTX",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","교통"],
     "imagePath": "assets/images/traffic/traffic_029.png"
   },
   {
@@ -8243,6 +7948,7 @@
     "koreanPronunciation": "기차역",
     "vietnamesePronunciation": "가 따우",
     "category": "한국생활",
+    "categories": ["교통","한국생활"],
     "imagePath": "assets/images/place/place_082.png"
   },
   {
@@ -8251,6 +7957,7 @@
     "koreanPronunciation": "교통카드",
     "vietnamesePronunciation": "테 자오 통",
     "category": "한국생활",
+    "categories": ["교통","한국생활"],
     "imagePath": "assets/images/shopping/shopping_066.png"
   },
   {
@@ -8307,6 +8014,7 @@
     "koreanPronunciation": "전동킥보드",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","교통"],
     "imagePath": "assets/images/traffic/traffic_024.webp"
   },
   {
@@ -8315,6 +8023,7 @@
     "koreanPronunciation": "주유소",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","교통"],
     "imagePath": "assets/images/place/place_087.webp"
   },
   {
@@ -8347,6 +8056,7 @@
     "koreanPronunciation": "공항버스",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["공항","한국생활"],
     "imagePath": "assets/images/airport/airport_059.png"
   },
   {
@@ -8491,6 +8201,7 @@
     "koreanPronunciation": "영수증",
     "vietnamesePronunciation": "비엔 라이",
     "category": "한국생활",
+    "categories": ["쇼핑","한국생활"],
     "imagePath": "assets/images/shopping/shopping_016.png"
   },
   {
@@ -8515,6 +8226,7 @@
     "koreanPronunciation": "김치",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["음식","한국생활"],
     "imagePath": "assets/images/food/food_002.png"
   },
   {
@@ -8571,6 +8283,7 @@
     "koreanPronunciation": "떡국",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["한국생활","음식"],
     "imagePath": "assets/images/food/food_115.webp"
   },
   {
@@ -8579,6 +8292,7 @@
     "koreanPronunciation": "불고기",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["음식","한국생활"],
     "imagePath": "assets/images/food/food_005.png"
   },
   {
@@ -8587,6 +8301,7 @@
     "koreanPronunciation": "비빔밥",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["음식","한국생활"],
     "imagePath": "assets/images/food/food_004.png"
   },
   {
@@ -8595,6 +8310,7 @@
     "koreanPronunciation": "삼겹살",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["음식","한국생활"],
     "imagePath": "assets/images/food/food_006.png"
   },
   {
@@ -8627,6 +8343,7 @@
     "koreanPronunciation": "야시장",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["여행","한국생활"],
     "imagePath": "assets/images/travel/travel_089.webp"
   },
   {
@@ -8667,6 +8384,7 @@
     "koreanPronunciation": "우산",
     "vietnamesePronunciation": "",
     "category": "한국생활",
+    "categories": ["일상","한국생활"],
     "imagePath": "assets/images/shopping/shopping_051.webp"
   },
   {
@@ -8906,16 +8624,6 @@
     "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
   },
   {
-    "korean": "카페",
-    "vietnamese": "Quán cà phê",
-    "koreanPronunciation": "카페",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_078.webp"
-  },
-  {
     "korean": "공원",
     "vietnamese": "Công viên",
     "koreanPronunciation": "공원",
@@ -8945,16 +8653,6 @@
     "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
   },
   {
-    "korean": "미용실",
-    "vietnamese": "Tiệm làm tóc",
-    "koreanPronunciation": "미용실",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_080.webp"
-  },
-  {
     "korean": "세탁소",
     "vietnamese": "Tiệm giặt ủi",
     "koreanPronunciation": "세탁소",
@@ -8962,16 +8660,6 @@
     "category": "장소",
     "needsReview": true,
     "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
-  },
-  {
-    "korean": "소방서",
-    "vietnamese": "Trạm cứu hỏa",
-    "koreanPronunciation": "소방서",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_055.webp"
   },
   {
     "korean": "버스 터미널",
@@ -9031,16 +8719,6 @@
     "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장"
   },
   {
-    "korean": "주차장",
-    "vietnamese": "Bãi đỗ xe",
-    "koreanPronunciation": "주차장",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_086.png"
-  },
-  {
     "korean": "운동장",
     "vietnamese": "Sân vận động",
     "koreanPronunciation": "운동장",
@@ -9049,16 +8727,6 @@
     "needsReview": true,
     "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
     "imagePath": "assets/images/place/place_025.webp"
-  },
-  {
-    "korean": "놀이터",
-    "vietnamese": "Sân chơi",
-    "koreanPronunciation": "놀이터",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "1.4.0 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_039.png"
   },
   {
     "korean": "부모님",
@@ -11268,17 +10936,6 @@
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
-    "korean": "휴게실",
-    "vietnamese": "Phòng nghỉ",
-    "koreanPronunciation": "휴게실",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_064.webp"
-  },
-  {
-    "_todo": "TODO: 이미지 asset 추가 필요",
     "korean": "흡연실",
     "vietnamese": "Phòng hút thuốc",
     "koreanPronunciation": "흡연실",
@@ -11326,17 +10983,6 @@
     "category": "장소",
     "needsReview": true,
     "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
-  },
-  {
-    "_todo": "TODO: 이미지 asset 추가 필요",
-    "korean": "빌라",
-    "vietnamese": "Nhà villa thấp tầng",
-    "koreanPronunciation": "빌라",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_003.webp"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -11449,17 +11095,6 @@
     "category": "장소",
     "needsReview": true,
     "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
-  },
-  {
-    "_todo": "TODO: 이미지 asset 추가 필요",
-    "korean": "수영장",
-    "vietnamese": "Hồ bơi",
-    "koreanPronunciation": "수영장",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/place/place_038.webp"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -11718,17 +11353,6 @@
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
-    "korean": "소파",
-    "vietnamese": "Ghế sofa",
-    "koreanPronunciation": "소파",
-    "vietnamesePronunciation": "",
-    "category": "집",
-    "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/home/home_001.png"
-  },
-  {
-    "_todo": "TODO: 이미지 asset 추가 필요",
     "korean": "식탁",
     "vietnamese": "Bàn ăn",
     "koreanPronunciation": "식탁",
@@ -11740,28 +11364,6 @@
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
-    "korean": "의자",
-    "vietnamese": "Ghế",
-    "koreanPronunciation": "의자",
-    "vietnamesePronunciation": "",
-    "category": "집",
-    "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/home/home_002.png"
-  },
-  {
-    "_todo": "TODO: 이미지 asset 추가 필요",
-    "korean": "책상",
-    "vietnamese": "Bàn học",
-    "koreanPronunciation": "책상",
-    "vietnamesePronunciation": "",
-    "category": "집",
-    "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/home/home_003.png"
-  },
-  {
-    "_todo": "TODO: 이미지 asset 추가 필요",
     "korean": "책장",
     "vietnamese": "Kệ sách",
     "koreanPronunciation": "책장",
@@ -11770,17 +11372,6 @@
     "needsReview": true,
     "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
     "imagePath": "assets/images/home/home_011.png"
-  },
-  {
-    "_todo": "TODO: 이미지 asset 추가 필요",
-    "korean": "옷장",
-    "vietnamese": "Tủ quần áo",
-    "koreanPronunciation": "옷장",
-    "vietnamesePronunciation": "",
-    "category": "집",
-    "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/home/home_009.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -11957,17 +11548,6 @@
     "category": "집",
     "needsReview": true,
     "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장"
-  },
-  {
-    "_todo": "TODO: 이미지 asset 추가 필요",
-    "korean": "냉장고",
-    "vietnamese": "Tủ lạnh",
-    "koreanPronunciation": "냉장고",
-    "vietnamesePronunciation": "",
-    "category": "집",
-    "needsReview": true,
-    "reviewNote": "1.4.0 추가 확장 항목: 원어민 최종 검수 권장",
-    "imagePath": "assets/images/home/home_021.png"
   },
   {
     "_todo": "TODO: 이미지 asset 추가 필요",
@@ -13235,6 +12815,7 @@
     "koreanPronunciation": "회사",
     "vietnamesePronunciation": "꽁 띠",
     "category": "회사",
+    "categories": ["일상","회사"],
     "imagePath": "assets/images/place/place_061.webp"
   },
   {
@@ -13243,6 +12824,7 @@
     "koreanPronunciation": "사무실",
     "vietnamesePronunciation": "",
     "category": "회사",
+    "categories": ["일","회사"],
     "imagePath": "assets/images/place/place_062.png"
   },
   {
@@ -13251,6 +12833,7 @@
     "koreanPronunciation": "회의실",
     "vietnamesePronunciation": "",
     "category": "회사",
+    "categories": ["회사","장소"],
     "imagePath": "assets/images/place/place_063.webp"
   },
   {
@@ -13275,6 +12858,7 @@
     "koreanPronunciation": "휴게실",
     "vietnamesePronunciation": "",
     "category": "회사",
+    "categories": ["장소","회사"],
     "imagePath": "assets/images/place/place_064.webp"
   },
   {
@@ -13332,22 +12916,6 @@
     "vietnamesePronunciation": "",
     "category": "회사",
     "imagePath": "assets/images/company/company_013.png"
-  },
-  {
-    "korean": "엘리베이터",
-    "vietnamese": "Thang máy",
-    "koreanPronunciation": "엘리베이터",
-    "vietnamesePronunciation": "",
-    "category": "회사",
-    "imagePath": "assets/images/hotel/hotel_018.png"
-  },
-  {
-    "korean": "복도",
-    "vietnamese": "Hành lang",
-    "koreanPronunciation": "복도",
-    "vietnamesePronunciation": "",
-    "category": "회사",
-    "imagePath": "assets/images/place/place_018.png"
   },
   {
     "korean": "사무용책상",
@@ -14418,16 +13986,6 @@
     "needsReview": true,
     "reviewNote": "food_list.txt ?? ?? ??",
     "imagePath": "assets/images/food/food_114.webp"
-  },
-  {
-    "korean": "떡국",
-    "vietnamese": "Súp bánh gạo",
-    "koreanPronunciation": "떡국",
-    "vietnamesePronunciation": "",
-    "category": "음식",
-    "needsReview": true,
-    "reviewNote": "food_list.txt ?? ?? ??",
-    "imagePath": "assets/images/food/food_115.webp"
   },
   {
     "korean": "수제비",
@@ -17630,16 +17188,6 @@
     "imagePath": "assets/images/traffic/traffic_023.webp"
   },
   {
-    "korean": "전동킥보드",
-    "vietnamese": "Xe scooter điện",
-    "koreanPronunciation": "전동킥보드",
-    "vietnamesePronunciation": "",
-    "category": "교통",
-    "needsReview": true,
-    "reviewNote": "traffic_list.txt ?? ?? ??",
-    "imagePath": "assets/images/traffic/traffic_024.webp"
-  },
-  {
     "korean": "전철",
     "vietnamese": "",
     "koreanPronunciation": "전철",
@@ -17658,16 +17206,6 @@
     "needsReview": true,
     "reviewNote": "traffic_list.txt ?? ?? ??",
     "imagePath": "assets/images/traffic/traffic_028.png"
-  },
-  {
-    "korean": "KTX",
-    "vietnamese": "Tàu KTX",
-    "koreanPronunciation": "KTX",
-    "vietnamesePronunciation": "",
-    "category": "교통",
-    "needsReview": true,
-    "reviewNote": "traffic_list.txt ?? ?? ??",
-    "imagePath": "assets/images/traffic/traffic_029.png"
   },
   {
     "korean": "화물열차",
@@ -17900,26 +17438,6 @@
     "imagePath": "assets/images/traffic/traffic_055.png"
   },
   {
-    "korean": "활주로",
-    "vietnamese": "",
-    "koreanPronunciation": "활주로",
-    "vietnamesePronunciation": "",
-    "category": "교통",
-    "needsReview": true,
-    "reviewNote": "traffic_list.txt ?? ?? ??",
-    "imagePath": "assets/images/traffic/traffic_058.png"
-  },
-  {
-    "korean": "관제탑",
-    "vietnamese": "",
-    "koreanPronunciation": "관제탑",
-    "vietnamesePronunciation": "",
-    "category": "교통",
-    "needsReview": true,
-    "reviewNote": "traffic_list.txt ?? ?? ??",
-    "imagePath": "assets/images/traffic/traffic_059.webp"
-  },
-  {
     "korean": "공항셔틀",
     "vietnamese": "",
     "koreanPronunciation": "공항셔틀",
@@ -18068,16 +17586,6 @@
     "needsReview": true,
     "reviewNote": "traffic_list.txt ?? ?? ??",
     "imagePath": "assets/images/traffic/traffic_077.webp"
-  },
-  {
-    "korean": "주유소",
-    "vietnamese": "Trạm xăng",
-    "koreanPronunciation": "주유소",
-    "vietnamesePronunciation": "",
-    "category": "교통",
-    "needsReview": true,
-    "reviewNote": "traffic_list.txt ?? ?? ??",
-    "imagePath": "assets/images/place/place_087.webp"
   },
   {
     "korean": "치과의사",
@@ -18740,16 +18248,6 @@
     "imagePath": "assets/images/job/job_080.webp"
   },
   {
-    "korean": "아파트",
-    "vietnamese": "Căn hộ",
-    "koreanPronunciation": "아파트",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "place_list.txt 기반 자동 추가",
-    "imagePath": "assets/images/place/place_002.png"
-  },
-  {
     "korean": "단독주택",
     "vietnamese": "",
     "koreanPronunciation": "단독주택",
@@ -18810,16 +18308,6 @@
     "imagePath": "assets/images/place/place_009.png"
   },
   {
-    "korean": "욕실",
-    "vietnamese": "Phòng tắm",
-    "koreanPronunciation": "욕실",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "place_list.txt 기반 자동 추가",
-    "imagePath": "assets/images/place/place_010.png"
-  },
-  {
     "korean": "베란다",
     "vietnamese": "",
     "koreanPronunciation": "베란다",
@@ -18858,16 +18346,6 @@
     "needsReview": true,
     "reviewNote": "place_list.txt 기반 자동 추가",
     "imagePath": "assets/images/place/place_015.png"
-  },
-  {
-    "korean": "복도",
-    "vietnamese": "Hành lang",
-    "koreanPronunciation": "복도",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "place_list.txt 기반 자동 추가",
-    "imagePath": "assets/images/place/place_018.png"
   },
   {
     "korean": "지하실",
@@ -18920,16 +18398,6 @@
     "imagePath": "assets/images/place/place_034.png"
   },
   {
-    "korean": "독서실",
-    "vietnamese": "Phòng tự học",
-    "koreanPronunciation": "독서실",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "place_list.txt 기반 자동 추가",
-    "imagePath": "assets/images/place/place_036.png"
-  },
-  {
     "korean": "입원실",
     "vietnamese": "",
     "koreanPronunciation": "입원실",
@@ -18938,66 +18406,6 @@
     "needsReview": true,
     "reviewNote": "place_list.txt 기반 자동 추가",
     "imagePath": "assets/images/place/place_044.webp"
-  },
-  {
-    "korean": "법원",
-    "vietnamese": "Tòa án",
-    "koreanPronunciation": "법원",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "place_list.txt 기반 자동 추가",
-    "imagePath": "assets/images/place/place_056.png"
-  },
-  {
-    "korean": "시청",
-    "vietnamese": "Tòa thị chính",
-    "koreanPronunciation": "시청",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "place_list.txt 기반 자동 추가",
-    "imagePath": "assets/images/place/place_057.webp"
-  },
-  {
-    "korean": "구청",
-    "vietnamese": "Văn phòng quận",
-    "koreanPronunciation": "구청",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "place_list.txt 기반 자동 추가",
-    "imagePath": "assets/images/place/place_058.webp"
-  },
-  {
-    "korean": "동사무소",
-    "vietnamese": "Văn phòng phường",
-    "koreanPronunciation": "동사무소",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "place_list.txt 기반 자동 추가",
-    "imagePath": "assets/images/place/place_059.png"
-  },
-  {
-    "korean": "세무서",
-    "vietnamese": "Cục thuế",
-    "koreanPronunciation": "세무서",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "place_list.txt 기반 자동 추가",
-    "imagePath": "assets/images/place/place_060.webp"
-  },
-  {
-    "korean": "회의실",
-    "vietnamese": "Phòng họp",
-    "koreanPronunciation": "회의실",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "place_list.txt 기반 자동 추가",
-    "imagePath": "assets/images/place/place_063.webp"
   },
   {
     "korean": "공장",
@@ -19050,16 +18458,6 @@
     "imagePath": "assets/images/place/place_069.png"
   },
   {
-    "korean": "쇼핑몰",
-    "vietnamese": "Trung tâm mua sắm",
-    "koreanPronunciation": "쇼핑몰",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "place_list.txt 기반 자동 추가",
-    "imagePath": "assets/images/place/place_074.webp"
-  },
-  {
     "korean": "꽃집",
     "vietnamese": "",
     "koreanPronunciation": "꽃집",
@@ -19068,16 +18466,6 @@
     "needsReview": true,
     "reviewNote": "place_list.txt 기반 자동 추가",
     "imagePath": "assets/images/place/place_076.png"
-  },
-  {
-    "korean": "빵집",
-    "vietnamese": "Tiệm bánh",
-    "koreanPronunciation": "빵집",
-    "vietnamesePronunciation": "",
-    "category": "장소",
-    "needsReview": true,
-    "reviewNote": "place_list.txt 기반 자동 추가",
-    "imagePath": "assets/images/place/place_077.png"
   },
   {
     "korean": "버스터미널",
@@ -19170,16 +18558,6 @@
     "imagePath": "assets/images/place/place_099.png"
   },
   {
-    "korean": "이불",
-    "vietnamese": "Chăn",
-    "koreanPronunciation": "이불",
-    "vietnamesePronunciation": "",
-    "category": "집",
-    "needsReview": true,
-    "reviewNote": "home.txt ?? ?? ??",
-    "imagePath": "assets/images/home/home_007.png"
-  },
-  {
     "korean": "매트리스",
     "vietnamese": "",
     "koreanPronunciation": "매트리스",
@@ -19258,16 +18636,6 @@
     "needsReview": true,
     "reviewNote": "home.txt ?? ?? ??",
     "imagePath": "assets/images/home/home_019.png"
-  },
-  {
-    "korean": "거울",
-    "vietnamese": "Gương",
-    "koreanPronunciation": "거울",
-    "vietnamesePronunciation": "",
-    "category": "집",
-    "needsReview": true,
-    "reviewNote": "home.txt ?? ?? ??",
-    "imagePath": "assets/images/home/home_020.png"
   },
   {
     "korean": "김치냉장고",
