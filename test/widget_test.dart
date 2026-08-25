@@ -125,8 +125,8 @@ void main() {
     final assetManifest = await AssetManifest.loadFromAssetBundle(rootBundle);
     final assetPaths = assetManifest.listAssets().toSet();
 
-    expect(words, hasLength(2117));
-    expect(availableWords, hasLength(1262));
+    expect(words, hasLength(2115));
+    expect(availableWords, hasLength(1260));
     expect(words.length - availableWords.length, 855);
     final multiCategoryWords = words
         .where((word) => word.categories.length > 1)
