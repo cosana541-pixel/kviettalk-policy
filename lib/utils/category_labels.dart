@@ -18,6 +18,8 @@ String categoryLabelVi(String category) {
       return 'Ăn uống';
     case '과일':
       return 'Trái cây';
+    case '동물':
+      return 'Động vật';
     case '음료':
       return 'Đồ uống';
     case '채소':
