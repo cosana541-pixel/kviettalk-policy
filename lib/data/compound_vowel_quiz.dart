@@ -1,0 +1,81 @@
+import '../models/hangul_quiz_question.dart';
+
+const compoundVowelQuizQuestions = <HangulQuizQuestion>[
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.matchingCharacter,
+    prompt: 'Hãy chọn chữ giống với nguyên âm ㅐ.',
+    options: ['ㅔ', 'ㅐ', 'ㅒ', 'ㅖ'],
+    correctAnswer: 'ㅐ',
+    explanation: 'ㅐ là chữ được đưa ra trong câu hỏi.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.vowelInSyllable,
+    prompt: 'Nguyên âm được dùng trong “네” là gì?',
+    options: ['ㅐ', 'ㅔ', 'ㅚ', 'ㅞ'],
+    correctAnswer: 'ㅔ',
+    explanation: '네 được ghép từ phụ âm ㄴ và nguyên âm ㅔ.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.syllableWithVowel,
+    prompt: 'Âm tiết nào sau đây có nguyên âm ㅘ?',
+    options: ['개', '과', '괴', '귀'],
+    correctAnswer: '과',
+    explanation: '과 được ghép từ phụ âm ㄱ và nguyên âm ㅘ.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.pronunciationGuide,
+    prompt: 'Nguyên âm nào gần giống we, bắt đầu với môi tròn nhẹ?',
+    options: ['ㅘ', 'ㅙ', 'ㅝ', 'ㅟ'],
+    correctAnswer: 'ㅙ',
+    explanation: 'ㅙ gần giống we và bắt đầu với môi tròn nhẹ.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.matchingCharacter,
+    prompt: 'Hãy chọn chữ giống với nguyên âm ㅚ.',
+    options: ['ㅙ', 'ㅚ', 'ㅝ', 'ㅞ'],
+    correctAnswer: 'ㅚ',
+    explanation: 'ㅚ là chữ được đưa ra trong câu hỏi.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.vowelInSyllable,
+    prompt: 'Nguyên âm được dùng trong “워” là gì?',
+    options: ['ㅘ', 'ㅝ', 'ㅞ', 'ㅢ'],
+    correctAnswer: 'ㅝ',
+    explanation: '워 được ghép từ phụ âm đầu ㅇ và nguyên âm ㅝ.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.syllableWithVowel,
+    prompt: 'Âm tiết nào sau đây có nguyên âm ㅞ?',
+    options: ['와', '외', '웨', '위'],
+    correctAnswer: '웨',
+    explanation: '웨 được ghép từ phụ âm đầu ㅇ và nguyên âm ㅞ.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.pronunciationGuide,
+    prompt: 'Nguyên âm nào gần giống uy và bắt đầu với môi tròn?',
+    options: ['ㅚ', 'ㅝ', 'ㅟ', 'ㅢ'],
+    correctAnswer: 'ㅟ',
+    explanation: 'ㅟ gần giống uy và bắt đầu với môi tròn.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.vowelInSyllable,
+    prompt: 'Nguyên âm được dùng trong “의” là gì?',
+    options: ['ㅔ', 'ㅝ', 'ㅟ', 'ㅢ'],
+    correctAnswer: 'ㅢ',
+    explanation: '의 được ghép từ phụ âm đầu ㅇ và nguyên âm ㅢ.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.syllableWithVowel,
+    prompt: 'Âm tiết nào sau đây có nguyên âm ㅒ?',
+    options: ['개', '네', '얘', '예'],
+    correctAnswer: '얘',
+    explanation: '얘 được ghép từ phụ âm đầu ㅇ và nguyên âm ㅒ.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.pronunciationGuide,
+    prompt: 'Nguyên âm nào gần giống yê ngắn, nối âm y và ê?',
+    options: ['ㅐ', 'ㅔ', 'ㅒ', 'ㅖ'],
+    correctAnswer: 'ㅖ',
+    explanation: 'ㅖ gần giống yê ngắn, phát âm liền từ y sang ê.',
+  ),
+];
