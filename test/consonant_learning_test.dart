@@ -47,7 +47,12 @@ void main() {
     expect(basicConsonantQuizQuestions, hasLength(10));
     expect(
       basicConsonantQuizQuestions.map((question) => question.type).toSet(),
-      HangulQuizQuestionType.values.toSet(),
+      const {
+        HangulQuizQuestionType.matchingCharacter,
+        HangulQuizQuestionType.initialConsonant,
+        HangulQuizQuestionType.startingSyllable,
+        HangulQuizQuestionType.pronunciationGuide,
+      },
     );
 
     for (final question in basicConsonantQuizQuestions) {

@@ -2,6 +2,8 @@ enum HangulQuizQuestionType {
   matchingCharacter,
   initialConsonant,
   startingSyllable,
+  vowelInSyllable,
+  syllableWithVowel,
   pronunciationGuide,
 }
 
