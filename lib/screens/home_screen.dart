@@ -9,6 +9,7 @@ import '../utils/learning_direction.dart';
 import '../widgets/illustration_placeholder.dart';
 import 'conversation_screen.dart';
 import 'favorites_screen.dart';
+import 'hangul_basics_screen.dart';
 import 'quiz_screen.dart';
 import 'review_screen.dart';
 import 'sentence_list_screen.dart';
@@ -58,6 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
         favoriteCount: favoriteCount,
         writingTotalCount: _writingTotalCount,
         onMenuTap: _selectTab,
+        onHangulBasicsTap: _openHangulBasics,
         onQuizTap: () => _openQuiz(activeDirection),
         onWritingTap: _openWriting,
       ),
@@ -140,6 +142,12 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
     _loadLearningStats();
+  }
+
+  Future<void> _openHangulBasics() async {
+    await Navigator.of(
+      context,
+    ).push<void>(MaterialPageRoute(builder: (_) => const HangulBasicsScreen()));
   }
 
   Future<void> _openWriting() async {
@@ -511,6 +519,7 @@ class _HomeDashboard extends StatelessWidget {
     required this.writingTotalCount,
     required this.favoriteCount,
     required this.onMenuTap,
+    required this.onHangulBasicsTap,
     required this.onQuizTap,
     required this.onWritingTap,
   });
@@ -523,6 +532,7 @@ class _HomeDashboard extends StatelessWidget {
   final int writingTotalCount;
   final int favoriteCount;
   final ValueChanged<int> onMenuTap;
+  final VoidCallback onHangulBasicsTap;
   final VoidCallback onQuizTap;
   final VoidCallback onWritingTap;
 
@@ -561,6 +571,11 @@ class _HomeDashboard extends StatelessWidget {
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: [
+                  _PrimaryShortcutCard(
+                    icon: Icons.abc,
+                    title: 'Hangeul cơ bản',
+                    onTap: onHangulBasicsTap,
+                  ),
                   _PrimaryShortcutCard(
                     icon: Icons.menu_book,
                     title: 'Từ vựng',
