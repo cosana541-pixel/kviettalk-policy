@@ -1,0 +1,81 @@
+import '../models/hangul_quiz_question.dart';
+
+const compoundFinalConsonantQuizQuestions = <HangulQuizQuestion>[
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.vowelInSyllable,
+    prompt: '겹받침 trong “넋” là chữ nào?',
+    options: ['ㄳ', 'ㄵ', 'ㄺ', 'ㅄ'],
+    correctAnswer: 'ㄳ',
+    explanation: '넋 được ghép với 겹받침 ㄳ và có âm cuối đại diện [ㄱ].',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.initialConsonant,
+    prompt: '겹받침 trong “앉다” là chữ nào?',
+    options: ['ㄳ', 'ㄵ', 'ㄶ', 'ㄻ'],
+    correctAnswer: 'ㄵ',
+    explanation: '앉다 có 겹받침 ㄵ và âm cuối đại diện [ㄴ].',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.pronunciationGuide,
+    prompt: '겹받침 nào trong “많다” có âm cuối đại diện [ㄴ]?',
+    options: ['ㄵ', 'ㄶ', 'ㄺ', 'ㅀ'],
+    correctAnswer: 'ㄶ',
+    explanation: 'ㄶ trong 많다 có âm cuối đại diện [ㄴ].',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.vowelInSyllable,
+    prompt: '겹받침 trong từ “닭” là chữ nào?',
+    options: ['ㄳ', 'ㄺ', 'ㄻ', 'ㄼ'],
+    correctAnswer: 'ㄺ',
+    explanation: '닭 có 겹받침 ㄺ và âm cuối đại diện [ㄱ].',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.matchingCharacter,
+    prompt: '겹받침 nào trong “삶” có âm cuối đại diện [ㅁ]?',
+    options: ['ㄺ', 'ㄻ', 'ㄼ', 'ㄿ'],
+    correctAnswer: 'ㄻ',
+    explanation: 'ㄻ trong 삶 có âm cuối đại diện [ㅁ].',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.initialConsonant,
+    prompt: '겹받침 trong từ “여덟” là chữ nào?',
+    options: ['ㄻ', 'ㄼ', 'ㄽ', 'ㄾ'],
+    correctAnswer: 'ㄼ',
+    explanation: '여덟 có 겹받침 ㄼ và thường có âm cuối đại diện [ㄹ].',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.vowelInSyllable,
+    prompt: '겹받침 trong từ “곬” là chữ nào?',
+    options: ['ㄼ', 'ㄽ', 'ㄾ', 'ㅀ'],
+    correctAnswer: 'ㄽ',
+    explanation: '곬 có 겹받침 ㄽ và âm cuối đại diện [ㄹ].',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.initialConsonant,
+    prompt: '겹받침 trong “핥다” là chữ nào?',
+    options: ['ㄽ', 'ㄾ', 'ㄿ', 'ㅄ'],
+    correctAnswer: 'ㄾ',
+    explanation: '핥다 có 겹받침 ㄾ và âm cuối đại diện [ㄹ].',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.pronunciationGuide,
+    prompt: '겹받침 nào trong “읊다” có âm cuối đại diện [ㅂ]?',
+    options: ['ㄻ', 'ㄾ', 'ㄿ', 'ㅄ'],
+    correctAnswer: 'ㄿ',
+    explanation: 'ㄿ trong 읊다 có âm cuối đại diện [ㅂ].',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.matchingCharacter,
+    prompt: '겹받침 nào trong “싫다” có âm cuối đại diện [ㄹ]?',
+    options: ['ㄶ', 'ㄼ', 'ㄿ', 'ㅀ'],
+    correctAnswer: 'ㅀ',
+    explanation: 'ㅀ trong 싫다 có âm cuối đại diện [ㄹ].',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.vowelInSyllable,
+    prompt: '겹받침 trong từ “값” là chữ nào?',
+    options: ['ㄳ', 'ㄿ', 'ㅀ', 'ㅄ'],
+    correctAnswer: 'ㅄ',
+    explanation: '값 có 겹받침 ㅄ và âm cuối đại diện [ㅂ].',
+  ),
+];
