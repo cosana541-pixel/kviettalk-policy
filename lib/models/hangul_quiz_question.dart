@@ -5,6 +5,9 @@ enum HangulQuizQuestionType {
   vowelInSyllable,
   syllableWithVowel,
   pronunciationGuide,
+  combiningSyllable,
+  finalConsonant,
+  decomposingSyllable,
 }
 
 class HangulQuizQuestion {

@@ -1,0 +1,88 @@
+import '../models/hangul_quiz_question.dart';
+
+const hangulSyllableBuildingQuizQuestions = <HangulQuizQuestion>[
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.combiningSyllable,
+    prompt: 'Ghép ㄱ + ㅏ được âm tiết nào?',
+    options: ['가', '거', '고', '구'],
+    correctAnswer: '가',
+    explanation: 'ㄱ là phụ âm đầu và ㅏ là nguyên âm, tạo thành 가.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.combiningSyllable,
+    prompt: 'Ghép ㄴ + ㅓ được âm tiết nào?',
+    options: ['나', '너', '노', '누'],
+    correctAnswer: '너',
+    explanation: 'ㄴ là phụ âm đầu và ㅓ là nguyên âm, tạo thành 너.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.combiningSyllable,
+    prompt: 'Ghép ㅁ + ㅜ được âm tiết nào?',
+    options: ['마', '머', '모', '무'],
+    correctAnswer: '무',
+    explanation: 'ㅁ là phụ âm đầu và ㅜ là nguyên âm, tạo thành 무.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.combiningSyllable,
+    prompt: 'Ghép ㅅ + ㅣ được âm tiết nào?',
+    options: ['사', '서', '수', '시'],
+    correctAnswer: '시',
+    explanation: 'ㅅ là phụ âm đầu và ㅣ là nguyên âm, tạo thành 시.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.finalConsonant,
+    prompt: "Phụ âm cuối (받침) của '간' là gì?",
+    options: ['ㄱ', 'ㄴ', 'ㄹ', 'ㅁ'],
+    correctAnswer: 'ㄴ',
+    explanation: '간 được tách thành ㄱ + ㅏ + ㄴ, nên 받침 là ㄴ.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.decomposingSyllable,
+    prompt: "Cách tách đúng của '밥' là gì?",
+    options: ['ㅂ + ㅏ + ㅂ', 'ㅂ + ㅓ + ㅂ', 'ㅍ + ㅏ + ㅂ', 'ㅂ + ㅏ + ㄴ'],
+    correctAnswer: 'ㅂ + ㅏ + ㅂ',
+    explanation: '밥 gồm phụ âm đầu ㅂ, nguyên âm ㅏ và 받침 ㅂ.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.combiningSyllable,
+    prompt: 'Ghép ㅎ + ㅏ + ㄴ được âm tiết nào?',
+    options: ['한', '할', '함', '항'],
+    correctAnswer: '한',
+    explanation: 'ㅎ + ㅏ tạo 하; thêm 받침 ㄴ tạo thành 한.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.combiningSyllable,
+    prompt: 'Ghép ㅁ + ㅜ + ㄹ được âm tiết nào?',
+    options: ['문', '물', '뭄', '뭇'],
+    correctAnswer: '물',
+    explanation: 'ㅁ + ㅜ tạo 무; thêm 받침 ㄹ tạo thành 물.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.decomposingSyllable,
+    prompt: "Cách tách đúng của '닭' là gì?",
+    options: ['ㄷ + ㅏ + ㄺ', 'ㄷ + ㅓ + ㄺ', 'ㄹ + ㅏ + ㄺ', 'ㄷ + ㅏ + ㄻ'],
+    correctAnswer: 'ㄷ + ㅏ + ㄺ',
+    explanation: '닭 gồm phụ âm đầu ㄷ, nguyên âm ㅏ và 겹받침 ㄺ.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.finalConsonant,
+    prompt: "Phụ âm cuối kép của '값' là gì?",
+    options: ['ㄺ', 'ㄻ', 'ㄼ', 'ㅄ'],
+    correctAnswer: 'ㅄ',
+    explanation: '값 được tách thành ㄱ + ㅏ + ㅄ, nên 겹받침 là ㅄ.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.decomposingSyllable,
+    prompt: "Cách tách đúng của '삶' là gì?",
+    options: ['ㅅ + ㅏ + ㄻ', 'ㅅ + ㅓ + ㄻ', 'ㅈ + ㅏ + ㄻ', 'ㅅ + ㅏ + ㄺ'],
+    correctAnswer: 'ㅅ + ㅏ + ㄻ',
+    explanation: '삶 gồm phụ âm đầu ㅅ, nguyên âm ㅏ và 겹받침 ㄻ.',
+  ),
+  HangulQuizQuestion(
+    type: HangulQuizQuestionType.combiningSyllable,
+    prompt: 'Ghép ㅁ + ㅗ + ㄳ được âm tiết nào?',
+    options: ['몫', '몲', '몹', '몬'],
+    correctAnswer: '몫',
+    explanation: 'ㅁ + ㅗ tạo 모; thêm 겹받침 ㄳ tạo thành 몫.',
+  ),
+];
