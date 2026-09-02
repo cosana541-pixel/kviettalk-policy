@@ -5,6 +5,7 @@ import 'compound_final_consonant_learning_screen.dart';
 import 'compound_vowel_learning_screen.dart';
 import 'consonant_learning_screen.dart';
 import 'final_consonant_learning_screen.dart';
+import 'hangul_liaison_learning_screen.dart';
 import 'hangul_syllable_building_learning_screen.dart';
 import 'vowel_learning_screen.dart';
 
@@ -16,6 +17,7 @@ class HangulBasicsScreen extends StatelessWidget {
     this.finalConsonantSpeechPlayer,
     this.compoundFinalConsonantSpeechPlayer,
     this.syllableBuildingSpeechPlayer,
+    this.liaisonSpeechPlayer,
   });
 
   final KoreanSpeechPlayer? vowelSpeechPlayer;
@@ -23,6 +25,7 @@ class HangulBasicsScreen extends StatelessWidget {
   final KoreanSpeechPlayer? finalConsonantSpeechPlayer;
   final KoreanSpeechPlayer? compoundFinalConsonantSpeechPlayer;
   final KoreanSpeechPlayer? syllableBuildingSpeechPlayer;
+  final KoreanSpeechPlayer? liaisonSpeechPlayer;
 
   @override
   Widget build(BuildContext context) {
@@ -410,6 +413,70 @@ class HangulBasicsScreen extends StatelessWidget {
                             const SizedBox(height: 4),
                             Text(
                               'Hiểu cấu trúc 초성 + 중성 (+ 종성) · Quiz',
+                              style: Theme.of(context).textTheme.bodyMedium
+                                  ?.copyWith(
+                                    color: colorScheme.onSurfaceVariant,
+                                  ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      Icon(
+                        Icons.chevron_right,
+                        color: colorScheme.onSurfaceVariant,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(height: 12),
+            Card(
+              child: InkWell(
+                key: const Key('liaison-course'),
+                borderRadius: BorderRadius.circular(8),
+                onTap: () => Navigator.of(context).push<void>(
+                  MaterialPageRoute(
+                    builder: (_) => HangulLiaisonLearningScreen(
+                      speechPlayer: liaisonSpeechPlayer,
+                    ),
+                  ),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: Row(
+                    children: [
+                      Container(
+                        width: 64,
+                        height: 64,
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          color: colorScheme.primaryContainer,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Text(
+                          '먹어',
+                          style: Theme.of(context).textTheme.headlineSmall
+                              ?.copyWith(
+                                color: colorScheme.onPrimaryContainer,
+                                fontWeight: FontWeight.bold,
+                              ),
+                        ),
+                      ),
+                      const SizedBox(width: 16),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              'Nối âm (연음)',
+                              style: Theme.of(context).textTheme.titleLarge
+                                  ?.copyWith(fontWeight: FontWeight.bold),
+                            ),
+                            const SizedBox(height: 4),
+                            Text(
+                              '받침 + nguyên âm · Nghe cách nối âm · Quiz',
                               style: Theme.of(context).textTheme.bodyMedium
                                   ?.copyWith(
                                     color: colorScheme.onSurfaceVariant,
