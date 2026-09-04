@@ -6,6 +6,7 @@ import 'compound_vowel_learning_screen.dart';
 import 'consonant_learning_screen.dart';
 import 'final_consonant_learning_screen.dart';
 import 'hangul_liaison_learning_screen.dart';
+import 'hangul_palatalization_learning_screen.dart';
 import 'hangul_syllable_building_learning_screen.dart';
 import 'vowel_learning_screen.dart';
 
@@ -18,6 +19,7 @@ class HangulBasicsScreen extends StatelessWidget {
     this.compoundFinalConsonantSpeechPlayer,
     this.syllableBuildingSpeechPlayer,
     this.liaisonSpeechPlayer,
+    this.palatalizationSpeechPlayer,
   });
 
   final KoreanSpeechPlayer? vowelSpeechPlayer;
@@ -26,6 +28,7 @@ class HangulBasicsScreen extends StatelessWidget {
   final KoreanSpeechPlayer? compoundFinalConsonantSpeechPlayer;
   final KoreanSpeechPlayer? syllableBuildingSpeechPlayer;
   final KoreanSpeechPlayer? liaisonSpeechPlayer;
+  final KoreanSpeechPlayer? palatalizationSpeechPlayer;
 
   @override
   Widget build(BuildContext context) {
@@ -477,6 +480,70 @@ class HangulBasicsScreen extends StatelessWidget {
                             const SizedBox(height: 4),
                             Text(
                               '받침 + nguyên âm · Nghe cách nối âm · Quiz',
+                              style: Theme.of(context).textTheme.bodyMedium
+                                  ?.copyWith(
+                                    color: colorScheme.onSurfaceVariant,
+                                  ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      Icon(
+                        Icons.chevron_right,
+                        color: colorScheme.onSurfaceVariant,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(height: 12),
+            Card(
+              child: InkWell(
+                key: const Key('palatalization-course'),
+                borderRadius: BorderRadius.circular(8),
+                onTap: () => Navigator.of(context).push<void>(
+                  MaterialPageRoute(
+                    builder: (_) => HangulPalatalizationLearningScreen(
+                      speechPlayer: palatalizationSpeechPlayer,
+                    ),
+                  ),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: Row(
+                    children: [
+                      Container(
+                        width: 64,
+                        height: 64,
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          color: colorScheme.primaryContainer,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Text(
+                          '같이',
+                          style: Theme.of(context).textTheme.headlineSmall
+                              ?.copyWith(
+                                color: colorScheme.onPrimaryContainer,
+                                fontWeight: FontWeight.bold,
+                              ),
+                        ),
+                      ),
+                      const SizedBox(width: 16),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              '구개음화 · Biến âm vòm miệng',
+                              style: Theme.of(context).textTheme.titleLarge
+                                  ?.copyWith(fontWeight: FontWeight.bold),
+                            ),
+                            const SizedBox(height: 4),
+                            Text(
+                              'ㄷ → ㅈ · ㅌ → ㅊ · Nghe phát âm · Quiz',
                               style: Theme.of(context).textTheme.bodyMedium
                                   ?.copyWith(
                                     color: colorScheme.onSurfaceVariant,
