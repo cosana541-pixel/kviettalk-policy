@@ -5,6 +5,7 @@ import 'compound_final_consonant_learning_screen.dart';
 import 'compound_vowel_learning_screen.dart';
 import 'consonant_learning_screen.dart';
 import 'final_consonant_learning_screen.dart';
+import 'hangul_h_changes_learning_screen.dart';
 import 'hangul_liaison_learning_screen.dart';
 import 'hangul_liquidization_learning_screen.dart';
 import 'hangul_nasalization_learning_screen.dart';
@@ -26,6 +27,7 @@ class HangulBasicsScreen extends StatelessWidget {
     this.tensificationSpeechPlayer,
     this.nasalizationSpeechPlayer,
     this.liquidizationSpeechPlayer,
+    this.hChangesSpeechPlayer,
   });
 
   final KoreanSpeechPlayer? vowelSpeechPlayer;
@@ -38,6 +40,7 @@ class HangulBasicsScreen extends StatelessWidget {
   final KoreanSpeechPlayer? tensificationSpeechPlayer;
   final KoreanSpeechPlayer? nasalizationSpeechPlayer;
   final KoreanSpeechPlayer? liquidizationSpeechPlayer;
+  final KoreanSpeechPlayer? hChangesSpeechPlayer;
 
   @override
   Widget build(BuildContext context) {
@@ -745,6 +748,70 @@ class HangulBasicsScreen extends StatelessWidget {
                             const SizedBox(height: 4),
                             Text(
                               'ㄴ + ㄹ / ㄹ + ㄴ → ㄹㄹ · Nghe phát âm · Quiz',
+                              style: Theme.of(context).textTheme.bodyMedium
+                                  ?.copyWith(
+                                    color: colorScheme.onSurfaceVariant,
+                                  ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      Icon(
+                        Icons.chevron_right,
+                        color: colorScheme.onSurfaceVariant,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(height: 12),
+            Card(
+              child: InkWell(
+                key: const Key('h-changes-course'),
+                borderRadius: BorderRadius.circular(8),
+                onTap: () => Navigator.of(context).push<void>(
+                  MaterialPageRoute(
+                    builder: (_) => HangulHChangesLearningScreen(
+                      speechPlayer: hChangesSpeechPlayer,
+                    ),
+                  ),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: Row(
+                    children: [
+                      Container(
+                        width: 64,
+                        height: 64,
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          color: colorScheme.primaryContainer,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Text(
+                          '놓고',
+                          style: Theme.of(context).textTheme.headlineSmall
+                              ?.copyWith(
+                                color: colorScheme.onPrimaryContainer,
+                                fontWeight: FontWeight.bold,
+                              ),
+                        ),
+                      ),
+                      const SizedBox(width: 16),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              'ㅎ 관련 발음 변화 · Biến đổi âm ㅎ',
+                              style: Theme.of(context).textTheme.titleLarge
+                                  ?.copyWith(fontWeight: FontWeight.bold),
+                            ),
+                            const SizedBox(height: 4),
+                            Text(
+                              'ㅎ과 만나 거센소리 · Âm bật hơi · Quiz',
                               style: Theme.of(context).textTheme.bodyMedium
                                   ?.copyWith(
                                     color: colorScheme.onSurfaceVariant,
