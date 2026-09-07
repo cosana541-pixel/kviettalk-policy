@@ -32,25 +32,30 @@ void main() {
       'ㅎ',
     ]);
     expect(finalConsonants.map((item) => item.name).toList(), const [
-      '각',
+      '국',
       '밖',
-      '간',
+      '문',
       '곧',
-      '갈',
-      '감',
-      '갑',
-      '갓',
-      '갔',
-      '강',
+      '달',
+      '밤',
+      '밥',
+      '옷',
+      '있다',
+      '공',
       '낮',
-      '빛',
+      '꽃',
       '부엌',
       '밭',
       '앞',
-      '좋',
+      '히읗',
     ]);
     for (final consonant in finalConsonants) {
       expect(consonant.pronunciationGuide, isNotEmpty);
+      expect(consonant.pronunciation, isNotEmpty);
+      expect(consonant.ttsText, isNotEmpty);
+      expect(consonant.ttsText, isNot(contains('ː')));
+      expect(consonant.koreanExplanation, isNotEmpty);
+      expect(consonant.vietnameseExplanation, isNotEmpty);
       expect(consonant.examples, isNotEmpty);
       expect(consonant.examples.length, lessThanOrEqualTo(2));
     }
@@ -87,21 +92,31 @@ void main() {
     });
   });
 
-  test('final consonant quiz has 16 valid four-choice questions', () {
+  test('quiz has 16 valid questions including 8 pronunciation checks', () {
     expect(finalConsonantQuizQuestions, hasLength(16));
     expect(
       finalConsonantQuizQuestions.map((question) => question.type).toSet(),
       const {
-        HangulQuizQuestionType.vowelInSyllable,
-        HangulQuizQuestionType.initialConsonant,
         HangulQuizQuestionType.pronunciationGuide,
+        HangulQuizQuestionType.finalConsonant,
         HangulQuizQuestionType.matchingCharacter,
       },
     );
-    expect(
-      finalConsonantQuizQuestions.map((question) => question.correctAnswer),
-      finalConsonants.map((item) => item.character),
-    );
+    final pronunciationQuestions = finalConsonantQuizQuestions
+        .where((question) => question.prompt.contains('표준 발음'))
+        .toList();
+    expect(pronunciationQuestions, hasLength(8));
+    expect(pronunciationQuestions.map((question) => question.correctAnswer), [
+      '박',
+      '옫',
+      '압',
+      '공',
+      '문',
+      '달',
+      '밤',
+      '히읃',
+    ]);
+    final correctPositions = <int>[0, 0, 0, 0];
     for (final question in finalConsonantQuizQuestions) {
       expect(question.options, hasLength(4));
       expect(question.options.toSet(), hasLength(4));
@@ -109,8 +124,10 @@ void main() {
         question.options.where((option) => option == question.correctAnswer),
         hasLength(1),
       );
-      expect(question.explanation, isNotEmpty);
+      expect(question.explanation, contains('/'));
+      correctPositions[question.options.indexOf(question.correctAnswer)]++;
     }
+    expect(correctPositions, const [4, 4, 4, 4]);
   });
 
   testWidgets('Hangeul basics opens final consonants after compound vowels', (
@@ -154,35 +171,37 @@ void main() {
       ),
     );
 
-    expect(find.text('Âm tiết đại diện: 각'), findsOneWidget);
+    expect(find.text('예시 · Ví dụ: 국'), findsOneWidget);
     expect(find.text('Âm cuối đại diện: [ㄱ]'), findsOneWidget);
-    expect(find.text('Ví dụ: 각, 국'), findsOneWidget);
+    expect(find.text('국 → [국]'), findsOneWidget);
     await tester.tap(
       find.byKey(const ValueKey('final-consonant-syllable-audio-ㄱ')),
     );
     await tester.pump();
-    expect(speechPlayer.spokenTexts, const ['각']);
+    expect(speechPlayer.spokenTexts, const ['국']);
 
-    final examplesAudio = find.byKey(
-      const ValueKey('final-consonant-examples-audio-ㄱ'),
+    await tester.tap(
+      find.byKey(const ValueKey('final-consonant-syllable-audio-ㄱ')),
     );
-    await tester.ensureVisible(examplesAudio);
-    await tester.pumpAndSettle();
-    await tester.tap(examplesAudio);
     await tester.pump();
-    expect(speechPlayer.spokenTexts, const ['각']);
+    expect(speechPlayer.spokenTexts, const ['국']);
 
+    final nextAudio = find.byKey(
+      const ValueKey('final-consonant-syllable-audio-ㄲ'),
+    );
+    await tester.scrollUntilVisible(
+      nextAudio,
+      200,
+      scrollable: find.byType(Scrollable).first,
+    );
+    await tester.tap(nextAudio);
+    await tester.pump();
+    expect(speechPlayer.stopCalls, 1);
+    expect(speechPlayer.spokenTexts, const ['국', '박']);
     speechPlayer.completeSpeech();
     await tester.pump();
-    await tester.ensureVisible(examplesAudio);
-    await tester.pumpAndSettle();
-    await tester.tap(examplesAudio);
-    await tester.pump();
-    expect(speechPlayer.spokenTexts, const ['각', '각, 국']);
-    speechPlayer.completeSpeech();
-    await tester.pump();
 
-    for (final consonant in finalConsonants) {
+    for (final consonant in finalConsonants.skip(1)) {
       final card = find.byKey(
         ValueKey('final-consonant-${consonant.character}'),
       );
@@ -192,13 +211,23 @@ void main() {
         scrollable: find.byType(Scrollable).first,
       );
       expect(card, findsOneWidget);
-      expect(find.text('Âm tiết đại diện: ${consonant.name}'), findsOneWidget);
+      expect(find.text('예시 · Ví dụ: ${consonant.name}'), findsOneWidget);
+      expect(
+        find.byKey(
+          ValueKey('final-consonant-pronunciation-${consonant.character}'),
+        ),
+        findsOneWidget,
+      );
+      expect(
+        find.text('${consonant.name} → [${consonant.pronunciation}]'),
+        findsOneWidget,
+      );
       expect(tester.takeException(), isNull);
     }
 
     await tester.pumpWidget(const SizedBox());
     await tester.pump();
-    expect(speechPlayer.stopCalls, 1);
+    expect(speechPlayer.stopCalls, 2);
   });
 
   testWidgets('learning starts quiz and quiz shows feedback', (tester) async {

@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../data/compound_final_consonants.dart';
-import '../models/hangul_letter.dart';
 import '../services/tts_service.dart';
 import 'compound_final_consonant_quiz_screen.dart';
 
@@ -22,6 +21,7 @@ class _CompoundFinalConsonantLearningScreenState
     extends State<CompoundFinalConsonantLearningScreen> {
   KoreanSpeechPlayer? _speechPlayer;
   String? _playingAudioKey;
+  int _playGeneration = 0;
 
   @override
   void didChangeDependencies() {
@@ -31,6 +31,7 @@ class _CompoundFinalConsonantLearningScreenState
 
   @override
   void dispose() {
+    _playGeneration++;
     final speechPlayer = _speechPlayer;
     if (speechPlayer != null) {
       unawaited(speechPlayer.stop());
@@ -38,14 +39,22 @@ class _CompoundFinalConsonantLearningScreenState
     super.dispose();
   }
 
-  Future<void> _play(String audioKey, String text) async {
-    if (_playingAudioKey != null) return;
-
+  Future<void> _play(CompoundFinalConsonantLearningItem consonant) async {
+    final audioKey = consonant.character;
+    if (_playingAudioKey == audioKey) return;
+    final shouldStopCurrent = _playingAudioKey != null;
+    final generation = ++_playGeneration;
     setState(() => _playingAudioKey = audioKey);
     try {
-      await _speechPlayer!.speakKorean(text);
+      if (shouldStopCurrent) await _speechPlayer!.stop();
+      if (!mounted || generation != _playGeneration) return;
+      await _speechPlayer!.speakKorean(
+        consonant.ttsText.replaceAll(RegExp(r'[\[\]ː]'), ''),
+      );
     } finally {
-      if (mounted) setState(() => _playingAudioKey = null);
+      if (mounted && generation == _playGeneration) {
+        setState(() => _playingAudioKey = null);
+      }
     }
   }
 
@@ -75,9 +84,10 @@ class _CompoundFinalConsonantLearningScreenState
                     ),
                     const SizedBox(height: 6),
                     Text(
-                      '겹받침 gồm hai phụ âm nằm cùng vị trí 받침. '
-                      'Khi đứng cuối âm tiết, chúng thường được đọc bằng một '
-                      'âm cuối đại diện. Hãy nghe từ đại diện và ví dụ.',
+                      '겹받침은 두 자음이 한 받침 자리에 모인 글자예요. '
+                      '여기서는 글자와 기본 받침 소리만 익히고, 자세한 변화는 중급에서 배워요.\n'
+                      '겹받침 gồm hai phụ âm ở cùng vị trí 받침. '
+                      'Bài này học mặt chữ và âm cuối cơ bản; các biến đổi chi tiết sẽ học ở trình độ trung cấp.',
                       style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                         color: colorScheme.onPrimaryContainer,
                       ),
@@ -126,10 +136,11 @@ class _CompoundFinalConsonantCard extends StatelessWidget {
     required this.onPlay,
   });
 
-  final HangulLetter consonant;
+  final CompoundFinalConsonantLearningItem consonant;
   final String representativeSound;
   final String? playingAudioKey;
-  final Future<void> Function(String audioKey, String text) onPlay;
+  final Future<void> Function(CompoundFinalConsonantLearningItem consonant)
+  onPlay;
 
   @override
   Widget build(BuildContext context) {
@@ -167,7 +178,7 @@ class _CompoundFinalConsonantCard extends StatelessWidget {
                     children: [
                       Expanded(
                         child: Text(
-                          'Từ đại diện: ${consonant.name}',
+                          '예시 · Ví dụ: ${consonant.name}',
                           style: Theme.of(context).textTheme.titleMedium
                               ?.copyWith(fontWeight: FontWeight.bold),
                         ),
@@ -176,9 +187,8 @@ class _CompoundFinalConsonantCard extends StatelessWidget {
                         key: ValueKey(
                           'compound-final-consonant-syllable-audio-${consonant.character}',
                         ),
-                        tooltip: 'Nghe từ đại diện',
-                        audioKey: '${consonant.character}-syllable',
-                        text: consonant.name,
+                        tooltip: '듣기 · Nghe ${consonant.name}',
+                        consonant: consonant,
                         playingAudioKey: playingAudioKey,
                         onPlay: onPlay,
                       ),
@@ -192,32 +202,31 @@ class _CompoundFinalConsonantCard extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 6),
-                  Text(consonant.pronunciationGuide),
-                  const SizedBox(height: 4),
-                  Row(
-                    children: [
-                      Expanded(
-                        child: Text(
-                          'Ví dụ: ${consonant.examples.join(', ')}',
-                          style: Theme.of(context).textTheme.bodyMedium
-                              ?.copyWith(
-                                color: colorScheme.primary,
-                                fontWeight: FontWeight.w700,
-                              ),
-                        ),
+                  Container(
+                    key: ValueKey(
+                      'compound-final-consonant-pronunciation-${consonant.character}',
+                    ),
+                    width: double.infinity,
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 12,
+                      vertical: 8,
+                    ),
+                    decoration: BoxDecoration(
+                      color: colorScheme.secondaryContainer,
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: Text(
+                      '${consonant.name} → [${consonant.pronunciation}]',
+                      style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                        color: colorScheme.onSecondaryContainer,
+                        fontWeight: FontWeight.bold,
                       ),
-                      _AudioButton(
-                        key: ValueKey(
-                          'compound-final-consonant-examples-audio-${consonant.character}',
-                        ),
-                        tooltip: 'Nghe từ ví dụ',
-                        audioKey: '${consonant.character}-examples',
-                        text: consonant.examples.join(', '),
-                        playingAudioKey: playingAudioKey,
-                        onPlay: onPlay,
-                      ),
-                    ],
+                    ),
                   ),
+                  const SizedBox(height: 8),
+                  Text(consonant.koreanExplanation),
+                  const SizedBox(height: 4),
+                  Text(consonant.vietnameseExplanation),
                 ],
               ),
             ),
@@ -232,25 +241,24 @@ class _AudioButton extends StatelessWidget {
   const _AudioButton({
     super.key,
     required this.tooltip,
-    required this.audioKey,
-    required this.text,
+    required this.consonant,
     required this.playingAudioKey,
     required this.onPlay,
   });
 
   final String tooltip;
-  final String audioKey;
-  final String text;
+  final CompoundFinalConsonantLearningItem consonant;
   final String? playingAudioKey;
-  final Future<void> Function(String audioKey, String text) onPlay;
+  final Future<void> Function(CompoundFinalConsonantLearningItem consonant)
+  onPlay;
 
   @override
   Widget build(BuildContext context) {
-    final isPlaying = playingAudioKey == audioKey;
+    final isPlaying = playingAudioKey == consonant.character;
     return IconButton(
       tooltip: tooltip,
       visualDensity: VisualDensity.compact,
-      onPressed: playingAudioKey == null ? () => onPlay(audioKey, text) : null,
+      onPressed: isPlaying ? null : () => onPlay(consonant),
       icon: Icon(
         isPlaying ? Icons.graphic_eq : Icons.volume_up_outlined,
         color: isPlaying ? Theme.of(context).colorScheme.primary : null,

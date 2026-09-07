@@ -5,6 +5,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 import 'package:korean_vietnamese_app/data/compound_final_consonant_quiz.dart';
 import 'package:korean_vietnamese_app/data/compound_final_consonants.dart';
+import 'package:korean_vietnamese_app/data/hangul_consonant_cluster_reduction_quiz.dart';
 import 'package:korean_vietnamese_app/screens/compound_final_consonant_learning_screen.dart';
 import 'package:korean_vietnamese_app/screens/hangul_basics_screen.dart';
 import 'package:korean_vietnamese_app/services/tts_service.dart';
@@ -31,6 +32,11 @@ void main() {
     });
     for (final consonant in compoundFinalConsonants) {
       expect(consonant.name, isNotEmpty);
+      expect(consonant.pronunciation, isNotEmpty);
+      expect(consonant.ttsText, isNotEmpty);
+      expect(consonant.ttsText, isNot(contains('ː')));
+      expect(consonant.koreanExplanation, isNotEmpty);
+      expect(consonant.vietnameseExplanation, isNotEmpty);
       expect(
         consonant.pronunciationGuide,
         contains('[${compoundFinalConsonantSoundGroups[consonant.character]}]'),
@@ -38,22 +44,52 @@ void main() {
       expect(consonant.examples, isNotEmpty);
       expect(consonant.examples.length, lessThanOrEqualTo(2));
     }
+    expect(
+      {
+        for (final consonant in compoundFinalConsonants)
+          consonant.character: consonant.pronunciation,
+      },
+      const {
+        'ㄳ': '넉',
+        'ㄵ': '안따',
+        'ㄶ': '만타',
+        'ㄺ': '닥',
+        'ㄻ': '삼ː',
+        'ㄼ': '여덜',
+        'ㄽ': '외골',
+        'ㄾ': '할따',
+        'ㄿ': '읍따',
+        'ㅀ': '실타',
+        'ㅄ': '갑',
+      },
+    );
   });
 
-  test('compound final consonant quiz has 11 unique valid answers', () {
+  test('quiz has 11 valid questions including 7 pronunciation checks', () {
     expect(compoundFinalConsonantQuizQuestions, hasLength(11));
+    final pronunciationQuestions = compoundFinalConsonantQuizQuestions
+        .where((question) => question.prompt.contains('표준 발음'))
+        .toList();
+    expect(pronunciationQuestions, hasLength(7));
+    expect(pronunciationQuestions.map((question) => question.correctAnswer), [
+      '목',
+      '만타',
+      '삼ː',
+      '여덜',
+      '외골',
+      '실타',
+      '갑',
+    ]);
+    final intermediateAnswers = hangulConsonantClusterReductionQuizQuestions
+        .map((question) => question.correctAnswer)
+        .toSet();
     expect(
-      compoundFinalConsonantQuizQuestions.map(
-        (question) => question.correctAnswer,
-      ),
-      compoundFinalConsonants.map((item) => item.character),
-    );
-    expect(
-      compoundFinalConsonantQuizQuestions
+      pronunciationQuestions
           .map((question) => question.correctAnswer)
-          .toSet(),
-      hasLength(11),
+          .where(intermediateAnswers.contains),
+      hasLength(3),
     );
+    final correctPositions = <int>[0, 0, 0, 0];
     for (final question in compoundFinalConsonantQuizQuestions) {
       expect(question.options, hasLength(4));
       expect(question.options.toSet(), hasLength(4));
@@ -61,8 +97,10 @@ void main() {
         question.options.where((option) => option == question.correctAnswer),
         hasLength(1),
       );
-      expect(question.explanation, isNotEmpty);
+      expect(question.explanation, contains('/'));
+      correctPositions[question.options.indexOf(question.correctAnswer)]++;
     }
+    expect(correctPositions, const [3, 3, 3, 2]);
   });
 
   testWidgets('Hangeul basics opens compound final consonants after finals', (
@@ -111,31 +149,37 @@ void main() {
       ),
     );
 
-    expect(find.text('Từ đại diện: 넋'), findsOneWidget);
+    expect(find.text('예시 · Ví dụ: 넋'), findsOneWidget);
     expect(find.text('Âm cuối đại diện: [ㄱ]'), findsOneWidget);
-    expect(find.text('Ví dụ: 넋, 몫'), findsOneWidget);
+    expect(find.text('넋 → [넉]'), findsOneWidget);
     await tester.tap(
       find.byKey(const ValueKey('compound-final-consonant-syllable-audio-ㄳ')),
     );
     await tester.pump();
-    expect(speechPlayer.spokenTexts, const ['넋']);
+    expect(speechPlayer.spokenTexts, const ['넉']);
 
-    final examplesAudio = find.byKey(
-      const ValueKey('compound-final-consonant-examples-audio-ㄳ'),
+    await tester.tap(
+      find.byKey(const ValueKey('compound-final-consonant-syllable-audio-ㄳ')),
     );
-    await tester.tap(examplesAudio);
     await tester.pump();
-    expect(speechPlayer.spokenTexts, const ['넋']);
+    expect(speechPlayer.spokenTexts, const ['넉']);
 
+    final nextAudio = find.byKey(
+      const ValueKey('compound-final-consonant-syllable-audio-ㄵ'),
+    );
+    await tester.scrollUntilVisible(
+      nextAudio,
+      200,
+      scrollable: find.byType(Scrollable).first,
+    );
+    await tester.tap(nextAudio);
+    await tester.pump();
+    expect(speechPlayer.stopCalls, 1);
+    expect(speechPlayer.spokenTexts, const ['넉', '안따']);
     speechPlayer.completeSpeech();
     await tester.pump();
-    await tester.tap(examplesAudio);
-    await tester.pump();
-    expect(speechPlayer.spokenTexts, const ['넋', '넋, 몫']);
-    speechPlayer.completeSpeech();
-    await tester.pump();
 
-    for (final consonant in compoundFinalConsonants) {
+    for (final consonant in compoundFinalConsonants.skip(1)) {
       final card = find.byKey(
         ValueKey('compound-final-consonant-${consonant.character}'),
       );
@@ -145,13 +189,25 @@ void main() {
         scrollable: find.byType(Scrollable).first,
       );
       expect(card, findsOneWidget);
-      expect(find.text('Từ đại diện: ${consonant.name}'), findsOneWidget);
+      expect(find.text('예시 · Ví dụ: ${consonant.name}'), findsOneWidget);
+      expect(
+        find.byKey(
+          ValueKey(
+            'compound-final-consonant-pronunciation-${consonant.character}',
+          ),
+        ),
+        findsOneWidget,
+      );
+      expect(
+        find.text('${consonant.name} → [${consonant.pronunciation}]'),
+        findsOneWidget,
+      );
       expect(tester.takeException(), isNull);
     }
 
     await tester.pumpWidget(const SizedBox());
     await tester.pump();
-    expect(speechPlayer.stopCalls, 1);
+    expect(speechPlayer.stopCalls, 2);
   });
 
   testWidgets(

@@ -1,5 +1,23 @@
 import '../models/hangul_letter.dart';
 
+class FinalConsonantLearningItem extends HangulLetter {
+  const FinalConsonantLearningItem({
+    required super.character,
+    required super.name,
+    required super.pronunciationGuide,
+    required super.examples,
+    required this.pronunciation,
+    required this.ttsText,
+    required this.koreanExplanation,
+    required this.vietnameseExplanation,
+  });
+
+  final String pronunciation;
+  final String ttsText;
+  final String koreanExplanation;
+  final String vietnameseExplanation;
+}
+
 const finalConsonantSoundGroups = <String, String>{
   'ㄱ': 'ㄱ',
   'ㄲ': 'ㄱ',
@@ -19,117 +37,171 @@ const finalConsonantSoundGroups = <String, String>{
   'ㅎ': 'ㄷ',
 };
 
-const finalConsonants = <HangulLetter>[
-  HangulLetter(
+const finalConsonants = <FinalConsonantLearningItem>[
+  FinalConsonantLearningItem(
     character: 'ㄱ',
-    name: '각',
-    pronunciationGuide:
-        'Nằm dưới âm tiết. Ở 받침, ㄱ, ㄲ, ㅋ cùng có âm cuối [ㄱ], dừng ngắn ở cuối.',
-    examples: ['각', '국'],
+    name: '국',
+    pronunciation: '국',
+    ttsText: '국',
+    pronunciationGuide: 'Ở cuối từ, 받침 ㄱ được đọc là [ㄱ].',
+    koreanExplanation: '받침 ㄱ은 단어 끝에서 [ㄱ]으로 발음해요.',
+    vietnameseExplanation: 'Ở cuối từ, 받침 ㄱ được đọc là [ㄱ].',
+    examples: ['국'],
   ),
-  HangulLetter(
+  FinalConsonantLearningItem(
     character: 'ㄲ',
     name: '밖',
-    pronunciationGuide:
-        'Nằm dưới âm tiết. Ở 받침, ㄱ, ㄲ, ㅋ cùng có âm cuối [ㄱ], dừng ngắn ở cuối.',
-    examples: ['밖', '닦다'],
+    pronunciation: '박',
+    ttsText: '박',
+    pronunciationGuide: 'Ở cuối từ, 받침 ㄲ đổi thành âm cuối đại diện [ㄱ].',
+    koreanExplanation: '받침 ㄲ은 단어 끝에서 대표음 [ㄱ]으로 발음해요.',
+    vietnameseExplanation: 'Ở cuối từ, 받침 ㄲ đổi thành âm cuối đại diện [ㄱ].',
+    examples: ['밖'],
   ),
-  HangulLetter(
+  FinalConsonantLearningItem(
     character: 'ㄴ',
-    name: '간',
-    pronunciationGuide:
-        'Nằm dưới âm tiết và có âm cuối [ㄴ], gần với âm n trong tiếng Việt.',
-    examples: ['산', '문'],
+    name: '문',
+    pronunciation: '문',
+    ttsText: '문',
+    pronunciationGuide: 'Ở cuối từ, 받침 ㄴ được đọc là [ㄴ], gần âm n.',
+    koreanExplanation: '받침 ㄴ은 단어 끝에서 [ㄴ]으로 발음해요.',
+    vietnameseExplanation:
+        'Ở cuối từ, 받침 ㄴ được đọc là [ㄴ], gần với âm n tiếng Việt.',
+    examples: ['문'],
   ),
-  HangulLetter(
+  FinalConsonantLearningItem(
     character: 'ㄷ',
     name: '곧',
-    pronunciationGuide:
-        'Nằm dưới âm tiết. Ở 받침, ㄷ, ㅅ, ㅆ, ㅈ, ㅊ, ㅌ, ㅎ cùng có âm cuối [ㄷ], dừng ngắn ở cuối.',
-    examples: ['곧', '믿다'],
+    pronunciation: '곧',
+    ttsText: '곧',
+    pronunciationGuide: 'Ở cuối từ, 받침 ㄷ được đọc là [ㄷ].',
+    koreanExplanation: '받침 ㄷ은 단어 끝에서 [ㄷ]으로 발음해요.',
+    vietnameseExplanation: 'Ở cuối từ, 받침 ㄷ được đọc là [ㄷ].',
+    examples: ['곧'],
   ),
-  HangulLetter(
+  FinalConsonantLearningItem(
     character: 'ㄹ',
-    name: '갈',
-    pronunciationGuide:
-        'Nằm dưới âm tiết và có âm cuối [ㄹ], đầu lưỡi chạm nhẹ phía trên.',
-    examples: ['달', '길'],
+    name: '달',
+    pronunciation: '달',
+    ttsText: '달',
+    pronunciationGuide: 'Ở cuối từ, 받침 ㄹ được đọc là [ㄹ].',
+    koreanExplanation: '받침 ㄹ은 단어 끝에서 [ㄹ]로 발음해요.',
+    vietnameseExplanation:
+        'Ở cuối từ, 받침 ㄹ được đọc là [ㄹ], đầu lưỡi chạm nhẹ phía trên.',
+    examples: ['달'],
   ),
-  HangulLetter(
+  FinalConsonantLearningItem(
     character: 'ㅁ',
-    name: '감',
-    pronunciationGuide:
-        'Nằm dưới âm tiết và có âm cuối [ㅁ], gần với âm m trong tiếng Việt.',
-    examples: ['감', '밤'],
+    name: '밤',
+    pronunciation: '밤',
+    ttsText: '밤',
+    pronunciationGuide: 'Ở cuối từ, 받침 ㅁ được đọc là [ㅁ], gần âm m.',
+    koreanExplanation: '받침 ㅁ은 단어 끝에서 [ㅁ]으로 발음해요.',
+    vietnameseExplanation:
+        'Ở cuối từ, 받침 ㅁ được đọc là [ㅁ], gần với âm m tiếng Việt.',
+    examples: ['밤'],
   ),
-  HangulLetter(
+  FinalConsonantLearningItem(
     character: 'ㅂ',
-    name: '갑',
-    pronunciationGuide:
-        'Nằm dưới âm tiết. Ở 받침, ㅂ, ㅍ cùng có âm cuối [ㅂ], khép môi và dừng ngắn.',
-    examples: ['갑', '밥'],
+    name: '밥',
+    pronunciation: '밥',
+    ttsText: '밥',
+    pronunciationGuide: 'Ở cuối từ, 받침 ㅂ được đọc là [ㅂ].',
+    koreanExplanation: '받침 ㅂ은 입술을 닫으며 [ㅂ]으로 발음해요.',
+    vietnameseExplanation:
+        'Ở cuối từ, 받침 ㅂ được đọc là [ㅂ], khép môi và dừng ngắn.',
+    examples: ['밥'],
   ),
-  HangulLetter(
+  FinalConsonantLearningItem(
     character: 'ㅅ',
-    name: '갓',
-    pronunciationGuide:
-        'Nằm dưới âm tiết. Ở 받침, ㄷ, ㅅ, ㅆ, ㅈ, ㅊ, ㅌ, ㅎ cùng có âm cuối [ㄷ], dừng ngắn ở cuối.',
-    examples: ['갓', '옷'],
+    name: '옷',
+    pronunciation: '옫',
+    ttsText: '옫',
+    pronunciationGuide: 'Ở cuối từ, 받침 ㅅ đổi thành âm cuối đại diện [ㄷ].',
+    koreanExplanation: '받침 ㅅ은 단어 끝에서 대표음 [ㄷ]으로 발음해요.',
+    vietnameseExplanation: 'Ở cuối từ, 받침 ㅅ đổi thành âm cuối đại diện [ㄷ].',
+    examples: ['옷'],
   ),
-  HangulLetter(
+  FinalConsonantLearningItem(
     character: 'ㅆ',
-    name: '갔',
-    pronunciationGuide:
-        'Nằm dưới âm tiết. Ở 받침, ㄷ, ㅅ, ㅆ, ㅈ, ㅊ, ㅌ, ㅎ cùng có âm cuối [ㄷ], dừng ngắn ở cuối.',
-    examples: ['갔다', '있다'],
+    name: '있다',
+    pronunciation: '읻따',
+    ttsText: '읻따',
+    pronunciationGuide: '받침 ㅆ đổi thành [ㄷ]; phụ âm ㄷ phía sau được đọc căng.',
+    koreanExplanation: 'ㅆ은 [ㄷ]으로 바뀌고 뒤의 ㄷ은 세게 들려요. 자세한 규칙은 중급에서 배워요.',
+    vietnameseExplanation:
+        'ㅆ đổi thành [ㄷ], rồi ㄷ phía sau được đọc căng. Quy tắc chi tiết sẽ học ở trình độ trung cấp.',
+    examples: ['있다'],
   ),
-  HangulLetter(
+  FinalConsonantLearningItem(
     character: 'ㅇ',
-    name: '강',
-    pronunciationGuide:
-        'Nằm dưới âm tiết và có âm cuối [ㅇ], gần với âm ng trong tiếng Việt.',
-    examples: ['강', '공'],
+    name: '공',
+    pronunciation: '공',
+    ttsText: '공',
+    pronunciationGuide: 'Ở cuối từ, 받침 ㅇ được đọc là [ㅇ], gần âm ng.',
+    koreanExplanation: '받침 ㅇ은 단어 끝에서 [ㅇ]으로 발음해요.',
+    vietnameseExplanation:
+        'Ở cuối từ, 받침 ㅇ được đọc là [ㅇ], gần với âm ng tiếng Việt.',
+    examples: ['공'],
   ),
-  HangulLetter(
+  FinalConsonantLearningItem(
     character: 'ㅈ',
     name: '낮',
-    pronunciationGuide:
-        'Nằm dưới âm tiết. Ở 받침, ㄷ, ㅅ, ㅆ, ㅈ, ㅊ, ㅌ, ㅎ cùng có âm cuối [ㄷ], dừng ngắn ở cuối.',
-    examples: ['낮', '빚'],
+    pronunciation: '낟',
+    ttsText: '낟',
+    pronunciationGuide: 'Ở cuối từ, 받침 ㅈ đổi thành âm cuối đại diện [ㄷ].',
+    koreanExplanation: '받침 ㅈ은 단어 끝에서 대표음 [ㄷ]으로 발음해요.',
+    vietnameseExplanation: 'Ở cuối từ, 받침 ㅈ đổi thành âm cuối đại diện [ㄷ].',
+    examples: ['낮'],
   ),
-  HangulLetter(
+  FinalConsonantLearningItem(
     character: 'ㅊ',
-    name: '빛',
-    pronunciationGuide:
-        'Nằm dưới âm tiết. Ở 받침, ㄷ, ㅅ, ㅆ, ㅈ, ㅊ, ㅌ, ㅎ cùng có âm cuối [ㄷ], dừng ngắn ở cuối.',
-    examples: ['빛', '꽃'],
+    name: '꽃',
+    pronunciation: '꼳',
+    ttsText: '꼳',
+    pronunciationGuide: 'Ở cuối từ, 받침 ㅊ đổi thành âm cuối đại diện [ㄷ].',
+    koreanExplanation: '받침 ㅊ은 단어 끝에서 대표음 [ㄷ]으로 발음해요.',
+    vietnameseExplanation: 'Ở cuối từ, 받침 ㅊ đổi thành âm cuối đại diện [ㄷ].',
+    examples: ['꽃'],
   ),
-  HangulLetter(
+  FinalConsonantLearningItem(
     character: 'ㅋ',
     name: '부엌',
-    pronunciationGuide:
-        'Nằm dưới âm tiết. Ở 받침, ㄱ, ㄲ, ㅋ cùng có âm cuối [ㄱ], dừng ngắn ở cuối.',
+    pronunciation: '부억',
+    ttsText: '부억',
+    pronunciationGuide: 'Ở cuối từ, 받침 ㅋ đổi thành âm cuối đại diện [ㄱ].',
+    koreanExplanation: '받침 ㅋ은 단어 끝에서 대표음 [ㄱ]으로 발음해요.',
+    vietnameseExplanation: 'Ở cuối từ, 받침 ㅋ đổi thành âm cuối đại diện [ㄱ].',
     examples: ['부엌'],
   ),
-  HangulLetter(
+  FinalConsonantLearningItem(
     character: 'ㅌ',
     name: '밭',
-    pronunciationGuide:
-        'Nằm dưới âm tiết. Ở 받침, ㄷ, ㅅ, ㅆ, ㅈ, ㅊ, ㅌ, ㅎ cùng có âm cuối [ㄷ], dừng ngắn ở cuối.',
-    examples: ['밭', '끝'],
+    pronunciation: '받',
+    ttsText: '받',
+    pronunciationGuide: 'Ở cuối từ, 받침 ㅌ đổi thành âm cuối đại diện [ㄷ].',
+    koreanExplanation: '받침 ㅌ은 단어 끝에서 대표음 [ㄷ]으로 발음해요.',
+    vietnameseExplanation: 'Ở cuối từ, 받침 ㅌ đổi thành âm cuối đại diện [ㄷ].',
+    examples: ['밭'],
   ),
-  HangulLetter(
+  FinalConsonantLearningItem(
     character: 'ㅍ',
     name: '앞',
-    pronunciationGuide:
-        'Nằm dưới âm tiết. Ở 받침, ㅂ, ㅍ cùng có âm cuối [ㅂ], khép môi và dừng ngắn.',
-    examples: ['앞', '숲'],
+    pronunciation: '압',
+    ttsText: '압',
+    pronunciationGuide: 'Ở cuối từ, 받침 ㅍ đổi thành âm cuối đại diện [ㅂ].',
+    koreanExplanation: '받침 ㅍ은 단어 끝에서 대표음 [ㅂ]으로 발음해요.',
+    vietnameseExplanation: 'Ở cuối từ, 받침 ㅍ đổi thành âm cuối đại diện [ㅂ].',
+    examples: ['앞'],
   ),
-  HangulLetter(
+  FinalConsonantLearningItem(
     character: 'ㅎ',
-    name: '좋',
-    pronunciationGuide:
-        'Nằm dưới âm tiết. Ở 받침, ㄷ, ㅅ, ㅆ, ㅈ, ㅊ, ㅌ, ㅎ cùng được xếp vào âm cuối đại diện [ㄷ].',
-    examples: ['좋'],
+    name: '히읗',
+    pronunciation: '히읃',
+    ttsText: '히읃',
+    pronunciationGuide: 'Ở cuối từ, 받침 ㅎ đổi thành âm cuối đại diện [ㄷ].',
+    koreanExplanation: '받침 ㅎ은 단어 끝에서 대표음 [ㄷ]으로 발음해요.',
+    vietnameseExplanation: 'Ở cuối từ, 받침 ㅎ đổi thành âm cuối đại diện [ㄷ].',
+    examples: ['히읗'],
   ),
 ];

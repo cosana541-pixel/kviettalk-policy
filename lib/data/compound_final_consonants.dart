@@ -1,5 +1,23 @@
 import '../models/hangul_letter.dart';
 
+class CompoundFinalConsonantLearningItem extends HangulLetter {
+  const CompoundFinalConsonantLearningItem({
+    required super.character,
+    required super.name,
+    required super.pronunciationGuide,
+    required super.examples,
+    required this.pronunciation,
+    required this.ttsText,
+    required this.koreanExplanation,
+    required this.vietnameseExplanation,
+  });
+
+  final String pronunciation;
+  final String ttsText;
+  final String koreanExplanation;
+  final String vietnameseExplanation;
+}
+
 const compoundFinalConsonantSoundGroups = <String, String>{
   'ㄳ': 'ㄱ',
   'ㄵ': 'ㄴ',
@@ -14,82 +32,122 @@ const compoundFinalConsonantSoundGroups = <String, String>{
   'ㅄ': 'ㅂ',
 };
 
-const compoundFinalConsonants = <HangulLetter>[
-  HangulLetter(
+const compoundFinalConsonants = <CompoundFinalConsonantLearningItem>[
+  CompoundFinalConsonantLearningItem(
     character: 'ㄳ',
     name: '넋',
-    pronunciationGuide:
-        'Khi đứng ở cuối âm tiết, ㄳ có âm cuối đại diện [ㄱ]; phần ㅅ không phát âm riêng.',
-    examples: ['넋', '몫'],
+    pronunciation: '넉',
+    ttsText: '넉',
+    pronunciationGuide: 'Ở cuối từ, ㄳ được đọc bằng âm cuối [ㄱ].',
+    koreanExplanation: '겹받침 ㄳ은 단어 끝에서 [ㄱ]으로 발음해요.',
+    vietnameseExplanation: 'Ở cuối từ, 받침 kép ㄳ được đọc bằng âm cuối [ㄱ].',
+    examples: ['넋'],
   ),
-  HangulLetter(
+  CompoundFinalConsonantLearningItem(
     character: 'ㄵ',
-    name: '앉',
-    pronunciationGuide:
-        'Khi đứng ở cuối âm tiết, ㄵ có âm cuối đại diện [ㄴ]; phần ㅈ không phát âm riêng.',
-    examples: ['앉다', '얹다'],
+    name: '앉다',
+    pronunciation: '안따',
+    ttsText: '안따',
+    pronunciationGuide: 'ㄵ để lại âm cuối [ㄴ]; âm sau nghe căng hơn.',
+    koreanExplanation: 'ㄵ의 기본 받침 소리는 [ㄴ]이에요. 뒤의 소리가 세지는 자세한 과정은 중급에서 배워요.',
+    vietnameseExplanation:
+        'Âm cuối cơ bản của ㄵ là [ㄴ]. Quá trình làm âm sau căng hơn sẽ học ở trình độ trung cấp.',
+    examples: ['앉다'],
   ),
-  HangulLetter(
+  CompoundFinalConsonantLearningItem(
     character: 'ㄶ',
-    name: '많',
-    pronunciationGuide:
-        'Khi đứng ở cuối âm tiết, ㄶ có âm cuối đại diện [ㄴ]; phần ㅎ không phát âm riêng.',
-    examples: ['많다', '않다'],
+    name: '많다',
+    pronunciation: '만타',
+    ttsText: '만타',
+    pronunciationGuide: 'ㄶ để lại [ㄴ]; ㅎ làm âm ㄷ phía sau thành [ㅌ].',
+    koreanExplanation: 'ㄶ의 기본 받침 소리는 [ㄴ]이에요. ㅎ 때문에 뒤의 ㄷ은 [ㅌ]으로 들려요.',
+    vietnameseExplanation:
+        'Âm cuối cơ bản của ㄶ là [ㄴ]. Do ㅎ, ㄷ phía sau được nghe thành [ㅌ].',
+    examples: ['많다'],
   ),
-  HangulLetter(
+  CompoundFinalConsonantLearningItem(
     character: 'ㄺ',
     name: '닭',
-    pronunciationGuide:
-        'Khi đứng ở cuối âm tiết, ㄺ thường có âm cuối đại diện [ㄱ]; phần ㄹ không phát âm riêng.',
-    examples: ['닭', '흙'],
+    pronunciation: '닥',
+    ttsText: '닥',
+    pronunciationGuide: 'Ở cuối từ, ㄺ thường được đọc bằng âm cuối [ㄱ].',
+    koreanExplanation: '겹받침 ㄺ은 단어 끝에서 보통 [ㄱ]으로 발음해요.',
+    vietnameseExplanation:
+        'Ở cuối từ, 받침 kép ㄺ thường được đọc bằng âm cuối [ㄱ].',
+    examples: ['닭'],
   ),
-  HangulLetter(
+  CompoundFinalConsonantLearningItem(
     character: 'ㄻ',
     name: '삶',
-    pronunciationGuide:
-        'Khi đứng ở cuối âm tiết, ㄻ có âm cuối đại diện [ㅁ]; phần ㄹ không phát âm riêng.',
-    examples: ['삶', '젊다'],
+    pronunciation: '삼ː',
+    ttsText: '삼',
+    pronunciationGuide: 'Ở cuối từ, ㄻ được đọc bằng âm cuối [ㅁ].',
+    koreanExplanation: '겹받침 ㄻ은 단어 끝에서 [ㅁ]으로 발음해요. ː는 긴소리 표시예요.',
+    vietnameseExplanation:
+        'Ở cuối từ, 받침 kép ㄻ được đọc bằng âm cuối [ㅁ]. Dấu ː chỉ âm dài.',
+    examples: ['삶'],
   ),
-  HangulLetter(
+  CompoundFinalConsonantLearningItem(
     character: 'ㄼ',
     name: '여덟',
-    pronunciationGuide:
-        'Khi đứng ở cuối âm tiết, ㄼ thường có âm cuối đại diện [ㄹ]; một số từ có cách đọc ngoại lệ.',
-    examples: ['여덟', '넓다'],
+    pronunciation: '여덜',
+    ttsText: '여덜',
+    pronunciationGuide: 'Trong 여덟, ㄼ được đọc bằng âm cuối [ㄹ].',
+    koreanExplanation: '여덟의 겹받침 ㄼ은 [ㄹ]로 발음해요.',
+    vietnameseExplanation: 'Trong từ 여덟, 받침 kép ㄼ được đọc bằng âm cuối [ㄹ].',
+    examples: ['여덟'],
   ),
-  HangulLetter(
+  CompoundFinalConsonantLearningItem(
     character: 'ㄽ',
-    name: '곬',
-    pronunciationGuide:
-        'Khi đứng ở cuối âm tiết, ㄽ có âm cuối đại diện [ㄹ]; phần ㅅ không phát âm riêng.',
-    examples: ['곬', '외곬'],
+    name: '외곬',
+    pronunciation: '외골',
+    ttsText: '외골',
+    pronunciationGuide: 'Ở cuối từ, ㄽ được đọc bằng âm cuối [ㄹ].',
+    koreanExplanation: '겹받침 ㄽ은 단어 끝에서 [ㄹ]로 발음해요.',
+    vietnameseExplanation: 'Ở cuối từ, 받침 kép ㄽ được đọc bằng âm cuối [ㄹ].',
+    examples: ['외곬'],
   ),
-  HangulLetter(
+  CompoundFinalConsonantLearningItem(
     character: 'ㄾ',
-    name: '핥',
-    pronunciationGuide:
-        'Khi đứng ở cuối âm tiết, ㄾ có âm cuối đại diện [ㄹ]; phần ㅌ không phát âm riêng.',
+    name: '핥다',
+    pronunciation: '할따',
+    ttsText: '할따',
+    pronunciationGuide: 'ㄾ để lại âm cuối [ㄹ]; âm sau nghe căng hơn.',
+    koreanExplanation: 'ㄾ의 기본 받침 소리는 [ㄹ]이에요. 뒤의 소리가 세지는 자세한 과정은 중급에서 배워요.',
+    vietnameseExplanation:
+        'Âm cuối cơ bản của ㄾ là [ㄹ]. Quá trình làm âm sau căng hơn sẽ học ở trình độ trung cấp.',
     examples: ['핥다'],
   ),
-  HangulLetter(
+  CompoundFinalConsonantLearningItem(
     character: 'ㄿ',
-    name: '읊',
-    pronunciationGuide:
-        'Khi đứng ở cuối âm tiết, ㄿ có âm cuối đại diện [ㅂ]; phần ㄹ không phát âm riêng.',
+    name: '읊다',
+    pronunciation: '읍따',
+    ttsText: '읍따',
+    pronunciationGuide: 'ㄿ để lại âm cuối [ㅂ]; âm sau nghe căng hơn.',
+    koreanExplanation: 'ㄿ의 기본 받침 소리는 [ㅂ]이에요. 뒤의 소리가 세지는 자세한 과정은 중급에서 배워요.',
+    vietnameseExplanation:
+        'Âm cuối cơ bản của ㄿ là [ㅂ]. Quá trình làm âm sau căng hơn sẽ học ở trình độ trung cấp.',
     examples: ['읊다'],
   ),
-  HangulLetter(
+  CompoundFinalConsonantLearningItem(
     character: 'ㅀ',
-    name: '싫',
-    pronunciationGuide:
-        'Khi đứng ở cuối âm tiết, ㅀ có âm cuối đại diện [ㄹ]; phần ㅎ không phát âm riêng.',
-    examples: ['싫다', '옳다'],
+    name: '싫다',
+    pronunciation: '실타',
+    ttsText: '실타',
+    pronunciationGuide: 'ㅀ để lại [ㄹ]; ㅎ làm âm ㄷ phía sau thành [ㅌ].',
+    koreanExplanation: 'ㅀ의 기본 받침 소리는 [ㄹ]이에요. ㅎ 때문에 뒤의 ㄷ은 [ㅌ]으로 들려요.',
+    vietnameseExplanation:
+        'Âm cuối cơ bản của ㅀ là [ㄹ]. Do ㅎ, ㄷ phía sau được nghe thành [ㅌ].',
+    examples: ['싫다'],
   ),
-  HangulLetter(
+  CompoundFinalConsonantLearningItem(
     character: 'ㅄ',
     name: '값',
-    pronunciationGuide:
-        'Khi đứng ở cuối âm tiết, ㅄ có âm cuối đại diện [ㅂ]; phần ㅅ không phát âm riêng.',
-    examples: ['값', '없다'],
+    pronunciation: '갑',
+    ttsText: '갑',
+    pronunciationGuide: 'Ở cuối từ, ㅄ được đọc bằng âm cuối [ㅂ].',
+    koreanExplanation: '겹받침 ㅄ은 단어 끝에서 [ㅂ]으로 발음해요.',
+    vietnameseExplanation: 'Ở cuối từ, 받침 kép ㅄ được đọc bằng âm cuối [ㅂ].',
+    examples: ['값'],
   ),
 ];
