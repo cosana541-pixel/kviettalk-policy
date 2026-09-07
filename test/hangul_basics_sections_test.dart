@@ -17,6 +17,7 @@ void main() {
       MaterialApp(
         home: HangulBasicsScreen(
           consonantClusterReductionSpeechPlayer: _TestKoreanSpeechPlayer(),
+          nInsertionSpeechPlayer: _TestKoreanSpeechPlayer(),
         ),
       ),
     );
@@ -41,6 +42,7 @@ void main() {
       'h-changes-course',
       'consonant-cluster-reduction-course',
       'advanced-section-title',
+      'n-insertion-course',
     ];
 
     final indices = orderedKeys
@@ -62,11 +64,7 @@ void main() {
       expect(tester.takeException(), isNull);
     }
 
-    expect(find.textContaining('고급 발음 학습은 준비 중입니다.'), findsOneWidget);
-    expect(
-      find.textContaining('Nội dung phát âm nâng cao đang được chuẩn bị.'),
-      findsOneWidget,
-    );
+    expect(find.text('ㄴ 첨가 · Thêm âm ㄴ'), findsOneWidget);
 
     final clusterReduction = find.byKey(
       const Key('consonant-cluster-reduction-course'),

@@ -10,6 +10,7 @@ import 'hangul_h_changes_learning_screen.dart';
 import 'hangul_liaison_learning_screen.dart';
 import 'hangul_liquidization_learning_screen.dart';
 import 'hangul_nasalization_learning_screen.dart';
+import 'hangul_n_insertion_learning_screen.dart';
 import 'hangul_palatalization_learning_screen.dart';
 import 'hangul_syllable_building_learning_screen.dart';
 import 'hangul_tensification_learning_screen.dart';
@@ -30,6 +31,7 @@ class HangulBasicsScreen extends StatelessWidget {
     this.liquidizationSpeechPlayer,
     this.hChangesSpeechPlayer,
     this.consonantClusterReductionSpeechPlayer,
+    this.nInsertionSpeechPlayer,
   });
 
   final KoreanSpeechPlayer? vowelSpeechPlayer;
@@ -44,6 +46,7 @@ class HangulBasicsScreen extends StatelessWidget {
   final KoreanSpeechPlayer? liquidizationSpeechPlayer;
   final KoreanSpeechPlayer? hChangesSpeechPlayer;
   final KoreanSpeechPlayer? consonantClusterReductionSpeechPlayer;
+  final KoreanSpeechPlayer? nInsertionSpeechPlayer;
 
   @override
   Widget build(BuildContext context) {
@@ -923,12 +926,67 @@ class HangulBasicsScreen extends StatelessWidget {
               ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 12),
-            Text(
-              '고급 발음 학습은 준비 중입니다.\n'
-              'Nội dung phát âm nâng cao đang được chuẩn bị.',
-              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: colorScheme.onSurfaceVariant,
-                height: 1.5,
+            Card(
+              child: InkWell(
+                key: const Key('n-insertion-course'),
+                borderRadius: BorderRadius.circular(8),
+                onTap: () => Navigator.of(context).push<void>(
+                  MaterialPageRoute(
+                    builder: (_) => HangulNInsertionLearningScreen(
+                      speechPlayer: nInsertionSpeechPlayer,
+                    ),
+                  ),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: Row(
+                    children: [
+                      Container(
+                        width: 64,
+                        height: 64,
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          color: colorScheme.primaryContainer,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Text(
+                          'ㄴ',
+                          style: Theme.of(context).textTheme.headlineSmall
+                              ?.copyWith(
+                                color: colorScheme.onPrimaryContainer,
+                                fontWeight: FontWeight.bold,
+                              ),
+                        ),
+                      ),
+                      const SizedBox(width: 16),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              'ㄴ 첨가 · Thêm âm ㄴ',
+                              style: Theme.of(context).textTheme.titleLarge
+                                  ?.copyWith(fontWeight: FontWeight.bold),
+                            ),
+                            const SizedBox(height: 4),
+                            Text(
+                              '합성어·파생어의 ㄴ 소리 · Nghe phát âm · Quiz',
+                              style: Theme.of(context).textTheme.bodyMedium
+                                  ?.copyWith(
+                                    color: colorScheme.onSurfaceVariant,
+                                  ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      Icon(
+                        Icons.chevron_right,
+                        color: colorScheme.onSurfaceVariant,
+                      ),
+                    ],
+                  ),
+                ),
               ),
             ),
           ],
