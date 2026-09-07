@@ -12,6 +12,7 @@ import 'hangul_liquidization_learning_screen.dart';
 import 'hangul_nasalization_learning_screen.dart';
 import 'hangul_n_insertion_learning_screen.dart';
 import 'hangul_palatalization_learning_screen.dart';
+import 'hangul_rieul_nasalization_learning_screen.dart';
 import 'hangul_sai_siot_learning_screen.dart';
 import 'hangul_syllable_building_learning_screen.dart';
 import 'hangul_tensification_learning_screen.dart';
@@ -34,6 +35,7 @@ class HangulBasicsScreen extends StatelessWidget {
     this.consonantClusterReductionSpeechPlayer,
     this.nInsertionSpeechPlayer,
     this.saiSiotSpeechPlayer,
+    this.rieulNasalizationSpeechPlayer,
   });
 
   final KoreanSpeechPlayer? vowelSpeechPlayer;
@@ -50,6 +52,7 @@ class HangulBasicsScreen extends StatelessWidget {
   final KoreanSpeechPlayer? consonantClusterReductionSpeechPlayer;
   final KoreanSpeechPlayer? nInsertionSpeechPlayer;
   final KoreanSpeechPlayer? saiSiotSpeechPlayer;
+  final KoreanSpeechPlayer? rieulNasalizationSpeechPlayer;
 
   @override
   Widget build(BuildContext context) {
@@ -1038,6 +1041,70 @@ class HangulBasicsScreen extends StatelessWidget {
                             const SizedBox(height: 4),
                             Text(
                               '된소리와 [ㄴ]·[ㄴㄴ] 발음 · Nghe phát âm · Quiz',
+                              style: Theme.of(context).textTheme.bodyMedium
+                                  ?.copyWith(
+                                    color: colorScheme.onSurfaceVariant,
+                                  ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      Icon(
+                        Icons.chevron_right,
+                        color: colorScheme.onSurfaceVariant,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(height: 12),
+            Card(
+              child: InkWell(
+                key: const Key('rieul-nasalization-course'),
+                borderRadius: BorderRadius.circular(8),
+                onTap: () => Navigator.of(context).push<void>(
+                  MaterialPageRoute(
+                    builder: (_) => HangulRieulNasalizationLearningScreen(
+                      speechPlayer: rieulNasalizationSpeechPlayer,
+                    ),
+                  ),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: Row(
+                    children: [
+                      Container(
+                        width: 64,
+                        height: 64,
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          color: colorScheme.primaryContainer,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Text(
+                          'ㄹ→ㄴ',
+                          style: Theme.of(context).textTheme.titleLarge
+                              ?.copyWith(
+                                color: colorScheme.onPrimaryContainer,
+                                fontWeight: FontWeight.bold,
+                              ),
+                        ),
+                      ),
+                      const SizedBox(width: 16),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              'ㄹ의 비음화 · Mũi hóa ㄹ',
+                              style: Theme.of(context).textTheme.titleLarge
+                                  ?.copyWith(fontWeight: FontWeight.bold),
+                            ),
+                            const SizedBox(height: 4),
+                            Text(
+                              'ㄹ → [ㄴ]·연쇄 비음화 · Nghe phát âm · Quiz',
                               style: Theme.of(context).textTheme.bodyMedium
                                   ?.copyWith(
                                     color: colorScheme.onSurfaceVariant,

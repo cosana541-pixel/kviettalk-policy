@@ -19,6 +19,7 @@ void main() {
           consonantClusterReductionSpeechPlayer: _TestKoreanSpeechPlayer(),
           nInsertionSpeechPlayer: _TestKoreanSpeechPlayer(),
           saiSiotSpeechPlayer: _TestKoreanSpeechPlayer(),
+          rieulNasalizationSpeechPlayer: _TestKoreanSpeechPlayer(),
         ),
       ),
     );
@@ -45,6 +46,7 @@ void main() {
       'advanced-section-title',
       'n-insertion-course',
       'sai-siot-course',
+      'rieul-nasalization-course',
     ];
 
     final indices = orderedKeys
@@ -68,6 +70,7 @@ void main() {
 
     expect(find.text('ㄴ 첨가 · Thêm âm ㄴ'), findsOneWidget);
     expect(find.text('사이시옷 · Phát âm 사이시옷'), findsOneWidget);
+    expect(find.text('ㄹ의 비음화 · Mũi hóa ㄹ'), findsOneWidget);
 
     final clusterReduction = find.byKey(
       const Key('consonant-cluster-reduction-course'),
@@ -77,8 +80,7 @@ void main() {
       -250,
       scrollable: scrollable,
     );
-    await tester.ensureVisible(clusterReduction);
-    await tester.tap(clusterReduction);
+    tester.widget<InkWell>(clusterReduction).onTap!();
     await tester.pumpAndSettle();
 
     expect(find.byKey(const Key('cluster-reduction-rules')), findsOneWidget);
