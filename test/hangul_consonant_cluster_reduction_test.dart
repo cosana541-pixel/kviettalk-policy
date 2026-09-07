@@ -97,7 +97,10 @@ void main() {
     expect(find.text('자음군 단순화 · Giản lược cụm phụ âm'), findsOneWidget);
     expect(tester.takeException(), isNull);
 
-    await _bringIntoTapArea(tester, course);
+    // A following advanced card lets this course settle directly below the
+    // app bar (at y=60), which is already a safe tap target.
+    await tester.ensureVisible(course);
+    await tester.pumpAndSettle();
     await tester.tap(course);
     await tester.pumpAndSettle();
     expect(find.byKey(const Key('cluster-reduction-rules')), findsOneWidget);

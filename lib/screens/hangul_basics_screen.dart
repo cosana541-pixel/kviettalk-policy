@@ -12,6 +12,7 @@ import 'hangul_liquidization_learning_screen.dart';
 import 'hangul_nasalization_learning_screen.dart';
 import 'hangul_n_insertion_learning_screen.dart';
 import 'hangul_palatalization_learning_screen.dart';
+import 'hangul_sai_siot_learning_screen.dart';
 import 'hangul_syllable_building_learning_screen.dart';
 import 'hangul_tensification_learning_screen.dart';
 import 'vowel_learning_screen.dart';
@@ -32,6 +33,7 @@ class HangulBasicsScreen extends StatelessWidget {
     this.hChangesSpeechPlayer,
     this.consonantClusterReductionSpeechPlayer,
     this.nInsertionSpeechPlayer,
+    this.saiSiotSpeechPlayer,
   });
 
   final KoreanSpeechPlayer? vowelSpeechPlayer;
@@ -47,6 +49,7 @@ class HangulBasicsScreen extends StatelessWidget {
   final KoreanSpeechPlayer? hChangesSpeechPlayer;
   final KoreanSpeechPlayer? consonantClusterReductionSpeechPlayer;
   final KoreanSpeechPlayer? nInsertionSpeechPlayer;
+  final KoreanSpeechPlayer? saiSiotSpeechPlayer;
 
   @override
   Widget build(BuildContext context) {
@@ -971,6 +974,70 @@ class HangulBasicsScreen extends StatelessWidget {
                             const SizedBox(height: 4),
                             Text(
                               '합성어·파생어의 ㄴ 소리 · Nghe phát âm · Quiz',
+                              style: Theme.of(context).textTheme.bodyMedium
+                                  ?.copyWith(
+                                    color: colorScheme.onSurfaceVariant,
+                                  ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      Icon(
+                        Icons.chevron_right,
+                        color: colorScheme.onSurfaceVariant,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(height: 12),
+            Card(
+              child: InkWell(
+                key: const Key('sai-siot-course'),
+                borderRadius: BorderRadius.circular(8),
+                onTap: () => Navigator.of(context).push<void>(
+                  MaterialPageRoute(
+                    builder: (_) => HangulSaiSiotLearningScreen(
+                      speechPlayer: saiSiotSpeechPlayer,
+                    ),
+                  ),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(16),
+                  child: Row(
+                    children: [
+                      Container(
+                        width: 64,
+                        height: 64,
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          color: colorScheme.primaryContainer,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Text(
+                          'ㅅ',
+                          style: Theme.of(context).textTheme.headlineSmall
+                              ?.copyWith(
+                                color: colorScheme.onPrimaryContainer,
+                                fontWeight: FontWeight.bold,
+                              ),
+                        ),
+                      ),
+                      const SizedBox(width: 16),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              '사이시옷 · Phát âm 사이시옷',
+                              style: Theme.of(context).textTheme.titleLarge
+                                  ?.copyWith(fontWeight: FontWeight.bold),
+                            ),
+                            const SizedBox(height: 4),
+                            Text(
+                              '된소리와 [ㄴ]·[ㄴㄴ] 발음 · Nghe phát âm · Quiz',
                               style: Theme.of(context).textTheme.bodyMedium
                                   ?.copyWith(
                                     color: colorScheme.onSurfaceVariant,

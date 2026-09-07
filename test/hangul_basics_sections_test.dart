@@ -18,6 +18,7 @@ void main() {
         home: HangulBasicsScreen(
           consonantClusterReductionSpeechPlayer: _TestKoreanSpeechPlayer(),
           nInsertionSpeechPlayer: _TestKoreanSpeechPlayer(),
+          saiSiotSpeechPlayer: _TestKoreanSpeechPlayer(),
         ),
       ),
     );
@@ -43,6 +44,7 @@ void main() {
       'consonant-cluster-reduction-course',
       'advanced-section-title',
       'n-insertion-course',
+      'sai-siot-course',
     ];
 
     final indices = orderedKeys
@@ -65,6 +67,7 @@ void main() {
     }
 
     expect(find.text('ㄴ 첨가 · Thêm âm ㄴ'), findsOneWidget);
+    expect(find.text('사이시옷 · Phát âm 사이시옷'), findsOneWidget);
 
     final clusterReduction = find.byKey(
       const Key('consonant-cluster-reduction-course'),
