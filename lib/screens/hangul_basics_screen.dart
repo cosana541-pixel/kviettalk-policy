@@ -68,7 +68,15 @@ class HangulBasicsScreen extends StatelessWidget {
                 color: colorScheme.onSurfaceVariant,
               ),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 24),
+            Text(
+              '초급 · Cơ bản',
+              key: const Key('beginner-section-title'),
+              style: Theme.of(
+                context,
+              ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(height: 12),
             Card(
               child: InkWell(
                 key: const Key('basic-consonants-course'),
@@ -513,6 +521,14 @@ class HangulBasicsScreen extends StatelessWidget {
                 ),
               ),
             ),
+            const SizedBox(height: 28),
+            Text(
+              '중급 · Trung cấp',
+              key: const Key('intermediate-section-title'),
+              style: Theme.of(
+                context,
+              ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
+            ),
             const SizedBox(height: 12),
             Card(
               child: InkWell(
@@ -896,6 +912,23 @@ class HangulBasicsScreen extends StatelessWidget {
                     ],
                   ),
                 ),
+              ),
+            ),
+            const SizedBox(height: 28),
+            Text(
+              '고급 · Nâng cao',
+              key: const Key('advanced-section-title'),
+              style: Theme.of(
+                context,
+              ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(height: 12),
+            Text(
+              '고급 발음 학습은 준비 중입니다.\n'
+              'Nội dung phát âm nâng cao đang được chuẩn bị.',
+              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                color: colorScheme.onSurfaceVariant,
+                height: 1.5,
               ),
             ),
           ],
