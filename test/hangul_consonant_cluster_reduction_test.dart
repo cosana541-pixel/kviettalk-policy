@@ -57,8 +57,18 @@ void main() {
       hangulConsonantClusterReductionQuizQuestions
           .map((question) => question.correctAnswer)
           .toList(),
-      const ['넉', '안따', '여덜', '할따', '갑', '닥', '삼ː', '읍따'],
+      const ['넉', '안따', '[ㄹ]', '할따', 'ㅄ → [ㅂ]', '익따', 'ㄻ → [ㅁ] → [점따]', '읍따'],
     );
+    final learningWords = hangulConsonantClusterReductionExamples
+        .map((example) => example.writtenForm)
+        .toSet();
+    final reusedWords = learningWords.where(
+      (word) => hangulConsonantClusterReductionQuizQuestions.any(
+        (question) => question.prompt.contains(word),
+      ),
+    );
+    expect(reusedWords, hasLength(6));
+    final correctPositions = <int>[0, 0, 0, 0];
     for (final question in hangulConsonantClusterReductionQuizQuestions) {
       expect(question.type, HangulQuizQuestionType.pronunciationGuide);
       expect(question.options, hasLength(4));
@@ -67,8 +77,10 @@ void main() {
         question.options.where((option) => option == question.correctAnswer),
         hasLength(1),
       );
-      expect(question.explanation, isNotEmpty);
+      expect(question.explanation, contains('/'));
+      correctPositions[question.options.indexOf(question.correctAnswer)]++;
     }
+    expect(correctPositions, const [2, 2, 2, 2]);
   });
 
   testWidgets('cluster reduction follows h changes and opens', (tester) async {

@@ -92,7 +92,8 @@ void main() {
     expect(find.text('ㄴ 첨가 · Thêm âm ㄴ'), findsOneWidget);
     expect(tester.takeException(), isNull);
 
-    await _bringIntoTapArea(tester, course);
+    await tester.ensureVisible(course);
+    await tester.pumpAndSettle();
     await tester.tap(course);
     await tester.pumpAndSettle();
     expect(find.byKey(const Key('n-insertion-rules')), findsOneWidget);

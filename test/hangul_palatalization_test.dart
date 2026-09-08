@@ -59,6 +59,16 @@ void main() {
             .toSet(),
         hasLength(hangulPalatalizationQuizQuestions.length),
       );
+      final learningWords = hangulPalatalizationExamples
+          .map((example) => example.writtenForm)
+          .toSet();
+      final reusedWords = learningWords.where(
+        (word) => hangulPalatalizationQuizQuestions.any(
+          (question) => question.prompt.contains(word),
+        ),
+      );
+      expect(reusedWords, hasLength(4));
+      final correctPositions = <int>[0, 0, 0, 0];
       for (final question in hangulPalatalizationQuizQuestions) {
         expect(question.type, HangulQuizQuestionType.pronunciationGuide);
         expect(question.options, hasLength(4));
@@ -67,8 +77,10 @@ void main() {
           question.options.where((option) => option == question.correctAnswer),
           hasLength(1),
         );
-        expect(question.explanation, isNotEmpty);
+        expect(question.explanation, contains('/'));
+        correctPositions[question.options.indexOf(question.correctAnswer)]++;
       }
+      expect(correctPositions, const [2, 2, 2, 2]);
     },
   );
 

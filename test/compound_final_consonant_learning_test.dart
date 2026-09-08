@@ -87,7 +87,7 @@ void main() {
       pronunciationQuestions
           .map((question) => question.correctAnswer)
           .where(intermediateAnswers.contains),
-      hasLength(3),
+      isEmpty,
     );
     final correctPositions = <int>[0, 0, 0, 0];
     for (final question in compoundFinalConsonantQuizQuestions) {

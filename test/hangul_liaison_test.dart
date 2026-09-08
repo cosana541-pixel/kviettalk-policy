@@ -76,40 +76,45 @@ void main() {
     },
   );
 
-  testWidgets(
-    'Hangeul basics opens liaison immediately after syllable building',
-    (tester) async {
-      final speechPlayer = _TestKoreanSpeechPlayer();
-      _useSmallScreen(tester);
-      await tester.pumpWidget(
-        MaterialApp(
-          home: HangulBasicsScreen(liaisonSpeechPlayer: speechPlayer),
-        ),
-      );
+  testWidgets('Hangeul basics opens liaison as the first intermediate course', (
+    tester,
+  ) async {
+    final speechPlayer = _TestKoreanSpeechPlayer();
+    _useSmallScreen(tester);
+    await tester.pumpWidget(
+      MaterialApp(home: HangulBasicsScreen(liaisonSpeechPlayer: speechPlayer)),
+    );
 
-      final course = find.byKey(const Key('liaison-course'));
-      await tester.scrollUntilVisible(
-        course,
-        350,
-        scrollable: find.byType(Scrollable).first,
-      );
-      expect(find.byKey(const Key('syllable-building-course')), findsOneWidget);
-      expect(find.text('Nối âm (연음)'), findsOneWidget);
-      expect(
-        find.text('받침 + nguyên âm · Nghe cách nối âm · Quiz'),
-        findsOneWidget,
-      );
-      expect(tester.takeException(), isNull);
+    final course = find.byKey(const Key('liaison-course'));
+    await tester.scrollUntilVisible(
+      course,
+      350,
+      scrollable: find.byType(Scrollable).first,
+    );
+    expect(find.byKey(const Key('syllable-building-course')), findsOneWidget);
+    final intermediateTitle = find.byKey(
+      const Key('intermediate-section-title'),
+    );
+    expect(intermediateTitle, findsOneWidget);
+    expect(
+      tester.getTopLeft(intermediateTitle).dy,
+      lessThan(tester.getTopLeft(course).dy),
+    );
+    expect(find.text('Nối âm (연음)'), findsOneWidget);
+    expect(
+      find.text('받침 + nguyên âm · Nghe cách nối âm · Quiz'),
+      findsOneWidget,
+    );
+    expect(tester.takeException(), isNull);
 
-      await tester.ensureVisible(course);
-      await tester.pumpAndSettle();
-      await tester.tap(course);
-      await tester.pumpAndSettle();
-      expect(find.text('받침 nối sang âm tiết tiếp theo'), findsOneWidget);
-      expect(find.byKey(const ValueKey('liaison-먹어요')), findsOneWidget);
-      expect(tester.takeException(), isNull);
-    },
-  );
+    await tester.ensureVisible(course);
+    await tester.pumpAndSettle();
+    await tester.tap(course);
+    await tester.pumpAndSettle();
+    expect(find.text('받침 nối sang âm tiết tiếp theo'), findsOneWidget);
+    expect(find.byKey(const ValueKey('liaison-먹어요')), findsOneWidget);
+    expect(tester.takeException(), isNull);
+  });
 
   testWidgets(
     'learning cards show contrasts and use guarded written-form TTS',

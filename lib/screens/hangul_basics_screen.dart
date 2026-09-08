@@ -466,6 +466,14 @@ class HangulBasicsScreen extends StatelessWidget {
                 ),
               ),
             ),
+            const SizedBox(height: 28),
+            Text(
+              '중급 · Trung cấp',
+              key: const Key('intermediate-section-title'),
+              style: Theme.of(
+                context,
+              ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
+            ),
             const SizedBox(height: 12),
             Card(
               child: InkWell(
@@ -529,14 +537,6 @@ class HangulBasicsScreen extends StatelessWidget {
                   ),
                 ),
               ),
-            ),
-            const SizedBox(height: 28),
-            Text(
-              '중급 · Trung cấp',
-              key: const Key('intermediate-section-title'),
-              style: Theme.of(
-                context,
-              ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 12),
             Card(

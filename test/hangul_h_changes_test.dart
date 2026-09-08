@@ -51,8 +51,18 @@ void main() {
       hangulHChangesQuizQuestions
           .map((question) => question.correctAnswer)
           .toList(),
-      const ['노코', '조ː턴', '싸치', '머키다', '조피다', '꼬치다', '노아', '마ː나'],
+      const ['노코', '조ː턴', '싸치', '머키다', '가카', '마텽', '만ː코', '[ㅍ]'],
     );
+    final learningWords = hangulHChangeExamples
+        .map((example) => example.writtenForm)
+        .toSet();
+    final reusedWords = learningWords.where(
+      (word) => hangulHChangesQuizQuestions.any(
+        (question) => question.prompt.contains(word),
+      ),
+    );
+    expect(reusedWords, hasLength(4));
+    final correctPositions = <int>[0, 0, 0, 0];
     for (final question in hangulHChangesQuizQuestions) {
       expect(question.type, HangulQuizQuestionType.pronunciationGuide);
       expect(question.options, hasLength(4));
@@ -61,8 +71,10 @@ void main() {
         question.options.where((option) => option == question.correctAnswer),
         hasLength(1),
       );
-      expect(question.explanation, isNotEmpty);
+      expect(question.explanation, contains('/'));
+      correctPositions[question.options.indexOf(question.correctAnswer)]++;
     }
+    expect(correctPositions, const [2, 2, 2, 2]);
   });
 
   testWidgets('h change course follows liquidization and opens', (
@@ -193,7 +205,7 @@ Future<void> _completeQuiz(WidgetTester tester) async {
       200,
       scrollable: find.byType(Scrollable).first,
     );
-    await tester.tap(nextButton);
+    tester.widget<FilledButton>(nextButton).onPressed!();
     await tester.pump();
     expect(tester.takeException(), isNull);
   }

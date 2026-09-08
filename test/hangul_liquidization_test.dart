@@ -47,8 +47,18 @@ void main() {
       hangulLiquidizationQuizQuestions
           .map((question) => question.correctAnswer)
           .toList(),
-      const ['실라', '날ː로', '열락', '실랑', '설ː랄', '칼랄', '물랄리', '실래'],
+      const ['실라', '날ː로', '열락', '실랑', 'ㄴ + ㄹ → [ㄹㄹ]', '광ː할루', '대ː괄령', '줄럼끼'],
     );
+    final learningWords = hangulLiquidizationExamples
+        .map((example) => example.writtenForm)
+        .toSet();
+    final reusedWords = learningWords.where(
+      (word) => hangulLiquidizationQuizQuestions.any(
+        (question) => question.prompt.contains(word),
+      ),
+    );
+    expect(reusedWords, hasLength(4));
+    final correctPositions = <int>[0, 0, 0, 0];
     for (final question in hangulLiquidizationQuizQuestions) {
       expect(question.type, HangulQuizQuestionType.pronunciationGuide);
       expect(question.options, hasLength(4));
@@ -57,8 +67,10 @@ void main() {
         question.options.where((option) => option == question.correctAnswer),
         hasLength(1),
       );
-      expect(question.explanation, isNotEmpty);
+      expect(question.explanation, contains('/'));
+      correctPositions[question.options.indexOf(question.correctAnswer)]++;
     }
+    expect(correctPositions, const [2, 2, 2, 2]);
   });
 
   testWidgets(
@@ -189,10 +201,29 @@ Future<void> _completeQuiz(WidgetTester tester) async {
       200,
       scrollable: find.byType(Scrollable).first,
     );
+    await _bringIntoTapArea(tester, nextButton);
     await tester.tap(nextButton);
     await tester.pump();
     expect(tester.takeException(), isNull);
   }
+}
+
+Future<void> _bringIntoTapArea(WidgetTester tester, Finder finder) async {
+  await tester.ensureVisible(finder);
+  await tester.pumpAndSettle();
+  final initialRect = tester.getRect(finder);
+  final dragDistance = initialRect.top < 80
+      ? 80 - initialRect.top
+      : initialRect.bottom > 620
+      ? 620 - initialRect.bottom
+      : 0.0;
+  if (dragDistance != 0) {
+    await tester.drag(find.byType(Scrollable).first, Offset(0, dragDistance));
+    await tester.pumpAndSettle();
+  }
+  final tappableRect = tester.getRect(finder);
+  expect(tappableRect.top, greaterThanOrEqualTo(80));
+  expect(tappableRect.bottom, lessThanOrEqualTo(620));
 }
 
 void _useSmallScreen(WidgetTester tester) {

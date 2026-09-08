@@ -12,55 +12,63 @@ const hangulConsonantClusterReductionQuizQuestions = <HangulQuizQuestion>[
   HangulQuizQuestion(
     type: HangulQuizQuestionType.pronunciationGuide,
     prompt: '‘앉다’의 실제 발음은? / “앉다” được phát âm thực tế như thế nào?',
-    options: ['안따', '안다', '앋따', '앉다'],
+    options: ['안다', '안따', '앋따', '앉다'],
     correctAnswer: '안따',
     explanation:
         'ㄵ → [ㄴ]으로 단순화된 뒤 ㄷ이 [ㄸ]으로 된소리됩니다. / Sau ㄵ → [ㄴ], ㄷ tiếp tục được căng hóa thành [ㄸ]: [안따].',
   ),
   HangulQuizQuestion(
     type: HangulQuizQuestionType.pronunciationGuide,
-    prompt: '‘여덟’의 실제 발음은? / “여덟” được phát âm thực tế như thế nào?',
-    options: ['여덜', '여덥', '여덧', '여덟'],
-    correctAnswer: '여덜',
+    prompt:
+        '‘여덟’의 ㄼ에서 자음군 단순화 뒤 남는 받침은? / Sau khi giản lược ㄼ trong “여덟”, âm cuối nào còn lại?',
+    options: ['[ㄱ]', '[ㅂ]', '[ㄹ]', '[ㄷ]'],
+    correctAnswer: '[ㄹ]',
     explanation:
-        'ㄼ은 음절 끝에서 [ㄹ]로 발음됩니다. / ㄼ được phát âm thành [ㄹ] ở cuối âm tiết: [여덜].',
+        '여덟의 ㄼ은 음절 끝에서 [ㄹ]만 남아 [여덜]로 발음됩니다. / ㄼ trong 여덟 giữ lại [ㄹ] ở cuối âm tiết, tạo cách đọc [여덜].',
   ),
   HangulQuizQuestion(
     type: HangulQuizQuestionType.pronunciationGuide,
     prompt: '‘핥다’의 실제 발음은? / “핥다” được phát âm thực tế như thế nào?',
-    options: ['할따', '할다', '핟따', '핥다'],
+    options: ['할다', '핟따', '핥다', '할따'],
     correctAnswer: '할따',
     explanation:
         'ㄾ → [ㄹ]로 단순화된 뒤 ㄷ이 [ㄸ]으로 된소리됩니다. / Sau ㄾ → [ㄹ], ㄷ tiếp tục được căng hóa thành [ㄸ]: [할따].',
   ),
   HangulQuizQuestion(
     type: HangulQuizQuestionType.pronunciationGuide,
-    prompt: '‘값’의 실제 발음은? / “값” được phát âm thực tế như thế nào?',
-    options: ['갑', '갓', '각', '값'],
-    correctAnswer: '갑',
+    prompt:
+        '‘값’의 첫 자음군 단순화 단계는? / Bước giản lược cụm phụ âm đầu tiên của “값” là gì?',
+    options: ['ㅄ → [ㅂ]', 'ㅄ → [ㅅ]', 'ㅄ → [ㄱ]', 'ㅄ → [ㄷ]'],
+    correctAnswer: 'ㅄ → [ㅂ]',
     explanation:
-        'ㅄ은 음절 끝에서 [ㅂ]으로 발음됩니다. / ㅄ được phát âm thành [ㅂ] ở cuối âm tiết: [갑].',
+        '겹받침 ㅄ은 음절 끝에서 [ㅂ]으로 단순화되어 값은 [갑]이 됩니다. / Cụm ㅄ được giản lược thành [ㅂ] ở cuối âm tiết, nên 값 được đọc là [갑].',
   ),
   HangulQuizQuestion(
     type: HangulQuizQuestionType.pronunciationGuide,
-    prompt: '‘닭’의 실제 발음은? / “닭” được phát âm thực tế như thế nào?',
-    options: ['닥', '달', '닭', '답'],
-    correctAnswer: '닥',
+    prompt:
+        '‘읽다’의 자음군 단순화와 된소리되기가 반영된 발음은? / Cách đọc nào phản ánh cả giản lược cụm phụ âm và căng hóa trong “읽다”?',
+    options: ['일다', '익따', '일따', '익다'],
+    correctAnswer: '익따',
     explanation:
-        'ㄺ은 음절 끝에서 [ㄱ]으로 발음됩니다. / ㄺ được phát âm thành [ㄱ] ở cuối âm tiết: [닥].',
+        'ㄺ이 ㄷ 앞에서 [ㄱ]으로 단순화된 뒤 ㄷ이 [ㄸ]으로 된소리되어 [익따]가 됩니다. / ㄺ được giản lược thành [ㄱ] trước ㄷ, rồi ㄷ căng thành [ㄸ]: [익따].',
   ),
   HangulQuizQuestion(
     type: HangulQuizQuestionType.pronunciationGuide,
-    prompt: '‘삶’의 실제 발음은? / “삶” được phát âm thực tế như thế nào?',
-    options: ['삼ː', '살', '삽', '삶'],
-    correctAnswer: '삼ː',
+    prompt: '‘젊다’의 변화 순서로 알맞은 것은? / Thứ tự biến đổi đúng của “젊다” là gì?',
+    options: [
+      'ㄻ → [ㄹ] → [절따]',
+      'ㄻ → [ㅂ] → [접따]',
+      'ㄻ → [ㅁ] → [점따]',
+      'ㄻ → [ㄴ] → [전따]',
+    ],
+    correctAnswer: 'ㄻ → [ㅁ] → [점따]',
     explanation:
-        'ㄻ은 음절 끝에서 [ㅁ]으로 발음되어 [삼ː]입니다. / ㄻ được phát âm thành [ㅁ]: [삼ː].',
+        'ㄻ이 [ㅁ]으로 단순화된 뒤 ㄷ이 [ㄸ]으로 된소리되어 [점따]가 됩니다. / ㄻ được giản lược thành [ㅁ], rồi ㄷ căng thành [ㄸ]: [점따].',
   ),
   HangulQuizQuestion(
     type: HangulQuizQuestionType.pronunciationGuide,
     prompt: '‘읊다’의 실제 발음은? / “읊다” được phát âm thực tế như thế nào?',
-    options: ['읍따', '읍다', '을따', '읊다'],
+    options: ['읍다', '을따', '읊다', '읍따'],
     correctAnswer: '읍따',
     explanation:
         'ㄿ → [ㅂ]으로 단순화된 뒤 ㄷ이 [ㄸ]으로 된소리됩니다. / Sau ㄿ → [ㅂ], ㄷ tiếp tục được căng hóa thành [ㄸ]: [읍따].',
