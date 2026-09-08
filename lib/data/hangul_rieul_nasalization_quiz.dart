@@ -3,11 +3,17 @@ import '../models/hangul_quiz_question.dart';
 const hangulRieulNasalizationQuizQuestions = <HangulQuizQuestion>[
   HangulQuizQuestion(
     type: HangulQuizQuestionType.pronunciationGuide,
-    prompt: '‘음력’의 표준 발음은? / Cách phát âm chuẩn của “음력” là gì?',
-    options: ['음녁', '음력', '음력끄', '읍녁'],
-    correctAnswer: '음녁',
+    prompt:
+        '‘음력’에서 먼저 확인해야 할 핵심 음운 변화는? / Biến đổi âm vị cốt lõi cần xác định trước trong “음력” là gì?',
+    options: [
+      '받침 ㅁ 뒤의 ㄹ이 [ㄴ]으로 바뀐다.',
+      'ㄹ의 영향으로 받침 ㅁ이 먼저 [ㅂ]으로 바뀐다.',
+      'ㅁ+ㄹ이 일반 유음화되어 [ㄹㄹ]로 바뀐다.',
+      '받침 ㅁ과 뒤의 ㄹ이 변화 없이 그대로 발음된다.',
+    ],
+    correctAnswer: '받침 ㅁ 뒤의 ㄹ이 [ㄴ]으로 바뀐다.',
     explanation:
-        '받침 ㅁ 뒤의 ㄹ은 [ㄴ]으로 발음되어 [음녁]입니다. / ㄹ sau 받침 ㅁ đổi thành [ㄴ], nên đọc là [음녁].',
+        '제19항에 따라 받침 ㅁ 뒤의 ㄹ이 먼저 [ㄴ]으로 바뀌며, 그 결과 음력은 [음녁]으로 발음됩니다. / Theo Điều 19, ㄹ sau 받침 ㅁ đổi thành [ㄴ] trước, vì vậy 음력 được phát âm là [음녁].',
   ),
   HangulQuizQuestion(
     type: HangulQuizQuestionType.pronunciationGuide,
@@ -19,11 +25,17 @@ const hangulRieulNasalizationQuizQuestions = <HangulQuizQuestion>[
   ),
   HangulQuizQuestion(
     type: HangulQuizQuestionType.pronunciationGuide,
-    prompt: '‘대통령’의 표준 발음은? / Cách phát âm chuẩn của “대통령” là gì?',
-    options: ['대통령', '대ː통령', '대ː통녕', '대통렬'],
-    correctAnswer: '대ː통녕',
+    prompt:
+        '‘대통령’에 일반 유음화가 아니라 ㄹ의 비음화가 적용되는 이유는? / Vì sao “대통령” áp dụng mũi hóa ㄹ thay vì lưu âm hóa thông thường?',
+    options: [
+      'ㄴ+ㄹ이 만나 두 자음이 [ㄹㄹ]로 바뀌기 때문이다.',
+      'ㄹ 앞의 ㅇ이 탈락하여 모음끼리 이어지기 때문이다.',
+      '받침 ㅇ 뒤에 연결된 ㄹ이 [ㄴ]으로 발음되기 때문이다.',
+      'ㄹ이 뒤 자음을 된소리로 만들기 때문이다.',
+    ],
+    correctAnswer: '받침 ㅇ 뒤에 연결된 ㄹ이 [ㄴ]으로 발음되기 때문이다.',
     explanation:
-        'ㅇ 뒤의 ㄹ이 [ㄴ]으로 바뀌어 [대ː통녕]입니다. / ㄹ sau ㅇ đổi thành [ㄴ], nên đọc là [대ː통녕].',
+        '제19항에 따라 받침 ㅇ 뒤의 ㄹ은 [ㄴ]으로 바뀌므로 [대ː통녕]입니다. / Theo Điều 19, ㄹ sau 받침 ㅇ đổi thành [ㄴ], tạo cách đọc [대ː통녕].',
   ),
   HangulQuizQuestion(
     type: HangulQuizQuestionType.pronunciationGuide,
@@ -47,11 +59,12 @@ const hangulRieulNasalizationQuizQuestions = <HangulQuizQuestion>[
   ),
   HangulQuizQuestion(
     type: HangulQuizQuestionType.pronunciationGuide,
-    prompt: '‘협력’의 연쇄 비음화 결과는? / Kết quả biến âm mũi liên tiếp của “협력” là gì?',
-    options: ['협녁', '혐녁', '혐력', '현녁'],
-    correctAnswer: '혐녁',
+    prompt:
+        '‘협력’에서 일어나는 연쇄 변화의 순서를 바르게 설명한 것은? / Mô tả đúng thứ tự biến đổi liên tiếp trong “협력” là gì?',
+    options: ['협력 → 혐력 → 혐녁', '협력 → 협녁 → 혐녁', '협력 → 혈력 → 혐녁', '협력 → 협녁'],
+    correctAnswer: '협력 → 협녁 → 혐녁',
     explanation:
-        '협력 → 협녁(ㄹ→ㄴ) → 혐녁(ㅂ→ㅁ)입니다. / 협력 đổi thành 협녁 rồi 혐녁: ㄹ→ㄴ, sau đó ㅂ→ㅁ.',
+        '협력 → 협녁(ㄹ→ㄴ) → 혐녁(ㅂ→ㅁ)의 순서입니다. / Thứ tự là 협력 → 협녁 (ㄹ→ㄴ) → 혐녁 (ㅂ→ㅁ).',
   ),
   HangulQuizQuestion(
     type: HangulQuizQuestionType.pronunciationGuide,

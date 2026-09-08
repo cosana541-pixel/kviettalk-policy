@@ -63,13 +63,27 @@ void main() {
         question.options.where((option) => option == question.correctAnswer),
         hasLength(1),
       );
-      expect(question.explanation, isNotEmpty);
+      expect(question.explanation, contains('/'));
       correctIndices.add(question.options.indexOf(question.correctAnswer));
     }
-    expect(correctIndices.toSet().length, greaterThan(1));
+    expect(
+      {
+        for (var index = 0; index < 4; index++)
+          index: correctIndices.where((value) => value == index).length,
+      },
+      const {0: 2, 1: 2, 2: 2, 3: 2},
+    );
+    for (final marker in const ['만들어지는 단계', '원칙 발음과 허용 발음', '잘못 적용한']) {
+      expect(
+        hangulSaiSiotQuizQuestions.any(
+          (question) => question.prompt.contains(marker),
+        ),
+        isTrue,
+      );
+    }
   });
 
-  testWidgets('sai-siot follows n insertion in advanced section and opens', (
+  testWidgets('sai-siot follows rieul nasalization and n insertion', (
     tester,
   ) async {
     final speechPlayer = _TestKoreanSpeechPlayer();
@@ -81,11 +95,16 @@ void main() {
     final listView = tester.widget<ListView>(find.byType(ListView));
     final children =
         (listView.childrenDelegate as SliverChildListDelegate).children;
+    final rieulIndex = _indexOfKey(
+      children,
+      const Key('rieul-nasalization-course'),
+    );
     final nInsertionIndex = _indexOfKey(
       children,
       const Key('n-insertion-course'),
     );
     final saiSiotIndex = _indexOfKey(children, const Key('sai-siot-course'));
+    expect(rieulIndex, lessThan(nInsertionIndex));
     expect(nInsertionIndex, isNonNegative);
     expect(saiSiotIndex, greaterThan(nInsertionIndex));
 

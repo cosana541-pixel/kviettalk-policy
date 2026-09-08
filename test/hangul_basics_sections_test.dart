@@ -44,9 +44,9 @@ void main() {
       'h-changes-course',
       'consonant-cluster-reduction-course',
       'advanced-section-title',
+      'rieul-nasalization-course',
       'n-insertion-course',
       'sai-siot-course',
-      'rieul-nasalization-course',
     ];
 
     final indices = orderedKeys

@@ -5,6 +5,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 import 'package:korean_vietnamese_app/data/hangul_n_insertion.dart';
 import 'package:korean_vietnamese_app/data/hangul_n_insertion_quiz.dart';
+import 'package:korean_vietnamese_app/data/hangul_sai_siot.dart';
 import 'package:korean_vietnamese_app/models/hangul_quiz_question.dart';
 import 'package:korean_vietnamese_app/screens/hangul_basics_screen.dart';
 import 'package:korean_vietnamese_app/screens/hangul_n_insertion_learning_screen.dart';
@@ -22,7 +23,7 @@ void main() {
         '솜이불': '솜니불',
         '맨입': '맨닙',
         '꽃잎': '꼰닙',
-        '깻잎': '깬닙',
+        '내복약': '내ː봉냑',
         '한여름': '한녀름',
         '색연필': '생년필',
         '담요': '담뇨',
@@ -34,24 +35,32 @@ void main() {
           .where((example) => example.hasChangeProcess)
           .map((example) => example.writtenForm)
           .toSet(),
-      const {'꽃잎', '깻잎', '색연필'},
+      const {'꽃잎', '내복약', '색연필'},
     );
     for (final example in hangulNInsertionExamples) {
       expect(example.wordBoundary, isNotEmpty);
       expect(example.koreanExplanation, isNotEmpty);
       expect(example.vietnameseExplanation, isNotEmpty);
     }
+    final nInsertionWords = hangulNInsertionExamples
+        .map((example) => example.writtenForm)
+        .toSet();
+    final saiSiotWords = hangulSaiSiotExamples
+        .map((example) => example.displayWord)
+        .toSet();
+    expect(nInsertionWords.intersection(saiSiotWords), isEmpty);
+    expect(nInsertionWords, isNot(contains('깻잎')));
+    expect(saiSiotWords, contains('깻잎'));
   });
 
   test('n insertion quiz has 8 valid four-choice questions', () {
     expect(hangulNInsertionQuizQuestions, hasLength(8));
-    expect(
-      hangulNInsertionQuizQuestions
-          .map((question) => question.correctAnswer)
-          .toList(),
-      const ['솜니불', '맨닙', '꼰닙', '깬닙', '한녀름', '생년필', '담뇨', '시굥뉴'],
-    );
+    final learningPronunciations = {
+      for (final example in hangulNInsertionExamples)
+        example.writtenForm: example.pronunciation,
+    };
     final correctIndices = <int>[];
+    var repeatedCardPronunciationQuestions = 0;
     for (final question in hangulNInsertionQuizQuestions) {
       expect(question.type, HangulQuizQuestionType.pronunciationGuide);
       expect(question.options, hasLength(4));
@@ -61,12 +70,33 @@ void main() {
         hasLength(1),
       );
       correctIndices.add(question.options.indexOf(question.correctAnswer));
-      expect(question.explanation, isNotEmpty);
+      expect(question.explanation, contains('/'));
+      for (final entry in learningPronunciations.entries) {
+        if (question.prompt.contains(entry.key) &&
+            question.correctAnswer == entry.value) {
+          repeatedCardPronunciationQuestions++;
+        }
+      }
     }
-    expect(correctIndices.toSet().length, greaterThan(1));
+    expect(repeatedCardPronunciationQuestions, lessThanOrEqualTo(2));
+    expect(
+      {
+        for (var index = 0; index < 4; index++)
+          index: correctIndices.where((value) => value == index).length,
+      },
+      const {0: 2, 1: 2, 2: 2, 3: 2},
+    );
+    for (final marker in const ['기본 조건', '변화 순서', '중간 발음', '학습 화면에 없던']) {
+      expect(
+        hangulNInsertionQuizQuestions.any(
+          (question) => question.prompt.contains(marker),
+        ),
+        isTrue,
+      );
+    }
   });
 
-  testWidgets('n insertion is the first advanced course and opens', (
+  testWidgets('n insertion follows rieul nasalization and opens', (
     tester,
   ) async {
     final speechPlayer = _TestKoreanSpeechPlayer();
@@ -76,6 +106,21 @@ void main() {
         home: HangulBasicsScreen(nInsertionSpeechPlayer: speechPlayer),
       ),
     );
+
+    final listView = tester.widget<ListView>(find.byType(ListView));
+    final children =
+        (listView.childrenDelegate as SliverChildListDelegate).children;
+    final rieulIndex = _indexOfKey(
+      children,
+      const Key('rieul-nasalization-course'),
+    );
+    final nInsertionIndex = _indexOfKey(
+      children,
+      const Key('n-insertion-course'),
+    );
+    final saiSiotIndex = _indexOfKey(children, const Key('sai-siot-course'));
+    expect(rieulIndex, lessThan(nInsertionIndex));
+    expect(nInsertionIndex, lessThan(saiSiotIndex));
 
     final course = find.byKey(const Key('n-insertion-course'));
     await tester.scrollUntilVisible(
@@ -227,6 +272,13 @@ Future<void> _bringIntoTapArea(WidgetTester tester, Finder finder) async {
   final tappableRect = tester.getRect(finder);
   expect(tappableRect.top, greaterThanOrEqualTo(80));
   expect(tappableRect.bottom, lessThanOrEqualTo(620));
+}
+
+int _indexOfKey(List<Widget> children, Key key) {
+  return children.indexWhere((widget) {
+    if (widget.key == key) return true;
+    return widget is Card && widget.child?.key == key;
+  });
 }
 
 void _useSmallScreen(WidgetTester tester) {

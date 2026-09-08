@@ -45,13 +45,14 @@ const hangulNInsertionExamples = <HangulNInsertionExample>[
         'Trước hết ㄴ được thêm trước 잎 tạo thành [꽃닙], sau đó biến âm mũi tiếp tục tạo ra [꼰닙].',
   ),
   HangulNInsertionExample(
-    writtenForm: '깻잎',
-    pronunciation: '깬닙',
-    wordBoundary: '깻 + 잎',
-    changeProcess: '깻 + 잎 → 깻닙 → 깬닙',
-    koreanExplanation: '먼저 잎 앞에 ㄴ이 첨가되어 [깻닙]이 되고, 비음화가 이어져 [깬닙]이 됩니다.',
+    writtenForm: '내복약',
+    pronunciation: '내ː봉냑',
+    wordBoundary: '내복 + 약',
+    changeProcess: '내복 + 약 → 내복냑 → 내ː봉냑',
+    koreanExplanation:
+        '먼저 약 앞에 ㄴ이 첨가되어 [내복냑]이 되고, 새로 생긴 ㄴ 앞에서 받침 ㄱ이 ㅇ으로 비음화되어 [내ː봉냑]이 됩니다.',
     vietnameseExplanation:
-        'Trước hết ㄴ được thêm trước 잎 tạo thành [깻닙], rồi biến âm mũi tạo ra [깬닙].',
+        'Trước hết ㄴ được thêm trước 약, tạo thành [내복냑]. Sau đó, ㄱ cuối âm tiết đổi thành âm mũi ㅇ trước ㄴ mới xuất hiện, tạo ra [내ː봉냑].',
   ),
   HangulNInsertionExample(
     writtenForm: '한여름',

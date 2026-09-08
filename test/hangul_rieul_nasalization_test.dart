@@ -59,10 +59,24 @@ void main() {
       expect(question.explanation, contains('/'));
       correctIndices.add(question.options.indexOf(question.correctAnswer));
     }
-    expect(correctIndices.toSet(), {0, 1, 2, 3});
+    expect(
+      {
+        for (var index = 0; index < 4; index++)
+          index: correctIndices.where((value) => value == index).length,
+      },
+      const {0: 2, 1: 2, 2: 2, 3: 2},
+    );
+    for (final marker in const ['먼저 확인', '일반 유음화가 아니라', '연쇄 변화의 순서']) {
+      expect(
+        hangulRieulNasalizationQuizQuestions.any(
+          (question) => question.prompt.contains(marker),
+        ),
+        isTrue,
+      );
+    }
   });
 
-  testWidgets('advanced menu opens rieul nasalization after sai-siot', (
+  testWidgets('advanced menu opens rieul nasalization before n insertion', (
     tester,
   ) async {
     final speechPlayer = _TestKoreanSpeechPlayer();
@@ -85,8 +99,8 @@ void main() {
       children,
       const Key('rieul-nasalization-course'),
     );
+    expect(rieulIndex, lessThan(nInsertionIndex));
     expect(nInsertionIndex, lessThan(saiSiotIndex));
-    expect(saiSiotIndex, lessThan(rieulIndex));
 
     final course = find.byKey(const Key('rieul-nasalization-course'));
     await tester.scrollUntilVisible(
@@ -94,7 +108,6 @@ void main() {
       350,
       scrollable: find.byType(Scrollable).first,
     );
-    await _bringIntoTapArea(tester, course);
     await tester.tap(course);
     await tester.pumpAndSettle();
     expect(find.text('ㄹ의 비음화 · Mũi hóa ㄹ'), findsOneWidget);
@@ -231,6 +244,7 @@ Future<void> _completeQuiz(WidgetTester tester) async {
     expect(
       find.byKey(const Key('rieul-nasalization-quiz-feedback')),
       findsOneWidget,
+      reason: question.prompt,
     );
     final nextButton = find.byKey(
       const Key('next-rieul-nasalization-question'),
