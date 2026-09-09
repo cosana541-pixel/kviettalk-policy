@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../data/hangul_liaison_quiz.dart';
 import '../models/hangul_quiz_question.dart';
+import '../utils/hangul_quiz_option_order.dart';
+import '../widgets/hangul_quiz_question_card.dart';
 
 class HangulLiaisonQuizScreen extends StatefulWidget {
   const HangulLiaisonQuizScreen({super.key});
@@ -16,9 +18,16 @@ class _HangulLiaisonQuizScreenState extends State<HangulLiaisonQuizScreen> {
   int _score = 0;
   String? _selectedAnswer;
   bool _isComplete = false;
+  late List<String> _displayedOptions;
 
   HangulQuizQuestion get _question =>
       hangulLiaisonQuizQuestions[_questionIndex];
+
+  @override
+  void initState() {
+    super.initState();
+    _displayedOptions = createShuffledHangulQuizOptions(_question.options);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +40,6 @@ class _HangulLiaisonQuizScreenState extends State<HangulLiaisonQuizScreen> {
   }
 
   Widget _buildQuestion(BuildContext context) {
-    final colorScheme = Theme.of(context).colorScheme;
     final isAnswered = _selectedAnswer != null;
     return ListView(
       key: const Key('liaison-quiz-question'),
@@ -54,32 +62,12 @@ class _HangulLiaisonQuizScreenState extends State<HangulLiaisonQuizScreen> {
           ],
         ),
         const SizedBox(height: 16),
-        Card(
-          child: Padding(
-            padding: const EdgeInsets.all(18),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  'Chọn 1 đáp án đúng',
-                  style: Theme.of(
-                    context,
-                  ).textTheme.labelLarge?.copyWith(color: colorScheme.primary),
-                ),
-                const SizedBox(height: 12),
-                Text(
-                  _question.prompt,
-                  key: const Key('liaison-quiz-prompt'),
-                  style: Theme.of(
-                    context,
-                  ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
-                ),
-              ],
-            ),
-          ),
+        HangulQuizQuestionCard(
+          prompt: _question.prompt,
+          promptKey: const Key('liaison-quiz-prompt'),
         ),
         const SizedBox(height: 14),
-        for (final option in _question.options)
+        for (final option in _displayedOptions)
           _LiaisonAnswerCard(
             option: option,
             correctAnswer: _question.correctAnswer,
@@ -195,6 +183,7 @@ class _HangulLiaisonQuizScreenState extends State<HangulLiaisonQuizScreen> {
         _isComplete = true;
       } else {
         _questionIndex++;
+        _displayedOptions = createShuffledHangulQuizOptions(_question.options);
         _selectedAnswer = null;
       }
     });
@@ -203,6 +192,7 @@ class _HangulLiaisonQuizScreenState extends State<HangulLiaisonQuizScreen> {
   void _restart() {
     setState(() {
       _questionIndex = 0;
+      _displayedOptions = createShuffledHangulQuizOptions(_question.options);
       _score = 0;
       _selectedAnswer = null;
       _isComplete = false;

@@ -79,7 +79,7 @@ class HangulBasicsScreen extends StatelessWidget {
             ),
             const SizedBox(height: 24),
             Text(
-              '초급 · Cơ bản',
+              'Cơ bản',
               key: const Key('beginner-section-title'),
               style: Theme.of(
                 context,
@@ -319,7 +319,7 @@ class HangulBasicsScreen extends StatelessWidget {
                             ),
                             const SizedBox(height: 4),
                             Text(
-                              '16 받침 · 7 nhóm âm cuối · Quiz',
+                              '16 phụ âm cuối · 7 nhóm âm cuối · Quiz',
                               style: Theme.of(context).textTheme.bodyMedium
                                   ?.copyWith(
                                     color: colorScheme.onSurfaceVariant,
@@ -383,7 +383,7 @@ class HangulBasicsScreen extends StatelessWidget {
                             ),
                             const SizedBox(height: 4),
                             Text(
-                              '11 겹받침 · Âm cuối đại diện · Quiz',
+                              '11 phụ âm cuối kép · Âm cuối đại diện · Quiz',
                               style: Theme.of(context).textTheme.bodyMedium
                                   ?.copyWith(
                                     color: colorScheme.onSurfaceVariant,
@@ -447,7 +447,7 @@ class HangulBasicsScreen extends StatelessWidget {
                             ),
                             const SizedBox(height: 4),
                             Text(
-                              'Hiểu cấu trúc 초성 + 중성 (+ 종성) · Quiz',
+                              'Hiểu cấu trúc phụ âm đầu + nguyên âm (+ phụ âm cuối) · Quiz',
                               style: Theme.of(context).textTheme.bodyMedium
                                   ?.copyWith(
                                     color: colorScheme.onSurfaceVariant,
@@ -468,7 +468,7 @@ class HangulBasicsScreen extends StatelessWidget {
             ),
             const SizedBox(height: 28),
             Text(
-              '중급 · Trung cấp',
+              'Trung cấp',
               key: const Key('intermediate-section-title'),
               style: Theme.of(
                 context,
@@ -513,13 +513,13 @@ class HangulBasicsScreen extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Nối âm (연음)',
+                              'Nối âm',
                               style: Theme.of(context).textTheme.titleLarge
                                   ?.copyWith(fontWeight: FontWeight.bold),
                             ),
                             const SizedBox(height: 4),
                             Text(
-                              '받침 + nguyên âm · Nghe cách nối âm · Quiz',
+                              'Phụ âm cuối + nguyên âm · Nghe cách nối âm · Quiz',
                               style: Theme.of(context).textTheme.bodyMedium
                                   ?.copyWith(
                                     color: colorScheme.onSurfaceVariant,
@@ -577,7 +577,7 @@ class HangulBasicsScreen extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              '구개음화 · Biến âm vòm miệng',
+                              'Biến âm vòm miệng',
                               style: Theme.of(context).textTheme.titleLarge
                                   ?.copyWith(fontWeight: FontWeight.bold),
                             ),
@@ -641,13 +641,13 @@ class HangulBasicsScreen extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              '된소리되기 · Căng hóa phụ âm',
+                              'Căng hóa phụ âm',
                               style: Theme.of(context).textTheme.titleLarge
                                   ?.copyWith(fontWeight: FontWeight.bold),
                             ),
                             const SizedBox(height: 4),
                             Text(
-                              'ㄱ·ㄷ·ㅂ·ㅅ·ㅈ → 된소리 · Nghe phát âm · Quiz',
+                              'ㄱ·ㄷ·ㅂ·ㅅ·ㅈ → âm căng · Nghe phát âm · Quiz',
                               style: Theme.of(context).textTheme.bodyMedium
                                   ?.copyWith(
                                     color: colorScheme.onSurfaceVariant,
@@ -705,7 +705,7 @@ class HangulBasicsScreen extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              '비음화 · Biến âm mũi',
+                              'Biến âm mũi',
                               style: Theme.of(context).textTheme.titleLarge
                                   ?.copyWith(fontWeight: FontWeight.bold),
                             ),
@@ -769,7 +769,7 @@ class HangulBasicsScreen extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              '유음화 · Biến âm lỏng',
+                              'Biến âm lỏng',
                               style: Theme.of(context).textTheme.titleLarge
                                   ?.copyWith(fontWeight: FontWeight.bold),
                             ),
@@ -833,13 +833,13 @@ class HangulBasicsScreen extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'ㅎ 관련 발음 변화 · Biến đổi âm ㅎ',
+                              'Biến đổi âm ㅎ',
                               style: Theme.of(context).textTheme.titleLarge
                                   ?.copyWith(fontWeight: FontWeight.bold),
                             ),
                             const SizedBox(height: 4),
                             Text(
-                              'ㅎ과 만나 거센소리 · Âm bật hơi · Quiz',
+                              'Kết hợp với ㅎ thành âm bật hơi · Nghe phát âm · Quiz',
                               style: Theme.of(context).textTheme.bodyMedium
                                   ?.copyWith(
                                     color: colorScheme.onSurfaceVariant,
@@ -898,13 +898,13 @@ class HangulBasicsScreen extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              '자음군 단순화 · Giản lược cụm phụ âm',
+                              'Giản lược cụm phụ âm',
                               style: Theme.of(context).textTheme.titleLarge
                                   ?.copyWith(fontWeight: FontWeight.bold),
                             ),
                             const SizedBox(height: 4),
                             Text(
-                              '겹받침 → 대표 받침 · Nghe phát âm · Quiz',
+                              'Phụ âm cuối kép → âm cuối đại diện · Nghe phát âm · Quiz',
                               style: Theme.of(context).textTheme.bodyMedium
                                   ?.copyWith(
                                     color: colorScheme.onSurfaceVariant,
@@ -925,7 +925,7 @@ class HangulBasicsScreen extends StatelessWidget {
             ),
             const SizedBox(height: 28),
             Text(
-              '고급 · Nâng cao',
+              'Nâng cao',
               key: const Key('advanced-section-title'),
               style: Theme.of(
                 context,
@@ -957,7 +957,8 @@ class HangulBasicsScreen extends StatelessWidget {
                         ),
                         child: Text(
                           'ㄹ→ㄴ',
-                          style: Theme.of(context).textTheme.titleLarge
+                          maxLines: 1,
+                          style: Theme.of(context).textTheme.titleMedium
                               ?.copyWith(
                                 color: colorScheme.onPrimaryContainer,
                                 fontWeight: FontWeight.bold,
@@ -970,13 +971,13 @@ class HangulBasicsScreen extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'ㄹ의 비음화 · Mũi hóa ㄹ',
+                              'Mũi hóa ㄹ',
                               style: Theme.of(context).textTheme.titleLarge
                                   ?.copyWith(fontWeight: FontWeight.bold),
                             ),
                             const SizedBox(height: 4),
                             Text(
-                              'ㄹ → [ㄴ]·연쇄 비음화 · Nghe phát âm · Quiz',
+                              'ㄹ → [ㄴ] · Biến đổi mũi liên tiếp · Nghe phát âm · Quiz',
                               style: Theme.of(context).textTheme.bodyMedium
                                   ?.copyWith(
                                     color: colorScheme.onSurfaceVariant,
@@ -1034,13 +1035,13 @@ class HangulBasicsScreen extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'ㄴ 첨가 · Thêm âm ㄴ',
+                              'Thêm âm ㄴ',
                               style: Theme.of(context).textTheme.titleLarge
                                   ?.copyWith(fontWeight: FontWeight.bold),
                             ),
                             const SizedBox(height: 4),
                             Text(
-                              '합성어·파생어의 ㄴ 소리 · Nghe phát âm · Quiz',
+                              'Âm ㄴ trong từ ghép và từ phái sinh · Nghe phát âm · Quiz',
                               style: Theme.of(context).textTheme.bodyMedium
                                   ?.copyWith(
                                     color: colorScheme.onSurfaceVariant,
@@ -1098,13 +1099,18 @@ class HangulBasicsScreen extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              '사이시옷 · Phát âm 사이시옷',
+                              'Quy tắc ㅅ trong từ ghép',
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
                               style: Theme.of(context).textTheme.titleLarge
-                                  ?.copyWith(fontWeight: FontWeight.bold),
+                                  ?.copyWith(
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.bold,
+                                  ),
                             ),
                             const SizedBox(height: 4),
                             Text(
-                              '된소리와 [ㄴ]·[ㄴㄴ] 발음 · Nghe phát âm · Quiz',
+                              'Âm căng và cách đọc [ㄴ]·[ㄴㄴ] · Nghe phát âm · Quiz',
                               style: Theme.of(context).textTheme.bodyMedium
                                   ?.copyWith(
                                     color: colorScheme.onSurfaceVariant,

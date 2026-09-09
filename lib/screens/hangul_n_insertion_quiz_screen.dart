@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../data/hangul_n_insertion_quiz.dart';
 import '../models/hangul_quiz_question.dart';
+import '../utils/hangul_quiz_option_order.dart';
+import '../widgets/hangul_quiz_question_card.dart';
 
 class HangulNInsertionQuizScreen extends StatefulWidget {
   const HangulNInsertionQuizScreen({super.key});
@@ -17,121 +19,111 @@ class _HangulNInsertionQuizScreenState
   int _score = 0;
   String? _selectedAnswer;
   bool _isComplete = false;
+  late List<String> _displayedOptions;
 
   HangulQuizQuestion get _question =>
       hangulNInsertionQuizQuestions[_questionIndex];
+
+  @override
+  void initState() {
+    super.initState();
+    _displayedOptions = createShuffledHangulQuizOptions(_question.options);
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('ㄴ 첨가 퀴즈 · Quiz')),
       body: SafeArea(
+        minimum: const EdgeInsets.only(top: 24),
         child: _isComplete ? _buildResult(context) : _buildQuestion(context),
       ),
     );
   }
 
   Widget _buildQuestion(BuildContext context) {
-    final colorScheme = Theme.of(context).colorScheme;
     final isAnswered = _selectedAnswer != null;
-    return ListView(
+    return SingleChildScrollView(
       key: const Key('n-insertion-quiz-question'),
       padding: const EdgeInsets.fromLTRB(16, 12, 16, 24),
-      children: [
-        Row(
-          children: [
-            Expanded(
-              child: LinearProgressIndicator(
-                value:
-                    (_questionIndex + 1) / hangulNInsertionQuizQuestions.length,
+      child: Column(
+        children: [
+          Row(
+            children: [
+              Expanded(
+                child: LinearProgressIndicator(
+                  value:
+                      (_questionIndex + 1) /
+                      hangulNInsertionQuizQuestions.length,
+                ),
+              ),
+              const SizedBox(width: 12),
+              Text(
+                '${_questionIndex + 1}/${hangulNInsertionQuizQuestions.length}',
+                style: Theme.of(
+                  context,
+                ).textTheme.labelLarge?.copyWith(fontWeight: FontWeight.bold),
+              ),
+            ],
+          ),
+          const SizedBox(height: 16),
+          HangulQuizQuestionCard(
+            prompt: _question.prompt,
+            promptKey: const Key('n-insertion-quiz-prompt'),
+          ),
+          const SizedBox(height: 14),
+          for (final option in _displayedOptions)
+            _NInsertionAnswerCard(
+              option: option,
+              correctAnswer: _question.correctAnswer,
+              selectedAnswer: _selectedAnswer,
+              onTap: () => _selectAnswer(option),
+            ),
+          if (isAnswered) ...[
+            const SizedBox(height: 8),
+            Card(
+              color: _selectedAnswer == _question.correctAnswer
+                  ? Colors.green.shade50
+                  : Colors.red.shade50,
+              child: Padding(
+                padding: const EdgeInsets.all(14),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      _selectedAnswer == _question.correctAnswer
+                          ? '정답! · Chính xác!'
+                          : '다시 확인해 보세요 · Chưa đúng',
+                      key: const Key('n-insertion-quiz-feedback'),
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        color: _selectedAnswer == _question.correctAnswer
+                            ? Colors.green.shade800
+                            : Colors.red.shade800,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const SizedBox(height: 4),
+                    Text(_question.explanation),
+                  ],
+                ),
               ),
             ),
-            const SizedBox(width: 12),
-            Text(
-              '${_questionIndex + 1}/${hangulNInsertionQuizQuestions.length}',
-              style: Theme.of(
-                context,
-              ).textTheme.labelLarge?.copyWith(fontWeight: FontWeight.bold),
+            const SizedBox(height: 12),
+            FilledButton(
+              key: const Key('next-n-insertion-question'),
+              style: FilledButton.styleFrom(
+                minimumSize: const Size.fromHeight(50),
+              ),
+              onPressed: _nextQuestion,
+              child: Text(
+                _questionIndex == hangulNInsertionQuizQuestions.length - 1
+                    ? '결과 보기 · Xem kết quả'
+                    : '다음 문제 · Câu tiếp theo',
+              ),
             ),
           ],
-        ),
-        const SizedBox(height: 16),
-        Card(
-          child: Padding(
-            padding: const EdgeInsets.all(18),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  '정답 1개를 고르세요 · Chọn 1 đáp án đúng',
-                  style: Theme.of(
-                    context,
-                  ).textTheme.labelLarge?.copyWith(color: colorScheme.primary),
-                ),
-                const SizedBox(height: 12),
-                Text(
-                  _question.prompt,
-                  key: const Key('n-insertion-quiz-prompt'),
-                  style: Theme.of(
-                    context,
-                  ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
-                ),
-              ],
-            ),
-          ),
-        ),
-        const SizedBox(height: 14),
-        for (final option in _question.options)
-          _NInsertionAnswerCard(
-            option: option,
-            correctAnswer: _question.correctAnswer,
-            selectedAnswer: _selectedAnswer,
-            onTap: () => _selectAnswer(option),
-          ),
-        if (isAnswered) ...[
-          const SizedBox(height: 8),
-          Card(
-            color: _selectedAnswer == _question.correctAnswer
-                ? Colors.green.shade50
-                : Colors.red.shade50,
-            child: Padding(
-              padding: const EdgeInsets.all(14),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    _selectedAnswer == _question.correctAnswer
-                        ? '정답! · Chính xác!'
-                        : '다시 확인해 보세요 · Chưa đúng',
-                    key: const Key('n-insertion-quiz-feedback'),
-                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                      color: _selectedAnswer == _question.correctAnswer
-                          ? Colors.green.shade800
-                          : Colors.red.shade800,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  const SizedBox(height: 4),
-                  Text(_question.explanation),
-                ],
-              ),
-            ),
-          ),
-          const SizedBox(height: 12),
-          FilledButton(
-            key: const Key('next-n-insertion-question'),
-            style: FilledButton.styleFrom(
-              minimumSize: const Size.fromHeight(50),
-            ),
-            onPressed: _nextQuestion,
-            child: Text(
-              _questionIndex == hangulNInsertionQuizQuestions.length - 1
-                  ? '결과 보기 · Xem kết quả'
-                  : '다음 문제 · Câu tiếp theo',
-            ),
-          ),
         ],
-      ],
+      ),
     );
   }
 
@@ -197,6 +189,7 @@ class _HangulNInsertionQuizScreenState
         _isComplete = true;
       } else {
         _questionIndex++;
+        _displayedOptions = createShuffledHangulQuizOptions(_question.options);
         _selectedAnswer = null;
       }
     });
@@ -205,6 +198,7 @@ class _HangulNInsertionQuizScreenState
   void _restart() {
     setState(() {
       _questionIndex = 0;
+      _displayedOptions = createShuffledHangulQuizOptions(_question.options);
       _score = 0;
       _selectedAnswer = null;
       _isComplete = false;

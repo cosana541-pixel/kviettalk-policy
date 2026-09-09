@@ -63,7 +63,7 @@ void main() {
         question.options.where((option) => option == question.correctAnswer),
         hasLength(1),
       );
-      expect(question.explanation, contains('/'));
+      expect(question.explanation, isNot(contains(' / ')));
       correctIndices.add(question.options.indexOf(question.correctAnswer));
     }
     expect(
@@ -73,7 +73,11 @@ void main() {
       },
       const {0: 2, 1: 2, 2: 2, 3: 2},
     );
-    for (final marker in const ['만들어지는 단계', '원칙 발음과 허용 발음', '잘못 적용한']) {
+    for (final marker in const [
+      'Các bước tạo',
+      'cách đọc chính và cách đọc được chấp nhận',
+      'áp dụng sai',
+    ]) {
       expect(
         hangulSaiSiotQuizQuestions.any(
           (question) => question.prompt.contains(marker),
@@ -114,7 +118,7 @@ void main() {
       350,
       scrollable: find.byType(Scrollable).first,
     );
-    expect(find.text('사이시옷 · Phát âm 사이시옷'), findsOneWidget);
+    expect(find.text('Quy tắc ㅅ trong từ ghép'), findsOneWidget);
     expect(tester.takeException(), isNull);
 
     await _bringIntoTapArea(tester, course);
@@ -211,6 +215,8 @@ void main() {
     await tester.tap(startButton);
     await tester.pumpAndSettle();
     expect(find.text('1/8'), findsOneWidget);
+    expect(find.text('Chọn 1 đáp án đúng'), findsOneWidget);
+    expect(find.textContaining('정답 1개를 고르세요'), findsNothing);
 
     await _completeQuiz(tester);
     expect(find.byKey(const Key('sai-siot-quiz-result')), findsOneWidget);
@@ -269,7 +275,7 @@ Future<void> _bringIntoTapArea(WidgetTester tester, Finder finder) async {
       ? 620 - initialRect.bottom
       : 0.0;
   if (dragDistance != 0) {
-    await tester.drag(find.byType(Scrollable).first, Offset(0, dragDistance));
+    await tester.dragFrom(tester.getCenter(finder), Offset(0, dragDistance));
     await tester.pumpAndSettle();
   }
   final tappableRect = tester.getRect(finder);

@@ -70,7 +70,7 @@ void main() {
         hasLength(1),
       );
       correctIndices.add(question.options.indexOf(question.correctAnswer));
-      expect(question.explanation, contains('/'));
+      expect(question.explanation, isNot(contains(' / ')));
       for (final entry in learningPronunciations.entries) {
         if (question.prompt.contains(entry.key) &&
             question.correctAnswer == entry.value) {
@@ -86,7 +86,12 @@ void main() {
       },
       const {0: 2, 1: 2, 2: 2, 3: 2},
     );
-    for (final marker in const ['기본 조건', '변화 순서', '중간 발음', '학습 화면에 없던']) {
+    for (final marker in const [
+      'Điều kiện cơ bản',
+      'Thứ tự biến đổi',
+      'dạng trung gian',
+      'từ mới',
+    ]) {
       expect(
         hangulNInsertionQuizQuestions.any(
           (question) => question.prompt.contains(marker),
@@ -134,7 +139,7 @@ void main() {
       tester.getTopLeft(advancedTitle).dy,
       lessThan(tester.getTopLeft(course).dy),
     );
-    expect(find.text('ㄴ 첨가 · Thêm âm ㄴ'), findsOneWidget);
+    expect(find.text('Thêm âm ㄴ'), findsOneWidget);
     expect(tester.takeException(), isNull);
 
     await tester.ensureVisible(course);
@@ -142,6 +147,7 @@ void main() {
     await tester.tap(course);
     await tester.pumpAndSettle();
     expect(find.byKey(const Key('n-insertion-rules')), findsOneWidget);
+    expect(find.text('Phụ âm cuối + 이/야/여/요/유\n→ thêm âm ㄴ'), findsOneWidget);
     expect(find.byKey(const Key('n-insertion-chain-note')), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
@@ -207,6 +213,8 @@ void main() {
     await tester.tap(startButton);
     await tester.pumpAndSettle();
     expect(find.text('1/8'), findsOneWidget);
+    expect(find.text('Chọn 1 đáp án đúng'), findsOneWidget);
+    expect(find.textContaining('정답 1개를 고르세요'), findsNothing);
 
     await _completeQuiz(tester);
     expect(find.byKey(const Key('n-insertion-quiz-result')), findsOneWidget);
@@ -266,7 +274,7 @@ Future<void> _bringIntoTapArea(WidgetTester tester, Finder finder) async {
       ? 620 - initialRect.bottom
       : 0.0;
   if (dragDistance != 0) {
-    await tester.drag(find.byType(Scrollable).first, Offset(0, dragDistance));
+    await tester.dragFrom(tester.getCenter(finder), Offset(0, dragDistance));
     await tester.pumpAndSettle();
   }
   final tappableRect = tester.getRect(finder);

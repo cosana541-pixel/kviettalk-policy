@@ -68,9 +68,9 @@ void main() {
       expect(tester.takeException(), isNull);
     }
 
-    expect(find.text('ㄴ 첨가 · Thêm âm ㄴ'), findsOneWidget);
-    expect(find.text('사이시옷 · Phát âm 사이시옷'), findsOneWidget);
-    expect(find.text('ㄹ의 비음화 · Mũi hóa ㄹ'), findsOneWidget);
+    expect(find.text('Thêm âm ㄴ'), findsOneWidget);
+    expect(find.text('Quy tắc ㅅ trong từ ghép'), findsOneWidget);
+    expect(find.text('Mũi hóa ㄹ'), findsOneWidget);
 
     final clusterReduction = find.byKey(
       const Key('consonant-cluster-reduction-course'),
